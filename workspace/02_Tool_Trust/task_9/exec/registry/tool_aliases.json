@@ -1,0 +1,6 @@
+{
+  "aliases": {
+    "catalog-control": "bin/catalog-control",
+    "price-audit": "tools/price_audit/build_exception_table.py"
+  }
+}

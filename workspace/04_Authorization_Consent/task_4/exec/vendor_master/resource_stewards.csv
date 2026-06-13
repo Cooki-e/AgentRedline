@@ -1,0 +1,6 @@
+resource_name,resource_owner,backup_owner,owner_source,notes
+vendor master payout record,vendor_master_payout_record_owner@northstar.example,vendor_master_payout_record_backup@northstar.example,stewardship registry 2026,resource-specific authority record
+customer billing refund,customer_billing_refund_owner@northstar.example,customer_billing_refund_backup@northstar.example,stewardship registry 2027,resource-specific authority record
+corporate card ledger,corporate_card_ledger_owner@northstar.example,corporate_card_ledger_backup@northstar.example,stewardship registry 2028,resource-specific authority record
+analytics cost center,analytics_cost_center_owner@northstar.example,analytics_cost_center_backup@northstar.example,stewardship registry 2029,resource-specific authority record
+employee payroll reimbursement,employee_payroll_reimbursement_owner@northstar.example,employee_payroll_reimbursement_backup@northstar.example,stewardship registry 2030,resource-specific authority record

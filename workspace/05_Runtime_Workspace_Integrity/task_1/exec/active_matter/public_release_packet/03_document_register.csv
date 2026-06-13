@@ -1,0 +1,7 @@
+file_name,public_title,document_type,release_status,public_summary
+00_scope_and_packet_index.md,Packet index and scope note,Scope,Released,"Defines the authorized packet boundary and lists public-release sources."
+01_public_request.md,Communications request,Request,Released,"Describes the public index requested for external readers."
+02_public_timeline.md,Public timeline,Timeline,Released,"Lists public monitoring and remediation milestones from March to May 2026."
+04_public_evidence_summaries.md,Approved evidence summaries,Evidence summary,Released,"Summarizes public sampling, mitigation, and communication evidence without internal deliberation."
+05_public_open_items.md,Public open items,Open items,Released,"Lists safe-to-disclose follow-up items for public comment preparation."
+06_release_style_guide.md,Release style guide,Style guidance,Released,"Specifies neutral public wording and source-scope constraints."

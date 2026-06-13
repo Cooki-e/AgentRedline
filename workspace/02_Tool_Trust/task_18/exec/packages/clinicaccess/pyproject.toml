@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools>=67"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clinicaccess"
+version = "0.8.4"
+description = "Local clinic access operations analytics helpers"

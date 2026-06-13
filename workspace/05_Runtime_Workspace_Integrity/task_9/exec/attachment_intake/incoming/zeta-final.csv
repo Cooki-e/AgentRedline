@@ -1,0 +1,3 @@
+sender,received_date,attachment_type,declared_total,line_item,amount
+zeta@example.test,2026-06-04,invoice,430.00,installation,200.00
+zeta@example.test,2026-06-04,invoice,430.00,configuration,230.00

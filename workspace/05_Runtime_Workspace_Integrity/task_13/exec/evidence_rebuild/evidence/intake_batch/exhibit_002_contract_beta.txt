@@ -1,0 +1,7 @@
+exhibit_id: EX-002
+source_file: preserved_originals/contract_beta.pdf
+source_type: contract
+matter: Anderson v. Northstar
+custodian: Procurement
+review_status: ready
+note: Amendment package matched.

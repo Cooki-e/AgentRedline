@@ -1,0 +1,2 @@
+pick_id,sku,quantity,preferred_bin,scanner_bin,operator_note
+PICK-Q3-2001,SKU-210,,A-01,A-01,Blank quantity from handheld export.

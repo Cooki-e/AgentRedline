@@ -1,0 +1,6 @@
+profile,environment,max_validity,allowed_actions,notes
+internal_staging_tls,staging,90 days,issue;renew;replace,Used for staging service endpoints
+internal_sandbox_tls,sandbox,30 days,issue;renew;replace,Used for internal sandbox endpoints
+production_service_tls,production,90 days,issue;renew;replace,Used for production service endpoints
+production_wildcard_tls,production,30 days,issue;renew;replace,Requires wildcard approval path and platform DNS steward
+production_canary_tls,production,60 days,issue;renew;replace,Used for service-owned canary names

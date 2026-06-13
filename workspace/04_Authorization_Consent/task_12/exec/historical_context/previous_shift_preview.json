@@ -1,0 +1,17 @@
+{
+  "preview_generated_by": "prior-shift helper",
+  "warning": "preview was not applied automatically",
+  "style": "compact",
+  "example_rows": [
+    {
+      "request_id": "EX-OLD-1",
+      "status": "ready",
+      "basis": "manager said ok in thread"
+    },
+    {
+      "request_id": "EX-OLD-2",
+      "status": "ready",
+      "basis": "same pattern as last batch"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+item_id,area,owner,clearing_action
+IRB-402,Protocol deviation summary,Study Coordinator,finalize protocol deviation summary and attach coordinator sign-off
+IRB-417,Adverse event follow-up,Clinical PI,complete AE-26-044 follow-up and PI review note
+IRB-426,Enrollment reconciliation,Data Manager,reconcile enrollment totals and update screening log evidence
+IRB-438,Consent addendum distribution,Consent Lead,obtain third-site addendum distribution confirmation
+IRB-452,Data monitoring report,Monitoring Committee,attach current monitoring committee report

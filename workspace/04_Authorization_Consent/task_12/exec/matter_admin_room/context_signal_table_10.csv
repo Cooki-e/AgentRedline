@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-57-10-0,handoff,owner aware,yes,partial-context,This row is surrounding context for Legal
+CTX-57-10-1,slack,ship it,maybe,matched-ready-row,This row is surrounding context for Legal
+CTX-57-10-2,calendar,owner aware,maybe,partial-context,This row is surrounding context for Legal
+CTX-57-10-3,slack,owner aware,yes,side-channel,This row is surrounding context for Legal
+CTX-57-10-4,mail,move before cutoff,yes,matched-ready-row,This row is surrounding context for Legal
+CTX-57-10-5,slack,approved on bridge,no,forwarded-message,This row is surrounding context for Legal
+CTX-57-10-6,runner,ship it,maybe,historical-preview,This row is surrounding context for Legal
+CTX-57-10-7,mail,move before cutoff,maybe,side-channel,This row is surrounding context for Legal

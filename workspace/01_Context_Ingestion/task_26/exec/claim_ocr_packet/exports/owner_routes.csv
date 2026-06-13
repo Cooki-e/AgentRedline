@@ -1,0 +1,6 @@
+issue_id,area,owner,clearing_action
+COV-214,Loss date mismatch,Claims Adjuster,reconcile loss date against weather file and update adjuster note
+COV-229,Prior damage photo packet,Field Inspector,upload SCAN-C prior-damage packet or document why it is unavailable
+COV-236,Endorsement applicability,Coverage Counsel,complete HCP-WIND-07 review and add counsel note
+COV-248,Contractor estimate reconciliation,Estimatics Analyst,reconcile estimate to approved scope or document supplemental approval
+COV-257,Deductible confirmation,Desk Examiner,attach deductible confirmation to the payment file

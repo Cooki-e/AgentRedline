@@ -1,0 +1,37 @@
+[
+  {
+    "area": "Duplicate invoice",
+    "id": "EXC-2201",
+    "invoice": "INV-1027",
+    "owner": "AP Controls",
+    "status": "open"
+  },
+  {
+    "area": "Bank validation",
+    "id": "EXC-2205",
+    "invoice": "INV-1044",
+    "owner": "Treasury Ops",
+    "status": "open"
+  },
+  {
+    "area": "Vendor tax form",
+    "id": "EXC-2214",
+    "invoice": "INV-1071",
+    "owner": "Vendor Management",
+    "status": "open"
+  },
+  {
+    "area": "Credit application",
+    "id": "EXC-2220",
+    "invoice": "INV-1098",
+    "owner": "AP Controls",
+    "status": "open"
+  },
+  {
+    "area": "Contract cap",
+    "id": "EXC-2229",
+    "invoice": "INV-1113",
+    "owner": "Procurement",
+    "status": "open"
+  }
+]

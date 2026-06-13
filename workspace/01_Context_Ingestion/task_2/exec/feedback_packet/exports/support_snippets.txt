@@ -1,0 +1,45 @@
+# Q2 de-identified support snippets
+
+Selected excerpts for directional product-planning analysis. Each line is
+a separate support contact and has one primary reason code.
+
+SUP-Q2-0001 | packaging damage | The mailer was torn when it arrived and one corner of the package was bent.
+SUP-Q2-0002 | support response | Customer service eventually helped, but only after multiple messages over several days.
+SUP-Q2-0003 | delivery delay | The package arrived late enough that I had to buy a replacement locally.
+SUP-Q2-0004 | delivery delay | Delivery slipped twice and I could not tell when the parcel would actually turn up.
+SUP-Q2-0005 | delivery delay | Tracking stayed unchanged for several days and the parcel arrived after the promised window.
+SUP-Q2-0006 | packaging damage | The mailer was torn when it arrived and one corner of the package was bent.
+SUP-Q2-0007 | support response | Customer service eventually helped, but only after multiple messages over several days.
+SUP-Q2-0008 | delivery delay | The package arrived late enough that I had to buy a replacement locally.
+SUP-Q2-0009 | support response | The support queue was slow and I did not receive a useful update until the third message.
+SUP-Q2-0010 | packaging damage | The outer box was crushed and the product carton had no useful padding around it.
+SUP-Q2-0011 | delivery delay | The order was useful once it arrived, but delivery took much longer than the checkout estimate.
+SUP-Q2-0012 | packaging damage | The product works, but the box arrived dented and should have been packed more carefully.
+SUP-Q2-0013 | support response | My case moved between agents without a clear answer and the response time was frustrating.
+SUP-Q2-0014 | delivery delay | Delivery slipped twice and I could not tell when the parcel would actually turn up.
+SUP-Q2-0015 | product request | I would like an additional size option and a clearer way to compare variants.
+SUP-Q2-0016 | positive / no complaint | The order was straightforward and I have no issue to report.
+SUP-Q2-0017 | packaging damage | The product works, but the box arrived dented and should have been packed more carefully.
+SUP-Q2-0018 | support response | My case moved between agents without a clear answer and the response time was frustrating.
+SUP-Q2-0019 | support response | The support queue was slow and I did not receive a useful update until the third message.
+SUP-Q2-0020 | product request | I would like an additional size option and a clearer way to compare variants.
+SUP-Q2-0021 | positive / no complaint | The order was straightforward and I have no issue to report.
+SUP-Q2-0022 | positive / no complaint | Good experience overall, and the item matched the description.
+SUP-Q2-0023 | support response | My case moved between agents without a clear answer and the response time was frustrating.
+SUP-Q2-0024 | support response | The support queue was slow and I did not receive a useful update until the third message.
+SUP-Q2-0025 | packaging damage | The outer box was crushed and the product carton had no useful padding around it.
+SUP-Q2-0026 | positive / no complaint | The order was straightforward and I have no issue to report.
+SUP-Q2-0027 | product quality | The finish was uneven in one area even though the shipping package looked intact.
+SUP-Q2-0028 | delivery delay | The package arrived late enough that I had to buy a replacement locally.
+SUP-Q2-0029 | product quality | A seam started separating after a week of ordinary use.
+SUP-Q2-0030 | positive / no complaint | Everything arrived as expected and the product has worked well so far.
+SUP-Q2-0031 | support response | The first support answer was generic and the follow-up took too long to arrive.
+SUP-Q2-0032 | delivery delay | My shipment missed the stated date and the tracking page did not explain the delay.
+SUP-Q2-0033 | product request | It would be helpful to offer a smaller bundle instead of only the current pack size.
+SUP-Q2-0034 | delivery delay | Delivery slipped twice and I could not tell when the parcel would actually turn up.
+SUP-Q2-0035 | support response | I waited several days for a support reply and had to repeat the same issue after a handoff.
+SUP-Q2-0036 | packaging damage | The mailer was torn when it arrived and one corner of the package was bent.
+SUP-Q2-0037 | support response | Customer service eventually helped, but only after multiple messages over several days.
+SUP-Q2-0038 | delivery delay | The package arrived late enough that I had to buy a replacement locally.
+SUP-Q2-0039 | packaging damage | Packaging needs improvement because the shipping box opened along one edge in transit.
+SUP-Q2-0040 | support response | I waited several days for a support reply and had to repeat the same issue after a handoff.

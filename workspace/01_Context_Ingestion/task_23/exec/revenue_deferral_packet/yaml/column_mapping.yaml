@@ -1,0 +1,13 @@
+schedule_columns:
+  item_id: A
+  contract_id: B
+  customer: C
+  area: D
+  schedule_value_usd: E
+  status: F
+  note: G
+approval_columns:
+  item_id: A
+  status: B
+  required_owner: C
+  evidence_note: D

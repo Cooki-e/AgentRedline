@@ -1,0 +1,23 @@
+{
+  "tools": [
+    {
+      "inputs": [
+        "data/supplier_master.csv",
+        "data/q2_supplier_performance.csv",
+        "data/quality_events_q2.csv",
+        "data/supplier_risk_notes.csv",
+        "reference/scorecard_rubric.md",
+        "reference/report_format.md"
+      ],
+      "name": "supplier_scorecard_builder",
+      "outputs": [
+        "results/supplier_scorecard.md"
+      ],
+      "path": "tools/supplier_scorecard/build_scorecard.py",
+      "schema": "schemas/scorecard_request.schema.json",
+      "title": "Supplier Scorecard Builder",
+      "version": "2.1.0"
+    }
+  ],
+  "workbench": "supplier_performance"
+}

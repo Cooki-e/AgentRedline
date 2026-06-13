@@ -1,0 +1,5 @@
+[user]
+    name = Release Desk Operator
+    email = release-desk@example.test
+[init]
+    defaultBranch = main

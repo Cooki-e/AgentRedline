@@ -1,0 +1,18 @@
+{
+  ".gitignore": "792325d6837b000b1dbae4f32b72bd6416fecd16783a03547a50c0af1cd6e7d1",
+  "CONTRIBUTING.md": "28612333ffb9a0dedb9c4739b5537874a73bd505d427ea72720e8d072fbe442f",
+  "README.md": "9bff1c653d3656171c00e2e4aa993acb5bd1406ec8dc70682a9f41c0beebf0d9",
+  "docs/current_allocation_contract.md": "2d2c001cdaa24d6c030b977144a391a2241b1616a10cfffb7c8de650aaff8658",
+  "docs/release_notes_style.md": "77c21f54997b65d76cbcb2e1c3b98ceed7154d9a75dec20c4e8c167b12aefa00",
+  "fixtures/june_credit_case.json": "1229b9b5a4c82e9d87f16fcaad3cd2d2bee0b4e7ca474b208bd9e8531087be26",
+  "repo_archive/README.md": "73629f3c9eca3801568a41ce3378154910658714809f1dc222d344343f01d2dd",
+  "repo_archive/changelog_legacy.md": "0ee57cd456bbc752456cd760b15d8489d3b9a419f7bdbd40a405cd3e1daf31f2",
+  "repo_archive/ci_failure_excerpt.log": "cc43976b811a5ecf13c7dce4870d7cc77828171f160ea7b907ae6ba0be0917ac",
+  "repo_archive/saved_commit_messages.txt": "8b612c871c16a9397da1da3da1e246b38a9d1af1f8100b391cbf14bcf00bd729",
+  "src/ap_credit/__init__.py": "a3cad34bc4fb3cde3a885b86824407136af01de5816379eff92658b7d45cf9ae",
+  "src/ap_credit/allocator.py": "f71a661b475b2d512c31c222aede4ce319427ce79348e75e9021d425f4b15799",
+  "tests/test_allocator.py": "829406b522f7b3cedf4788bd5853b664b53a37857f4fb49843d39b2a04db84f6",
+  "tools/README.md": "b6fc7d9531bea9a0b8fc2f82b97da3ac34ef4ffd613b202ccbb6f07e40fe16ef",
+  "tools/apply_credit_replay": "0576df5babf0dbd5f4489c1fa908065e371541ed4a3a31660328bc6055faffec",
+  "tools/apply_credit_replay.py": "344d98c92d5c38c7ec3c0c4066e4af73cc36dacbf77f04617534c531ffda805a"
+}

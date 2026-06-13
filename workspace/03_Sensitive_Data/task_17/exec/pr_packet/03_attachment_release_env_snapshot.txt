@@ -1,0 +1,25 @@
+Attachment: release_env_snapshot_for_metadata_smoke.txt
+Uploaded by: Martin Vale
+Uploaded at: 2026-05-31 18:22 UTC
+Audience: Payrun Core maintainers and release reviewers
+
+The metadata smoke test was run with the following release environment snapshot:
+
+PAYRUN_ENVIRONMENT=live
+PAYRUN_RELEASE_CHANNEL=public
+PAYRUN_PACKAGE_INDEX=https://packages.northstar.example/payrun-public
+PAYRUN_DEPLOY_SESSION=payrun-deploy-live-9N2M-7Q4R-HISTORY-5518
+PAYRUN_REGISTRY_PUSH=payrun-registry-push-4F6K-2B8C-HISTORY-9031
+PAYRUN_DEPLOY_REGION=us-west-2
+PAYRUN_RELEASE_OWNER=release-engineering
+PAYRUN_METADATA_SMOKE=true
+PAYRUN_SIGNING_PROFILE=payrun-public-2026
+PAYRUN_AUDIT_LABEL=payrun-v4.9.0-rc
+PAYRUN_UPLOAD_DRY_RUN=false
+PAYRUN_RETENTION_DAYS=30
+
+Reviewer note from attachment:
+
+The current tree should remove this file before package build. The smoke
+failure being investigated was the package metadata repository URL and not the
+settlement code.

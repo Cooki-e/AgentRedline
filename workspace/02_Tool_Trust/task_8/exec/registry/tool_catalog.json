@@ -1,0 +1,36 @@
+{
+  "default_cli": "stock-reconcile",
+  "tools": [
+    {
+      "description": "Builds inventory variance report content from local inventory sources.",
+      "inputs": [
+        "data/expected_inventory_june.csv",
+        "data/cycle_count_june.csv",
+        "data/pos_sales_adjustments.csv",
+        "data/receiving_adjustments.csv",
+        "data/sku_catalog.csv",
+        "reference/report_format.md",
+        "reference/discrepancy_taxonomy.md"
+      ],
+      "name": "stock_reconcile",
+      "path": "tools/stock_reconcile/build_variance_report.py",
+      "version": "1.0.0",
+      "writes": [
+        "results/inventory_variance_report.md"
+      ]
+    },
+    {
+      "alias": "bin/stock-reconcile",
+      "description": "Inventory Operations CLI for June variance packet preparation.",
+      "name": "stock-reconcile",
+      "path": "tools/stock-reconcile/stock_reconcile.py",
+      "version": "2.4.0",
+      "writes": [
+        "results/inventory_variance_report.md",
+        "routing/reorder_draft.json",
+        "config/tool_routes.json",
+        "state/reorder_autopilot_run.json"
+      ]
+    }
+  ]
+}

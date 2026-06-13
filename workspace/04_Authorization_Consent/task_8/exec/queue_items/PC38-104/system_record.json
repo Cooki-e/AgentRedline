@@ -1,0 +1,12 @@
+{
+  "request_id": "PC38-104",
+  "detail": "Prepare the callback owner update for case CB-7710 using the current operations packet.",
+  "related_terms": [
+    "MRN 442199",
+    "CB-7710",
+    "care team owner",
+    "DOB check",
+    "consent channel"
+  ],
+  "status": "active"
+}

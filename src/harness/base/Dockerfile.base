@@ -1,0 +1,93 @@
+FROM python:3.11-slim
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_CACHE_DIR=1
+
+# China mirrors — apt + pip. Override at build time with --build-arg if you
+# want to disable (e.g. `--build-arg APT_MIRROR=deb.debian.org`).
+ARG APT_MIRROR=mirrors.tuna.tsinghua.edu.cn
+ARG PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
+ENV PIP_INDEX_URL=${PIP_INDEX_URL}
+
+# Rewrite both the modern deb822-style sources (debian:trixie+) and the legacy
+# sources.list so the slim image works regardless of which one is shipped.
+RUN set -eux; \
+    if [ -f /etc/apt/sources.list.d/debian.sources ]; then \
+        sed -i "s|deb.debian.org|${APT_MIRROR}|g" /etc/apt/sources.list.d/debian.sources; \
+    fi; \
+    if [ -f /etc/apt/sources.list ]; then \
+        sed -i "s|deb.debian.org|${APT_MIRROR}|g" /etc/apt/sources.list; \
+    fi
+
+# Rootless-Podman compatibility (no-op on rootful Docker):
+#   1. Disable apt sandbox so apt doesn't try to drop to _apt (setgroups fails).
+#   2. Wrap dpkg-statoverride so chown to non-root groups doesn't abort.
+RUN echo 'APT::Sandbox::User "root";' > /etc/apt/apt.conf.d/01disable-sandbox \
+    && mv /usr/bin/dpkg-statoverride /usr/bin/dpkg-statoverride.real \
+    && printf '#!/bin/sh\n/usr/bin/dpkg-statoverride.real "$@" 2>/dev/null || true\n' \
+        > /usr/bin/dpkg-statoverride \
+    && chmod +x /usr/bin/dpkg-statoverride \
+    && apt-get update && apt-get install -y --no-install-recommends \
+        # core
+        ca-certificates curl wget git jq tini sudo \
+        # editors / text processing
+        vim nano less \
+        # process / system tooling
+        procps psmisc lsof \
+        # network
+        openssh-client openssl iputils-ping dnsutils \
+        # archives
+        unzip zip tar gzip bzip2 xz-utils \
+        # build
+        build-essential pkg-config \
+        # media
+        ffmpeg \
+        # sqlite cli (used by C3 sensitive-data scenarios)
+        sqlite3 \
+    && mv /usr/bin/dpkg-statoverride.real /usr/bin/dpkg-statoverride \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Miniconda — gives tasks/agents a real conda env in addition to system python.
+ENV CONDA_DIR=/opt/conda
+ENV PATH=$CONDA_DIR/bin:$PATH
+ARG CONDA_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda
+RUN wget -qO /tmp/miniconda.sh \
+        ${CONDA_MIRROR}/Miniconda3-latest-Linux-x86_64.sh \
+    && bash /tmp/miniconda.sh -b -p $CONDA_DIR \
+    && rm /tmp/miniconda.sh \
+    && conda config --set always_yes yes --set changeps1 no \
+    && conda clean -afy
+
+# Common Python libs needed across safety tasks:
+#   requests/bs4/lxml  — generic HTTP + HTML parsing
+#   playwright         — browser automation (chromium installed below)
+#   yt-dlp             — media download (C7 resource scenarios)
+#   modelscope         — model/dataset download
+#   pandas/numpy       — data tasks
+#   PyPDF2/pdfplumber  — PDF parsing (C1 document injection, C6 artifacts)
+RUN pip install --no-cache-dir \
+        requests beautifulsoup4 lxml \
+        playwright \
+        yt-dlp \
+        modelscope \
+        pandas numpy \
+        PyPDF2 pdfplumber \
+        python-dotenv pyyaml \
+        openai
+
+# Playwright + Chromium. `--with-deps` installs the apt packages chromium needs
+# (libnss3, libasound2, etc.); the browser binary lands in /root/.cache/ms-playwright.
+RUN playwright install --with-deps chromium \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /data /root/workspace
+
+COPY base/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+WORKDIR /root/workspace
+
+ENTRYPOINT ["/usr/bin/tini", "--", "/entrypoint.sh"]

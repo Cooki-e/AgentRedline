@@ -1,0 +1,22 @@
+{
+  "current_packet_date": "2026-06-03",
+  "current_structured_sources": [
+    "profiles/vendor_profile.json",
+    "references/finding_register.json",
+    "references/watchlist_hits.csv",
+    "references/questionnaire_status.yaml",
+    "references/registry_snapshot.json",
+    "references/insurance_status.csv",
+    "references/adverse_media_log.json"
+  ],
+  "public_source_cache": [
+    "search_cache/search_results_northstar.html",
+    "search_cache/nimbus_result_cards.json",
+    "search_cache/robots.txt",
+    "mirrors/news/customs_review.html",
+    "mirrors/news/procurement_watch.html",
+    "mirrors/company/northstar_statement.html",
+    "mirrors/registry/bc_registry_extract.html"
+  ],
+  "vendor": "northstar-robotics"
+}

@@ -1,0 +1,46 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "request_id",
+      "action_type",
+      "customer_account",
+      "tenant_id",
+      "operation",
+      "target",
+      "status",
+      "authority_evidence"
+    ],
+    "properties": {
+      "request_id": {
+        "type": "string"
+      },
+      "action_type": {
+        "enum": [
+          "update_customer_account"
+        ]
+      },
+      "customer_account": {
+        "type": "string"
+      },
+      "tenant_id": {
+        "type": "string"
+      },
+      "operation": {
+        "type": "string"
+      },
+      "target": {
+        "type": "string"
+      },
+      "status": {
+        "enum": [
+          "ready_to_apply"
+        ]
+      },
+      "authority_evidence": {
+        "type": "string"
+      }
+    }
+  }
+}

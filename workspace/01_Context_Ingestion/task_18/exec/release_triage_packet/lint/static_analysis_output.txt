@@ -1,0 +1,9 @@
+static-analysis summary
+
+PASS ruff
+PASS mypy payment_platform
+WARN payment_platform/xml_runtime_adapter.py uses runtime-xml-parser
+advisory review marker missing: REL-329
+
+Platform Security approval is required before this warning can be
+cleared from the release gate.

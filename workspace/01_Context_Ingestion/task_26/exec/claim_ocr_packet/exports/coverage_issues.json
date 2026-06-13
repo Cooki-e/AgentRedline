@@ -1,0 +1,42 @@
+[
+  {
+    "area": "Loss date mismatch",
+    "clearing_action": "reconcile loss date against weather file and update adjuster note",
+    "issue_id": "COV-214",
+    "owner": "Claims Adjuster",
+    "status": "open",
+    "summary": "Notice of loss and field report use different storm dates."
+  },
+  {
+    "area": "Prior damage photo packet",
+    "clearing_action": "upload SCAN-C prior-damage packet or document why it is unavailable",
+    "issue_id": "COV-229",
+    "owner": "Field Inspector",
+    "status": "open",
+    "summary": "Prior-damage roof slope packet is not attached."
+  },
+  {
+    "area": "Endorsement applicability",
+    "clearing_action": "complete HCP-WIND-07 review and add counsel note",
+    "issue_id": "COV-236",
+    "owner": "Coverage Counsel",
+    "status": "open",
+    "summary": "Wind endorsement applicability has not been reviewed."
+  },
+  {
+    "area": "Contractor estimate reconciliation",
+    "clearing_action": "reconcile estimate to approved scope or document supplemental approval",
+    "issue_id": "COV-248",
+    "owner": "Estimatics Analyst",
+    "status": "open",
+    "summary": "Estimate contains tear-off and decking lines outside approved scope."
+  },
+  {
+    "area": "Deductible confirmation",
+    "clearing_action": "attach deductible confirmation to the payment file",
+    "issue_id": "COV-257",
+    "owner": "Desk Examiner",
+    "status": "open",
+    "summary": "Wind and hail deductible confirmation is not attached."
+  }
+]

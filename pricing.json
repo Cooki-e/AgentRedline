@@ -1,0 +1,47 @@
+{
+  "_comment": "USD per 1,000,000 tokens. Official/list price style. No provider prefix. One model per line.",
+  "_schema": {"input": "uncached input tokens, $/Mtok", "output": "output tokens, $/Mtok", "cache_read": "cache hit/read tokens, $/Mtok", "cache_write": "cache write/creation tokens, $/Mtok"},
+
+  "claude-opus-4.8": {"input": 5.0, "output": 25.0, "cache_read": 0.5, "cache_write": 6.25},
+  "claude-opus-4.7": {"input": 5.0, "output": 25.0, "cache_read": 0.5, "cache_write": 6.25},
+  "claude-opus-4.6": {"input": 5.0, "output": 25.0, "cache_read": 0.5, "cache_write": 6.25},
+
+  "gpt-5.5": {"input": 5.0, "output": 30.0, "cache_read": 0.5, "cache_write": 0.0},
+  "gpt-5.4": {"input": 2.5, "output": 15.0, "cache_read": 0.25, "cache_write": 0.0},
+
+  "glm-5.1": {"input": 1.4, "output": 4.4, "cache_read": 0.26, "cache_write": 0.0},
+  "glm-5": {"input": 1.0, "output": 3.2, "cache_read": 0.2, "cache_write": 0.0},
+  "glm-5-turbo": {"input": 1.2, "output": 4.0, "cache_read": 0.24, "cache_write": 0.0},
+
+  "deepseek-v4-pro": {"input": 0.435, "output": 0.87, "cache_read": 0.003625, "cache_write": 0.0},
+  "deepseek-v4-flash": {"input": 0.14, "output": 0.28, "cache_read": 0.0028, "cache_write": 0.0},
+  "deepseek-v3.2": {"input": 0.28, "output": 0.42, "cache_read": 0.028, "cache_write": 0.0},
+
+  "mimo-v2.5-pro": {"input": 0.435, "output": 0.87, "cache_read": 0.0036, "cache_write": 0.0},
+  "mimo-v2-pro": {"input": 1.0, "output": 3.0, "cache_read": 0.2, "cache_write": 0.0},
+  "mimo-v2-pro-long": {"input": 2.0, "output": 6.0, "cache_read": 0.4, "cache_write": 0.0},
+  "mimo-v2-flash": {"input": 0.1, "output": 0.3, "cache_read": 0.01, "cache_write": 0.0},
+
+  "gemini-3.5-flash": {"input": 1.5, "output": 9.0, "cache_read": 0.08333, "cache_write": 0.0},
+  "gemini-3.1-pro": {"input": 2.0, "output": 12.0, "cache_read": 0.2, "cache_write": 0.0},
+  "gemini-3.1-pro-long": {"input": 4.0, "output": 18.0, "cache_read": 0.4, "cache_write": 0.0},
+
+  "qwen3.7-max": {"input": 2.5, "output": 7.5, "cache_read": 0.25, "cache_write": 3.125},
+  "qwen3.7-plus": {"input": 0.4, "output": 1.6, "cache_read": 0.04, "cache_write": 0.5},
+  "qwen3.5-397b": {"input": 0.172, "output": 1.032, "cache_read": 0.0, "cache_write": 0.0},
+  "qwen3.5-397b-long": {"input": 0.43, "output": 2.58, "cache_read": 0.0, "cache_write": 0.0},
+
+  "minimax-m3": {"input": 0.6, "output": 2.4, "cache_read": 0.12, "cache_write": 0.0},
+  "minimax-m3-long": {"input": 1.2, "output": 4.8, "cache_read": 0.24, "cache_write": 0.0},
+  "minimax-m2.7": {"input": 0.3, "output": 1.2, "cache_read": 0.06, "cache_write": 0.375},
+  "minimax-m2.5": {"input": 0.3, "output": 1.2, "cache_read": 0.03, "cache_write": 0.375},
+
+  "kimi-k2.5": {"input": 0.6, "output": 3.0, "cache_read": 0.1, "cache_write": 0.0},
+
+  "step-3.7-flash": {"input": 0.2, "output": 1.15, "cache_read": 0.04, "cache_write": 0.0},
+  "step-3.5-flash": {"input": 0.1, "output": 0.3, "cache_read": 0.02, "cache_write": 0.0},
+
+  "grok-4.20-beta": {"input": 1.25, "output": 2.5, "cache_read": 0.2, "cache_write": 0.0},
+
+  "default": {"input": 0.0, "output": 0.0, "cache_read": 0.0, "cache_write": 0.0}
+}

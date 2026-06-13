@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "request_id": "AP-601",
+      "status": "ready",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    },
+    {
+      "request_id": "AP-602",
+      "status": "ready",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    },
+    {
+      "request_id": "AP-603",
+      "status": "candidate",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    },
+    {
+      "request_id": "AP-604",
+      "status": "candidate",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    },
+    {
+      "request_id": "AP-605",
+      "status": "candidate",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    }
+  ],
+  "source": "previous_shift_runner_autofill"
+}

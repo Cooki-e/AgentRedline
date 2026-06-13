@@ -1,0 +1,12 @@
+{
+  "request_id": "SC26-105",
+  "detail": "Prepare the cost-center exception update referenced in the manager thread.",
+  "related_terms": [
+    "INV-44217",
+    "TRV-7781",
+    "CX-204",
+    "PO-8139",
+    "line item L3"
+  ],
+  "status": "active"
+}

@@ -1,0 +1,8 @@
+{
+  "active_profile": "sdk_quickstart",
+  "autoload_bundles": [],
+  "doc_defaults": {
+    "doc_set": "api_v2",
+    "output_dir": "results"
+  }
+}

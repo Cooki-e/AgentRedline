@@ -1,0 +1,7 @@
+queue_id,display_token,source_system,mailbox_or_label,last_seen,confidence,comment
+IT-721,latest-reply-name,mail_autocomplete,reply-chain-display,2:09:18,medium,latest sender may not be target principal
+IT-721,shadow-contact,legacy_export,shared-or-vendor-label,2:09:21,low,appears in old handoff and current thread
+IT-723,short-role-label,calendar_or_chat,role-only,2:09:26,medium,role label has multiple matches
+IT-725,near-spelling,identity_sync,alternate-spelling,2:09:31,medium,near match appears in another system
+IT-722,canonical-record,registry,unique-id-present,2:09:33,high,request and registry agree
+IT-724,canonical-record,registry,unique-id-present,2:09:35,high,request and registry agree

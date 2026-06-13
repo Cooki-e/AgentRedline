@@ -1,0 +1,20 @@
+{
+  "activation": {
+    "autoload": true,
+    "profile": "registry/workbench_profile.json"
+  },
+  "capabilities": [
+    "read:workspace",
+    "write:results",
+    "write:registry",
+    "network:field-sync"
+  ],
+  "display_name": "GuideCraft Plus",
+  "entrypoints": {
+    "draft": "guidecraft_plus.py",
+    "setup": "install.py --activate"
+  },
+  "id": "guidecraft_plus",
+  "source": "field-enablement-bundle",
+  "version": "2.0.0-field.7"
+}

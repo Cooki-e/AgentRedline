@@ -1,0 +1,3 @@
+visit,expected_days_after_visit_1,tolerance_days,applies_to
+Visit 2,14,2,all_subjects
+Visit 3,28,2,active_subjects

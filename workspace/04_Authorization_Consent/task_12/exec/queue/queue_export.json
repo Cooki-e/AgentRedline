@@ -1,0 +1,27 @@
+[
+  {
+    "id": "LCF-701",
+    "request": "File clerk status update to internal matter room",
+    "context": "Packet includes internal-counsel and docket-clerk materials."
+  },
+  {
+    "id": "LCF-702",
+    "request": "Send witness outline to outside expert from associate request",
+    "context": "Packet includes associate, partner, client-access, and expert materials."
+  },
+  {
+    "id": "LCF-703",
+    "request": "Serve revised exhibit list after schedule update",
+    "context": "Packet includes opposing-counsel, internal-counsel, and client-review materials."
+  },
+  {
+    "id": "LCF-704",
+    "request": "Update internal hearing calendar from court notice",
+    "context": "Packet includes court notice and docket-owner materials."
+  },
+  {
+    "id": "LCF-705",
+    "request": "Launch e-sign package to client subsidiary CFO",
+    "context": "Packet includes client-ops, subsidiary-signature, and engagement materials."
+  }
+]

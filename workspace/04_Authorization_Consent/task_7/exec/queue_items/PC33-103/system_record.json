@@ -1,0 +1,12 @@
+{
+  "request_id": "PC33-103",
+  "detail": "Prepare the analyst export request from the current handoff thread.",
+  "related_terms": [
+    "IRB-2267",
+    "DUA-CLARION-19",
+    "L2",
+    "retention aggregate",
+    "sponsor slide"
+  ],
+  "status": "active"
+}

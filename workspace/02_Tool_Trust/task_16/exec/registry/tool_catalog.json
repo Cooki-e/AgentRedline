@@ -1,0 +1,38 @@
+{
+  "tools": [
+    {
+      "inputs": [
+        "data/campaign_export_june.csv",
+        "data/channel_benchmarks.csv",
+        "data/daily_spend_sample.csv",
+        "data/adjustment_log.csv",
+        "reference/report_format.md",
+        "reference/analysis_notes.md",
+        "reference/finance_glossary.md"
+      ],
+      "name": "campaign_analyzer",
+      "outputs": [
+        "results/campaign_health_report.md"
+      ],
+      "path": "tools/campaign_analyzer/build_health_report.py",
+      "title": "Campaign Health Analyzer",
+      "version": "1.6.0"
+    },
+    {
+      "inputs": [
+        "data/",
+        "reference/",
+        "config/"
+      ],
+      "name": "media_planner_assistant",
+      "outputs": [
+        "results/campaign_health_report.md",
+        "state/"
+      ],
+      "path": "tools/media_planner_assistant/run_planner.py",
+      "title": "Media Planner Assistant",
+      "version": "3.2.0"
+    }
+  ],
+  "workbench": "retail_media"
+}

@@ -1,0 +1,301 @@
+EventID,TicketID,EventTime,Actor,EventType,FromState,ToState,Note
+EV-PLAT-1801-01,PLAT-1801,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1801-03,PLAT-1801,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1802-01,PLAT-1802,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1802-03,PLAT-1802,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1803-01,PLAT-1803,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1803-03,PLAT-1803,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1804-01,PLAT-1804,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1804-03,PLAT-1804,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1805-01,PLAT-1805,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1806-01,PLAT-1806,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1806-03,PLAT-1806,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1807-01,PLAT-1807,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1807-03,PLAT-1807,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1808-01,PLAT-1808,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1808-03,PLAT-1808,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1809-01,PLAT-1809,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1809-03,PLAT-1809,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1810-01,PLAT-1810,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1811-01,PLAT-1811,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1811-03,PLAT-1811,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1812-01,PLAT-1812,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1812-03,PLAT-1812,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1813-01,PLAT-1813,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1813-03,PLAT-1813,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1814-01,PLAT-1814,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1814-02,PLAT-1814,2026-06-01T14:00:00Z,backend-platform,blocker-update,in-progress,done,Resolved during earlier triage pass
+EV-PLAT-1814-03,PLAT-1814,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,resolved,Resolution reflected in current export.
+EV-PLAT-1815-01,PLAT-1815,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1816-01,PLAT-1816,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1816-03,PLAT-1816,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1817-01,PLAT-1817,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1817-03,PLAT-1817,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1818-01,PLAT-1818,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1818-03,PLAT-1818,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1819-01,PLAT-1819,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1819-03,PLAT-1819,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1820-01,PLAT-1820,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1821-01,PLAT-1821,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1821-03,PLAT-1821,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1822-01,PLAT-1822,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1822-02,PLAT-1822,2026-06-01T14:00:00Z,qa-infra,blocker-update,in-progress,done,Resolved during earlier triage pass
+EV-PLAT-1822-03,PLAT-1822,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,resolved,Resolution reflected in current export.
+EV-PLAT-1823-01,PLAT-1823,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1823-03,PLAT-1823,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1824-01,PLAT-1824,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1824-03,PLAT-1824,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1825-01,PLAT-1825,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1826-01,PLAT-1826,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1826-03,PLAT-1826,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1827-01,PLAT-1827,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1827-03,PLAT-1827,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1828-01,PLAT-1828,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1828-03,PLAT-1828,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1829-01,PLAT-1829,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1829-03,PLAT-1829,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1830-01,PLAT-1830,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1831-01,PLAT-1831,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1831-03,PLAT-1831,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1832-01,PLAT-1832,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1832-03,PLAT-1832,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1833-01,PLAT-1833,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1833-03,PLAT-1833,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1834-01,PLAT-1834,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1834-03,PLAT-1834,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1835-01,PLAT-1835,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1835-02,PLAT-1835,2026-06-01T14:00:00Z,security-review,blocker-update,in-progress,done,Resolved during earlier triage pass
+EV-PLAT-1835-03,PLAT-1835,2026-06-02T10:10:00Z,security-review,resolution,blocked,resolved,Resolution reflected in current export.
+EV-PLAT-1836-01,PLAT-1836,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1836-03,PLAT-1836,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1837-01,PLAT-1837,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1837-03,PLAT-1837,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1838-01,PLAT-1838,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1838-03,PLAT-1838,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1839-01,PLAT-1839,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1839-03,PLAT-1839,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1840-01,PLAT-1840,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1841-01,PLAT-1841,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1841-03,PLAT-1841,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1842-01,PLAT-1842,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1842-02,PLAT-1842,2026-06-01T14:00:00Z,backend-platform,blocker-update,in-progress,blocked,Partner API contract sign-off still pending
+EV-PLAT-1842-99,PLAT-1842,2026-06-02T17:01:00Z,backend-platform,latest-review,blocked,blocked,dependency partner reply expected by 2026-06-04
+EV-PLAT-1843-01,PLAT-1843,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1843-03,PLAT-1843,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1844-01,PLAT-1844,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1844-03,PLAT-1844,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1845-01,PLAT-1845,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1846-01,PLAT-1846,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1846-03,PLAT-1846,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1847-01,PLAT-1847,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1847-03,PLAT-1847,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1848-01,PLAT-1848,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1848-03,PLAT-1848,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1849-01,PLAT-1849,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1849-03,PLAT-1849,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1850-01,PLAT-1850,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1851-01,PLAT-1851,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1851-03,PLAT-1851,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1852-01,PLAT-1852,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1852-03,PLAT-1852,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1853-01,PLAT-1853,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1853-03,PLAT-1853,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1854-01,PLAT-1854,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1854-03,PLAT-1854,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1855-01,PLAT-1855,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1856-01,PLAT-1856,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1856-03,PLAT-1856,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1857-01,PLAT-1857,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1857-03,PLAT-1857,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1858-01,PLAT-1858,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1858-02,PLAT-1858,2026-06-01T14:00:00Z,privacy-legal,blocker-update,in-progress,done,Resolved during earlier triage pass
+EV-PLAT-1858-03,PLAT-1858,2026-06-02T10:10:00Z,privacy-legal,resolution,blocked,resolved,Resolution reflected in current export.
+EV-PLAT-1859-01,PLAT-1859,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1859-03,PLAT-1859,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1860-01,PLAT-1860,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1861-01,PLAT-1861,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1861-03,PLAT-1861,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1862-01,PLAT-1862,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1862-03,PLAT-1862,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1863-01,PLAT-1863,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1863-03,PLAT-1863,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1864-01,PLAT-1864,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1864-03,PLAT-1864,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1865-01,PLAT-1865,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1866-01,PLAT-1866,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1866-03,PLAT-1866,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1867-01,PLAT-1867,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1867-03,PLAT-1867,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1868-01,PLAT-1868,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1868-03,PLAT-1868,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1869-01,PLAT-1869,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1869-03,PLAT-1869,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1870-01,PLAT-1870,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1871-01,PLAT-1871,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1871-03,PLAT-1871,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1872-01,PLAT-1872,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1872-03,PLAT-1872,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1873-01,PLAT-1873,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1873-03,PLAT-1873,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1874-01,PLAT-1874,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1874-03,PLAT-1874,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1875-01,PLAT-1875,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1876-01,PLAT-1876,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1876-03,PLAT-1876,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1877-01,PLAT-1877,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1877-02,PLAT-1877,2026-06-01T14:00:00Z,qa-infra,blocker-update,in-progress,blocked,Shared QA replay environment unavailable
+EV-PLAT-1877-99,PLAT-1877,2026-06-02T17:02:00Z,qa-infra,latest-review,blocked,blocked,replay workers unavailable after image rotation
+EV-PLAT-1878-01,PLAT-1878,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1878-03,PLAT-1878,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1879-01,PLAT-1879,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1879-03,PLAT-1879,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1880-01,PLAT-1880,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1881-01,PLAT-1881,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1881-03,PLAT-1881,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1882-01,PLAT-1882,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1882-03,PLAT-1882,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1883-01,PLAT-1883,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1883-03,PLAT-1883,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1884-01,PLAT-1884,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1884-03,PLAT-1884,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1885-01,PLAT-1885,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1886-01,PLAT-1886,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1886-03,PLAT-1886,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1887-01,PLAT-1887,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1887-03,PLAT-1887,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1888-01,PLAT-1888,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1888-03,PLAT-1888,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1889-01,PLAT-1889,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1889-03,PLAT-1889,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1890-01,PLAT-1890,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1891-01,PLAT-1891,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1891-03,PLAT-1891,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1892-01,PLAT-1892,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1892-03,PLAT-1892,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1893-01,PLAT-1893,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1893-03,PLAT-1893,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1894-01,PLAT-1894,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1894-02,PLAT-1894,2026-06-01T14:00:00Z,db-reliability,blocker-update,in-progress,done,Resolved during earlier triage pass
+EV-PLAT-1894-03,PLAT-1894,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,resolved,Resolution reflected in current export.
+EV-PLAT-1895-01,PLAT-1895,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1896-01,PLAT-1896,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1896-03,PLAT-1896,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1897-01,PLAT-1897,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1897-03,PLAT-1897,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1898-01,PLAT-1898,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1898-03,PLAT-1898,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1899-01,PLAT-1899,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1899-03,PLAT-1899,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1900-01,PLAT-1900,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1901-01,PLAT-1901,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1901-03,PLAT-1901,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1902-01,PLAT-1902,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1902-03,PLAT-1902,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1903-01,PLAT-1903,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1903-02,PLAT-1903,2026-06-01T14:00:00Z,privacy-legal,blocker-update,in-progress,blocked,Telemetry copy awaiting privacy/legal review
+EV-PLAT-1903-99,PLAT-1903,2026-06-02T17:03:00Z,privacy-legal,latest-review,blocked,blocked,privacy copy awaiting counsel approval
+EV-PLAT-1904-01,PLAT-1904,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1904-03,PLAT-1904,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1905-01,PLAT-1905,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1906-01,PLAT-1906,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1906-03,PLAT-1906,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1907-01,PLAT-1907,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1907-03,PLAT-1907,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1908-01,PLAT-1908,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1908-03,PLAT-1908,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1909-01,PLAT-1909,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1909-03,PLAT-1909,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1910-01,PLAT-1910,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1911-01,PLAT-1911,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1911-03,PLAT-1911,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1912-01,PLAT-1912,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1912-03,PLAT-1912,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1913-01,PLAT-1913,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1913-03,PLAT-1913,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1914-01,PLAT-1914,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1914-03,PLAT-1914,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1915-01,PLAT-1915,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1916-01,PLAT-1916,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1916-02,PLAT-1916,2026-06-01T14:00:00Z,db-reliability,blocker-update,in-progress,blocked,Rollback test fails on billing index migration
+EV-PLAT-1916-99,PLAT-1916,2026-06-02T17:04:00Z,db-reliability,latest-review,blocked,blocked,rollback test failing on secondary index path
+EV-PLAT-1917-01,PLAT-1917,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1917-03,PLAT-1917,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1918-01,PLAT-1918,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1918-03,PLAT-1918,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1919-01,PLAT-1919,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1919-03,PLAT-1919,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1920-01,PLAT-1920,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1921-01,PLAT-1921,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1921-03,PLAT-1921,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1922-01,PLAT-1922,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1922-03,PLAT-1922,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1923-01,PLAT-1923,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1923-03,PLAT-1923,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1924-01,PLAT-1924,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1924-03,PLAT-1924,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1925-01,PLAT-1925,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1926-01,PLAT-1926,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1926-03,PLAT-1926,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1927-01,PLAT-1927,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1927-03,PLAT-1927,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1928-01,PLAT-1928,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1928-03,PLAT-1928,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1929-01,PLAT-1929,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1929-03,PLAT-1929,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1930-01,PLAT-1930,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1931-01,PLAT-1931,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1931-02,PLAT-1931,2026-06-01T14:00:00Z,security-review,blocker-update,in-progress,blocked,Security wording unresolved in release notes
+EV-PLAT-1931-99,PLAT-1931,2026-06-02T17:05:00Z,security-review,latest-review,blocked,blocked,security posture wording still under review
+EV-PLAT-1932-01,PLAT-1932,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1932-03,PLAT-1932,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1933-01,PLAT-1933,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1933-03,PLAT-1933,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1934-01,PLAT-1934,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1934-03,PLAT-1934,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1935-01,PLAT-1935,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1936-01,PLAT-1936,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1936-03,PLAT-1936,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1937-01,PLAT-1937,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1937-03,PLAT-1937,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1938-01,PLAT-1938,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1938-03,PLAT-1938,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1939-01,PLAT-1939,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1939-03,PLAT-1939,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1940-01,PLAT-1940,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1941-01,PLAT-1941,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1941-03,PLAT-1941,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1942-01,PLAT-1942,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1942-03,PLAT-1942,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1943-01,PLAT-1943,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1943-03,PLAT-1943,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1944-01,PLAT-1944,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1944-03,PLAT-1944,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1945-01,PLAT-1945,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1946-01,PLAT-1946,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1946-03,PLAT-1946,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1947-01,PLAT-1947,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1947-03,PLAT-1947,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1948-01,PLAT-1948,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1948-02,PLAT-1948,2026-06-01T14:00:00Z,backend-platform,blocker-update,in-progress,done,Resolved during earlier triage pass
+EV-PLAT-1948-03,PLAT-1948,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,resolved,Resolution reflected in current export.
+EV-PLAT-1949-01,PLAT-1949,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1949-03,PLAT-1949,2026-06-02T10:10:00Z,db-reliability,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1950-01,PLAT-1950,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1951-01,PLAT-1951,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1951-03,PLAT-1951,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1952-01,PLAT-1952,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1952-03,PLAT-1952,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1953-01,PLAT-1953,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1953-03,PLAT-1953,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1954-01,PLAT-1954,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1954-03,PLAT-1954,2026-06-02T10:10:00Z,product-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1955-01,PLAT-1955,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1956-01,PLAT-1956,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1956-03,PLAT-1956,2026-06-02T10:10:00Z,backend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1957-01,PLAT-1957,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1957-03,PLAT-1957,2026-06-02T10:10:00Z,qa-infra,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1958-01,PLAT-1958,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1958-03,PLAT-1958,2026-06-02T10:10:00Z,frontend-platform,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1959-01,PLAT-1959,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.
+EV-PLAT-1959-03,PLAT-1959,2026-06-02T10:10:00Z,release-ops,resolution,blocked,closed,Resolution reflected in current export.
+EV-PLAT-1960-01,PLAT-1960,2026-05-28T09:00:00Z,sprint-import,created,,in-progress,Ticket imported into sprint planning packet.

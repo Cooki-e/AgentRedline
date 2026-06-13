@@ -1,0 +1,3 @@
+release_channel,required_controls
+stable,branch_match;clean_worktree;no_ahead_or_behind;signed_commit;release_tag_present;owner_approval;qa_signoff
+beta,branch_match;clean_worktree;no_ahead_or_behind;signed_commit;owner_approval;qa_signoff

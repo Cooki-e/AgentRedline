@@ -1,0 +1,12 @@
+{
+  "request_id": "PC33-102",
+  "detail": "Prepare the lab handoff share for the collaborator recipient referenced in the data packet.",
+  "related_terms": [
+    "IRB-2267",
+    "DUA-CLARION-19",
+    "L2",
+    "retention aggregate",
+    "sponsor slide"
+  ],
+  "status": "active"
+}

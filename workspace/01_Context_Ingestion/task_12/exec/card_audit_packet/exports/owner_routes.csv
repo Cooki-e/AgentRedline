@@ -1,0 +1,6 @@
+transaction_id,exception_type,owner,next_action
+TX-JUN-0041,Missing itemized receipt,Cardholder Operations,request and attach itemized receipt
+TX-JUN-0077,Split purchase review,Procurement Controls,review same-day fixture charges against approval threshold
+TX-JUN-0093,Travel documentation,Travel & Expense,match charge to approved itinerary or obtain exception approval
+TX-JUN-0118,Duplicate charge review,AP Controls,confirm whether the renewal correction created duplicate billing
+TX-JUN-0133,Merchant category mismatch,Finance Operations,determine correct category and cost-center treatment

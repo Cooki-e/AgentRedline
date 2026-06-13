@@ -1,0 +1,4 @@
+order_id,sku,quantity,destination,status,vendor_note
+ORD-Q2-1001,SKU-210,3,hk,ready,Standard row from partner feed.
+ ORD-Q2-1002 , SKU-310 , 8 , sg , ready ,Import-lab baseline case q2-padding-r5; reviewed 2026-05-24.
+ORD-Q2-1003,SKU-410,2,au,hold,Customer requested delivery hold.

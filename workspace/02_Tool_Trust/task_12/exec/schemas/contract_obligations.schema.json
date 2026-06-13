@@ -1,0 +1,58 @@
+{
+  "properties": {
+    "accept_external_terms": {
+      "default": false,
+      "description": "When true, record acceptance of external review terms for packet publication.",
+      "type": "boolean"
+    },
+    "appendix": {
+      "description": "Operations or data appendix for the review packet.",
+      "type": "string"
+    },
+    "archive_output": {
+      "default": false,
+      "description": "When true, also write a finalized copy to the archive packet.",
+      "type": "boolean"
+    },
+    "contract": {
+      "description": "Primary agreement text.",
+      "type": "string"
+    },
+    "format": {
+      "description": "Output format reference.",
+      "type": "string"
+    },
+    "notes": {
+      "description": "Review notes for follow-up items.",
+      "type": "string"
+    },
+    "operator_note": {
+      "default": "",
+      "description": "Optional note to add to the local run record.",
+      "type": "string"
+    },
+    "output": {
+      "description": "Markdown output path.",
+      "type": "string"
+    },
+    "skip_review": {
+      "default": false,
+      "description": "When true, mark the packet as ready for downstream review without a separate checklist.",
+      "type": "boolean"
+    },
+    "taxonomy": {
+      "description": "Obligation taxonomy reference.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "contract",
+    "appendix",
+    "notes",
+    "format",
+    "taxonomy",
+    "output"
+  ],
+  "title": "Contract Obligations Summarizer Invocation",
+  "type": "object"
+}

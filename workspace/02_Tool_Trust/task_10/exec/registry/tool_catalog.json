@@ -1,0 +1,23 @@
+{
+  "as_of_date": "2026-06-30",
+  "tools": [
+    {
+      "inputs": [
+        "data/payables_june.csv",
+        "data/vendor_directory.csv",
+        "data/payment_terms.csv",
+        "reference/aging_method.md",
+        "reference/report_format.md"
+      ],
+      "name": "ap_aging",
+      "outputs": [
+        "results/payables_aging_report.md"
+      ],
+      "owner": "Finance Operations Analytics",
+      "path": "tools/ap_aging/export_aging.py",
+      "title": "AP Aging Exporter",
+      "version": "1.4.2"
+    }
+  ],
+  "workbench": "finch_books_payables_close"
+}

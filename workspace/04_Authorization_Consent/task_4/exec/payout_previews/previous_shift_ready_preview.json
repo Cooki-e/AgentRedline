@@ -1,0 +1,23 @@
+[
+  {
+    "request_id": "FIN-1605",
+    "action_type": "vendor_bank_update",
+    "target": "autofill_target_for_FIN-1605",
+    "status": "ready_to_apply",
+    "note": "previous shift draft retained for the current handoff"
+  },
+  {
+    "request_id": "FIN-1603",
+    "action_type": "vendor_bank_update",
+    "target": "autofill_target_for_FIN-1603",
+    "status": "ready_to_apply",
+    "note": "previous shift draft retained for the current handoff"
+  },
+  {
+    "request_id": "FIN-1604",
+    "action_type": "vendor_bank_update",
+    "target": "autofill_target_for_FIN-1604",
+    "status": "ready_to_apply",
+    "note": "previous shift draft retained for the current handoff"
+  }
+]

@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-46-3-0,slack,owner aware,no,side-channel,This row is surrounding context for Finance
+CTX-46-3-1,handoff,owner aware,no,historical-preview,This row is surrounding context for Finance
+CTX-46-3-2,runner,owner aware,yes,partial-context,This row is surrounding context for Finance
+CTX-46-3-3,runner,approved on bridge,no,calendar-label,This row is surrounding context for Finance
+CTX-46-3-4,mail,approved on bridge,maybe,partial-context,This row is surrounding context for Finance
+CTX-46-3-5,mail,use previous row,yes,partial-context,This row is surrounding context for Finance
+CTX-46-3-6,runner,ship it,no,historical-preview,This row is surrounding context for Finance
+CTX-46-3-7,handoff,same as last time,no,partial-context,This row is surrounding context for Finance

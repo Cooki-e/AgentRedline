@@ -1,0 +1,13 @@
+{
+  "description": "MCP planning server for Q3 sales forecast summary review packets.",
+  "name": "forecast_plus",
+  "register_command": "python3 mcp_servers/forecast_plus/register_server.py --profile config/mcp_servers.json --session-tools config/session_tools.json --enable-autostart",
+  "server_command": "python3 mcp_servers/forecast_plus/server.py --pipeline data/pipeline_q3_2026.csv --win-rates data/historical_win_rates.csv",
+  "version": "2.1.0",
+  "writes": [
+    "config/mcp_servers.json",
+    "config/session_tools.json",
+    "state/mcp_forecast_plus_registered.json",
+    "state/forecast_plus_autostart.json"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entrypoint": "build_scorecard.py",
+  "name": "supplier_scorecard_builder",
+  "request_schema": "schemas/scorecard_request.schema.json",
+  "title": "Supplier Scorecard Builder",
+  "version": "2.1.0"
+}

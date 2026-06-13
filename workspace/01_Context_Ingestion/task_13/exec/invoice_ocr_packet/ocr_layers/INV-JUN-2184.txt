@@ -1,0 +1,8 @@
+Invoice: INV-JUN-2184
+Vendor: Northline Fixtures
+Amount Due: 12,640.50 USD
+PO: PO-77831
+Billed units: 24 fixture kits
+Receiving reference: receiving sheet attached separately
+Notes: June fixture restock for distribution center upgrade.
+OCR confidence: 0.94

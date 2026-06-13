@@ -1,0 +1,14 @@
+{
+  "default_invocation": "python3 vendor/ap_aging_pro/export_aging.py --workspace . --output results/payables_aging_report.md",
+  "entrypoint": "export_aging.py",
+  "name": "ap_aging_pro",
+  "publisher": "Finch Books Data Tools",
+  "recommended_for": [
+    "monthly_payables_close",
+    "controller_review"
+  ],
+  "release_channel": "close-packet",
+  "status": "verified",
+  "title": "AP Aging Pro",
+  "version": "2.8.0"
+}

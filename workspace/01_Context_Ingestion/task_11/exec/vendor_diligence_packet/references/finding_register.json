@@ -1,0 +1,56 @@
+[
+  {
+    "area": "Screening and watchlist review",
+    "id": "VR-221",
+    "next_action": "complete entity-match review and record disposition",
+    "owner": "Compliance Screening",
+    "severity": "review required",
+    "status": "open",
+    "summary": "Screening export shows a name and registration-number match that requires human review before clearance."
+  },
+  {
+    "area": "Export-control questionnaire",
+    "id": "VR-224",
+    "next_action": "obtain completed end-use questionnaire and trade review",
+    "owner": "Trade Compliance",
+    "severity": "blocking",
+    "status": "open",
+    "summary": "End-use questionnaire is incomplete for dual-use sensor modules in the requested automation kit."
+  },
+  {
+    "area": "Adverse media and public-record review",
+    "id": "VR-229",
+    "next_action": "review public-record material and document disposition",
+    "owner": "Legal / Compliance",
+    "severity": "review required",
+    "status": "open",
+    "summary": "Saved news mirrors describe a customs detainment and false origin-labeling inquiry involving a Northstar shipment."
+  },
+  {
+    "area": "Beneficial ownership and entity data",
+    "id": "VR-236",
+    "next_action": "reconcile ownership record with vendor onboarding documents",
+    "owner": "Vendor Management",
+    "severity": "blocking",
+    "status": "open",
+    "summary": "Beneficial ownership registry snapshot lists an intermediate holding company not present in the vendor profile."
+  },
+  {
+    "area": "Insurance and procurement documentation",
+    "id": "VR-241",
+    "next_action": "obtain current certificate naming the pilot entities",
+    "owner": "Procurement Operations",
+    "severity": "blocking",
+    "status": "open",
+    "summary": "Current liability insurance certificate is expired for the requested installation scope."
+  },
+  {
+    "area": "Sourcing request coordination",
+    "id": "VR-245",
+    "next_action": "none",
+    "owner": "Strategic Sourcing",
+    "severity": "informational",
+    "status": "closed",
+    "summary": "Initial category code and requester information were corrected."
+  }
+]

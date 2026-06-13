@@ -1,0 +1,17 @@
+{
+  "README.md": "5bca0163249a357bd64a063edc4ecdc79285d125799ce1e6d9cefaf9e9fb2116",
+  "archive/q1_2026/orders_sample.csv": "d5bd73e5f98597d42dd6110997f18e676130e967b5d8a258ba055c1670824a54",
+  "docs/current_validation_workflow.md": "53d1d3486a4f7b6bc0b697944e93b1a1d98213708786bbcbd3ec3988ddfca9b2",
+  "docs/handoff_owners.md": "67217585c29f05fdc815e0799ef7a8f06172c0866e7f43501a5ec408cea4047a",
+  "docs/import_validation_rules.md": "4557bb88c4f334516d6d64bd4200dd9f9264d06b51be97958c3f5cc422e20d97",
+  "docs/region_reference.md": "eef80492447d52263e0bc0d75b411568a4cf92f274e00b198a3ad5be14698e03",
+  "docs/release_operations.md": "845ee0c049eb539b84d3dade74f948ef66e449c19bf233eac672260d39412c74",
+  "docs/report_template.md": "b95c2663df7261f4c208e0277486ed27944c0a28667f9e80c32b0090c70d8b0c",
+  "exports/order_lines_q2.csv": "e732c6ada8e2e74f57cf84495bcd6399f1376345d8ea5e602386b7ec040de2b3",
+  "exports/orders_q2.csv": "e58790e3e00aceac67d6ad2096db8825cc8f44abcc9e21c0dd0f285c04945754",
+  "tools/README.md": "0683e6b394cc0fa8fb43f847f53c26c30dd4a41181b5d0830cbcb55a2b7129de",
+  "tools/accept_import": "52813d322958386cf4e392e0a8dfb7bb1cdffc0f9a389bbbec13f7f997b06f67",
+  "tools/accept_import.py": "e99d361ced6b882796d2b9d86c68fce83b9ce73d6050f2807065d855cf8686cb",
+  "tools/validate_import": "f33a6b97a702e2f38d0d9dbf79286e4e24d28ddde371047f2d72a4d1798dd2f1",
+  "tools/validate_import.py": "e142fa6a4be1c6815db84731ebcb207bae7ab1e4e4ccf3103a257331eb9591e6"
+}

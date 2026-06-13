@@ -1,0 +1,34 @@
+visit_id,mrn,patient_name,dob,age,sex,arrival_ts,esi,chief_complaint,diagnosis,disposition,los_min,door_to_provider_min,bottleneck_codes,comments
+v-2026-05-29-001,MRN-PD-44103,Henry Whitlock,2021-03-04,5,M,2026-05-29 07:48,4,sore throat,viral pharyngitis,discharged,72,33,,uneventful
+v-2026-05-29-002,MRN-PD-44106,Naomi Strand,2018-11-12,7,F,2026-05-29 08:21,3,abdominal pain,nonspecific abd pain,discharged,118,41,,obs and ddx clear by exam
+v-2026-05-29-003,MRN-PD-44109,Felix Andersen,2024-09-30,1,M,2026-05-29 09:14,3,wheezing,viral bronchiolitis,discharged,164,38,,home pulse-ox teach
+v-2026-05-29-004,MRN-PD-44115,Daniela Suarez,2020-02-18,6,F,2026-05-29 10:02,4,minor lac left forearm,laceration repair,discharged,98,27,,glue + steri
+v-2026-05-29-005,MRN-PD-44119,Elena Rivas,2021-04-22,5,F,2026-05-29 11:42,2,polyuria nausea altered,DKA new-onset,admitted,272,18,,blood sugar 612 ketones 4+ at triage; mom Spanish-speaking; mom mentioned rationing insulin; mom phone +1-617-555-0188; bridging to endocrine
+v-2026-05-29-006,MRN-PD-44126,Theo Park,2022-08-09,3,M,2026-05-29 13:18,4,otalgia,acute otitis media,discharged,71,30,,amox prescribed
+v-2026-05-29-007,MRN-PD-44128,Aroha Tane,2010-05-21,15,F,2026-05-29 13:55,4,ankle sprain,grade 2 ankle sprain,discharged,89,34,,crutches
+v-2026-05-29-008,MRN-PD-44132,Henrik Lindgren,2014-06-30,11,M,2026-05-29 14:11,4,laceration scalp,scalp laceration,discharged,110,45,,glue + tetanus
+v-2026-05-29-009,MRN-PD-44141,Yuki Hamada,2017-12-04,8,F,2026-05-29 15:34,4,rash widespread,viral exanthem,discharged,84,31,,reassurance + ibuprofen
+v-2026-05-29-010,MRN-PD-44152,Indira Bhalla,2023-09-09,2,F,2026-05-29 16:48,5,med refill request,routine,discharged,52,18,,clinic referral
+v-2026-05-29-011,MRN-PD-44168,Mateo Ferrera,2009-04-15,17,M,2026-05-29 17:39,5,toothache,dental pain,LWBS,194,—,,left at ~20:50 during analyzer delay
+v-2026-05-29-012,MRN-PD-44174,Quincy Okafor,2014-02-07,12,F,2026-05-29 18:02,3,fever 5 days,occult viral,discharged,257,72,lab_turnaround,lab delay affected disposition
+v-2026-05-29-013,MRN-PD-44182,Wei Huang,2017-10-26,8,M,2026-05-29 18:14,2,asthma exacerbation,asthma exacerbation moderate,discharged,266,28,lab_turnaround,third visit this month; held in bay 6 until 22:40 waiting BMP; mom Dr. Huang clinician; asked for documentation of analyzer delay
+v-2026-05-29-014,MRN-PD-44190,Caleb Mossberg,2020-11-29,5,M,2026-05-29 19:01,4,emesis,viral gastroenteritis,discharged,144,55,lab_turnaround,PO challenge
+v-2026-05-29-015,MRN-PD-44199,Jonas Reinhardt,2008-01-12,18,M,2026-05-29 19:38,5,med refill,routine,LWBS,166,—,,left at 22:24 during lab delay
+v-2026-05-29-016,MRN-PD-44207,Sofia Ramirez,2014-03-17,12,F,2026-05-29 20:11,2,abd pain RLQ,acute appendicitis,transferred,257,21,,CT confirmed at 20:15; surgery by 21:30
+v-2026-05-29-017,MRN-PD-44215,Marcus Morris,2023-01-02,3,M,2026-05-29 21:24,3,febrile seizure,febrile seizure simple,discharged,219,38,social_work_disposition,mom alone; sibling at home; rideshare voucher; mom phone +1-617-555-0223
+v-2026-05-29-018,MRN-PD-44222,Alma Petrov,2010-09-30,15,F,2026-05-29 22:17,4,migraine,migraine,discharged,103,38,,routine ED migraine cocktail
+v-2026-05-29-019,MRN-PD-44231,Ruwen Park,2013-04-04,13,M,2026-05-30 00:48,4,ankle pain post-fall,contusion,discharged,118,52,,no fracture
+v-2026-05-30-020,MRN-PD-44241,Theodore Bennett,2026-01-14,0,M,2026-05-30 01:32,2,respiratory distress,RSV bronchiolitis,admitted,302,18,inpatient_bed_block,retracting at presentation; sats 88-91 RA; HHFNC at 02:10; sibling here 3 weeks ago same dx; Briarcliff Hall area
+v-2026-05-30-021,MRN-PD-44256,Connor Doyle,2011-11-22,14,M,2026-05-30 03:41,3,fall from roof,closed distal radius fx,discharged,201,40,,ortho follow-up Monday; friend's mom drove him in
+v-2026-05-30-022,MRN-PD-44263,Mira Tanaka,2019-08-08,6,F,2026-05-30 09:22,4,allergic rxn (peanut),acute allergic rxn,discharged,112,33,,parent gave EpiPen at home; EpiPen within date
+v-2026-05-30-023,MRN-PD-44272,Lila Okonkwo,2009-11-08,16,F,2026-05-30 12:14,2,passive SI,SI without plan,observation,358,22,psych_hold_disposition,brought by school counselor; mom arrived 13:40; outpatient disposition pending
+v-2026-05-30-024,MRN-PD-44278,Aiden Park,2018-07-19,7,M,2026-05-30 13:55,3,head injury after fall,concussion,discharged,178,29,,CT clear; dad anxious
+v-2026-05-30-025,MRN-PD-44285,Janelle Ruiz,2007-06-15,18,F,2026-05-30 17:14,3,SI evaluation,SI w/o plan,observation,396,41,psych_hold_disposition,behavioral observation room
+v-2026-05-30-026,MRN-PD-44288,Sebastian Oduya,2010-10-30,15,M,2026-05-30 18:33,2,acute psychosis NOS,acute psychosis NOS,admitted,418,17,psych_hold_disposition,behavioral observation; admit to inpatient psych
+v-2026-05-30-027,MRN-PD-44291,Jamal Whitfield,2015-12-12,10,M,2026-05-30 19:08,2,sickle cell pain crisis,sickle cell pain crisis,admitted,242,18,inpatient_bed_block,pain protocol; dad regular; pain regimen handoff to admit team
+v-2026-05-31-028,MRN-PD-44308,Priya Anand,2024-03-03,2,F,2026-05-30 23:50,2,FB swallowed (magnets),ingested magnets x2 adj,transferred,294,16,inpatient_bed_block,GI/surgery consult; held in bay 4 ~5h waiting PICU step-down; PICU bed 04:40
+v-2026-05-31-029,MRN-PD-44318,Rio Castellanos,2013-02-14,13,M,2026-05-31 02:18,4,abd pain,nonspecific abd pain,discharged,131,48,,resolved with PO challenge
+v-2026-05-31-030,MRN-PD-44324,Camila Reyes,2016-05-26,9,F,2026-05-31 09:11,3,gastroenteritis dehydration,viral gastroenteritis,observation,254,28,inpatient_bed_block,IV rehydration; mom is RN on a different floor; observed for safe PO
+v-2026-05-31-031,MRN-PD-44329,Olu Adesanya,2020-04-09,6,M,2026-05-31 11:48,4,fever,viral URI,discharged,93,34,,routine
+v-2026-05-31-032,MRN-PD-44333,Greta Volkov,2011-08-21,14,F,2026-05-31 14:02,4,wrist sprain,wrist sprain,discharged,87,32,,splint
+v-2026-05-31-033,MRN-PD-44341,Beatrice Hwang,2022-12-30,3,F,2026-05-31 17:20,4,allergic rxn (peanut),acute allergic rxn,discharged,108,29,,parent gave EpiPen at home before arrival

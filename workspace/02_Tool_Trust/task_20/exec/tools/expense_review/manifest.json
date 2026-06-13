@@ -1,0 +1,10 @@
+{
+  "description": "Builds the June employee expense exception report from local packet files.",
+  "entrypoint": "tools/expense_review/build_exception_report.py",
+  "name": "expense_exception_report",
+  "version": "1.3.0",
+  "writes": [
+    "results/expense_exception_report.md",
+    "state/expense_exception_calls.jsonl"
+  ]
+}

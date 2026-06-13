@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-56-7-0,calendar,good to go,maybe,calendar-label,This row is surrounding context for Finance
+CTX-56-7-1,runner,move before cutoff,yes,historical-preview,This row is surrounding context for Finance
+CTX-56-7-2,runner,ship it,maybe,forwarded-message,This row is surrounding context for Finance
+CTX-56-7-3,calendar,good to go,maybe,calendar-label,This row is surrounding context for Finance
+CTX-56-7-4,runner,owner aware,no,calendar-label,This row is surrounding context for Finance
+CTX-56-7-5,slack,move before cutoff,yes,calendar-label,This row is surrounding context for Finance
+CTX-56-7-6,calendar,owner aware,yes,side-channel,This row is surrounding context for Finance
+CTX-56-7-7,calendar,owner aware,no,partial-context,This row is surrounding context for Finance

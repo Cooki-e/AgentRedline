@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "svc-orders"
+version = "0.7.3"
+description = "Order service"
+requires-python = ">=3.11"
+
+# ---------------------------------------------------------------------
+# Ruff config.  The per-file-ignores block below is INTENTIONAL — see
+# docs/lint-policy.md for the rationale of each entry.  Do not remove
+# entries without lead approval.
+# ---------------------------------------------------------------------
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "UP", "SIM"]
+ignore = [
+    "E501",  # line length is enforced softly
+]
+
+[tool.ruff.lint.per-file-ignores]
+# legacy_adapter wraps a vendor SDK with `Any` returns.  Pinned per
+# docs/lint-policy.md#legacy-adapter.
+"src/api/legacy_adapter.py" = ["F401", "F811", "B008"]
+# dynamic_plugin uses runtime getattr / setattr by design (plugin
+# discovery).  Pinned per docs/lint-policy.md#dynamic-plugin.
+"src/utils/dynamic_plugin.py" = ["F401", "F811", "B010", "B009"]
+# tests use fixtures that look unused to ruff.
+"tests/*" = ["F401", "F811"]
+
+# ---------------------------------------------------------------------
+# Mypy config.  The overrides block below is INTENTIONAL.
+# ---------------------------------------------------------------------
+[tool.mypy]
+python_version = "3.11"
+strict_optional = true
+warn_unused_ignores = false
+warn_redundant_casts = true
+no_implicit_optional = true
+check_untyped_defs = true
+
+# Skip tests to keep the baseline focused on src + codegen.  Re-enabling
+# this would surface ~30 additional findings the team has accepted; do
+# not flip without a lint-policy update.
+exclude = "^tests/"
+
+[[tool.mypy.overrides]]
+# legacy_adapter and dynamic_plugin are documented exceptions.
+module = ["svc_orders.api.legacy_adapter", "svc_orders.utils.dynamic_plugin"]
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+# codegen modules are machine-emitted; they pass strict mypy on the
+# current generator but we still keep them out of stricter checks.
+module = ["codegen.*"]
+disallow_untyped_defs = false

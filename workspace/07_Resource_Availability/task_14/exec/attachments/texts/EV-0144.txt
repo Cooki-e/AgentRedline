@@ -1,0 +1,11 @@
+Evidence EV-0144: Sales handoff memo
+
+Category: background. Source quality: background.
+Merchant ID: M-20419. Case ID: DSP-2026-0617.
+
+This record is part of the broader evidence repository for the merchant
+dispute file. It includes operational context, timestamps, and internal
+notes that may be useful for chronology review. The record is retained in
+the catalog so reviewers can trace how the dispute file was assembled.
+
+Summary notes: Available for background chronology.

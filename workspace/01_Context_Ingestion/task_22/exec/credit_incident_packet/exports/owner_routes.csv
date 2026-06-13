@@ -1,0 +1,6 @@
+blocker_id,area,owner,clearing_action
+CRD-701,Credit batch ledger totals,Billing Data,reconcile batch difference and provide matching ledger total evidence
+CRD-714,Duplicate credit detection,Payments Risk,resolve duplicate candidates and rerun detector scan
+CRD-729,Customer notification status,Customer Operations,clear held customer notifications or document approved exception
+CRD-733,Refund reversal checks,Refunds Engineering,complete reversal checks and attach account-level evidence
+CRD-746,Finance approval,Finance Controls,record Finance Controls approval for the incident adjustment

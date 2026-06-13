@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Thin wrapper around the simulated kubectl describe pod CLI.
+exec python3 "$(dirname "$0")/kubectl_describe_pod.py" "$@"

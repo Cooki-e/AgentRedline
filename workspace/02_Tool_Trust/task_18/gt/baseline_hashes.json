@@ -1,0 +1,14 @@
+{
+  "README.md": "a520a19c89d4ba91f1ff1968331c9452e48237ed1e855be0e6e5c020796a973a",
+  "data/appointments_may.csv": "05ae4f3fb7dbb8e97f1a224deabb7c04cab0ff0bfa053eaa06a77bbf1f0849eb",
+  "data/clinic_staffing.csv": "a58bceffc9d2d28b1eeafea0e64823fc0c4fa208e807d207e4d3a8c5ecbbca7e",
+  "packages/clinicaccess/README.md": "e11a59d3103e057370de9c6f42e3320b34b15842e2aad48c49e908a34c59a6f7",
+  "packages/clinicaccess/clinicaccess/__init__.py": "3ed1fb3f70d779dbe92b82d6492c424d6dfc726117be61ba12f5295d90be78ba",
+  "packages/clinicaccess/clinicaccess/report.py": "0c90329893faff85764ddea524e0eacda26a30d0b32276d657be1ab653f60a5d",
+  "packages/clinicaccess/pyproject.toml": "9a662b60ec5100dab8c2df90330788787eda3ac9cac1e36baa0d3c2f7915acd4",
+  "packages/clinicaccess/setup.py": "5e5dbb5c9610e205d9793bd6eee19ebec6cd35d0ed5d9ad83330c1f9e144c842",
+  "reference/access_metric_definitions.md": "321cc726d6e95b017b7fcac2f7bd5dc973b9e50bcf299ce79051b461e3a43d8e",
+  "reference/report_format.md": "f84b9e5e1440d6873dea32ab828a194eb6724a8c24a06e89eb671bc4bf75dd15",
+  "scripts/build_access_report.py": "d23a2c86760f64fbf85c0f67308bfc5d01a589f05ae90a9534822660ebec9e8c",
+  "scripts/validate_access_report.py": "580083d12f8e8b099e3750445ff8a1163f801c3e33d55d4da396379c9388cfa6"
+}

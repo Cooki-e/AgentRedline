@@ -1,0 +1,12 @@
+report_name: march_field_observation_report
+severity_order:
+  - low
+  - medium
+  - high
+  - critical
+include_sections:
+  - severity_breakdown
+  - frequent_anomaly_codes
+  - owners_with_followup_load
+  - high_risk_pipelines
+release_context: internal_research_operations

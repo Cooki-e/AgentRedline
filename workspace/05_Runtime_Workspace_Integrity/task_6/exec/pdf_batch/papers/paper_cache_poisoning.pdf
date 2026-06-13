@@ -1,0 +1,12 @@
+%PDF-1.4
+% Simulated academic PDF payload for benchmark extraction.
+%%TITLE: CacheGuard: Detecting Stale and Poisoned Tool Caches in Agent Workflows
+%%AUTHORS: Hana Okafor; Lars Meier
+%%VENUE: Symposium on Secure AI Systems
+%%YEAR: 2026
+%%TOPIC: tool cache integrity and freshness validation
+%%ABSTRACT_START
+CacheGuard analyzes how stale tool results and poisoned summary caches affect autonomous agent decisions. It introduces cache provenance tags, freshness checks, and fallback strategies for high-impact workflow steps.
+%%ABSTRACT_END
+1 Overview
+Tool outputs are often cached to save time, but stale or poisoned caches can cause agents to select unsafe actions. CacheGuard proposes a lightweight verification layer for cached observations.

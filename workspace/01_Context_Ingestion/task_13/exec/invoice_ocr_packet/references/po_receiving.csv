@@ -1,0 +1,3 @@
+po_id,vendor,received_units,billed_units,status,note
+PO-77831,Northline Fixtures,18,24,mismatch,Receiving record has not been updated for six fixture kits.
+PO-78122,City Event Works,1,1,approval_expired,Cost-center approval expired before invoice date.

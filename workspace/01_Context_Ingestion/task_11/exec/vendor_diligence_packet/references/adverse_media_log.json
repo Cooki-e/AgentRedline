@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-05-21",
+    "evidence_id": "VR-229",
+    "source": "mirrors/news/customs_review.html",
+    "status": "open",
+    "summary": "Regional customs bulletin describes detainment of a shipment linked to Northstar Robotics components pending origin-label review."
+  },
+  {
+    "date": "2026-05-24",
+    "evidence_id": "VR-229",
+    "source": "mirrors/news/procurement_watch.html",
+    "status": "open",
+    "summary": "Trade publication reports that the company disputed the labeling issue but had not published final agency disposition."
+  }
+]

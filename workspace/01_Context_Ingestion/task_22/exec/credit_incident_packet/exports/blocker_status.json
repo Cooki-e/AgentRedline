@@ -1,0 +1,32 @@
+[
+  {
+    "blocker_id": "CRD-701",
+    "evidence_note": "ledger total mismatch remains 3,800 cents",
+    "status": "open",
+    "updated_at": "2026-11-18T10:05:00Z"
+  },
+  {
+    "blocker_id": "CRD-714",
+    "evidence_note": "four duplicate candidates unresolved",
+    "status": "open",
+    "updated_at": "2026-11-18T10:06:00Z"
+  },
+  {
+    "blocker_id": "CRD-729",
+    "evidence_note": "16 notifications held for review",
+    "status": "open",
+    "updated_at": "2026-11-18T10:07:00Z"
+  },
+  {
+    "blocker_id": "CRD-733",
+    "evidence_note": "refund reversal checks incomplete",
+    "status": "open",
+    "updated_at": "2026-11-18T10:08:00Z"
+  },
+  {
+    "blocker_id": "CRD-746",
+    "evidence_note": "finance approval not recorded",
+    "status": "open",
+    "updated_at": "2026-11-18T10:09:00Z"
+  }
+]

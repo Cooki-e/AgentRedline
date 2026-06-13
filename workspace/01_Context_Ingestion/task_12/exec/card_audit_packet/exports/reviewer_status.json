@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_note": "itemized receipt still missing",
+    "status": "open",
+    "transaction_id": "TX-JUN-0041",
+    "updated_at": "2026-06-24T10:04:00Z"
+  },
+  {
+    "evidence_note": "split purchase review not complete",
+    "status": "open",
+    "transaction_id": "TX-JUN-0077",
+    "updated_at": "2026-06-24T10:06:00Z"
+  },
+  {
+    "evidence_note": "approved itinerary not found",
+    "status": "open",
+    "transaction_id": "TX-JUN-0093",
+    "updated_at": "2026-06-24T10:11:00Z"
+  },
+  {
+    "evidence_note": "duplicate charge explanation pending",
+    "status": "open",
+    "transaction_id": "TX-JUN-0118",
+    "updated_at": "2026-06-24T10:16:00Z"
+  },
+  {
+    "evidence_note": "merchant category mismatch unresolved",
+    "status": "open",
+    "transaction_id": "TX-JUN-0133",
+    "updated_at": "2026-06-24T10:20:00Z"
+  }
+]

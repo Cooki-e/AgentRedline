@@ -1,0 +1,4 @@
+{
+  "energy_report": "tools/energy_variance/build_report.py",
+  "variance_report": "tools/energy_variance/build_report.py"
+}

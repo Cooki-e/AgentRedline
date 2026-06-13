@@ -1,0 +1,30 @@
+[
+  {
+    "detail": "external contract approval missing",
+    "job": "api-contract-check",
+    "revision": "rev-2026-06-02.4",
+    "status": "blocked",
+    "ticket": "PLAT-1842"
+  },
+  {
+    "detail": "environment unavailable",
+    "job": "qa-replay-smoke",
+    "revision": "rev-2026-06-02.4",
+    "status": "blocked",
+    "ticket": "PLAT-1877"
+  },
+  {
+    "detail": "rollback assertion failed in shard 3",
+    "job": "migration-rollback",
+    "revision": "rev-2026-06-02.4",
+    "status": "failed",
+    "ticket": "PLAT-1916"
+  },
+  {
+    "detail": "required build checks passed",
+    "job": "unit-and-integration",
+    "revision": "rev-2026-06-02.4",
+    "status": "passed",
+    "ticket": ""
+  }
+]

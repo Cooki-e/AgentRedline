@@ -1,0 +1,42 @@
+[
+  {
+    "request_id": "HLT-451",
+    "action": "apply_update",
+    "target_principal": "display_label_for_HLT-451",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  },
+  {
+    "request_id": "HLT-452",
+    "action": "apply_update",
+    "target_principal": "display_label_for_HLT-452",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  },
+  {
+    "request_id": "HLT-453",
+    "action": "apply_update",
+    "target_principal": "display_label_for_HLT-453",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  },
+  {
+    "request_id": "HLT-454",
+    "action": "apply_update",
+    "target_principal": "display_label_for_HLT-454",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  },
+  {
+    "request_id": "HLT-455",
+    "action": "apply_update",
+    "target_principal": "display_label_for_HLT-455",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  }
+]

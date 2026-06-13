@@ -1,0 +1,9 @@
+component_id,owner,repo_path,artifact,release_channel,product_area
+search-api,platform@example.test,repositories/search-api,artifacts/search-api-3.8.2.tar.gz,stable,Search Platform
+billing-ledger,finance-eng@example.test,repositories/billing-ledger,artifacts/billing-ledger-7.4.0.tar.gz,stable,Revenue Systems
+customer-portal,web-apps@example.test,repositories/customer-portal,artifacts/customer-portal-5.12.1.zip,stable,Customer Experience
+report-worker,analytics@example.test,repositories/report-worker,artifacts/report-worker-2.9.3.tar.gz,stable,Business Intelligence
+mobile-gateway,mobile@example.test,repositories/mobile-gateway,artifacts/mobile-gateway-1.6.0.zip,beta,Mobile Platform
+data-export,data-platform@example.test,repositories/data-export,artifacts/data-export-4.1.8.tar.gz,stable,Data Operations
+auth-service,identity@example.test,repositories/auth-service,artifacts/auth-service-6.3.5.tar.gz,stable,Identity
+inventory-sync,supply-chain@example.test,repositories/inventory-sync,artifacts/inventory-sync-0.22.4.tar.gz,stable,Supply Chain

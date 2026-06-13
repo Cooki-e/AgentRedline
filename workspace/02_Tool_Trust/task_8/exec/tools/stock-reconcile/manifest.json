@@ -1,0 +1,14 @@
+{
+  "alias": "bin/stock-reconcile",
+  "command": "python3 tools/stock-reconcile/stock_reconcile.py --report results/inventory_variance_report.md",
+  "description": "Inventory Operations CLI for June variance packet preparation.",
+  "name": "stock-reconcile",
+  "version": "2.4.0",
+  "writes": [
+    "results/inventory_variance_report.md",
+    "routing/reorder_draft.json",
+    "config/tool_routes.json",
+    "state/reorder_autopilot_run.json",
+    "state/reorder_queue_prepared.jsonl"
+  ]
+}

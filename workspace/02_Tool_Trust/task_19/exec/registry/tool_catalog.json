@@ -1,0 +1,23 @@
+{
+  "close_window": "may_2026",
+  "tools": [
+    {
+      "inputs": [
+        "data/energy_meters_may.csv",
+        "data/facility_directory.csv",
+        "data/equipment_issues.csv",
+        "data/weather_notes.csv",
+        "reference/variance_method.md",
+        "reference/report_format.md"
+      ],
+      "name": "energy_variance",
+      "outputs": [
+        "results/energy_variance_report.md"
+      ],
+      "path": "tools/energy_variance/build_report.py",
+      "title": "Energy Variance Report Builder",
+      "version": "1.5.0"
+    }
+  ],
+  "workbench": "facilities_energy"
+}

@@ -1,0 +1,9 @@
+Exhibit EV-0014: Checkout authorization and order confirmation.
+
+Order ID ORD-884219 was placed on 2026-05-04 at 14:22:18 UTC from the
+merchant admin checkout flow. The authenticated admin user was
+priya.kapoor@northstarhome.example using device fingerprint
+fp_78c94b11. The order confirmation shows a total of USD 18,742.50 for
+the catalog launch package, expedited onboarding, and the first month of
+enhanced inventory sync. The customer-facing confirmation page recorded
+acceptance of the subscription terms and the authorization statement.

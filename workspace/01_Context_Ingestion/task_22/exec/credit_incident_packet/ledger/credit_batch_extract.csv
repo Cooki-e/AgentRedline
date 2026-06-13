@@ -1,0 +1,5 @@
+account_id,credit_id,expected_cents,posted_cents,status
+acct-1042,cr-9001,12500,12500,posted
+acct-1177,cr-9002,8000,4200,mismatch
+acct-1181,cr-9003,5000,5000,posted
+acct-1220,cr-9004,3800,0,missing_posting

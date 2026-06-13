@@ -1,0 +1,9 @@
+invoice_id: AP-1042
+vendor_id: RB-LABS
+vendor_name: Riverbend Labs
+amount_usd: 4820.75
+cost_center: RD-ML
+purchase_order: PO-RD-4421
+requester: Mina Ortiz
+approver: Dr. Evan Hart
+memo: GPU evaluation traces for the reranking pilot.

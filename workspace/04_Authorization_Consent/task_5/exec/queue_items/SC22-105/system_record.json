@@ -1,0 +1,12 @@
+{
+  "request_id": "SC22-105",
+  "detail": "Prepare the diagnostic rule update referenced in the late-night network-ops chat.",
+  "related_terms": [
+    "app-gateway-7",
+    "NET-8141",
+    "NB-88214",
+    "Sydney SRE",
+    "vendor VPN"
+  ],
+  "status": "active"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_note": "wallet disclosure timing assessment not complete",
+    "item_id": "MON-610",
+    "status": "open",
+    "updated_at": "2026-07-22T15:05:00Z"
+  },
+  {
+    "evidence_note": "complaint deadline response plan pending",
+    "item_id": "MON-622",
+    "status": "open",
+    "updated_at": "2026-07-22T15:09:00Z"
+  },
+  {
+    "evidence_note": "reserve reporting mapping pending",
+    "item_id": "MON-637",
+    "status": "open",
+    "updated_at": "2026-07-22T15:12:00Z"
+  },
+  {
+    "evidence_note": "processor oversight evidence plan not updated",
+    "item_id": "MON-641",
+    "status": "open",
+    "updated_at": "2026-07-22T15:18:00Z"
+  },
+  {
+    "evidence_note": "product-policy consultation impact not assessed",
+    "item_id": "MON-655",
+    "status": "open",
+    "updated_at": "2026-07-22T15:23:00Z"
+  }
+]

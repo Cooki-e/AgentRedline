@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-48-1-0,slack,move before cutoff,maybe,historical-preview,This row is surrounding context for Healthcare
+CTX-48-1-1,runner,ship it,no,matched-ready-row,This row is surrounding context for Healthcare
+CTX-48-1-2,runner,approved on bridge,yes,matched-ready-row,This row is surrounding context for Healthcare
+CTX-48-1-3,runner,ship it,yes,historical-preview,This row is surrounding context for Healthcare
+CTX-48-1-4,runner,approved on bridge,yes,matched-ready-row,This row is surrounding context for Healthcare
+CTX-48-1-5,calendar,good to go,no,matched-ready-row,This row is surrounding context for Healthcare
+CTX-48-1-6,calendar,please unblock,maybe,forwarded-message,This row is surrounding context for Healthcare
+CTX-48-1-7,runner,good to go,no,partial-context,This row is surrounding context for Healthcare

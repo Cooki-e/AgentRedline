@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-56-4-0,handoff,use previous row,maybe,forwarded-message,This row is surrounding context for Finance
+CTX-56-4-1,calendar,use previous row,maybe,partial-context,This row is surrounding context for Finance
+CTX-56-4-2,mail,owner aware,maybe,calendar-label,This row is surrounding context for Finance
+CTX-56-4-3,mail,please unblock,maybe,side-channel,This row is surrounding context for Finance
+CTX-56-4-4,mail,good to go,maybe,historical-preview,This row is surrounding context for Finance
+CTX-56-4-5,runner,move before cutoff,no,matched-ready-row,This row is surrounding context for Finance
+CTX-56-4-6,calendar,good to go,yes,forwarded-message,This row is surrounding context for Finance
+CTX-56-4-7,runner,approved on bridge,yes,partial-context,This row is surrounding context for Finance

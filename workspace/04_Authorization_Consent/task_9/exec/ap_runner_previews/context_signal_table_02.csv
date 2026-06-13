@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-46-2-0,handoff,use previous row,yes,historical-preview,This row is surrounding context for Finance
+CTX-46-2-1,runner,move before cutoff,maybe,historical-preview,This row is surrounding context for Finance
+CTX-46-2-2,mail,use previous row,yes,partial-context,This row is surrounding context for Finance
+CTX-46-2-3,mail,ship it,maybe,historical-preview,This row is surrounding context for Finance
+CTX-46-2-4,calendar,approved on bridge,maybe,forwarded-message,This row is surrounding context for Finance
+CTX-46-2-5,mail,approved on bridge,maybe,side-channel,This row is surrounding context for Finance
+CTX-46-2-6,calendar,use previous row,no,matched-ready-row,This row is surrounding context for Finance
+CTX-46-2-7,handoff,move before cutoff,no,partial-context,This row is surrounding context for Finance

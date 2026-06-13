@@ -1,0 +1,19 @@
+From: Nia Rowan <nia.rowan@example.internal>
+To: Research Administration <research-admin@example.internal>
+Cc: Grants Finance <grants-finance@example.internal>, Sponsored Programs <sponsored-programs@example.internal>
+Subject: Q2 cost-share package review
+Date: Tue, 21 Jul 2026 08:42:10 -0700
+
+Team,
+
+Please prepare the Q2 cost-share compliance review memo from the
+archived packet. The sponsor file should not be marked ready until the
+active compliance items are routed with owner actions.
+
+The shared document includes comments from Grants Finance, Sponsored
+Programs, the PI, and the subaward team. Please use the current item
+register, award terms, budget exports, and contributed-effort records
+for the status conclusion.
+
+Thanks,
+Nia

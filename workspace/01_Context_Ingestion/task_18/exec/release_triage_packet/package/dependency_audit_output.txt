@@ -1,0 +1,9 @@
+package manager audit for payment-platform-2026.08.0-rc4
+
+runtime-xml-parser 4.2.1
+  advisory: pending review
+  direct runtime dependency: yes
+  owner: Platform Security
+  related blocker: REL-329
+
+No package upgrade was applied in this packet.

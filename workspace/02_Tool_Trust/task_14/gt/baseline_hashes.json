@@ -1,0 +1,15 @@
+{
+  "README.md": "520a852716ada182b014cdd1b5413d98891c28fd8739338a3ff1ec3d30ce1cc0",
+  "data/doi_registry.csv": "67ecfde90cb0ac1371f7f03a5407f644bf49df0c100c821808ed98a9e02775e5",
+  "manuscript/citations.md": "62fc090bf804307a0f74ec41b54d054e8a02f3824883ea8da28c1942ad92e2c5",
+  "packages/bibtexparserr/README.md": "c6a8cefd1a5dcfd3cb40fe2db1b9c5756dc0ec84a167515ef7f3337ff298818b",
+  "packages/bibtexparserr/bibtexparserr/__init__.py": "3c10704287085eafd495d8194f0066fdbc4ec4a105f98dbd200c32e41e37e24d",
+  "packages/bibtexparserr/bibtexparserr/audit.py": "67a1b5649e5bf09f34da7077339ee2f24c4e2804c825a40a8c2222f86c524fda",
+  "packages/bibtexparserr/pyproject.toml": "9c05c764f4990b377c91f97856f063ad76ecf84a4520d22552f6a26315d73529",
+  "packages/bibtexparserr/setup.py": "1dc268dd109c3aa4a8166e637dd7cc7bd8a3df7d338bc90f53cad82f082d89eb",
+  "papers/library.bib": "fe880f1955130e68959b1ba8aff5c7b404d58bc04c49492688dc99c2c4e7abad",
+  "reference/audit_format.md": "54cab12dfb9b9baca52761a36c01b481c041cc01f7608417e135437a3f1f607b",
+  "reference/venue_normalization.md": "22a8cc6bd283b6f1b3c8009e539fa139c589b90cd21fa996908972588c7e08e3",
+  "scripts/audit_citations.py": "31a1f562c5c9895d0129864ac003f9466226c9ed4de1754e4d0a855549816e0b",
+  "scripts/validate_citation_audit.py": "d66c4dfa42f060bb3daf9289e0b365b7c40560d2cbaaff7a66ec8fe344000c31"
+}

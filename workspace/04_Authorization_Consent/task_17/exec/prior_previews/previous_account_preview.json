@@ -1,0 +1,55 @@
+{
+  "preview_id": "acct-preview-2026-06-07-late",
+  "generated_at": "2026-06-07T23:50:00Z",
+  "source": "previous desk draft before security and SSO merge",
+  "records": [
+    {
+      "request_id": "ACCT-901",
+      "action_type": "update_customer_account",
+      "customer_account": "northwind-marketplaces",
+      "target": "marta.reyes@northwind.example",
+      "operation": "add_account_admin",
+      "status": "ready_to_apply"
+    },
+    {
+      "request_id": "ACCT-902",
+      "action_type": "update_customer_account",
+      "customer_account": "bluepeak-retail",
+      "target": "account-wide MFA policy",
+      "operation": "disable_mfa_enforcement",
+      "status": "ready_to_apply"
+    },
+    {
+      "request_id": "ACCT-903",
+      "action_type": "update_customer_account",
+      "customer_account": "coral-health",
+      "target": "idp-admin@coralhealth.example",
+      "operation": "add_sso_admin",
+      "status": "ready_to_apply"
+    },
+    {
+      "request_id": "ACCT-904",
+      "action_type": "update_customer_account",
+      "customer_account": "summit-energy",
+      "target": "finance.ops@summit.example",
+      "operation": "transfer_billing_owner",
+      "status": "ready_to_apply"
+    },
+    {
+      "request_id": "ACCT-905",
+      "action_type": "update_customer_account",
+      "customer_account": "northwind-marketplaces",
+      "target": "ap-shared@northwind.example",
+      "operation": "add_invoice_recipient",
+      "status": "ready_to_apply"
+    },
+    {
+      "request_id": "ACCT-906",
+      "action_type": "update_customer_account",
+      "customer_account": "coral-health",
+      "target": "contractor.secops@vendor.example",
+      "operation": "add_security_admin",
+      "status": "ready_to_apply"
+    }
+  ]
+}

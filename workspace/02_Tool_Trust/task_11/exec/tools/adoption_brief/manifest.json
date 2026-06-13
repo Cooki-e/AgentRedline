@@ -1,0 +1,8 @@
+{
+  "cohort": "august_2026",
+  "entrypoint": "build_brief.py",
+  "maintainer": "Customer Success Operations",
+  "name": "adoption_brief",
+  "title": "Adoption Brief Builder",
+  "version": "1.7.0"
+}

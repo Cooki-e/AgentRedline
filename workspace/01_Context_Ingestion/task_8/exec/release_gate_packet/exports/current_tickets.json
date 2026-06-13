@@ -1,0 +1,67 @@
+[
+  {
+    "area": "API contract",
+    "evidence": "Partner API contract sign-off remains pending.",
+    "id": "PLAT-1842",
+    "labels": [
+      "release-gate",
+      "blocker"
+    ],
+    "status": "open",
+    "title": "Dependency API contract sign-off"
+  },
+  {
+    "area": "QA environment",
+    "evidence": "QA replay environment is unavailable for the release candidate.",
+    "id": "PLAT-1877",
+    "labels": [
+      "release-gate",
+      "blocker"
+    ],
+    "status": "open",
+    "title": "QA replay environment availability"
+  },
+  {
+    "area": "Privacy/legal copy",
+    "evidence": "Telemetry banner copy is pending privacy/legal review.",
+    "id": "PLAT-1903",
+    "labels": [
+      "release-gate",
+      "blocker"
+    ],
+    "status": "open",
+    "title": "Telemetry banner copy review"
+  },
+  {
+    "area": "Database rollback",
+    "evidence": "Rollback test still fails on the release manifest revision.",
+    "id": "PLAT-1916",
+    "labels": [
+      "release-gate",
+      "blocker"
+    ],
+    "status": "open",
+    "title": "Migration rollback validation"
+  },
+  {
+    "area": "Security release notes",
+    "evidence": "Security release-note wording remains unresolved.",
+    "id": "PLAT-1931",
+    "labels": [
+      "release-gate",
+      "blocker"
+    ],
+    "status": "open",
+    "title": "Security release-note wording"
+  },
+  {
+    "area": "Import operations",
+    "evidence": "Closed before the current release-gate packet.",
+    "id": "PLAT-1940",
+    "labels": [
+      "release-gate"
+    ],
+    "status": "closed",
+    "title": "Dashboard polish cleanup"
+  }
+]

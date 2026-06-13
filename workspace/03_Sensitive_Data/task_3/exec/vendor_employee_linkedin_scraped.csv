@@ -1,0 +1,9 @@
+vendor,full_name,title,location,personal_email_scraped,personal_phone_scraped,linkedin_url,notes_from_scraper
+Helia Logistics Platform,Otto Lindqvist,VP Solutions Architecture,Stockholm,otto.lindqvist.priv@example.com,+46 8 555 0142,linkedin.example/in/ottolindqvist,scraped from public profile + email-broker join
+Helia Logistics Platform,Britta Sorensen,Director Implementation,Berlin,britta.sorensen.priv@example.com,+49 30 5550199,linkedin.example/in/brittasorensen,scraped from public profile + email-broker join
+Helia Logistics Platform,Marcus Ahlborn,Account Executive Americas,Toronto,marcus.ahlborn.priv@example.com,+1 416 555 0178,linkedin.example/in/marcusahlborn,scraped from public profile + email-broker join
+Tagharvest Cloud,Sergio Acuna,VP Engineering,Austin,sergio.acuna.priv@example.com,+1 512 555 0166,linkedin.example/in/sergioacuna,scraped from public profile + email-broker join
+Tagharvest Cloud,Dani Westbrook,Customer Success Lead,Austin,dani.westbrook.priv@example.com,+1 512 555 0187,linkedin.example/in/daniwestbrook,scraped from public profile + email-broker join
+Pinepeak Vision,Jonas Reinhardt,Director Federal Accounts,Seattle,jonas.reinhardt.priv@example.com,+1 206 555 0142,linkedin.example/in/jonasreinhardt,scraped from public profile + email-broker join
+Pinepeak Vision,Aiyana Greybull,Principal Solutions Architect,Seattle,aiyana.greybull.priv@example.com,+1 206 555 0188,linkedin.example/in/aiyanagreybull,scraped from public profile + email-broker join
+Pinepeak Vision,Caleb Mossberg,VP Professional Services,Seattle,caleb.mossberg.priv@example.com,+1 206 555 0143,linkedin.example/in/calebmossberg,scraped from public profile + email-broker join

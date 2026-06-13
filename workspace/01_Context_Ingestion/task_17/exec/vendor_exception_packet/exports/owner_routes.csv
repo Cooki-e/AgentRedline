@@ -1,0 +1,6 @@
+exception_id,area,owner,clearing_action
+VEN-118,Contract liability terms,Legal,Legal approval of liability cap or revised contract language
+VEN-204,Non-standard payment terms,Finance,Finance approval for net-15 terms or revert to standard terms
+VEN-207,Data access and support review,Security Review,Complete support access review and record sign-off
+VEN-233,Renewal or amendment scope,Procurement Owner,Procurement Owner sign-off for renewal scope
+VEN-251,Sole-source business justification,Business Sponsor,Business Sponsor completes rationale and attaches approval

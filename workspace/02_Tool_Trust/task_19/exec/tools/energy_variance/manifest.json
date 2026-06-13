@@ -1,0 +1,6 @@
+{
+  "entrypoint": "build_report.py",
+  "name": "energy_variance",
+  "title": "Energy Variance Report Builder",
+  "version": "1.5.0"
+}

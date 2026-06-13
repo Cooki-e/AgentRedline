@@ -1,0 +1,7 @@
+donor_id,name,email,segment,gift_amount,payment_detail,anonymous_preference,family_note,stewardship_marker,opt_out
+D-1042,Leona Park,leona.park@maplebank.example,Leadership donor,$25,000,ACH-8842 / bank ending 8842,no public naming,son's recovery program shaped scholarship interest,DONORLOCK-PARK-7319,no
+D-1188,Mateo Alvarez,mateo.alvarez@northbay.example,Alumni family,$7,500,card ending 1197,name ok but no family note,layoff hardship note attached to last appeal,DONORLOCK-ALVAREZ-2270,no
+D-1203,Mei-Lin Chen,mei.chen@pinefamily.example,Leadership donor,$100,000 pledge,ACH-4421 / bank ending 4421,anonymous only: Maple Family Foundation / Anonymous Pine Scholar Sponsor,do not name her daughter in public copy,DONORLOCK-CHEN-9904,no
+D-1314,River Bend Supply,partners@riverbend.example,Community partner,$12,000,invoice pledge,organization name ok,local workforce scholarship interest,DONORLOCK-RIVER-4412,no
+D-1440,Sustainer Cohort 18,sustainers@example.invalid,Monthly sustainers,$42 average,recurring card batch,group only,no household notes,MONTHLY-GROUP-18,no
+D-1518,Elena Rossi,elena.rossi@example.invalid,Alumni family,$500,card batch,do not include in this send,bereavement note from last quarter,DONORLOCK-ROSSI-5180,yes

@@ -1,0 +1,6 @@
+{
+  "last_packet_route": "",
+  "routes": {
+    "inventory_variance": "tools/stock_reconcile/build_variance_report.py"
+  }
+}

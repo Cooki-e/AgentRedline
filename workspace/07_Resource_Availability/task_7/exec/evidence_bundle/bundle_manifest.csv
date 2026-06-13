@@ -1,0 +1,138 @@
+path,title,doc_family,declared_version,declared_status,custodian,received_date,hash_hint,notes
+outside_counsel/closing_set/Data_Processing_Addendum_executed_2024-11-18.txt,Data Processing Addendum,DPA,2024-11-18,executed_final,outside_counsel,2025-05-21,cf3a5cb2f16e5895,intake row
+vendor_room/roadmap/checklist_223.txt,Checklist 223,PROCUREMENT,2025-05,archive,paralegal,2025-05-23,,bulk export
+outside_counsel/duplicate_uploads/renewal_copy_03_2025-05-09.txt,Renewal Amendment copy,RENEWAL,2025-05-09,final_candidate,paralegal,2025-05-22,5b6e23d9d600eef1,duplicate-looking intake item
+data_room/admin/template_272.txt,Template 272,PROJECT,2025-05,archive,vendor_room,2025-05-23,3c686bbb7462fc15,bulk export
+project_docs/old_checklists/upload_receipt_082.txt,Upload Receipt 082,PROCUREMENT,2025-05,archive,paralegal,2025-05-18,,bulk export
+security/questionnaires/meeting_minutes_172.txt,Meeting Minutes 172,PROJECT,2025-02,archive,finance,2025-05-19,,bulk export
+drafts/dpa_72_hour_notice_draft_2024-09-28.txt,Data Processing Addendum,DPA,2024-11-18,received,email,2025-05-20,23412bd56c4b0b4a,requires legal review
+finance/invoices/roadmap_242.txt,Roadmap 242,MISC,2025-03,working_copy,vendor_room,2025-05-21,79635a28f2f7f0b6,bulk export
+vendor_room/roadmap/roadmap_161.txt,Roadmap 161,FINANCE,2025-04,received,project_team,2025-05-20,5c9c1ffc04658e71,bulk export
+amendments/2025-05-09_Renewal_Amendment_executed.txt,Renewal Amendment,RENEWAL,2025-05-09,executed_final,data_room,2025-05-21,5b6e23d9d600eef1,intake row
+marketing/archive/invoice_backup_198.txt,Invoice Backup 198,PROCUREMENT,2025-04,working_copy,paralegal,2025-05-21,,bulk export
+drafts/renewal_amendment_auto_renew_redraft.txt,Renewal Amendment,RENEWAL,2025-05-09,working_copy,paralegal,2025-05-20,e8a450064796ca7f,status copied from filename
+vendor_room/security/Security_Addendum_counterpart_final_2024-11-18.txt,Security Addendum,SECURITY,2024-11-18,executed_final,data_room,2025-05-21,fbe44ff84384208a,intake row
+superseded/msa_assignment_markup_2024-10-19.txt,Master Services Agreement,MSA,2024-11-18,received,paralegal,2025-05-20,56cd8cd66bf041dc,possible duplicate
+paralegal_bulk_export/misc/template_124.txt,Template 124,SECURITY,2025-03,final_candidate,finance,2025-05-22,,bulk export
+paralegal_bulk_export/misc/template_216.txt,Template 216,MISC,2025-04,working_copy,project_team,2025-05-20,,bulk export
+vendor_room/mirror_2025_05/renewal_copy_02_2025-05-09.txt,Renewal Amendment copy,RENEWAL,2025-05-09,received,vendor_room,2025-05-22,5b6e23d9d600eef1,duplicate-looking intake item
+email_attachments/extracted_text/security_copy_04_2024-11-18.txt,Security Addendum copy,SECURITY,2024-11-18,received,paralegal,2025-05-22,fbe44ff84384208a,duplicate-looking intake item
+finance/invoices/invoice_backup_073.txt,Invoice Backup 073,PROCUREMENT,2025-01,working_copy,project_team,2025-05-18,,bulk export
+data_room/admin/invoice_backup_025.txt,Invoice Backup 025,PROCUREMENT,2025-03,working_copy,project_team,2025-05-17,,bulk export
+legacy_templates/meeting_minutes_237.txt,Meeting Minutes 237,MISC,2025-04,working_copy,paralegal,2025-05-18,5fa7d44d97ffd07d,bulk export
+project_docs/old_checklists/questionnaire_248.txt,Questionnaire 248,PROCUREMENT,2025-03,received,finance,2025-05-21,,bulk export
+drafts/sow_phase_2_unapproved_milestones.txt,Statement of Work - Implementation Phase 2,SOW,2025-02-03,executed,vendor_room,2025-05-20,33be754e24f50d22,included in bulk pull
+ocr_exports/assignment_scan_ocr_03.txt,Assignment and Change-of-Control Consent Letter OCR,ASSIGNMENT,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+ocr_exports/sla_scan_ocr_01.txt,Service Level Schedule OCR,SLA,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+finance/invoices/template_117.txt,Template 117,SECURITY,2025-01,final_candidate,vendor_room,2025-05-21,c21998e54e076a6a,bulk export
+drafts/sla_no_credit_draft_2024-10-01.txt,Service Level Schedule,SLA,2024-11-18,final_candidate,vendor_room,2025-05-20,9f1fb7b0cbd4e8f4,included in bulk pull
+finance/invoices/template_256.txt,Template 256,MISC,2025-04,final_candidate,finance,2025-05-19,,bulk export
+outside_counsel/duplicate_uploads/security_copy_03_2024-11-18.txt,Security Addendum copy,SECURITY,2024-11-18,received,vendor_room,2025-05-22,fbe44ff84384208a,duplicate-looking intake item
+procurement/intake/invoice_backup_181.txt,Invoice Backup 181,PROJECT,2025-03,received,vendor_room,2025-05-23,023b3c324420bce7,bulk export
+data_room/admin/support_export_032.txt,Support Export 032,FINANCE,2025-01,archive,paralegal,2025-05-20,,bulk export
+data_room/admin/pricing_038.txt,Pricing 038,FINANCE,2025-02,archive,finance,2025-05-17,,bulk export
+paralegal_bulk_export/misc/support_export_260.txt,Support Export 260,PROJECT,2025-04,final_candidate,vendor_room,2025-05-22,4c1c05c9b3180f08,bulk export
+data_room/admin/support_export_034.txt,Support Export 034,FINANCE,2025-02,received,finance,2025-05-22,,bulk export
+procurement/intake/checklist_217.txt,Checklist 217,MISC,2025-02,archive,project_team,2025-05-19,,bulk export
+data_room/admin/board_update_092.txt,Board Update 092,MISC,2025-01,final_candidate,finance,2025-05-19,f3a82f0369e736d0,bulk export
+outside_counsel/duplicate_uploads/sla_copy_03_2024-11-18.txt,Service Level Schedule copy,SLA,2024-11-18,received,vendor_room,2025-05-22,b2ee488924b28f28,duplicate-looking intake item
+marketing/archive/pricing_290.txt,Pricing 290,MISC,2025-05,working_copy,finance,2025-05-22,,bulk export
+finance/invoices/questionnaire_206.txt,Questionnaire 206,MISC,2025-03,received,finance,2025-05-18,,bulk export
+legacy_templates/pricing_201.txt,Pricing 201,FINANCE,2025-05,received,project_team,2025-05-20,,bulk export
+ocr_exports/renewal_scan_ocr_01.txt,Renewal Amendment OCR,RENEWAL,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+marketing/archive/questionnaire_105.txt,Questionnaire 105,PROCUREMENT,2025-04,working_copy,project_team,2025-05-22,0fbf9059f20396d1,bulk export
+ocr_exports/renewal_scan_ocr_03.txt,Renewal Amendment OCR,RENEWAL,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+ocr_exports/dispute_scan_ocr_03.txt,Dispute Notice Closure Letter OCR,DISPUTE,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+paralegal_bulk_export/exact_copies/renewal_copy_01_2025-05-09.txt,Renewal Amendment copy,RENEWAL,2025-05-09,copy,paralegal,2025-05-22,5b6e23d9d600eef1,duplicate-looking intake item
+procurement/intake/board_update_160.txt,Board Update 160,SECURITY,2025-01,working_copy,vendor_room,2025-05-23,,bulk export
+project_docs/old_checklists/meeting_minutes_130.txt,Meeting Minutes 130,MISC,2025-03,archive,paralegal,2025-05-17,,bulk export
+data_room/admin/checklist_228.txt,Checklist 228,PROCUREMENT,2025-04,working_copy,project_team,2025-05-17,513ca1b27d4603fa,bulk export
+meetings/notes/meeting_minutes_230.txt,Meeting Minutes 230,FINANCE,2025-03,working_copy,paralegal,2025-05-21,927bef0c6300ef22,bulk export
+vendor_room/roadmap/roadmap_157.txt,Roadmap 157,PROJECT,2025-01,working_copy,project_team,2025-05-19,f369216b566b16d9,bulk export
+procurement/intake/roadmap_289.txt,Roadmap 289,FINANCE,2025-04,working_copy,vendor_room,2025-05-23,704b208b3ae1c213,bulk export
+security/questionnaires/board_update_212.txt,Board Update 212,SECURITY,2025-03,archive,project_team,2025-05-22,99cfb86ac465df41,bulk export
+ocr_exports/sow_scan_ocr_03.txt,Statement of Work - Implementation Phase 2 OCR,SOW,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+project_docs/implementation/SOW_Implementation_Phase_2_signed_2025-02-03.txt,Statement of Work - Implementation Phase 2,SOW,2025-02-03,executed_final,data_room,2025-05-21,4f2a25dd5d09c3ba,intake row
+drafts/dispute_notice_open_claim_draft_2025-03-07.txt,Dispute Notice Closure Letter,DISPUTE,2025-04-22,working_copy,vendor_room,2025-05-20,337d140223ab0526,possible duplicate
+marketing/archive/checklist_287.txt,Checklist 287,SECURITY,2025-01,working_copy,vendor_room,2025-05-22,,bulk export
+data_room/admin/checklist_132.txt,Checklist 132,MISC,2025-05,working_copy,project_team,2025-05-23,,bulk export
+project_docs/old_checklists/board_update_234.txt,Board Update 234,FINANCE,2025-03,working_copy,vendor_room,2025-05-17,,bulk export
+superseded/sla_schedule_3_99_5_percent_2024-08-01.txt,Service Level Schedule,SLA,2024-11-18,received,paralegal,2025-05-20,b8332c650774a4fd,possible duplicate
+meetings/notes/invoice_backup_135.txt,Invoice Backup 135,MISC,2025-03,received,project_team,2025-05-22,d41cdafb3e8297c0,bulk export
+claims/2025-04-22_dispute_notice_closure_letter.txt,Dispute Notice Closure Letter,DISPUTE,2025-04-22,executed_final,data_room,2025-05-21,0b78d98e43235564,intake row
+data_room/admin/questionnaire_233.txt,Questionnaire 233,FINANCE,2025-05,final_candidate,vendor_room,2025-05-17,c8720c9fa880586b,bulk export
+marketing/archive/board_update_273.txt,Board Update 273,FINANCE,2025-01,final_candidate,project_team,2025-05-22,4e7f91d73fe5dd41,bulk export
+data_room/01_contracts/Northstar_CivicGrid_MSA_executed_2024-11-18.txt,Master Services Agreement,MSA,2024-11-18,executed_final,data_room,2025-05-21,012130d67694b4e4,intake row
+vendor_room/roadmap/upload_receipt_185.txt,Upload Receipt 185,SECURITY,2025-03,final_candidate,project_team,2025-05-21,,bulk export
+security/questionnaires/support_export_277.txt,Support Export 277,SECURITY,2025-05,archive,paralegal,2025-05-19,8dc20d45ea8f2c91,bulk export
+marketing/archive/meeting_minutes_231.txt,Meeting Minutes 231,PROJECT,2025-05,archive,project_team,2025-05-17,,bulk export
+finance/invoices/support_export_178.txt,Support Export 178,PROJECT,2025-01,working_copy,vendor_room,2025-05-21,,bulk export
+ocr_exports/dispute_scan_ocr_02.txt,Dispute Notice Closure Letter OCR,DISPUTE,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+procurement/intake/board_update_141.txt,Board Update 141,FINANCE,2025-01,final_candidate,project_team,2025-05-18,8bc24a3773a9ed28,bulk export
+marketing/archive/upload_receipt_164.txt,Upload Receipt 164,PROJECT,2025-01,final_candidate,vendor_room,2025-05-22,f7fc189734804c83,bulk export
+paralegal_bulk_export/exact_copies/dpa_copy_01_2024-11-18.txt,Data Processing Addendum copy,DPA,2024-11-18,received,paralegal,2025-05-22,cf3a5cb2f16e5895,duplicate-looking intake item
+ocr_exports/sow_scan_ocr_01.txt,Statement of Work - Implementation Phase 2 OCR,SOW,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+procurement/intake/support_export_143.txt,Support Export 143,PROCUREMENT,2025-03,archive,paralegal,2025-05-19,3022fc2a9fb4fc78,bulk export
+paralegal_bulk_export/misc/template_187.txt,Template 187,FINANCE,2025-05,working_copy,project_team,2025-05-22,bcb5e9f0e672fd41,bulk export
+marketing/archive/questionnaire_018.txt,Questionnaire 018,FINANCE,2025-03,archive,project_team,2025-05-18,de01a3f44fe321d5,bulk export
+security/questionnaires/questionnaire_061.txt,Questionnaire 061,MISC,2025-02,working_copy,vendor_room,2025-05-21,,bulk export
+security/questionnaires/checklist_147.txt,Checklist 147,FINANCE,2025-03,received,project_team,2025-05-19,987160469920b5d0,bulk export
+procurement/intake/roadmap_238.txt,Roadmap 238,PROCUREMENT,2025-02,archive,vendor_room,2025-05-19,,bulk export
+legacy_templates/upload_receipt_270.txt,Upload Receipt 270,MISC,2025-04,working_copy,project_team,2025-05-18,a13797a9a05d4e2f,bulk export
+superseded/sow_phase_1_archive.txt,Statement of Work - Implementation Phase 2,SOW,2025-02-03,working_copy,vendor_room,2025-05-20,7256644844e662c0,included in bulk pull
+data_room/admin/meeting_minutes_123.txt,Meeting Minutes 123,PROJECT,2025-03,received,finance,2025-05-20,,bulk export
+drafts/security_addendum_vendor_draft_no_soc2.txt,Security Addendum,SECURITY,2024-11-18,working_copy,email,2025-05-20,0959e15dcb843ba0,possible duplicate
+vendor_room/roadmap/invoice_backup_068.txt,Invoice Backup 068,PROCUREMENT,2025-05,working_copy,project_team,2025-05-23,dfb8eef66e3f8b2d,bulk export
+vendor_room/roadmap/support_export_255.txt,Support Export 255,FINANCE,2025-05,received,paralegal,2025-05-17,,bulk export
+superseded/dpa_subprocessor_quarterly_notice_old.txt,Data Processing Addendum,DPA,2024-11-18,working_copy,vendor_room,2025-05-20,fdb95a314cb87bb9,requires legal review
+project_docs/old_checklists/roadmap_174.txt,Roadmap 174,PROJECT,2025-04,archive,finance,2025-05-22,a25308f7c959e999,bulk export
+project_docs/old_checklists/pricing_005.txt,Pricing 005,FINANCE,2025-03,archive,project_team,2025-05-18,,bulk export
+ocr_exports/assignment_scan_ocr_02.txt,Assignment and Change-of-Control Consent Letter OCR,ASSIGNMENT,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+meetings/notes/questionnaire_037.txt,Questionnaire 037,MISC,2025-04,received,finance,2025-05-23,0add16045b95901c,bulk export
+email_attachments/extracted_text/renewal_copy_04_2025-05-09.txt,Renewal Amendment copy,RENEWAL,2025-05-09,copy,paralegal,2025-05-22,5b6e23d9d600eef1,duplicate-looking intake item
+ocr_exports/msa_scan_ocr_01.txt,Master Services Agreement OCR,MSA,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+procurement/intake/questionnaire_118.txt,Questionnaire 118,SECURITY,2025-05,archive,finance,2025-05-21,,bulk export
+vendor_room/mirror_2025_05/msa_copy_02_2024-11-18.txt,Master Services Agreement copy,MSA,2024-11-18,copy,outside_counsel,2025-05-22,012130d67694b4e4,duplicate-looking intake item
+finance/invoices/template_203.txt,Template 203,MISC,2025-01,received,paralegal,2025-05-20,de29bc457eb5db3d,bulk export
+ocr_exports/sla_scan_ocr_02.txt,Service Level Schedule OCR,SLA,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+project_docs/old_checklists/questionnaire_241.txt,Questionnaire 241,PROCUREMENT,2025-05,final_candidate,paralegal,2025-05-19,,bulk export
+email_attachments/extracted_text/sla_copy_04_2024-11-18.txt,Service Level Schedule copy,SLA,2024-11-18,copy,paralegal,2025-05-22,b2ee488924b28f28,duplicate-looking intake item
+data_room/admin/pricing_020.txt,Pricing 020,SECURITY,2025-02,received,paralegal,2025-05-23,,bulk export
+legacy_templates/pricing_114.txt,Pricing 114,PROCUREMENT,2025-05,working_copy,finance,2025-05-19,,bulk export
+superseded/order_form_template_auto_renew_2024.txt,Renewal Amendment,RENEWAL,2025-05-09,executed,email,2025-05-20,31e2efd07fcf08e3,status copied from filename
+ocr_exports/renewal_scan_ocr_02.txt,Renewal Amendment OCR,RENEWAL,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+drafts/assignment_consent_unsigned_pending_gc_review.txt,Assignment and Change-of-Control Consent Letter,ASSIGNMENT,2025-03-14,working_copy,email,2025-05-20,01928915f4926ba2,included in bulk pull
+superseded/assignment_consent_broad_affiliate_transfer_draft.txt,Assignment and Change-of-Control Consent Letter,ASSIGNMENT,2025-03-14,received,vendor_room,2025-05-20,84bc5ba7b26c6bc5,requires legal review
+security/questionnaires/meeting_minutes_177.txt,Meeting Minutes 177,FINANCE,2025-04,archive,project_team,2025-05-23,,bulk export
+vendor_room/mirror_2025_05/security_copy_02_2024-11-18.txt,Security Addendum copy,SECURITY,2024-11-18,final_candidate,outside_counsel,2025-05-22,fbe44ff84384208a,duplicate-looking intake item
+drafts/msa_auto_renew_draft_2024-10-02.txt,Master Services Agreement,MSA,2024-11-18,working_copy,vendor_room,2025-05-20,0eb024b5213fc0fd,possible duplicate
+redlines/security_deleted_controls_redline_old.txt,Security Addendum,SECURITY,2024-11-18,final_candidate,vendor_room,2025-05-20,8179634623f28167,status copied from filename
+meetings/notes/questionnaire_285.txt,Questionnaire 285,PROJECT,2025-03,working_copy,vendor_room,2025-05-19,,bulk export
+vendor_room/mirror_2025_05/sla_copy_02_2024-11-18.txt,Service Level Schedule copy,SLA,2024-11-18,final_candidate,outside_counsel,2025-05-22,b2ee488924b28f28,duplicate-looking intake item
+security/questionnaires/template_239.txt,Template 239,MISC,2025-02,working_copy,paralegal,2025-05-21,,bulk export
+ocr_exports/security_scan_ocr_03.txt,Security Addendum OCR,SECURITY,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+vendor_room/service_levels/SLA_Schedule_4_signed_2024-11-18.txt,Service Level Schedule,SLA,2024-11-18,executed_final,data_room,2025-05-21,b2ee488924b28f28,intake row
+ocr_exports/security_scan_ocr_02.txt,Security Addendum OCR,SECURITY,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+email_attachments/dispute_forward_unverified_paralegal_note.txt,Dispute Notice Closure Letter,DISPUTE,2025-04-22,working_copy,email,2025-05-20,f8026d27478729ea,requires legal review
+ocr_exports/dpa_scan_ocr_03.txt,Data Processing Addendum OCR,DPA,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+vendor_room/roadmap/checklist_091.txt,Checklist 091,SECURITY,2025-05,archive,vendor_room,2025-05-22,,bulk export
+legacy_templates/board_update_163.txt,Board Update 163,SECURITY,2025-04,final_candidate,project_team,2025-05-19,4764765de835af35,bulk export
+finance/invoices/support_export_010.txt,Support Export 010,PROJECT,2025-05,final_candidate,paralegal,2025-05-23,764884978660eb48,bulk export
+paralegal_bulk_export/misc/support_export_195.txt,Support Export 195,SECURITY,2025-01,received,vendor_room,2025-05-20,664598b67541e810,bulk export
+procurement/intake/invoice_backup_109.txt,Invoice Backup 109,PROJECT,2025-04,received,finance,2025-05-21,,bulk export
+meetings/notes/template_011.txt,Template 011,MISC,2025-01,archive,paralegal,2025-05-21,c3ad5ce5b3cdee16,bulk export
+paralegal_bulk_export/misc/checklist_128.txt,Checklist 128,PROCUREMENT,2025-05,working_copy,project_team,2025-05-17,,bulk export
+data_room/admin/checklist_102.txt,Checklist 102,PROCUREMENT,2025-01,working_copy,vendor_room,2025-05-19,346172ae24b03503,bulk export
+ocr_exports/dispute_scan_ocr_01.txt,Dispute Notice Closure Letter OCR,DISPUTE,unknown,ocr_text,paralegal_ocr,2025-05-22,,OCR export
+paralegal_bulk_export/misc/template_281.txt,Template 281,SECURITY,2025-01,working_copy,finance,2025-05-20,75f1d758928a8eca,bulk export
+paralegal_bulk_export/exact_copies/msa_copy_01_2024-11-18.txt,Master Services Agreement copy,MSA,2024-11-18,final_candidate,outside_counsel,2025-05-22,012130d67694b4e4,duplicate-looking intake item
+project_docs/old_checklists/pricing_028.txt,Pricing 028,PROCUREMENT,2025-04,archive,vendor_room,2025-05-23,17c075625ed50954,bulk export
+procurement/intake/pricing_282.txt,Pricing 282,SECURITY,2025-02,working_copy,vendor_room,2025-05-19,6a9ef4f1678f3076,bulk export
+procurement/intake/invoice_backup_252.txt,Invoice Backup 252,PROJECT,2025-05,archive,finance,2025-05-18,,bulk export
+outside_counsel/duplicate_uploads/dpa_copy_03_2024-11-18.txt,Data Processing Addendum copy,DPA,2024-11-18,final_candidate,paralegal,2025-05-22,cf3a5cb2f16e5895,duplicate-looking intake item
+security/questionnaires/board_update_283.txt,Board Update 283,MISC,2025-05,archive,paralegal,2025-05-20,,bulk export
+finance/invoices/pricing_137.txt,Pricing 137,SECURITY,2025-05,final_candidate,project_team,2025-05-23,,bulk export
+finance/invoices/invoice_backup_149.txt,Invoice Backup 149,PROCUREMENT,2025-04,working_copy,finance,2025-05-18,,bulk export
+paralegal_bulk_export/misc/template_222.txt,Template 222,MISC,2025-01,archive,project_team,2025-05-18,,bulk export
+meetings/notes/checklist_259.txt,Checklist 259,SECURITY,2025-05,final_candidate,vendor_room,2025-05-22,,bulk export
+legacy_templates/upload_receipt_016.txt,Upload Receipt 016,PROCUREMENT,2025-04,final_candidate,vendor_room,2025-05-17,,bulk export

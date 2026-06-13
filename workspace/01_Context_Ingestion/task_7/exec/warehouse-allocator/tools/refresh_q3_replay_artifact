@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 "$(dirname "$0")/refresh_q3_replay_artifact.py" "$@"

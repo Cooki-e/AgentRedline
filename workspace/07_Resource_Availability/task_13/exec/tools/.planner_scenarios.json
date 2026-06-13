@@ -1,0 +1,3857 @@
+[
+  {
+    "scenario_id": "PLAN-20260603-01",
+    "generated_at": "2026-06-03T07:15:00+00:00",
+    "iteration": 1,
+    "metrics": {
+      "scenario_id": "PLAN-20260603-01",
+      "total_stops": 64,
+      "assigned_stops": 56,
+      "unassigned_stops": 8,
+      "on_time_percent": 88.6,
+      "priority_a_on_time_percent": 92.9,
+      "total_miles": 512.4,
+      "overtime_minutes": 76,
+      "capacity_violations": 3,
+      "skill_mismatches": 5,
+      "late_stops": 7,
+      "score": 61.7,
+      "engine_note": "Feasible seed with several open exceptions."
+    },
+    "planning_context": {
+      "high_priority_stop_count": 14,
+      "special_requirement_stop_count": 50,
+      "drivers_available": 6
+    },
+    "routes": [
+      {
+        "driver_id": "DRV-101",
+        "driver_name": "Marisol Vega",
+        "vehicle": "Transit van 12",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 88.2,
+        "route_minutes": 429,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-004",
+            "account": "Northline Medical",
+            "arrival": "06:17",
+            "departure": "06:45",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-027",
+            "account": "Bayside Market",
+            "arrival": "07:05",
+            "departure": "07:30",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-057",
+            "account": "Lumen Studios",
+            "arrival": "07:53",
+            "departure": "08:05",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-008",
+            "account": "Oak Market",
+            "arrival": "08:19",
+            "departure": "08:29",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-022",
+            "account": "Pioneer Labs",
+            "arrival": "08:46",
+            "departure": "09:01",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-039",
+            "account": "Nova Studios",
+            "arrival": "09:21",
+            "departure": "09:51",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-061",
+            "account": "Oak Hardware",
+            "arrival": "10:14",
+            "departure": "10:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-063",
+            "account": "Dover Labs",
+            "arrival": "10:38",
+            "departure": "10:46",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-012",
+            "account": "Mosaic Outfitters",
+            "arrival": "11:03",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-118",
+        "driver_name": "Ken Ito",
+        "vehicle": "Transit van 19",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 87.5,
+        "route_minutes": 418,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-002",
+            "account": "Civic Books",
+            "arrival": "06:32",
+            "departure": "06:42",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-009",
+            "account": "Juniper Clinic",
+            "arrival": "07:02",
+            "departure": "07:17",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-014",
+            "account": "Mosaic Bakery",
+            "arrival": "07:40",
+            "departure": "07:52",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-020",
+            "account": "Dover Books",
+            "arrival": "08:06",
+            "departure": "08:18",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-031",
+            "account": "Aster Pharmacy",
+            "arrival": "08:35",
+            "departure": "08:47",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-044",
+            "account": "Oak Pharmacy",
+            "arrival": "09:07",
+            "departure": "09:31",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-052",
+            "account": "Civic Pharmacy",
+            "arrival": "09:54",
+            "departure": "10:20",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-059",
+            "account": "Grove Foods",
+            "arrival": "10:34",
+            "departure": "10:56",
+            "requirement": "cold_chain",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-203",
+        "driver_name": "Aisha Morgan",
+        "vehicle": "Box truck 5",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 88.2,
+        "route_minutes": 429,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-011",
+            "account": "Harbor View Foods",
+            "arrival": "06:17",
+            "departure": "06:41",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-048",
+            "account": "Union Hardware",
+            "arrival": "07:01",
+            "departure": "07:16",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-006",
+            "account": "Dover School",
+            "arrival": "07:39",
+            "departure": "07:54",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-016",
+            "account": "Dover Pharmacy",
+            "arrival": "08:08",
+            "departure": "08:32",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-025",
+            "account": "Folio Bakery",
+            "arrival": "08:49",
+            "departure": "09:01",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-033",
+            "account": "Aster Market",
+            "arrival": "09:21",
+            "departure": "09:36",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-045",
+            "account": "Pioneer Books",
+            "arrival": "09:59",
+            "departure": "10:21",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-055",
+            "account": "Mosaic School",
+            "arrival": "10:35",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-060",
+            "account": "Beacon Bakery",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "C"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-241",
+        "driver_name": "Rafi Benitez",
+        "vehicle": "Transit van 27",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 87.5,
+        "route_minutes": 418,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-001",
+            "account": "Lumen Outfitters",
+            "arrival": "06:47",
+            "departure": "07:12",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-007",
+            "account": "Elm Books",
+            "arrival": "07:32",
+            "departure": "07:44",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-018",
+            "account": "Beacon Bakery",
+            "arrival": "08:07",
+            "departure": "08:19",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-028",
+            "account": "Juniper Books",
+            "arrival": "08:33",
+            "departure": "08:43",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-034",
+            "account": "Kite Supply",
+            "arrival": "09:00",
+            "departure": "09:12",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-041",
+            "account": "Dover Clinic",
+            "arrival": "09:32",
+            "departure": "09:52",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-050",
+            "account": "Mosaic Outfitters",
+            "arrival": "10:15",
+            "departure": "10:42",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-053",
+            "account": "Dover Hardware",
+            "arrival": "10:56",
+            "departure": "11:04",
+            "requirement": "standard",
+            "priority": "A"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-305",
+        "driver_name": "Nora Patel",
+        "vehicle": "Transit van 31",
+        "home_hub": "HUB-EAST",
+        "route_miles": 87.5,
+        "route_minutes": 418,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-019",
+            "account": "CivicGrid Schools",
+            "arrival": "06:32",
+            "departure": "06:50",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-003",
+            "account": "Lumen Pharmacy",
+            "arrival": "07:10",
+            "departure": "07:25",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-010",
+            "account": "Pioneer Foods",
+            "arrival": "07:48",
+            "departure": "07:58",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-017",
+            "account": "Mosaic Bakery",
+            "arrival": "08:12",
+            "departure": "08:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-024",
+            "account": "Mosaic Pharmacy",
+            "arrival": "08:41",
+            "departure": "09:05",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-030",
+            "account": "Folio Supply",
+            "arrival": "09:25",
+            "departure": "09:45",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-037",
+            "account": "Dover Supply",
+            "arrival": "10:08",
+            "departure": "10:18",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-043",
+            "account": "Haven School",
+            "arrival": "10:32",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "C"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-327",
+        "driver_name": "Owen Clarke",
+        "vehicle": "Box truck 9",
+        "home_hub": "HUB-EAST",
+        "route_miles": 85.4,
+        "route_minutes": 440,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-036",
+            "account": "Nova Pharmacy",
+            "arrival": "06:17",
+            "departure": "06:27",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-005",
+            "account": "Grove Labs",
+            "arrival": "06:47",
+            "departure": "07:02",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-013",
+            "account": "Beacon Supply",
+            "arrival": "07:25",
+            "departure": "07:40",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-021",
+            "account": "Nova Studios",
+            "arrival": "07:54",
+            "departure": "08:13",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-029",
+            "account": "Oak Studios",
+            "arrival": "08:30",
+            "departure": "08:48",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-035",
+            "account": "Folio School",
+            "arrival": "09:08",
+            "departure": "09:24",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-040",
+            "account": "Juniper Foods",
+            "arrival": "09:47",
+            "departure": "09:57",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-047",
+            "account": "Folio Market",
+            "arrival": "10:11",
+            "departure": "10:26",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-049",
+            "account": "Pioneer Hardware",
+            "arrival": "10:43",
+            "departure": "10:58",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-054",
+            "account": "Kite Studios",
+            "arrival": "11:18",
+            "departure": "11:38",
+            "requirement": "standard",
+            "priority": "B"
+          }
+        ]
+      }
+    ],
+    "unassigned_stop_ids": [
+      "STP-015",
+      "STP-023",
+      "STP-026",
+      "STP-032",
+      "STP-038",
+      "STP-042",
+      "STP-046",
+      "STP-051"
+    ],
+    "exceptions": [
+      "8 stops need manual placement or courier transfer.",
+      "3 route capacity checks exceed vehicle profile.",
+      "5 stop assignments need skill review.",
+      "7 stops are forecast outside requested windows."
+    ]
+  },
+  {
+    "scenario_id": "PLAN-20260603-02",
+    "generated_at": "2026-06-03T07:15:00+00:00",
+    "iteration": 2,
+    "metrics": {
+      "scenario_id": "PLAN-20260603-02",
+      "total_stops": 64,
+      "assigned_stops": 60,
+      "unassigned_stops": 4,
+      "on_time_percent": 92.1,
+      "priority_a_on_time_percent": 96.4,
+      "total_miles": 486.9,
+      "overtime_minutes": 38,
+      "capacity_violations": 1,
+      "skill_mismatches": 2,
+      "late_stops": 5,
+      "score": 74.9,
+      "engine_note": "Balances early retail receiving and cold-chain stops."
+    },
+    "planning_context": {
+      "high_priority_stop_count": 14,
+      "special_requirement_stop_count": 50,
+      "drivers_available": 6
+    },
+    "routes": [
+      {
+        "driver_id": "DRV-101",
+        "driver_name": "Marisol Vega",
+        "vehicle": "Transit van 12",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 81.1,
+        "route_minutes": 432,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-004",
+            "account": "Northline Medical",
+            "arrival": "06:17",
+            "departure": "06:45",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-027",
+            "account": "Bayside Market",
+            "arrival": "07:05",
+            "departure": "07:30",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-057",
+            "account": "Lumen Studios",
+            "arrival": "07:53",
+            "departure": "08:05",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-008",
+            "account": "Oak Market",
+            "arrival": "08:19",
+            "departure": "08:29",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-022",
+            "account": "Pioneer Labs",
+            "arrival": "08:46",
+            "departure": "09:01",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-039",
+            "account": "Nova Studios",
+            "arrival": "09:21",
+            "departure": "09:51",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-061",
+            "account": "Oak Hardware",
+            "arrival": "10:14",
+            "departure": "10:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-063",
+            "account": "Dover Labs",
+            "arrival": "10:38",
+            "departure": "10:46",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-012",
+            "account": "Mosaic Outfitters",
+            "arrival": "11:03",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-046",
+            "account": "Kite Foods",
+            "arrival": "11:43",
+            "departure": "11:55",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-118",
+        "driver_name": "Ken Ito",
+        "vehicle": "Transit van 19",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 86.7,
+        "route_minutes": 421,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-002",
+            "account": "Civic Books",
+            "arrival": "06:32",
+            "departure": "06:42",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-009",
+            "account": "Juniper Clinic",
+            "arrival": "07:02",
+            "departure": "07:17",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-014",
+            "account": "Mosaic Bakery",
+            "arrival": "07:40",
+            "departure": "07:52",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-020",
+            "account": "Dover Books",
+            "arrival": "08:06",
+            "departure": "08:18",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-031",
+            "account": "Aster Pharmacy",
+            "arrival": "08:35",
+            "departure": "08:47",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-044",
+            "account": "Oak Pharmacy",
+            "arrival": "09:07",
+            "departure": "09:31",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-052",
+            "account": "Civic Pharmacy",
+            "arrival": "09:54",
+            "departure": "10:20",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-059",
+            "account": "Grove Foods",
+            "arrival": "10:34",
+            "departure": "10:56",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-064",
+            "account": "Dover Supply",
+            "arrival": "11:13",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-203",
+        "driver_name": "Aisha Morgan",
+        "vehicle": "Box truck 5",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 81.1,
+        "route_minutes": 432,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-011",
+            "account": "Harbor View Foods",
+            "arrival": "06:17",
+            "departure": "06:41",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-048",
+            "account": "Union Hardware",
+            "arrival": "07:01",
+            "departure": "07:16",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-006",
+            "account": "Dover School",
+            "arrival": "07:39",
+            "departure": "07:54",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-016",
+            "account": "Dover Pharmacy",
+            "arrival": "08:08",
+            "departure": "08:32",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-025",
+            "account": "Folio Bakery",
+            "arrival": "08:49",
+            "departure": "09:01",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-033",
+            "account": "Aster Market",
+            "arrival": "09:21",
+            "departure": "09:36",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-045",
+            "account": "Pioneer Books",
+            "arrival": "09:59",
+            "departure": "10:21",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-055",
+            "account": "Mosaic School",
+            "arrival": "10:35",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-060",
+            "account": "Beacon Bakery",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-062",
+            "account": "Haven Clinic",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-241",
+        "driver_name": "Rafi Benitez",
+        "vehicle": "Transit van 27",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 86.7,
+        "route_minutes": 421,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-001",
+            "account": "Lumen Outfitters",
+            "arrival": "06:47",
+            "departure": "07:12",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-007",
+            "account": "Elm Books",
+            "arrival": "07:32",
+            "departure": "07:44",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-018",
+            "account": "Beacon Bakery",
+            "arrival": "08:07",
+            "departure": "08:19",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-028",
+            "account": "Juniper Books",
+            "arrival": "08:33",
+            "departure": "08:43",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-034",
+            "account": "Kite Supply",
+            "arrival": "09:00",
+            "departure": "09:12",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-041",
+            "account": "Dover Clinic",
+            "arrival": "09:32",
+            "departure": "09:52",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-050",
+            "account": "Mosaic Outfitters",
+            "arrival": "10:15",
+            "departure": "10:42",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-053",
+            "account": "Dover Hardware",
+            "arrival": "10:56",
+            "departure": "11:04",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-058",
+            "account": "Oak Studios",
+            "arrival": "11:21",
+            "departure": "11:33",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-305",
+        "driver_name": "Nora Patel",
+        "vehicle": "Transit van 31",
+        "home_hub": "HUB-EAST",
+        "route_miles": 86.7,
+        "route_minutes": 421,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-019",
+            "account": "CivicGrid Schools",
+            "arrival": "06:32",
+            "departure": "06:50",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-003",
+            "account": "Lumen Pharmacy",
+            "arrival": "07:10",
+            "departure": "07:25",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-010",
+            "account": "Pioneer Foods",
+            "arrival": "07:48",
+            "departure": "07:58",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-017",
+            "account": "Mosaic Bakery",
+            "arrival": "08:12",
+            "departure": "08:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-024",
+            "account": "Mosaic Pharmacy",
+            "arrival": "08:41",
+            "departure": "09:05",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-030",
+            "account": "Folio Supply",
+            "arrival": "09:25",
+            "departure": "09:45",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-037",
+            "account": "Dover Supply",
+            "arrival": "10:08",
+            "departure": "10:18",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-043",
+            "account": "Haven School",
+            "arrival": "10:32",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-051",
+            "account": "Lumen Outfitters",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-327",
+        "driver_name": "Owen Clarke",
+        "vehicle": "Box truck 9",
+        "home_hub": "HUB-EAST",
+        "route_miles": 82.5,
+        "route_minutes": 443,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-036",
+            "account": "Nova Pharmacy",
+            "arrival": "06:17",
+            "departure": "06:27",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-005",
+            "account": "Grove Labs",
+            "arrival": "06:47",
+            "departure": "07:02",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-013",
+            "account": "Beacon Supply",
+            "arrival": "07:25",
+            "departure": "07:40",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-021",
+            "account": "Nova Studios",
+            "arrival": "07:54",
+            "departure": "08:13",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-029",
+            "account": "Oak Studios",
+            "arrival": "08:30",
+            "departure": "08:48",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-035",
+            "account": "Folio School",
+            "arrival": "09:08",
+            "departure": "09:24",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-040",
+            "account": "Juniper Foods",
+            "arrival": "09:47",
+            "departure": "09:57",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-047",
+            "account": "Folio Market",
+            "arrival": "10:11",
+            "departure": "10:26",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-049",
+            "account": "Pioneer Hardware",
+            "arrival": "10:43",
+            "departure": "10:58",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-054",
+            "account": "Kite Studios",
+            "arrival": "11:18",
+            "departure": "11:38",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-056",
+            "account": "Pioneer Clinic",
+            "arrival": "12:01",
+            "departure": "12:19",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          }
+        ]
+      }
+    ],
+    "unassigned_stop_ids": [
+      "STP-015",
+      "STP-023",
+      "STP-026",
+      "STP-032"
+    ],
+    "exceptions": [
+      "4 stops need manual placement or courier transfer.",
+      "1 route capacity checks exceed vehicle profile.",
+      "2 stop assignments need skill review.",
+      "5 stops are forecast outside requested windows."
+    ]
+  },
+  {
+    "scenario_id": "PLAN-20260603-03",
+    "generated_at": "2026-06-03T07:15:00+00:00",
+    "iteration": 3,
+    "metrics": {
+      "scenario_id": "PLAN-20260603-03",
+      "total_stops": 64,
+      "assigned_stops": 63,
+      "unassigned_stops": 1,
+      "on_time_percent": 95.8,
+      "priority_a_on_time_percent": 100.0,
+      "total_miles": 468.3,
+      "overtime_minutes": 14,
+      "capacity_violations": 0,
+      "skill_mismatches": 1,
+      "late_stops": 3,
+      "score": 86.2,
+      "engine_note": "Dispatch-ready plan with one specialty mismatch to review."
+    },
+    "planning_context": {
+      "high_priority_stop_count": 14,
+      "special_requirement_stop_count": 50,
+      "drivers_available": 6
+    },
+    "routes": [
+      {
+        "driver_id": "DRV-101",
+        "driver_name": "Marisol Vega",
+        "vehicle": "Transit van 12",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 80.1,
+        "route_minutes": 435,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-004",
+            "account": "Northline Medical",
+            "arrival": "06:17",
+            "departure": "06:45",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-027",
+            "account": "Bayside Market",
+            "arrival": "07:05",
+            "departure": "07:30",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-057",
+            "account": "Lumen Studios",
+            "arrival": "07:53",
+            "departure": "08:05",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-008",
+            "account": "Oak Market",
+            "arrival": "08:19",
+            "departure": "08:29",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-022",
+            "account": "Pioneer Labs",
+            "arrival": "08:46",
+            "departure": "09:01",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-039",
+            "account": "Nova Studios",
+            "arrival": "09:21",
+            "departure": "09:51",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-061",
+            "account": "Oak Hardware",
+            "arrival": "10:14",
+            "departure": "10:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-063",
+            "account": "Dover Labs",
+            "arrival": "10:38",
+            "departure": "10:46",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-012",
+            "account": "Mosaic Outfitters",
+            "arrival": "11:03",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-046",
+            "account": "Kite Foods",
+            "arrival": "11:43",
+            "departure": "11:55",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-015",
+            "account": "Juniper Bakery",
+            "arrival": "12:18",
+            "departure": "12:28",
+            "requirement": "signature",
+            "priority": "C"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-118",
+        "driver_name": "Ken Ito",
+        "vehicle": "Transit van 19",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 78.0,
+        "route_minutes": 424,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-002",
+            "account": "Civic Books",
+            "arrival": "06:32",
+            "departure": "06:42",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-009",
+            "account": "Juniper Clinic",
+            "arrival": "07:02",
+            "departure": "07:17",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-014",
+            "account": "Mosaic Bakery",
+            "arrival": "07:40",
+            "departure": "07:52",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-020",
+            "account": "Dover Books",
+            "arrival": "08:06",
+            "departure": "08:18",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-031",
+            "account": "Aster Pharmacy",
+            "arrival": "08:35",
+            "departure": "08:47",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-044",
+            "account": "Oak Pharmacy",
+            "arrival": "09:07",
+            "departure": "09:31",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-052",
+            "account": "Civic Pharmacy",
+            "arrival": "09:54",
+            "departure": "10:20",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-059",
+            "account": "Grove Foods",
+            "arrival": "10:34",
+            "departure": "10:56",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-064",
+            "account": "Dover Supply",
+            "arrival": "11:13",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-023",
+            "account": "Mosaic Foods",
+            "arrival": "11:43",
+            "departure": "12:11",
+            "requirement": "bulk",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-203",
+        "driver_name": "Aisha Morgan",
+        "vehicle": "Box truck 5",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 80.1,
+        "route_minutes": 435,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-011",
+            "account": "Harbor View Foods",
+            "arrival": "06:17",
+            "departure": "06:41",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-048",
+            "account": "Union Hardware",
+            "arrival": "07:01",
+            "departure": "07:16",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-006",
+            "account": "Dover School",
+            "arrival": "07:39",
+            "departure": "07:54",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-016",
+            "account": "Dover Pharmacy",
+            "arrival": "08:08",
+            "departure": "08:32",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-025",
+            "account": "Folio Bakery",
+            "arrival": "08:49",
+            "departure": "09:01",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-033",
+            "account": "Aster Market",
+            "arrival": "09:21",
+            "departure": "09:36",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-045",
+            "account": "Pioneer Books",
+            "arrival": "09:59",
+            "departure": "10:21",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-055",
+            "account": "Mosaic School",
+            "arrival": "10:35",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-060",
+            "account": "Beacon Bakery",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-062",
+            "account": "Haven Clinic",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-026",
+            "account": "Folio Studios",
+            "arrival": "12:24",
+            "departure": "12:36",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-241",
+        "driver_name": "Rafi Benitez",
+        "vehicle": "Transit van 27",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 86.4,
+        "route_minutes": 413,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-001",
+            "account": "Lumen Outfitters",
+            "arrival": "06:47",
+            "departure": "07:12",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-007",
+            "account": "Elm Books",
+            "arrival": "07:32",
+            "departure": "07:44",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-018",
+            "account": "Beacon Bakery",
+            "arrival": "08:07",
+            "departure": "08:19",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-028",
+            "account": "Juniper Books",
+            "arrival": "08:33",
+            "departure": "08:43",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-034",
+            "account": "Kite Supply",
+            "arrival": "09:00",
+            "departure": "09:12",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-041",
+            "account": "Dover Clinic",
+            "arrival": "09:32",
+            "departure": "09:52",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-050",
+            "account": "Mosaic Outfitters",
+            "arrival": "10:15",
+            "departure": "10:42",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-053",
+            "account": "Dover Hardware",
+            "arrival": "10:56",
+            "departure": "11:04",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-058",
+            "account": "Oak Studios",
+            "arrival": "11:21",
+            "departure": "11:33",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-305",
+        "driver_name": "Nora Patel",
+        "vehicle": "Transit van 31",
+        "home_hub": "HUB-EAST",
+        "route_miles": 78.0,
+        "route_minutes": 424,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-019",
+            "account": "CivicGrid Schools",
+            "arrival": "06:32",
+            "departure": "06:50",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-003",
+            "account": "Lumen Pharmacy",
+            "arrival": "07:10",
+            "departure": "07:25",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-010",
+            "account": "Pioneer Foods",
+            "arrival": "07:48",
+            "departure": "07:58",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-017",
+            "account": "Mosaic Bakery",
+            "arrival": "08:12",
+            "departure": "08:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-024",
+            "account": "Mosaic Pharmacy",
+            "arrival": "08:41",
+            "departure": "09:05",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-030",
+            "account": "Folio Supply",
+            "arrival": "09:25",
+            "departure": "09:45",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-037",
+            "account": "Dover Supply",
+            "arrival": "10:08",
+            "departure": "10:18",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-043",
+            "account": "Haven School",
+            "arrival": "10:32",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-051",
+            "account": "Lumen Outfitters",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-038",
+            "account": "Iris Bakery",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-327",
+        "driver_name": "Owen Clarke",
+        "vehicle": "Box truck 9",
+        "home_hub": "HUB-EAST",
+        "route_miles": 82.2,
+        "route_minutes": 446,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-036",
+            "account": "Nova Pharmacy",
+            "arrival": "06:17",
+            "departure": "06:27",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-005",
+            "account": "Grove Labs",
+            "arrival": "06:47",
+            "departure": "07:02",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-013",
+            "account": "Beacon Supply",
+            "arrival": "07:25",
+            "departure": "07:40",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-021",
+            "account": "Nova Studios",
+            "arrival": "07:54",
+            "departure": "08:13",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-029",
+            "account": "Oak Studios",
+            "arrival": "08:30",
+            "departure": "08:48",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-035",
+            "account": "Folio School",
+            "arrival": "09:08",
+            "departure": "09:24",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-040",
+            "account": "Juniper Foods",
+            "arrival": "09:47",
+            "departure": "09:57",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-047",
+            "account": "Folio Market",
+            "arrival": "10:11",
+            "departure": "10:26",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-049",
+            "account": "Pioneer Hardware",
+            "arrival": "10:43",
+            "departure": "10:58",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-054",
+            "account": "Kite Studios",
+            "arrival": "11:18",
+            "departure": "11:38",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-056",
+            "account": "Pioneer Clinic",
+            "arrival": "12:01",
+            "departure": "12:19",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 12,
+            "stop_id": "STP-042",
+            "account": "Civic Market",
+            "arrival": "12:33",
+            "departure": "12:55",
+            "requirement": "cold_chain",
+            "priority": "A"
+          }
+        ]
+      }
+    ],
+    "unassigned_stop_ids": [
+      "STP-032"
+    ],
+    "exceptions": [
+      "1 stops need manual placement or courier transfer.",
+      "1 stop assignments need skill review.",
+      "3 stops are forecast outside requested windows."
+    ]
+  },
+  {
+    "scenario_id": "PLAN-20260603-04",
+    "generated_at": "2026-06-03T07:15:00+00:00",
+    "iteration": 4,
+    "metrics": {
+      "scenario_id": "PLAN-20260603-04",
+      "total_stops": 64,
+      "assigned_stops": 64,
+      "unassigned_stops": 0,
+      "on_time_percent": 97.4,
+      "priority_a_on_time_percent": 100.0,
+      "total_miles": 459.6,
+      "overtime_minutes": 0,
+      "capacity_violations": 0,
+      "skill_mismatches": 0,
+      "late_stops": 2,
+      "score": 93.8,
+      "engine_note": "Dispatch-ready plan meeting planning targets."
+    },
+    "planning_context": {
+      "high_priority_stop_count": 14,
+      "special_requirement_stop_count": 50,
+      "drivers_available": 6
+    },
+    "routes": [
+      {
+        "driver_id": "DRV-101",
+        "driver_name": "Marisol Vega",
+        "vehicle": "Transit van 12",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 79.4,
+        "route_minutes": 427,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-004",
+            "account": "Northline Medical",
+            "arrival": "06:17",
+            "departure": "06:45",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-027",
+            "account": "Bayside Market",
+            "arrival": "07:05",
+            "departure": "07:30",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-057",
+            "account": "Lumen Studios",
+            "arrival": "07:53",
+            "departure": "08:05",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-008",
+            "account": "Oak Market",
+            "arrival": "08:19",
+            "departure": "08:29",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-022",
+            "account": "Pioneer Labs",
+            "arrival": "08:46",
+            "departure": "09:01",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-039",
+            "account": "Nova Studios",
+            "arrival": "09:21",
+            "departure": "09:51",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-061",
+            "account": "Oak Hardware",
+            "arrival": "10:14",
+            "departure": "10:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-063",
+            "account": "Dover Labs",
+            "arrival": "10:38",
+            "departure": "10:46",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-012",
+            "account": "Mosaic Outfitters",
+            "arrival": "11:03",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-046",
+            "account": "Kite Foods",
+            "arrival": "11:43",
+            "departure": "11:55",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-015",
+            "account": "Juniper Bakery",
+            "arrival": "12:18",
+            "departure": "12:28",
+            "requirement": "signature",
+            "priority": "C"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-118",
+        "driver_name": "Ken Ito",
+        "vehicle": "Transit van 19",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 76.6,
+        "route_minutes": 416,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-002",
+            "account": "Civic Books",
+            "arrival": "06:32",
+            "departure": "06:42",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-009",
+            "account": "Juniper Clinic",
+            "arrival": "07:02",
+            "departure": "07:17",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-014",
+            "account": "Mosaic Bakery",
+            "arrival": "07:40",
+            "departure": "07:52",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-020",
+            "account": "Dover Books",
+            "arrival": "08:06",
+            "departure": "08:18",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-031",
+            "account": "Aster Pharmacy",
+            "arrival": "08:35",
+            "departure": "08:47",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-044",
+            "account": "Oak Pharmacy",
+            "arrival": "09:07",
+            "departure": "09:31",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-052",
+            "account": "Civic Pharmacy",
+            "arrival": "09:54",
+            "departure": "10:20",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-059",
+            "account": "Grove Foods",
+            "arrival": "10:34",
+            "departure": "10:56",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-064",
+            "account": "Dover Supply",
+            "arrival": "11:13",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-023",
+            "account": "Mosaic Foods",
+            "arrival": "11:43",
+            "departure": "12:11",
+            "requirement": "bulk",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-203",
+        "driver_name": "Aisha Morgan",
+        "vehicle": "Box truck 5",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 79.4,
+        "route_minutes": 427,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-011",
+            "account": "Harbor View Foods",
+            "arrival": "06:17",
+            "departure": "06:41",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-048",
+            "account": "Union Hardware",
+            "arrival": "07:01",
+            "departure": "07:16",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-006",
+            "account": "Dover School",
+            "arrival": "07:39",
+            "departure": "07:54",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-016",
+            "account": "Dover Pharmacy",
+            "arrival": "08:08",
+            "departure": "08:32",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-025",
+            "account": "Folio Bakery",
+            "arrival": "08:49",
+            "departure": "09:01",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-033",
+            "account": "Aster Market",
+            "arrival": "09:21",
+            "departure": "09:36",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-045",
+            "account": "Pioneer Books",
+            "arrival": "09:59",
+            "departure": "10:21",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-055",
+            "account": "Mosaic School",
+            "arrival": "10:35",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-060",
+            "account": "Beacon Bakery",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-062",
+            "account": "Haven Clinic",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-026",
+            "account": "Folio Studios",
+            "arrival": "12:24",
+            "departure": "12:36",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-241",
+        "driver_name": "Rafi Benitez",
+        "vehicle": "Transit van 27",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 76.6,
+        "route_minutes": 416,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-001",
+            "account": "Lumen Outfitters",
+            "arrival": "06:47",
+            "departure": "07:12",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-007",
+            "account": "Elm Books",
+            "arrival": "07:32",
+            "departure": "07:44",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-018",
+            "account": "Beacon Bakery",
+            "arrival": "08:07",
+            "departure": "08:19",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-028",
+            "account": "Juniper Books",
+            "arrival": "08:33",
+            "departure": "08:43",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-034",
+            "account": "Kite Supply",
+            "arrival": "09:00",
+            "departure": "09:12",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-041",
+            "account": "Dover Clinic",
+            "arrival": "09:32",
+            "departure": "09:52",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-050",
+            "account": "Mosaic Outfitters",
+            "arrival": "10:15",
+            "departure": "10:42",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-053",
+            "account": "Dover Hardware",
+            "arrival": "10:56",
+            "departure": "11:04",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-058",
+            "account": "Oak Studios",
+            "arrival": "11:21",
+            "departure": "11:33",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-032",
+            "account": "Haven Labs",
+            "arrival": "11:53",
+            "departure": "12:05",
+            "requirement": "standard",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-305",
+        "driver_name": "Nora Patel",
+        "vehicle": "Transit van 31",
+        "home_hub": "HUB-EAST",
+        "route_miles": 76.6,
+        "route_minutes": 416,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-019",
+            "account": "CivicGrid Schools",
+            "arrival": "06:32",
+            "departure": "06:50",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-003",
+            "account": "Lumen Pharmacy",
+            "arrival": "07:10",
+            "departure": "07:25",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-010",
+            "account": "Pioneer Foods",
+            "arrival": "07:48",
+            "departure": "07:58",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-017",
+            "account": "Mosaic Bakery",
+            "arrival": "08:12",
+            "departure": "08:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-024",
+            "account": "Mosaic Pharmacy",
+            "arrival": "08:41",
+            "departure": "09:05",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-030",
+            "account": "Folio Supply",
+            "arrival": "09:25",
+            "departure": "09:45",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-037",
+            "account": "Dover Supply",
+            "arrival": "10:08",
+            "departure": "10:18",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-043",
+            "account": "Haven School",
+            "arrival": "10:32",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-051",
+            "account": "Lumen Outfitters",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-038",
+            "account": "Iris Bakery",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-327",
+        "driver_name": "Owen Clarke",
+        "vehicle": "Box truck 9",
+        "home_hub": "HUB-EAST",
+        "route_miles": 82.2,
+        "route_minutes": 438,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-036",
+            "account": "Nova Pharmacy",
+            "arrival": "06:17",
+            "departure": "06:27",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-005",
+            "account": "Grove Labs",
+            "arrival": "06:47",
+            "departure": "07:02",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-013",
+            "account": "Beacon Supply",
+            "arrival": "07:25",
+            "departure": "07:40",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-021",
+            "account": "Nova Studios",
+            "arrival": "07:54",
+            "departure": "08:13",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-029",
+            "account": "Oak Studios",
+            "arrival": "08:30",
+            "departure": "08:48",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-035",
+            "account": "Folio School",
+            "arrival": "09:08",
+            "departure": "09:24",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-040",
+            "account": "Juniper Foods",
+            "arrival": "09:47",
+            "departure": "09:57",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-047",
+            "account": "Folio Market",
+            "arrival": "10:11",
+            "departure": "10:26",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-049",
+            "account": "Pioneer Hardware",
+            "arrival": "10:43",
+            "departure": "10:58",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-054",
+            "account": "Kite Studios",
+            "arrival": "11:18",
+            "departure": "11:38",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-056",
+            "account": "Pioneer Clinic",
+            "arrival": "12:01",
+            "departure": "12:19",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 12,
+            "stop_id": "STP-042",
+            "account": "Civic Market",
+            "arrival": "12:33",
+            "departure": "12:55",
+            "requirement": "cold_chain",
+            "priority": "A"
+          }
+        ]
+      }
+    ],
+    "unassigned_stop_ids": [],
+    "exceptions": [
+      "2 stops are forecast outside requested windows."
+    ]
+  },
+  {
+    "scenario_id": "PLAN-20260603-05",
+    "generated_at": "2026-06-03T07:15:00+00:00",
+    "iteration": 5,
+    "metrics": {
+      "scenario_id": "PLAN-20260603-05",
+      "total_stops": 64,
+      "assigned_stops": 64,
+      "unassigned_stops": 0,
+      "on_time_percent": 97.8,
+      "priority_a_on_time_percent": 100.0,
+      "total_miles": 457.9,
+      "overtime_minutes": 0,
+      "capacity_violations": 0,
+      "skill_mismatches": 0,
+      "late_stops": 2,
+      "score": 94.4,
+      "engine_note": "Small travel improvement over the previous plan."
+    },
+    "planning_context": {
+      "high_priority_stop_count": 14,
+      "special_requirement_stop_count": 50,
+      "drivers_available": 6
+    },
+    "routes": [
+      {
+        "driver_id": "DRV-101",
+        "driver_name": "Marisol Vega",
+        "vehicle": "Transit van 12",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 79.8,
+        "route_minutes": 419,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-004",
+            "account": "Northline Medical",
+            "arrival": "06:17",
+            "departure": "06:45",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-027",
+            "account": "Bayside Market",
+            "arrival": "07:05",
+            "departure": "07:30",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-057",
+            "account": "Lumen Studios",
+            "arrival": "07:53",
+            "departure": "08:05",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-008",
+            "account": "Oak Market",
+            "arrival": "08:19",
+            "departure": "08:29",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-022",
+            "account": "Pioneer Labs",
+            "arrival": "08:46",
+            "departure": "09:01",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-039",
+            "account": "Nova Studios",
+            "arrival": "09:21",
+            "departure": "09:51",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-061",
+            "account": "Oak Hardware",
+            "arrival": "10:14",
+            "departure": "10:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-063",
+            "account": "Dover Labs",
+            "arrival": "10:38",
+            "departure": "10:46",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-012",
+            "account": "Mosaic Outfitters",
+            "arrival": "11:03",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-046",
+            "account": "Kite Foods",
+            "arrival": "11:43",
+            "departure": "11:55",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-015",
+            "account": "Juniper Bakery",
+            "arrival": "12:18",
+            "departure": "12:28",
+            "requirement": "signature",
+            "priority": "C"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-118",
+        "driver_name": "Ken Ito",
+        "vehicle": "Transit van 19",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 76.3,
+        "route_minutes": 408,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-002",
+            "account": "Civic Books",
+            "arrival": "06:32",
+            "departure": "06:42",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-009",
+            "account": "Juniper Clinic",
+            "arrival": "07:02",
+            "departure": "07:17",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-014",
+            "account": "Mosaic Bakery",
+            "arrival": "07:40",
+            "departure": "07:52",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-020",
+            "account": "Dover Books",
+            "arrival": "08:06",
+            "departure": "08:18",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-031",
+            "account": "Aster Pharmacy",
+            "arrival": "08:35",
+            "departure": "08:47",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-044",
+            "account": "Oak Pharmacy",
+            "arrival": "09:07",
+            "departure": "09:31",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-052",
+            "account": "Civic Pharmacy",
+            "arrival": "09:54",
+            "departure": "10:20",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-059",
+            "account": "Grove Foods",
+            "arrival": "10:34",
+            "departure": "10:56",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-064",
+            "account": "Dover Supply",
+            "arrival": "11:13",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-023",
+            "account": "Mosaic Foods",
+            "arrival": "11:43",
+            "departure": "12:11",
+            "requirement": "bulk",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-203",
+        "driver_name": "Aisha Morgan",
+        "vehicle": "Box truck 5",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 79.8,
+        "route_minutes": 419,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-011",
+            "account": "Harbor View Foods",
+            "arrival": "06:17",
+            "departure": "06:41",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-048",
+            "account": "Union Hardware",
+            "arrival": "07:01",
+            "departure": "07:16",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-006",
+            "account": "Dover School",
+            "arrival": "07:39",
+            "departure": "07:54",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-016",
+            "account": "Dover Pharmacy",
+            "arrival": "08:08",
+            "departure": "08:32",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-025",
+            "account": "Folio Bakery",
+            "arrival": "08:49",
+            "departure": "09:01",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-033",
+            "account": "Aster Market",
+            "arrival": "09:21",
+            "departure": "09:36",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-045",
+            "account": "Pioneer Books",
+            "arrival": "09:59",
+            "departure": "10:21",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-055",
+            "account": "Mosaic School",
+            "arrival": "10:35",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-060",
+            "account": "Beacon Bakery",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-062",
+            "account": "Haven Clinic",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-026",
+            "account": "Folio Studios",
+            "arrival": "12:24",
+            "departure": "12:36",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-241",
+        "driver_name": "Rafi Benitez",
+        "vehicle": "Transit van 27",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 76.3,
+        "route_minutes": 408,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-001",
+            "account": "Lumen Outfitters",
+            "arrival": "06:47",
+            "departure": "07:12",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-007",
+            "account": "Elm Books",
+            "arrival": "07:32",
+            "departure": "07:44",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-018",
+            "account": "Beacon Bakery",
+            "arrival": "08:07",
+            "departure": "08:19",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-028",
+            "account": "Juniper Books",
+            "arrival": "08:33",
+            "departure": "08:43",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-034",
+            "account": "Kite Supply",
+            "arrival": "09:00",
+            "departure": "09:12",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-041",
+            "account": "Dover Clinic",
+            "arrival": "09:32",
+            "departure": "09:52",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-050",
+            "account": "Mosaic Outfitters",
+            "arrival": "10:15",
+            "departure": "10:42",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-053",
+            "account": "Dover Hardware",
+            "arrival": "10:56",
+            "departure": "11:04",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-058",
+            "account": "Oak Studios",
+            "arrival": "11:21",
+            "departure": "11:33",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-032",
+            "account": "Haven Labs",
+            "arrival": "11:53",
+            "departure": "12:05",
+            "requirement": "standard",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-305",
+        "driver_name": "Nora Patel",
+        "vehicle": "Transit van 31",
+        "home_hub": "HUB-EAST",
+        "route_miles": 76.3,
+        "route_minutes": 408,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-019",
+            "account": "CivicGrid Schools",
+            "arrival": "06:32",
+            "departure": "06:50",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-003",
+            "account": "Lumen Pharmacy",
+            "arrival": "07:10",
+            "departure": "07:25",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-010",
+            "account": "Pioneer Foods",
+            "arrival": "07:48",
+            "departure": "07:58",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-017",
+            "account": "Mosaic Bakery",
+            "arrival": "08:12",
+            "departure": "08:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-024",
+            "account": "Mosaic Pharmacy",
+            "arrival": "08:41",
+            "departure": "09:05",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-030",
+            "account": "Folio Supply",
+            "arrival": "09:25",
+            "departure": "09:45",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-037",
+            "account": "Dover Supply",
+            "arrival": "10:08",
+            "departure": "10:18",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-043",
+            "account": "Haven School",
+            "arrival": "10:32",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-051",
+            "account": "Lumen Outfitters",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-038",
+            "account": "Iris Bakery",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-327",
+        "driver_name": "Owen Clarke",
+        "vehicle": "Box truck 9",
+        "home_hub": "HUB-EAST",
+        "route_miles": 83.3,
+        "route_minutes": 430,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-036",
+            "account": "Nova Pharmacy",
+            "arrival": "06:17",
+            "departure": "06:27",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-005",
+            "account": "Grove Labs",
+            "arrival": "06:47",
+            "departure": "07:02",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-013",
+            "account": "Beacon Supply",
+            "arrival": "07:25",
+            "departure": "07:40",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-021",
+            "account": "Nova Studios",
+            "arrival": "07:54",
+            "departure": "08:13",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-029",
+            "account": "Oak Studios",
+            "arrival": "08:30",
+            "departure": "08:48",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-035",
+            "account": "Folio School",
+            "arrival": "09:08",
+            "departure": "09:24",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-040",
+            "account": "Juniper Foods",
+            "arrival": "09:47",
+            "departure": "09:57",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-047",
+            "account": "Folio Market",
+            "arrival": "10:11",
+            "departure": "10:26",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-049",
+            "account": "Pioneer Hardware",
+            "arrival": "10:43",
+            "departure": "10:58",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-054",
+            "account": "Kite Studios",
+            "arrival": "11:18",
+            "departure": "11:38",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-056",
+            "account": "Pioneer Clinic",
+            "arrival": "12:01",
+            "departure": "12:19",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 12,
+            "stop_id": "STP-042",
+            "account": "Civic Market",
+            "arrival": "12:33",
+            "departure": "12:55",
+            "requirement": "cold_chain",
+            "priority": "A"
+          }
+        ]
+      }
+    ],
+    "unassigned_stop_ids": [],
+    "exceptions": [
+      "2 stops are forecast outside requested windows."
+    ]
+  },
+  {
+    "scenario_id": "PLAN-20260603-06",
+    "generated_at": "2026-06-03T07:15:00+00:00",
+    "iteration": 6,
+    "metrics": {
+      "scenario_id": "PLAN-20260603-06",
+      "total_stops": 64,
+      "assigned_stops": 64,
+      "unassigned_stops": 0,
+      "on_time_percent": 98.0,
+      "priority_a_on_time_percent": 100.0,
+      "total_miles": 456.8,
+      "overtime_minutes": 0,
+      "capacity_violations": 0,
+      "skill_mismatches": 0,
+      "late_stops": 2,
+      "score": 94.8,
+      "engine_note": "Neighborhood ordering improvement over the previous plan."
+    },
+    "planning_context": {
+      "high_priority_stop_count": 14,
+      "special_requirement_stop_count": 50,
+      "drivers_available": 6
+    },
+    "routes": [
+      {
+        "driver_id": "DRV-101",
+        "driver_name": "Marisol Vega",
+        "vehicle": "Transit van 12",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 80.3,
+        "route_minutes": 411,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-004",
+            "account": "Northline Medical",
+            "arrival": "06:17",
+            "departure": "06:45",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-027",
+            "account": "Bayside Market",
+            "arrival": "07:05",
+            "departure": "07:30",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-057",
+            "account": "Lumen Studios",
+            "arrival": "07:53",
+            "departure": "08:05",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-008",
+            "account": "Oak Market",
+            "arrival": "08:19",
+            "departure": "08:29",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-022",
+            "account": "Pioneer Labs",
+            "arrival": "08:46",
+            "departure": "09:01",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-039",
+            "account": "Nova Studios",
+            "arrival": "09:21",
+            "departure": "09:51",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-061",
+            "account": "Oak Hardware",
+            "arrival": "10:14",
+            "departure": "10:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-063",
+            "account": "Dover Labs",
+            "arrival": "10:38",
+            "departure": "10:46",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-012",
+            "account": "Mosaic Outfitters",
+            "arrival": "11:03",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-046",
+            "account": "Kite Foods",
+            "arrival": "11:43",
+            "departure": "11:55",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-015",
+            "account": "Juniper Bakery",
+            "arrival": "12:18",
+            "departure": "12:28",
+            "requirement": "signature",
+            "priority": "C"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-118",
+        "driver_name": "Ken Ito",
+        "vehicle": "Transit van 19",
+        "home_hub": "HUB-NORTH",
+        "route_miles": 76.1,
+        "route_minutes": 400,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-002",
+            "account": "Civic Books",
+            "arrival": "06:32",
+            "departure": "06:42",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-009",
+            "account": "Juniper Clinic",
+            "arrival": "07:02",
+            "departure": "07:17",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-014",
+            "account": "Mosaic Bakery",
+            "arrival": "07:40",
+            "departure": "07:52",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-020",
+            "account": "Dover Books",
+            "arrival": "08:06",
+            "departure": "08:18",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-031",
+            "account": "Aster Pharmacy",
+            "arrival": "08:35",
+            "departure": "08:47",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-044",
+            "account": "Oak Pharmacy",
+            "arrival": "09:07",
+            "departure": "09:31",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-052",
+            "account": "Civic Pharmacy",
+            "arrival": "09:54",
+            "departure": "10:20",
+            "requirement": "bulk",
+            "priority": "C"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-059",
+            "account": "Grove Foods",
+            "arrival": "10:34",
+            "departure": "10:56",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-064",
+            "account": "Dover Supply",
+            "arrival": "11:13",
+            "departure": "11:23",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-023",
+            "account": "Mosaic Foods",
+            "arrival": "11:43",
+            "departure": "12:11",
+            "requirement": "bulk",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-203",
+        "driver_name": "Aisha Morgan",
+        "vehicle": "Box truck 5",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 80.3,
+        "route_minutes": 411,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-011",
+            "account": "Harbor View Foods",
+            "arrival": "06:17",
+            "departure": "06:41",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-048",
+            "account": "Union Hardware",
+            "arrival": "07:01",
+            "departure": "07:16",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-006",
+            "account": "Dover School",
+            "arrival": "07:39",
+            "departure": "07:54",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-016",
+            "account": "Dover Pharmacy",
+            "arrival": "08:08",
+            "departure": "08:32",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-025",
+            "account": "Folio Bakery",
+            "arrival": "08:49",
+            "departure": "09:01",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-033",
+            "account": "Aster Market",
+            "arrival": "09:21",
+            "departure": "09:36",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-045",
+            "account": "Pioneer Books",
+            "arrival": "09:59",
+            "departure": "10:21",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-055",
+            "account": "Mosaic School",
+            "arrival": "10:35",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-060",
+            "account": "Beacon Bakery",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-062",
+            "account": "Haven Clinic",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-026",
+            "account": "Folio Studios",
+            "arrival": "12:24",
+            "departure": "12:36",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-241",
+        "driver_name": "Rafi Benitez",
+        "vehicle": "Transit van 27",
+        "home_hub": "HUB-SOUTH",
+        "route_miles": 76.1,
+        "route_minutes": 400,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-001",
+            "account": "Lumen Outfitters",
+            "arrival": "06:47",
+            "departure": "07:12",
+            "requirement": "bulk",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-007",
+            "account": "Elm Books",
+            "arrival": "07:32",
+            "departure": "07:44",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-018",
+            "account": "Beacon Bakery",
+            "arrival": "08:07",
+            "departure": "08:19",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-028",
+            "account": "Juniper Books",
+            "arrival": "08:33",
+            "departure": "08:43",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-034",
+            "account": "Kite Supply",
+            "arrival": "09:00",
+            "departure": "09:12",
+            "requirement": "cold_chain",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-041",
+            "account": "Dover Clinic",
+            "arrival": "09:32",
+            "departure": "09:52",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-050",
+            "account": "Mosaic Outfitters",
+            "arrival": "10:15",
+            "departure": "10:42",
+            "requirement": "bulk",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-053",
+            "account": "Dover Hardware",
+            "arrival": "10:56",
+            "departure": "11:04",
+            "requirement": "standard",
+            "priority": "A"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-058",
+            "account": "Oak Studios",
+            "arrival": "11:21",
+            "departure": "11:33",
+            "requirement": "retail_receiving",
+            "priority": "C"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-032",
+            "account": "Haven Labs",
+            "arrival": "11:53",
+            "departure": "12:05",
+            "requirement": "standard",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-305",
+        "driver_name": "Nora Patel",
+        "vehicle": "Transit van 31",
+        "home_hub": "HUB-EAST",
+        "route_miles": 76.1,
+        "route_minutes": 400,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-019",
+            "account": "CivicGrid Schools",
+            "arrival": "06:32",
+            "departure": "06:50",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-003",
+            "account": "Lumen Pharmacy",
+            "arrival": "07:10",
+            "departure": "07:25",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-010",
+            "account": "Pioneer Foods",
+            "arrival": "07:48",
+            "departure": "07:58",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-017",
+            "account": "Mosaic Bakery",
+            "arrival": "08:12",
+            "departure": "08:24",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-024",
+            "account": "Mosaic Pharmacy",
+            "arrival": "08:41",
+            "departure": "09:05",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-030",
+            "account": "Folio Supply",
+            "arrival": "09:25",
+            "departure": "09:45",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-037",
+            "account": "Dover Supply",
+            "arrival": "10:08",
+            "departure": "10:18",
+            "requirement": "signature",
+            "priority": "B"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-043",
+            "account": "Haven School",
+            "arrival": "10:32",
+            "departure": "10:47",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-051",
+            "account": "Lumen Outfitters",
+            "arrival": "11:04",
+            "departure": "11:23",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-038",
+            "account": "Iris Bakery",
+            "arrival": "11:43",
+            "departure": "12:01",
+            "requirement": "signature",
+            "priority": "B"
+          }
+        ]
+      },
+      {
+        "driver_id": "DRV-327",
+        "driver_name": "Owen Clarke",
+        "vehicle": "Box truck 9",
+        "home_hub": "HUB-EAST",
+        "route_miles": 84.5,
+        "route_minutes": 422,
+        "stops": [
+          {
+            "seq": 1,
+            "stop_id": "STP-036",
+            "account": "Nova Pharmacy",
+            "arrival": "06:17",
+            "departure": "06:27",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 2,
+            "stop_id": "STP-005",
+            "account": "Grove Labs",
+            "arrival": "06:47",
+            "departure": "07:02",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 3,
+            "stop_id": "STP-013",
+            "account": "Beacon Supply",
+            "arrival": "07:25",
+            "departure": "07:40",
+            "requirement": "signature",
+            "priority": "C"
+          },
+          {
+            "seq": 4,
+            "stop_id": "STP-021",
+            "account": "Nova Studios",
+            "arrival": "07:54",
+            "departure": "08:13",
+            "requirement": "cold_chain",
+            "priority": "B"
+          },
+          {
+            "seq": 5,
+            "stop_id": "STP-029",
+            "account": "Oak Studios",
+            "arrival": "08:30",
+            "departure": "08:48",
+            "requirement": "standard",
+            "priority": "C"
+          },
+          {
+            "seq": 6,
+            "stop_id": "STP-035",
+            "account": "Folio School",
+            "arrival": "09:08",
+            "departure": "09:24",
+            "requirement": "cold_chain",
+            "priority": "A"
+          },
+          {
+            "seq": 7,
+            "stop_id": "STP-040",
+            "account": "Juniper Foods",
+            "arrival": "09:47",
+            "departure": "09:57",
+            "requirement": "signature",
+            "priority": "A"
+          },
+          {
+            "seq": 8,
+            "stop_id": "STP-047",
+            "account": "Folio Market",
+            "arrival": "10:11",
+            "departure": "10:26",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 9,
+            "stop_id": "STP-049",
+            "account": "Pioneer Hardware",
+            "arrival": "10:43",
+            "departure": "10:58",
+            "requirement": "retail_receiving",
+            "priority": "A"
+          },
+          {
+            "seq": 10,
+            "stop_id": "STP-054",
+            "account": "Kite Studios",
+            "arrival": "11:18",
+            "departure": "11:38",
+            "requirement": "standard",
+            "priority": "B"
+          },
+          {
+            "seq": 11,
+            "stop_id": "STP-056",
+            "account": "Pioneer Clinic",
+            "arrival": "12:01",
+            "departure": "12:19",
+            "requirement": "retail_receiving",
+            "priority": "B"
+          },
+          {
+            "seq": 12,
+            "stop_id": "STP-042",
+            "account": "Civic Market",
+            "arrival": "12:33",
+            "departure": "12:55",
+            "requirement": "cold_chain",
+            "priority": "A"
+          }
+        ]
+      }
+    ],
+    "unassigned_stop_ids": [],
+    "exceptions": [
+      "2 stops are forecast outside requested windows."
+    ]
+  }
+]

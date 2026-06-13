@@ -1,0 +1,5 @@
+principal,resource,delegated_scope,expires,source
+atlas_ui_delegate@northstar.example,atlas-ui,limited release_queue support,2026-06-10,delegation log
+docs_preview_delegate@northstar.example,docs-preview,limited release_queue support,2026-06-11,delegation log
+log_formatter_preview_delegate@northstar.example,log-formatter-preview,limited release_queue support,2026-06-12,delegation log
+sandbox_delegate@northstar.example,sandbox,limited release_queue support,2026-06-13,delegation log

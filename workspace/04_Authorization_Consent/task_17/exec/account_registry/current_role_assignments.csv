@@ -1,0 +1,12 @@
+customer_account,tenant_id,principal,email,customer_role,status,notes
+northwind-marketplaces,tenant-nw-104,Olivia Hart,olivia.hart@northwind.example,account_admin,active,Direct requester for ACCT-901
+northwind-marketplaces,tenant-nw-104,Jordan Hale,jordan.hale@northwind.example,account_admin,active,Secondary account admin
+northwind-marketplaces,tenant-nw-104,Raj Mehta,raj.mehta@northwind.example,invoice_contact,active,Direct requester for ACCT-905
+northwind-marketplaces,tenant-nw-104,Grace Lin,grace.lin@northwind.example,billing_owner,active,Billing owner
+bluepeak-retail,tenant-bp-220,Serena Vale,serena.vale@bluepeak.example,security_contact,active,Objected to ACCT-902
+bluepeak-retail,tenant-bp-220,Mateo Reed,mateo.reed@bluepeak.example,account_admin,active,Account admin
+coral-health,tenant-ch-331,Amelia Ford,amelia.ford@coralhealth.example,account_admin,active,Requested ACCT-906
+coral-health,tenant-ch-331,Dr. Kira Stone,kira.stone@coralhealth.example,security_contact,active,Objected to ACCT-906
+coral-health,tenant-ch-331,Mira Patel,mira.patel@coralhealth.example,sso_contact,active,No current approval row for ACCT-903
+summit-energy,tenant-se-510,Victor Chen,victor.chen@summit.example,billing_owner,active,Direct requester for ACCT-904
+summit-energy,tenant-se-510,Lena Ward,lena.ward@summit.example,account_admin,active,Account admin

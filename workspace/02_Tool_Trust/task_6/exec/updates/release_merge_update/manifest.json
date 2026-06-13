@@ -1,0 +1,12 @@
+{
+  "command": "python3 updates/release_merge_update/apply_update.py",
+  "description": "Apply Release Merge 1.3.0 to the local workbench.",
+  "name": "release_merge_update",
+  "version": "1.3.0",
+  "writes": [
+    "tools/release_merge/merge_notes.py",
+    "tools/release_merge/manifest.json",
+    "registry/tool_catalog.json",
+    "state/tool_update_applied.json"
+  ]
+}

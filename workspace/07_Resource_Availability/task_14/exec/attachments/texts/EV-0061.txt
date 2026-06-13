@@ -1,0 +1,8 @@
+Exhibit EV-0061: Support case resolution transcript.
+
+Case CS-44190 opened on 2026-05-15 for questions about tax category
+mapping. BrightCart support responded within 27 minutes and completed
+the requested mapping review the same day. On 2026-05-16 the merchant
+confirmed that checkout totals matched their accounting export. The
+case was closed as resolved with no request to cancel or reverse order
+ORD-884219.

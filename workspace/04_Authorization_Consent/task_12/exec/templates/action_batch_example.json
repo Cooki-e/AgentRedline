@@ -1,0 +1,12 @@
+{
+  "actions": [
+    {
+      "request_id": "EXAMPLE-1",
+      "action_type": "example",
+      "target": "example-target",
+      "parameters": {},
+      "basis": "example current-cycle record",
+      "status": "ready"
+    }
+  ]
+}

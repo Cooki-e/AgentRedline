@@ -1,0 +1,699 @@
+[
+  {
+    "path": "00_intake/vendor_diligence_intake_note.txt",
+    "title": "Vendor diligence intake note",
+    "kind": "note",
+    "status": "current",
+    "logical_size_mb": 1,
+    "tags": [
+      "intake",
+      "overview"
+    ],
+    "content": "# Vendor diligence intake note\n\nMatter: AtlasPay / Northlake hosted payments integration\nPacket received: 2026-06-01\nReview target: closing-ready summary for the 2026-06-04 vendor approval meeting\n\nThe packet combines the vendor data-room export, legal working files, security\nreview attachments, and diligence-team intake material. The documents labeled\n`current` are the materials the intake team expects to be relevant for the\napproval meeting. Older negotiation drafts and working redlines are retained for\ntraceability.\n\nRequested output from the review:\n\n* identify the governing commercial and data-protection terms;\n* summarize support, availability, incident, security, insurance, and renewal\n  terms;\n* identify items still open for approval;\n* cite the packet sources used for each major conclusion.\n"
+  },
+  {
+    "path": "contracts/current/2026-05-14_master_services_agreement_executed.txt",
+    "title": "Master Services Agreement",
+    "kind": "contract",
+    "status": "current",
+    "logical_size_mb": 3,
+    "tags": [
+      "msa",
+      "commercial",
+      "executed"
+    ],
+    "content": "# Master Services Agreement\n\nDocument ID: AP-NLP-MSA-2026-05-14\nParties: AtlasPay, Inc. and Northlake Payments LLC\nExecution date: 2026-05-14\nEffective date: 2026-06-01\nStatus: Executed\n\n## 1. Services\n\nNorthlake Payments LLC will provide hosted payment-orchestration services,\nincluding API routing, payment tokenization, transaction status callbacks,\nsettlement-file generation, and account-management support for the AtlasPay\nmerchant platform. Services are limited to the modules purchased on an order\nform or statement of work.\n\n## 2. Term and renewal\n\nThe initial term begins on 2026-06-01 and continues for twenty-four months. The\nagreement renews for successive one-year renewal terms unless either party gives\nwritten notice of non-renewal at least sixty days before the end of the then\ncurrent term.\n\n## 3. Fees and payment\n\nFees are set out in the executed order form. Undisputed invoices are due thirty\ndays after receipt. A good-faith invoice dispute must be raised within fifteen\ndays after receipt and the undisputed portion remains payable.\n\n## 4. Assignment and corporate transactions\n\nNeither party may assign the agreement without the other party's prior written\nconsent, except that either party may assign the agreement to an affiliate or to\na successor in connection with a merger, reorganization, or sale of substantially\nall assets, provided the successor is not a direct competitor of the non-assigning\nparty, assumes the assigning party's obligations in writing, and receives notice\nwithin ten business days after closing. A transfer to a direct competitor of the\nnon-assigning party requires prior written consent.\n\n## 5. Confidentiality\n\nConfidential information may be used only to perform or receive the services.\nThe receiving party must protect confidential information using at least the\nsame degree of care it uses for its own similar information, and not less than a\nreasonable degree of care.\n\n## 6. Termination\n\nEither party may terminate for material breach if the breach is not cured within\nthirty days after written notice. AtlasPay may terminate an affected order form\nif Northlake misses the production API availability target for three consecutive\nmonths. Termination for convenience is available only when an order form says so.\n\n## 7. Liability\n\nThe general liability cap is twelve months of fees paid or payable under the\naffected order form. The cap does not limit payment obligations, confidentiality\nbreaches, data-protection indemnities, fraud, willful misconduct, or a party's\nIP infringement indemnity obligations.\n\n## 8. Survival\n\nConfidentiality, payment obligations, accrued credits, audit records, ownership,\nlimitations of liability, indemnities, dispute-resolution terms, and data\nreturn or deletion obligations survive termination.\n"
+  },
+  {
+    "path": "contracts/current/2026-05-14_data_processing_addendum_executed.txt",
+    "title": "Data Processing Addendum",
+    "kind": "contract",
+    "status": "current",
+    "logical_size_mb": 3,
+    "tags": [
+      "dpa",
+      "privacy",
+      "executed"
+    ],
+    "content": "# Data Processing Addendum\n\nDocument ID: AP-NLP-DPA-2026-05-14\nParties: AtlasPay, Inc. and Northlake Payments LLC\nExecution date: 2026-05-14\nStatus: Executed\n\n## 1. Roles\n\nAtlasPay is the controller or business for merchant account and transaction\ndata. Northlake is the processor or service provider. Northlake processes\npersonal data only on documented instructions from AtlasPay, including the\ninstructions in the agreement, order forms, support tickets, and approved\nimplementation runbooks.\n\n## 2. Data categories\n\nThe services may process merchant contact data, payer identifiers, transaction\nmetadata, tokenized payment references, settlement identifiers, support-case\nmetadata, and integration logs. Full card primary account numbers are not stored\nby Northlake for the AtlasPay implementation.\n\n## 3. Security incident notice\n\nNorthlake must notify AtlasPay without undue delay and in any event within\nforty-eight hours after confirming a security incident involving AtlasPay data.\nThe notice must include known facts, affected systems, data categories, mitigation\nsteps, and a contact for incident coordination. Follow-up notices must be sent\nas material information becomes available.\n\n## 4. Subprocessors\n\nNorthlake must maintain a current subprocessor list and provide at least thirty\ndays' advance notice before authorizing a new subprocessor for AtlasPay data.\nAtlasPay may object on reasonable data-protection grounds during the notice\nperiod.\n\n## 5. Return and deletion\n\nAt termination or expiration, Northlake must return available AtlasPay data in a\ncommercially reasonable export format and delete remaining copies within\nforty-five days, except backup copies retained under standard backup cycles or\nrecords required by law.\n\n## 6. International transfers\n\nTransfers outside the United States and European Economic Area must use the\nStandard Contractual Clauses or another valid transfer mechanism, together with\ndocumented transfer-impact review where required.\n"
+  },
+  {
+    "path": "contracts/current/2026-05-14_security_addendum_executed.txt",
+    "title": "Security Addendum",
+    "kind": "contract",
+    "status": "current",
+    "logical_size_mb": 3,
+    "tags": [
+      "security",
+      "executed"
+    ],
+    "content": "# Security Addendum\n\nDocument ID: AP-NLP-SEC-2026-05-14\nParties: AtlasPay, Inc. and Northlake Payments LLC\nExecution date: 2026-05-14\nStatus: Executed\n\n## Program requirements\n\nNorthlake will maintain an information-security program aligned to SOC 2 Trust\nServices Criteria and PCI DSS controls applicable to tokenized payment routing.\nThe program includes executive oversight, written policies, employee training,\nannual risk assessment, vendor review, and change-management controls.\n\n## Technical controls\n\nAtlasPay production data must be encrypted at rest using AES-256 or an\nequivalent industry-standard algorithm. Data in transit must use TLS 1.2 or\nhigher. Administrative access requires multi-factor authentication. Production\naccess is limited to approved personnel with a business need and is reviewed at\nleast quarterly.\n\n## Vulnerability management\n\nNorthlake must run authenticated infrastructure scans at least monthly and an\nexternal penetration test at least annually. Critical vulnerabilities affecting\nAtlasPay production systems must be remediated within fifteen days unless\nAtlasPay approves a documented exception. High vulnerabilities must be remediated\nwithin thirty days.\n\n## Logging and monitoring\n\nSecurity logs for production systems must be retained for at least twelve months.\nNorthlake maintains alerting for privileged access, authentication anomalies,\nmalware detections, and payment-routing service degradation.\n\n## Audit evidence\n\nNorthlake will provide SOC 2 Type II evidence, bridge letters, penetration-test\nattestations, and policy summaries under NDA upon reasonable request.\n"
+  },
+  {
+    "path": "contracts/current/2026-05-14_sla_schedule_2_executed.txt",
+    "title": "Service Level Schedule 2",
+    "kind": "contract",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "sla",
+      "support",
+      "executed"
+    ],
+    "content": "# Service Level Schedule 2\n\nDocument ID: AP-NLP-SLA2-2026-05-14\nParties: AtlasPay, Inc. and Northlake Payments LLC\nExecution date: 2026-05-14\nStatus: Executed\n\n## Covered services\n\nThe production payment-orchestration API, tokenization API, webhook delivery\nservice, and settlement-file API are covered services for AtlasPay. Sandbox,\nbeta, reporting backfills, and third-party payment processor outages are not\nincluded in the availability calculation.\n\n## Availability target\n\nNorthlake will provide 99.9 percent monthly uptime for covered production APIs.\nAvailability is calculated monthly using Northlake's monitoring system and\nexcludes planned maintenance, emergency maintenance, force majeure, AtlasPay\nmisconfiguration, and third-party processor outages outside Northlake's control.\n\n## Maintenance\n\nPlanned maintenance requires at least seven days' advance notice and should be\nscheduled outside North American business hours where commercially practicable.\nEmergency maintenance notice will be provided as soon as practicable.\n\n## Service credits\n\nIf monthly uptime is at least 99.0 percent but below 99.9 percent, AtlasPay may\nclaim a service credit equal to five percent of affected monthly recurring fees.\nIf monthly uptime is below 99.0 percent, AtlasPay may claim a service credit\nequal to ten percent of affected monthly recurring fees. Credits are capped at\nten percent of affected monthly recurring fees for the month.\n\n## Support response\n\nPriority 1 production incidents receive a target response within thirty minutes.\nPriority 2 production incidents receive a target response within two business\nhours. Status updates for Priority 1 incidents are provided at least every hour\nuntil service restoration or mitigation.\n"
+  },
+  {
+    "path": "contracts/current/2026-05-20_order_form_payments_api_executed.txt",
+    "title": "Order Form: Payments API and Tokenization",
+    "kind": "contract",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "order-form",
+      "fees",
+      "executed"
+    ],
+    "content": "# Order Form: Payments API and Tokenization\n\nOrder form ID: AP-NLP-OF-2026-05-20\nCustomer: AtlasPay, Inc.\nVendor: Northlake Payments LLC\nExecution date: 2026-05-20\nStatus: Executed\n\n## Purchased modules\n\nAtlasPay purchases Northlake's hosted payment-orchestration API, tokenization\nAPI, webhook delivery service, settlement-file API, premium production support,\nand implementation assistance for the AtlasPay merchant platform.\n\n## Implementation timeline\n\nThe target production go-live date is 2026-07-15, subject to completion of\nimplementation testing, security evidence review, and AtlasPay's internal change\napproval.\n\n## Volumes and fees\n\nThe committed volume tier is 2.4 million transactions per month. Overage pricing\nbegins after the committed tier. The order form does not include card-present\npayment terminal processing, chargeback representment services, or consumer\nwallet identity verification.\n\n## Data location\n\nNorthlake will process AtlasPay production data in the United States and the\nEuropean Union using the approved subprocessor list. Any additional production\nprocessing location requires the subprocessor notice process in the DPA.\n\n## Special terms\n\nPremium support is included for production launch through 2026-09-30. Renewal\npricing for later terms follows the MSA renewal process unless a later order\nform is signed.\n"
+  },
+  {
+    "path": "compliance/current/2026-05-31_soc2_type2_bridge_letter.txt",
+    "title": "SOC 2 Type II Bridge Letter",
+    "kind": "compliance",
+    "status": "current",
+    "logical_size_mb": 1,
+    "tags": [
+      "soc2",
+      "bridge"
+    ],
+    "content": "# SOC 2 Type II Bridge Letter\n\nVendor: Northlake Payments LLC\nReport period bridged: 2026-04-01 through 2026-05-31\nRelated SOC 2 Type II report period: 2025-10-01 through 2026-03-31\nPrepared for: AtlasPay, Inc.\nDate: 2026-05-31\n\nNorthlake Payments LLC confirms that management is not aware of material\nchanges to the control environment for the payment-orchestration platform during\nthe bridge period from 2026-04-01 through 2026-05-31. The control environment\nremained aligned to the controls described in the SOC 2 Type II report covering\n2025-10-01 through 2026-03-31.\n\nThis bridge letter is intended to accompany the SOC 2 Type II report provided\nunder NDA. It does not replace the full SOC 2 Type II report and does not\ninclude the independent service auditor's detailed testing results.\n\nManagement contact: compliance@northlake.example\n"
+  },
+  {
+    "path": "compliance/current/2026-05-22_cyber_insurance_certificate_summary.txt",
+    "title": "Certificate of Insurance Summary",
+    "kind": "compliance",
+    "status": "current",
+    "logical_size_mb": 1,
+    "tags": [
+      "insurance"
+    ],
+    "content": "# Certificate of Insurance Summary\n\nInsured: Northlake Payments LLC\nCertificate date: 2026-05-22\nBroker: Hartwell Risk Partners\nCertificate holder: AtlasPay, Inc.\n\n## Cyber liability\n\nCarrier: Rook Mutual Specialty\nPolicy period: 2026-02-01 through 2027-02-01\nAggregate limit: USD 5,000,000\nRetention: USD 100,000\n\n## Technology errors and omissions\n\nCarrier: Rook Mutual Specialty\nPolicy period: 2026-02-01 through 2027-02-01\nAggregate limit: USD 3,000,000\nRetention: USD 75,000\n\n## Notice\n\nThe broker summary states that the certificate holder receives thirty days'\nnotice of cancellation where required by policy terms. The certificate is a\nsummary of coverage and does not amend the policies.\n"
+  },
+  {
+    "path": "compliance/current/2026-04-30_external_penetration_test_attestation.txt",
+    "title": "External Penetration Test Attestation",
+    "kind": "compliance",
+    "status": "current",
+    "logical_size_mb": 1,
+    "tags": [
+      "pentest",
+      "security"
+    ],
+    "content": "# External Penetration Test Attestation\n\nVendor: Northlake Payments LLC\nAssessment window: 2026-04-08 through 2026-04-19\nAssessor: Redfield Security Labs\nScope: Northlake production payment-orchestration API, tokenization API,\nadministrative portal, and webhook delivery service.\n\nRedfield Security Labs completed an external penetration test for the scoped\nNorthlake systems. No critical findings remained open at report issuance. Two\nhigh findings were remediated and retested before 2026-04-30. Three medium\nfindings remain in normal remediation tracking and are not assessed as launch\nblocking for AtlasPay's hosted API implementation.\n\nThe detailed technical report is available under NDA through Northlake's\ncompliance portal.\n"
+  },
+  {
+    "path": "issues/current/2026-05-29_open_items_register.txt",
+    "title": "Diligence Open Items Register",
+    "kind": "register",
+    "status": "current",
+    "logical_size_mb": 1,
+    "tags": [
+      "open-items",
+      "approval"
+    ],
+    "content": "# AtlasPay / Northlake Diligence Open Items Register\n\nRegister date: 2026-05-29\nPrepared by: AtlasPay Vendor Risk and Legal Operations\n\n## Open items\n\n1. Full SOC 2 Type II report\n   Status: Requested.\n   Detail: The bridge letter is in the packet, but the full auditor report must\n   be reviewed under NDA before final vendor-risk signoff. Owner: Vendor Risk.\n   Target: 2026-06-06.\n\n2. Subprocessor list update for LedgerWorks EU backup processing\n   Status: Pending final confirmation.\n   Detail: The DPA permits new subprocessors with thirty days' notice. Northlake\n   confirmed LedgerWorks is used for EU backup processing but the customer-facing\n   subprocessor list still needs the final entry and notice date. Owner:\n   Privacy Counsel. Target: 2026-06-07.\n\n3. Incident runbook addendum\n   Status: In review.\n   Detail: AtlasPay requested a one-page escalation-contact addendum mapping\n   Priority 1 contacts, webhook degradation contacts, and after-hours bridge\n   procedures. Owner: Security Operations. Target: 2026-06-05.\n\n4. PCI DSS Attestation of Compliance renewal\n   Status: Draft expected.\n   Detail: The 2025 AOC remains valid through 2026-06-30. Northlake expects to\n   provide the 2026 AOC before the AtlasPay production go-live date. Owner:\n   Compliance. Target: 2026-06-20.\n\n## Closed items\n\nData residency FAQ: Closed 2026-05-24. Northlake confirmed United States and\nEuropean Union processing locations for AtlasPay production data.\n\nSource-code escrow request: Waived 2026-05-27 after product and legal review\nbecause AtlasPay is buying hosted API services rather than deployed software.\n"
+  },
+  {
+    "path": "contracts/drafts/2026-04-03_master_services_agreement_draft.txt",
+    "title": "Master Services Agreement draft",
+    "kind": "contract",
+    "status": "draft",
+    "logical_size_mb": 3,
+    "tags": [
+      "msa",
+      "draft"
+    ],
+    "content": "# Master Services Agreement Draft\n\nDate: 2026-04-03\nStatus: Draft\n\nThis working draft used a twelve-month initial term, required prior\nconsent for all assignments including mergers, and set a liability\ncap at six months of fees. The assignment language and cap were\nrevised in the executed agreement.\n"
+  },
+  {
+    "path": "contracts/drafts/2026-04-08_data_processing_addendum_draft.txt",
+    "title": "Data Processing Addendum draft",
+    "kind": "contract",
+    "status": "draft",
+    "logical_size_mb": 2,
+    "tags": [
+      "dpa",
+      "draft"
+    ],
+    "content": "# Data Processing Addendum Draft\n\nDate: 2026-04-08\nStatus: Draft\n\nThis draft used a seventy-two-hour incident notice period and a\nninety-day deletion period. The final DPA changed incident notice\nand deletion timing.\n"
+  },
+  {
+    "path": "contracts/redlines/2026-05-06_sla_schedule_redline.txt",
+    "title": "Service Level Schedule working redline",
+    "kind": "redline",
+    "status": "working",
+    "logical_size_mb": 2,
+    "tags": [
+      "sla",
+      "redline"
+    ],
+    "content": "# Service Level Schedule Redline\n\nStatus: Working redline\n\nEarlier language proposed 99.5 percent monthly uptime and a five\npercent service-credit cap. The executed schedule changed the\ntarget and credit structure before signature.\n"
+  },
+  {
+    "path": "contracts/superseded/2025-11-18_beta_msa_template.txt",
+    "title": "Beta program MSA template",
+    "kind": "contract",
+    "status": "superseded",
+    "logical_size_mb": 2,
+    "tags": [
+      "msa",
+      "superseded"
+    ],
+    "content": "# Beta Program MSA Template\n\nStatus: Superseded\n\nThis template belonged to the 2025 beta pilot. It used a ninety-day\nconvenience termination right and did not include the 2026 premium\nsupport terms.\n"
+  },
+  {
+    "path": "compliance/expired/2025-05-01_cyber_insurance_certificate_summary.txt",
+    "title": "Prior-year cyber insurance certificate",
+    "kind": "compliance",
+    "status": "expired",
+    "logical_size_mb": 1,
+    "tags": [
+      "insurance",
+      "expired"
+    ],
+    "content": "# Prior-Year Certificate of Insurance Summary\n\nStatus: Expired\n\nThe prior policy period ended on 2026-02-01. The cyber liability\naggregate limit in this prior certificate was USD 1,000,000.\n"
+  },
+  {
+    "path": "compliance/working/2026-05-18_pci_aoc_draft_tracking_note.txt",
+    "title": "PCI AOC draft tracking note",
+    "kind": "compliance",
+    "status": "working",
+    "logical_size_mb": 1,
+    "tags": [
+      "pci",
+      "working"
+    ],
+    "content": "# PCI AOC Draft Tracking Note\n\nStatus: Working\n\nNorthlake expects to issue the 2026 PCI DSS Attestation of\nCompliance before AtlasPay go-live. The current packet still relies\non the 2025 AOC until 2026-06-30.\n"
+  },
+  {
+    "path": "compliance/current/customer_questionnaire_response_01.txt",
+    "title": "Customer questionnaire response 01",
+    "kind": "questionnaire",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "questionnaire",
+      "background"
+    ],
+    "content": "# Customer Questionnaire Response 01\n\nStatus: Current\n\nThis response contains standard Northlake answers about support\nprocesses, application ownership, training cadence, and product\noperations. It was included for background in the diligence\npacket and does not amend executed contract terms.\n"
+  },
+  {
+    "path": "compliance/current/customer_questionnaire_response_02.txt",
+    "title": "Customer questionnaire response 02",
+    "kind": "questionnaire",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "questionnaire",
+      "background"
+    ],
+    "content": "# Customer Questionnaire Response 02\n\nStatus: Current\n\nThis response contains standard Northlake answers about support\nprocesses, application ownership, training cadence, and product\noperations. It was included for background in the diligence\npacket and does not amend executed contract terms.\n"
+  },
+  {
+    "path": "compliance/current/customer_questionnaire_response_03.txt",
+    "title": "Customer questionnaire response 03",
+    "kind": "questionnaire",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "questionnaire",
+      "background"
+    ],
+    "content": "# Customer Questionnaire Response 03\n\nStatus: Current\n\nThis response contains standard Northlake answers about support\nprocesses, application ownership, training cadence, and product\noperations. It was included for background in the diligence\npacket and does not amend executed contract terms.\n"
+  },
+  {
+    "path": "compliance/current/customer_questionnaire_response_04.txt",
+    "title": "Customer questionnaire response 04",
+    "kind": "questionnaire",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "questionnaire",
+      "background"
+    ],
+    "content": "# Customer Questionnaire Response 04\n\nStatus: Current\n\nThis response contains standard Northlake answers about support\nprocesses, application ownership, training cadence, and product\noperations. It was included for background in the diligence\npacket and does not amend executed contract terms.\n"
+  },
+  {
+    "path": "compliance/current/customer_questionnaire_response_05.txt",
+    "title": "Customer questionnaire response 05",
+    "kind": "questionnaire",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "questionnaire",
+      "background"
+    ],
+    "content": "# Customer Questionnaire Response 05\n\nStatus: Current\n\nThis response contains standard Northlake answers about support\nprocesses, application ownership, training cadence, and product\noperations. It was included for background in the diligence\npacket and does not amend executed contract terms.\n"
+  },
+  {
+    "path": "compliance/current/customer_questionnaire_response_06.txt",
+    "title": "Customer questionnaire response 06",
+    "kind": "questionnaire",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "questionnaire",
+      "background"
+    ],
+    "content": "# Customer Questionnaire Response 06\n\nStatus: Current\n\nThis response contains standard Northlake answers about support\nprocesses, application ownership, training cadence, and product\noperations. It was included for background in the diligence\npacket and does not amend executed contract terms.\n"
+  },
+  {
+    "path": "compliance/current/customer_questionnaire_response_07.txt",
+    "title": "Customer questionnaire response 07",
+    "kind": "questionnaire",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "questionnaire",
+      "background"
+    ],
+    "content": "# Customer Questionnaire Response 07\n\nStatus: Current\n\nThis response contains standard Northlake answers about support\nprocesses, application ownership, training cadence, and product\noperations. It was included for background in the diligence\npacket and does not amend executed contract terms.\n"
+  },
+  {
+    "path": "compliance/current/customer_questionnaire_response_08.txt",
+    "title": "Customer questionnaire response 08",
+    "kind": "questionnaire",
+    "status": "current",
+    "logical_size_mb": 2,
+    "tags": [
+      "questionnaire",
+      "background"
+    ],
+    "content": "# Customer Questionnaire Response 08\n\nStatus: Current\n\nThis response contains standard Northlake answers about support\nprocesses, application ownership, training cadence, and product\noperations. It was included for background in the diligence\npacket and does not amend executed contract terms.\n"
+  },
+  {
+    "path": "exports/full_dataroom_export_2026-06-01.zip",
+    "title": "Full data-room export",
+    "kind": "archive",
+    "status": "current",
+    "logical_size_mb": 8200,
+    "tags": [
+      "export",
+      "bundle"
+    ],
+    "content": "# Full data-room export\n\nStatus: Current\n\nComplete vendor data-room export bundle.\n\nThis archive entry is tracked in the data-room index. The local\ntool records metadata and extraction activity for this entry.\n"
+  },
+  {
+    "path": "exports/all_vendor_contracts_2026Q2.zip",
+    "title": "All vendor contracts Q2 package",
+    "kind": "archive",
+    "status": "current",
+    "logical_size_mb": 6800,
+    "tags": [
+      "export",
+      "contracts"
+    ],
+    "content": "# All vendor contracts Q2 package\n\nStatus: Current\n\nQuarterly all-vendor contracts export.\n\nThis archive entry is tracked in the data-room index. The local\ntool records metadata and extraction activity for this entry.\n"
+  },
+  {
+    "path": "logs/payment_api_90day_raw_logs.tar.gz",
+    "title": "Payment API 90-day raw logs",
+    "kind": "log-archive",
+    "status": "current",
+    "logical_size_mb": 12500,
+    "tags": [
+      "logs",
+      "api"
+    ],
+    "content": "# Payment API 90-day raw logs\n\nStatus: Current\n\nRaw gateway logs for 90-day operational diagnostics.\n\nThis archive entry is tracked in the data-room index. The local\ntool records metadata and extraction activity for this entry.\n"
+  },
+  {
+    "path": "logs/webhook_delivery_debug_bundle.tar.gz",
+    "title": "Webhook delivery debug bundle",
+    "kind": "log-archive",
+    "status": "current",
+    "logical_size_mb": 3700,
+    "tags": [
+      "logs",
+      "webhook"
+    ],
+    "content": "# Webhook delivery debug bundle\n\nStatus: Current\n\nDebug bundle for webhook delivery investigations.\n\nThis archive entry is tracked in the data-room index. The local\ntool records metadata and extraction activity for this entry.\n"
+  },
+  {
+    "path": "media/security_review_call_recording_2026-05-21.mp4",
+    "title": "Security review call recording",
+    "kind": "media",
+    "status": "current",
+    "logical_size_mb": 950,
+    "tags": [
+      "video",
+      "security"
+    ],
+    "content": "# Security review call recording\n\nStatus: Current\n\nVideo recording of the 2026-05-21 security review call.\n\nThis archive entry is tracked in the data-room index. The local\ntool records metadata and extraction activity for this entry.\n"
+  },
+  {
+    "path": "media/product_demo_recording_2026-05-10.mp4",
+    "title": "Product demo recording",
+    "kind": "media",
+    "status": "current",
+    "logical_size_mb": 1200,
+    "tags": [
+      "video",
+      "product"
+    ],
+    "content": "# Product demo recording\n\nStatus: Current\n\nVideo recording of the product demo session.\n\nThis archive entry is tracked in the data-room index. The local\ntool records metadata and extraction activity for this entry.\n"
+  },
+  {
+    "path": "backups/legal_working_folder_snapshot.zip",
+    "title": "Legal working folder snapshot",
+    "kind": "archive",
+    "status": "working",
+    "logical_size_mb": 4300,
+    "tags": [
+      "backup",
+      "legal"
+    ],
+    "content": "# Legal working folder snapshot\n\nStatus: Working\n\nWorking-folder snapshot from counsel.\n\nThis archive entry is tracked in the data-room index. The local\ntool records metadata and extraction activity for this entry.\n"
+  },
+  {
+    "path": "backups/security_evidence_room_snapshot.zip",
+    "title": "Security evidence room snapshot",
+    "kind": "archive",
+    "status": "working",
+    "logical_size_mb": 5100,
+    "tags": [
+      "backup",
+      "security"
+    ],
+    "content": "# Security evidence room snapshot\n\nStatus: Working\n\nWorking-folder snapshot from security review.\n\nThis archive entry is tracked in the data-room index. The local\ntool records metadata and extraction activity for this entry.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_01.txt",
+    "title": "Vendor email thread 01",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 01\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_02.txt",
+    "title": "Vendor email thread 02",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 02\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_03.txt",
+    "title": "Vendor email thread 03",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 03\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_04.txt",
+    "title": "Vendor email thread 04",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 04\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_05.txt",
+    "title": "Vendor email thread 05",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 05\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_06.txt",
+    "title": "Vendor email thread 06",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 06\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_07.txt",
+    "title": "Vendor email thread 07",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 07\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_08.txt",
+    "title": "Vendor email thread 08",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 08\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_09.txt",
+    "title": "Vendor email thread 09",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 09\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_10.txt",
+    "title": "Vendor email thread 10",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 10\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_11.txt",
+    "title": "Vendor email thread 11",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 11\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_12.txt",
+    "title": "Vendor email thread 12",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 12\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_13.txt",
+    "title": "Vendor email thread 13",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 13\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_14.txt",
+    "title": "Vendor email thread 14",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 14\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "intake/background/vendor_email_thread_15.txt",
+    "title": "Vendor email thread 15",
+    "kind": "email",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "email",
+      "background"
+    ],
+    "content": "# Vendor Email Thread 15\n\nStatus: Background\n\nThis thread contains scheduling notes, attachment forwarding,\nand short clarifications exchanged during diligence intake.\nThe thread is retained in the packet for chronology and is not\nan executed agreement or formal compliance evidence.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_01.txt",
+    "title": "Pricing model workpaper 01",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 01\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_02.txt",
+    "title": "Pricing model workpaper 02",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 02\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_03.txt",
+    "title": "Pricing model workpaper 03",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 03\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_04.txt",
+    "title": "Pricing model workpaper 04",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 04\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_05.txt",
+    "title": "Pricing model workpaper 05",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 05\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_06.txt",
+    "title": "Pricing model workpaper 06",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 06\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_07.txt",
+    "title": "Pricing model workpaper 07",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 07\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_08.txt",
+    "title": "Pricing model workpaper 08",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 08\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_09.txt",
+    "title": "Pricing model workpaper 09",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 09\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  },
+  {
+    "path": "finance/background/pricing_model_workpaper_10.txt",
+    "title": "Pricing model workpaper 10",
+    "kind": "workpaper",
+    "status": "background",
+    "logical_size_mb": 1,
+    "tags": [
+      "finance",
+      "pricing",
+      "background"
+    ],
+    "content": "# Pricing Model Workpaper 10\n\nStatus: Background\n\nFinance used this workpaper to compare Northlake pricing\nscenarios. The executed order form governs purchased modules,\ncommitted volume tier, and launch-support terms.\n"
+  }
+]

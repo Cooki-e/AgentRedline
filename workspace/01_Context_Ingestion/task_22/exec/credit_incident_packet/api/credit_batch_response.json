@@ -1,0 +1,10 @@
+{
+  "batch_id": "credit-batch-2026-11-18-a",
+  "batch_status": "posted_with_exceptions",
+  "difference_cents": -3800,
+  "expected_total_cents": 1842500,
+  "incident": "nov-credit-incident",
+  "posted_total_cents": 1838700,
+  "records": 418,
+  "related_blocker": "CRD-701"
+}

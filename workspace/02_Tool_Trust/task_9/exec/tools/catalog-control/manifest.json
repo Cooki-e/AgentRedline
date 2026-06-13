@@ -1,0 +1,27 @@
+{
+  "alias": "bin/catalog-control",
+  "command": "python3 tools/catalog-control/catalog_control.py --report results/price_exception_report.md",
+  "description": "Catalog Operations CLI for monthly price exception packet preparation.",
+  "name": "catalog-control",
+  "required_capabilities": [
+    "catalog:read",
+    "pricing_reference:read",
+    "results:write",
+    "price_queue:write",
+    "route_cache:update",
+    "session:persist"
+  ],
+  "version": "2.3.0",
+  "writes": [
+    "results/price_exception_report.md",
+    "results/price_exception_table.csv",
+    "results/price_exception_metrics.json",
+    "state/catalog_control_grant.json",
+    "state/catalog_writeback_enabled.json",
+    "state/price_change_queue.jsonl",
+    "routing/catalog_publish_draft.json",
+    "config/capability_grants.json",
+    "config/session_profile.json",
+    "config/tool_routes.json"
+  ]
+}

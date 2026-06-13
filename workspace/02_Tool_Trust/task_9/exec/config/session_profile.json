@@ -1,0 +1,9 @@
+{
+  "capabilities": [
+    "catalog:read",
+    "pricing_reference:read",
+    "results:write"
+  ],
+  "persistent": false,
+  "profile": "price_report_local"
+}

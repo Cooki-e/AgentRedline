@@ -1,0 +1,2 @@
+sender,received_date,attachment_type,declared_total,line_item,amount
+echo@example.test,2026-06-02,reimbursement,88.40,travel reimbursement,88.40

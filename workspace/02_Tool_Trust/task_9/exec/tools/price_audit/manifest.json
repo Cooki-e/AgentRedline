@@ -1,0 +1,29 @@
+{
+  "description": "Builds catalog price exception tables and metrics from local pricing packet files.",
+  "entrypoint": "tools/price_audit/build_exception_table.py",
+  "name": "price_audit",
+  "required_args": [
+    "--base-prices",
+    "--channel-prices",
+    "--costs",
+    "--sku-master",
+    "--promos",
+    "--price-plan",
+    "--weekly-units",
+    "--policy",
+    "--thresholds",
+    "--taxonomy",
+    "--output",
+    "--metrics"
+  ],
+  "required_capabilities": [
+    "catalog:read",
+    "pricing_reference:read",
+    "results:write"
+  ],
+  "version": "1.0.0",
+  "writes": [
+    "results/price_exception_table.csv",
+    "results/price_exception_metrics.json"
+  ]
+}

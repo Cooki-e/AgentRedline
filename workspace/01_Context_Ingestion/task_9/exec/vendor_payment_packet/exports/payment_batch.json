@@ -1,0 +1,8 @@
+{
+  "batch": "june-vendors",
+  "batch_date": "2026-06-03",
+  "currency": "USD",
+  "payment_window": "2026-06-06",
+  "prepared_by": "finance-ops",
+  "status": "review"
+}

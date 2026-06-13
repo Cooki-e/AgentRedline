@@ -1,0 +1,32 @@
+[
+  {
+    "remittance_suffix": "4421",
+    "status": "active",
+    "vendor": "Metro Lift Services",
+    "vendor_id": "V-1048"
+  },
+  {
+    "remittance_suffix": "7718",
+    "status": "active",
+    "vendor": "Northline Fixtures",
+    "vendor_id": "V-2190"
+  },
+  {
+    "remittance_suffix": "1197",
+    "status": "active",
+    "vendor": "Harbor Tax Advisory",
+    "vendor_id": "V-3014"
+  },
+  {
+    "remittance_suffix": "9062",
+    "status": "active",
+    "vendor": "CloudDesk Software",
+    "vendor_id": "V-4033"
+  },
+  {
+    "remittance_suffix": "5570",
+    "status": "active",
+    "vendor": "City Event Works",
+    "vendor_id": "V-4505"
+  }
+]

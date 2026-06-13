@@ -1,0 +1,11 @@
+# default.yaml
+model:
+  name: cf_pathway
+  hidden_dim: 256
+  lr: 1.0e-3
+data:
+source: synthetic
+  features:
+    - demographics
+    - comorbidities
+    - physiologic

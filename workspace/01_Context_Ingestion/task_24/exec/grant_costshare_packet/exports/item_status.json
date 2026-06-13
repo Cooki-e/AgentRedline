@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_note": "budget support short by 3,500 USD",
+    "item_id": "GCS-210",
+    "status": "open",
+    "updated_at": "2026-07-21T15:05:00Z"
+  },
+  {
+    "evidence_note": "PI signature missing on effort certification",
+    "item_id": "GCS-224",
+    "status": "open",
+    "updated_at": "2026-07-21T15:08:00Z"
+  },
+  {
+    "evidence_note": "in-kind valuation support missing",
+    "item_id": "GCS-237",
+    "status": "open",
+    "updated_at": "2026-07-21T15:11:00Z"
+  },
+  {
+    "evidence_note": "equipment invoice attachment missing",
+    "item_id": "GCS-249",
+    "status": "open",
+    "updated_at": "2026-07-21T15:16:00Z"
+  },
+  {
+    "evidence_note": "subaward partner certification not received",
+    "item_id": "GCS-258",
+    "status": "open",
+    "updated_at": "2026-07-21T15:20:00Z"
+  }
+]

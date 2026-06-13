@@ -1,0 +1,190 @@
+{
+  "record_count": 147,
+  "total_amount_usd": 48926000,
+  "commit_amount_usd": 27367000,
+  "by_stage": {
+    "contracting": {
+      "count": 21,
+      "amount_usd": 7503000
+    },
+    "security_review": {
+      "count": 31,
+      "amount_usd": 7806000
+    },
+    "proposal": {
+      "count": 33,
+      "amount_usd": 6867000
+    },
+    "closed_won": {
+      "count": 38,
+      "amount_usd": 19864000
+    },
+    "procurement": {
+      "count": 24,
+      "amount_usd": 6886000
+    }
+  },
+  "by_owner": {
+    "Elena Garcia": {
+      "count": 16,
+      "amount_usd": 5265000
+    },
+    "Jon Bell": {
+      "count": 15,
+      "amount_usd": 5068000
+    },
+    "Sofia Nguyen": {
+      "count": 21,
+      "amount_usd": 6453000
+    },
+    "Theo Alvarez": {
+      "count": 21,
+      "amount_usd": 6884000
+    },
+    "Mina Shah": {
+      "count": 15,
+      "amount_usd": 5524000
+    },
+    "Avery Brooks": {
+      "count": 19,
+      "amount_usd": 5909000
+    },
+    "Priya Raman": {
+      "count": 17,
+      "amount_usd": 5561000
+    },
+    "Marcus Lee": {
+      "count": 23,
+      "amount_usd": 8262000
+    }
+  },
+  "by_segment": {
+    "midmarket": {
+      "count": 48,
+      "amount_usd": 16718000
+    },
+    "strategic": {
+      "count": 51,
+      "amount_usd": 16472000
+    },
+    "enterprise": {
+      "count": 48,
+      "amount_usd": 15736000
+    }
+  },
+  "stale_10d_count": 63,
+  "top_records": [
+    {
+      "opportunity_id": "OPP-Q2-0028",
+      "account": "Ironwood Energy",
+      "segment": "strategic",
+      "stage": "closed_won",
+      "owner": "Priya Raman",
+      "source": "customer-expansion",
+      "industry": "Healthcare",
+      "amount_usd": 687000,
+      "forecast_category": "commit",
+      "close_date": "2026-04-24",
+      "last_activity_at": "2026-05-25T05:30:00Z",
+      "next_step": "Finalize order form"
+    },
+    {
+      "opportunity_id": "OPP-Q2-0014",
+      "account": "Westbridge Systems",
+      "segment": "midmarket",
+      "stage": "closed_won",
+      "owner": "Mina Shah",
+      "source": "outbound",
+      "industry": "Manufacturing",
+      "amount_usd": 682000,
+      "forecast_category": "commit",
+      "close_date": "2026-05-20",
+      "last_activity_at": "2026-05-27T01:30:00Z",
+      "next_step": "Prepare executive mutual plan"
+    },
+    {
+      "opportunity_id": "OPP-Q2-0022",
+      "account": "Vertex Cloud",
+      "segment": "midmarket",
+      "stage": "closed_won",
+      "owner": "Avery Brooks",
+      "source": "web-demo",
+      "industry": "Public Sector",
+      "amount_usd": 681000,
+      "forecast_category": "commit",
+      "close_date": "2026-04-20",
+      "last_activity_at": "2026-05-24T09:30:00Z",
+      "next_step": "Security questionnaire follow-up"
+    },
+    {
+      "opportunity_id": "OPP-Q2-0035",
+      "account": "Oakline Logistics",
+      "segment": "midmarket",
+      "stage": "closed_won",
+      "owner": "Priya Raman",
+      "source": "web-demo",
+      "industry": "Retail",
+      "amount_usd": 660000,
+      "forecast_category": "commit",
+      "close_date": "2026-05-28",
+      "last_activity_at": "2026-05-17T07:30:00Z",
+      "next_step": "Finalize order form"
+    },
+    {
+      "opportunity_id": "OPP-Q2-0021",
+      "account": "Granite Capital",
+      "segment": "enterprise",
+      "stage": "closed_won",
+      "owner": "Jon Bell",
+      "source": "web-demo",
+      "industry": "Technology",
+      "amount_usd": 653000,
+      "forecast_category": "commit",
+      "close_date": "2026-05-13",
+      "last_activity_at": "2026-06-01T07:30:00Z",
+      "next_step": "Security questionnaire follow-up"
+    },
+    {
+      "opportunity_id": "OPP-Q2-0038",
+      "account": "Northstar Systems",
+      "segment": "midmarket",
+      "stage": "closed_won",
+      "owner": "Theo Alvarez",
+      "source": "customer-expansion",
+      "industry": "Logistics",
+      "amount_usd": 614000,
+      "forecast_category": "commit",
+      "close_date": "2026-06-20",
+      "last_activity_at": "2026-05-23T05:30:00Z",
+      "next_step": "Confirm procurement schedule"
+    },
+    {
+      "opportunity_id": "OPP-Q2-0008",
+      "account": "Union Logistics",
+      "segment": "enterprise",
+      "stage": "closed_won",
+      "owner": "Marcus Lee",
+      "source": "customer-expansion",
+      "industry": "Financial Services",
+      "amount_usd": 608000,
+      "forecast_category": "commit",
+      "close_date": "2026-05-10",
+      "last_activity_at": "2026-05-21T09:30:00Z",
+      "next_step": "Send revised proposal"
+    },
+    {
+      "opportunity_id": "OPP-Q2-0006",
+      "account": "Bluewater Capital",
+      "segment": "enterprise",
+      "stage": "closed_won",
+      "owner": "Marcus Lee",
+      "source": "partner-referral",
+      "industry": "Retail",
+      "amount_usd": 598000,
+      "forecast_category": "commit",
+      "close_date": "2026-06-03",
+      "last_activity_at": "2026-05-18T03:30:00Z",
+      "next_step": "Book implementation review"
+    }
+  ]
+}

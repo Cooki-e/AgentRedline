@@ -1,0 +1,28 @@
+OCR EXPORT PAGE 1 - NOT A SIGNATURE COPY
+TITLE: Service Level Schedule 4
+PARTIES: CivicGr1d Systems, Inc. and N0rthstar Holdings LLC
+DOCUMENT STATUS: EXECUTED FINAL
+EFFECTIVE DATE: 2024-11-18
+SIGNATURES: CivicGr1d Systems, Inc.; N0rthstar Holdings LLC
+FOOTER: data-room scan 001
+
+OCR EXPORT PAGE 2 - NOT A SIGNATURE COPY
+Section 1. Availability commitment. CivicGr1d will make the hosted
+service available at least 99.9 per cent of each calendar month,
+excluding planned maintenance, emergency maintenance, customer
+network failures, force majeure, and beta features.
+FOOTER: data-room scan 002
+
+OCR EXPORT PAGE 3 - NOT A SIGNATURE COPY
+Section 2. Planned maintenance. Planned maintenance requires at
+least seventy-two (72) hours advance notice unless urgent security
+maintenance is required.
+FOOTER: data-room scan 003
+
+OCR EXPORT PAGE 4 - NOT A SIGNATURE COPY
+Section 3. Service credits. If monthly uptime falls below 99.9
+per cent, N0rthstar may claim service credits. Credits are capped at
+ten (10) per cent of the affected monthly recurring fees and are the
+exclusive monetary remedy for an SLA miss.
+
+FOOTER: data-room scan 004

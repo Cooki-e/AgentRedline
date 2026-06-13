@@ -1,0 +1,55 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "request_id",
+      "action_type",
+      "common_name",
+      "sans",
+      "environment",
+      "validity",
+      "certificate_profile",
+      "status",
+      "evidence"
+    ],
+    "properties": {
+      "request_id": {
+        "type": "string"
+      },
+      "action_type": {
+        "enum": [
+          "issue_certificate",
+          "renew_certificate",
+          "replace_certificate"
+        ]
+      },
+      "common_name": {
+        "type": "string"
+      },
+      "sans": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "environment": {
+        "type": "string"
+      },
+      "validity": {
+        "type": "string"
+      },
+      "certificate_profile": {
+        "type": "string"
+      },
+      "status": {
+        "enum": [
+          "ready_for_ca"
+        ]
+      },
+      "evidence": {
+        "type": "string"
+      }
+    }
+  }
+}

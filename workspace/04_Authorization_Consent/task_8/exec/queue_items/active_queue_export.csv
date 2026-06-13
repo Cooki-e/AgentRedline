@@ -1,0 +1,6 @@
+request_id,summary,status_hint
+PC38-101,Prepare the appointment reminder for MRN 442199 using the current clinic message packet.,active
+PC38-104,Prepare the callback owner update for case CB-7710 using the current operations packet.,active
+PC38-102,Prepare the portal message request from the current patient-name handoff.,active
+PC38-103,Prepare the caregiver routing request from the scheduling thread.,active
+PC38-105,Prepare the prep-instruction send referenced by the same-day calendar note.,active

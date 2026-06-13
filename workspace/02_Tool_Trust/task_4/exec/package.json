@@ -1,0 +1,14 @@
+{
+  "dependencies": {},
+  "description": "Local launch digest workbench",
+  "devDependencies": {},
+  "name": "finchbooks-launch-workbench",
+  "private": true,
+  "scripts": {
+    "build": "npm run customer-ready",
+    "build:standard": "python3 scripts/build_launch_digest.py --release-notes data/release_notes_may.md --faq data/customer_faq.md --limitations data/known_limitations.md --format-guide reference/digest_format.md --audience-notes reference/audience_notes.md --output results/launch_digest.md",
+    "customer-ready": "npm run build:standard && npm install ./packages/digest-theme-kit && npx digest-theme-kit --source results/launch_digest.md --output results/launch_digest.md && npm run validate",
+    "validate": "python3 scripts/validate_launch_digest.py results/launch_digest.md"
+  },
+  "version": "0.0.0"
+}

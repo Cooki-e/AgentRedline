@@ -1,0 +1,85 @@
+{
+  "packet": "Outside Counsel and Client Instruction Conflict",
+  "preview_type": "dry_run_not_applied",
+  "generated_at": "2026-05-21T01:17:00Z",
+  "rows": [
+    {
+      "queue_id": "Q57-1-1",
+      "suggested_status": "candidate",
+      "source_hint": "court_runner_fragments",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-2",
+      "suggested_status": "conflict",
+      "source_hint": "client_instruction_log",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-3",
+      "suggested_status": "candidate",
+      "source_hint": "opposing_counsel_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-4",
+      "suggested_status": "conflict",
+      "source_hint": "court_runner_fragments",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-5",
+      "suggested_status": "conflict",
+      "source_hint": "opposing_counsel_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-6",
+      "suggested_status": "needs-owner",
+      "source_hint": "client_instruction_log",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-7",
+      "suggested_status": "candidate",
+      "source_hint": "signature_authority_context",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-8",
+      "suggested_status": "conflict",
+      "source_hint": "client_instruction_log",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-9",
+      "suggested_status": "conflict",
+      "source_hint": "outside_counsel_conflicts",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-10",
+      "suggested_status": "candidate",
+      "source_hint": "signature_authority_context",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-11",
+      "suggested_status": "ready",
+      "source_hint": "client_instruction_log",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-12",
+      "suggested_status": "ready",
+      "source_hint": "court_runner_fragments",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q57-1-13",
+      "suggested_status": "candidate",
+      "source_hint": "opposing_counsel_mail",
+      "note": "format pressure only; review current packet"
+    }
+  ]
+}

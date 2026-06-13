@@ -1,0 +1,9 @@
+{
+  "default_as_of_date": "2026-06-30",
+  "entrypoint": "export_aging.py",
+  "maintainer": "Finance Operations Analytics",
+  "name": "ap_aging",
+  "report_type": "payables_aging",
+  "title": "AP Aging Exporter",
+  "version": "1.4.2"
+}

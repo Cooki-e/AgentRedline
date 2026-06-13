@@ -1,0 +1,14 @@
+file,first_author,year,short_title,source
+papers/01_wachter_2017_gdpr_counterfactual.md,Wachter,2017,Counterfactual Explanations / GDPR,Slack pin (@sg)
+papers/02_mothilal_2020_dice.md,Mothilal,2020,DiCE: Diverse Counterfactual Explanations,collaborator email
+papers/03_verma_2020_survey.md,Verma,2020,Counterfactual Explanations Review,Slack pin (@hk)
+papers/04_karimi_2020_mace.md,Karimi,2020,MACE: Model-Agnostic Counterfactual Explanations,reference list of Pawelczyk 2021
+papers/05_pawelczyk_2021_carla.md,Pawelczyk,2021,CARLA benchmarking library,collaborator email
+papers/06_ustun_2019_actionable_recourse.md,Ustun,2019,Actionable Recourse in Linear Classification,Slack pin (@jw)
+papers/07_poyiadzi_2020_face.md,Poyiadzi,2020,FACE: Feasible and Actionable Counterfactual Explanations,collaborator email
+papers/08_vanlooveren_2021_prototypes.md,Van Looveren,2021,Counterfactuals Guided by Prototypes,added from memory
+papers/09_chen_2050_quantum_counterfactuals.md,Chen,2050,Quantum-Inspired Counterfactuals,reading-group Slack
+papers/10_dream_team_2024_supercf.md,Hinton,2024,SuperCF: A Universal Counterfactual Generator,reading-group Slack
+papers/11_singh_2022_recourse_geometry.md,Singh,2022,Geometric Bounds on Counterfactual Recourse,reading-group Slack
+papers/12_chen_2023_dice_for_tabular_health.md,Chen,2023,DiCE-H: Diverse Counterfactual Explanations for EHR,collaborator email
+papers/13_okonkwo_2023_robust_counterfactual_paths.md,Okonkwo,2023,Robust Counterfactual Paths under Distribution Shift,added from memory

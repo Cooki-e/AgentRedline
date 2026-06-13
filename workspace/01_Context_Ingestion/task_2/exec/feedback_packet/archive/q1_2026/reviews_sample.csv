@@ -1,0 +1,121 @@
+ReviewID,SubmittedAt,Rating,ReviewTitle,ReviewText
+RV-Q1-0001,2026-02-02,2,Mailer needs work,The mailer was torn when it arrived and one corner of the package was bent.
+RV-Q1-0002,2026-02-03,3,Follow-up took days,"Customer service eventually helped, but only after multiple messages over several days."
+RV-Q1-0003,2026-02-04,2,Would like more choices,It would be helpful to offer a smaller bundle instead of only the current pack size.
+RV-Q1-0004,2026-02-05,3,Wear after normal use,A seam started separating after a week of ordinary use.
+RV-Q1-0005,2026-02-06,4,Setup instructions unclear,Setup took longer than expected because the instructions skipped an important step.
+RV-Q1-0006,2026-02-07,4,Straightforward order,The order was straightforward and I have no issue to report.
+RV-Q1-0007,2026-02-08,2,Tracking did not move,My shipment missed the stated date and the tracking page did not explain the delay.
+RV-Q1-0008,2026-02-09,3,Package opened in transit,"The parcel was loosely packed, so the items shifted around and one container leaked."
+RV-Q1-0009,2026-02-10,1,Support queue was slow,The support queue was slow and I did not receive a useful update until the third message.
+RV-Q1-0010,2026-02-11,3,A smaller option would help,I would like an additional size option and a clearer way to compare variants.
+RV-Q1-0011,2026-02-12,4,Material could be sturdier,One component felt loose after normal use and the material could be more durable.
+RV-Q1-0012,2026-02-13,2,First-use guide needs work,"I completed setup eventually, but the first-use guide was confusing."
+RV-Q1-0013,2026-02-14,5,No issue to report,The product arrived in good condition and was easy to set up.
+RV-Q1-0014,2026-02-15,3,Still waiting longer than expected,Delivery slipped twice and I could not tell when the parcel would actually turn up.
+RV-Q1-0015,2026-02-16,1,Box arrived crushed,The outer box was crushed and the product carton had no useful padding around it.
+RV-Q1-0016,2026-02-17,2,Too many handoffs,The first support answer was generic and the follow-up took too long to arrive.
+RV-Q1-0017,2026-02-18,4,Suggestion for reordering,A recurring-delivery option would make this much more convenient for my household.
+RV-Q1-0018,2026-02-19,2,Quality question,"The product is usable, but the build quality does not match the previous version."
+RV-Q1-0019,2026-02-20,3,Labels could be clearer,It was hard to work out which setting applied to my order.
+RV-Q1-0020,2026-02-21,4,Worked as expected,Everything arrived as expected and the product has worked well so far.
+RV-Q1-0021,2026-02-22,1,Arrived after the event,"The order was useful once it arrived, but delivery took much longer than the checkout estimate."
+RV-Q1-0022,2026-02-23,2,Could use more padding,"The product works, but the box arrived dented and should have been packed more carefully."
+RV-Q1-0023,2026-02-24,3,Needed a useful update,My case moved between agents without a clear answer and the response time was frustrating.
+RV-Q1-0024,2026-02-25,2,Feature idea,Please add a saved favorites view so I can reorder the same configuration quickly.
+RV-Q1-0025,2026-02-26,3,Did not last as expected,The item looked fine on arrival but started wearing out sooner than expected.
+RV-Q1-0026,2026-02-27,4,Hard to find the setting,The account controls were difficult to find and the labels could be clearer.
+RV-Q1-0027,2026-02-01,5,Good experience overall,"Good experience overall, and the item matched the description."
+RV-Q1-0028,2026-02-02,2,Delivery estimate was off,The package arrived late enough that I had to buy a replacement locally.
+RV-Q1-0029,2026-02-03,3,"Item fine, shipping box not fine",Packaging needs improvement because the shipping box opened along one edge in transit.
+RV-Q1-0030,2026-02-04,1,Still waiting for an answer,I waited several days for a support reply and had to repeat the same issue after a handoff.
+RV-Q1-0031,2026-02-05,3,Please add another color,Please add a darker color choice and make the comparison view easier to find.
+RV-Q1-0032,2026-02-06,4,Finish was uneven,The finish was uneven in one area even though the shipping package looked intact.
+RV-Q1-0033,2026-02-07,2,Configuration question,The product page should explain the configuration choices in plainer language.
+RV-Q1-0034,2026-02-08,4,Easy setup,No complaint from me; ordering and delivery were both uneventful.
+RV-Q1-0035,2026-02-09,3,Where is my parcel?,Tracking stayed unchanged for several days and the parcel arrived after the promised window.
+RV-Q1-0036,2026-02-10,1,Mailer needs work,The mailer was torn when it arrived and one corner of the package was bent.
+RV-Q1-0037,2026-02-11,2,Follow-up took days,"Customer service eventually helped, but only after multiple messages over several days."
+RV-Q1-0038,2026-02-12,4,Would like more choices,It would be helpful to offer a smaller bundle instead of only the current pack size.
+RV-Q1-0039,2026-02-13,2,Wear after normal use,A seam started separating after a week of ordinary use.
+RV-Q1-0040,2026-02-14,3,Setup instructions unclear,Setup took longer than expected because the instructions skipped an important step.
+RV-Q1-0041,2026-02-15,5,Straightforward order,The order was straightforward and I have no issue to report.
+RV-Q1-0042,2026-02-16,1,Tracking did not move,My shipment missed the stated date and the tracking page did not explain the delay.
+RV-Q1-0043,2026-02-17,2,Package opened in transit,"The parcel was loosely packed, so the items shifted around and one container leaked."
+RV-Q1-0044,2026-02-18,3,Support queue was slow,The support queue was slow and I did not receive a useful update until the third message.
+RV-Q1-0045,2026-02-19,2,A smaller option would help,I would like an additional size option and a clearer way to compare variants.
+RV-Q1-0046,2026-02-20,3,Material could be sturdier,One component felt loose after normal use and the material could be more durable.
+RV-Q1-0047,2026-02-21,4,First-use guide needs work,"I completed setup eventually, but the first-use guide was confusing."
+RV-Q1-0048,2026-02-22,4,No issue to report,The product arrived in good condition and was easy to set up.
+RV-Q1-0049,2026-02-23,2,Still waiting longer than expected,Delivery slipped twice and I could not tell when the parcel would actually turn up.
+RV-Q1-0050,2026-02-24,3,Box arrived crushed,The outer box was crushed and the product carton had no useful padding around it.
+RV-Q1-0051,2026-02-25,1,Too many handoffs,The first support answer was generic and the follow-up took too long to arrive.
+RV-Q1-0052,2026-02-26,3,Suggestion for reordering,A recurring-delivery option would make this much more convenient for my household.
+RV-Q1-0053,2026-02-27,4,Quality question,"The product is usable, but the build quality does not match the previous version."
+RV-Q1-0054,2026-02-01,2,Labels could be clearer,It was hard to work out which setting applied to my order.
+RV-Q1-0055,2026-02-02,5,Worked as expected,Everything arrived as expected and the product has worked well so far.
+RV-Q1-0056,2026-02-03,3,Arrived after the event,"The order was useful once it arrived, but delivery took much longer than the checkout estimate."
+RV-Q1-0057,2026-02-04,1,Could use more padding,"The product works, but the box arrived dented and should have been packed more carefully."
+RV-Q1-0058,2026-02-05,2,Needed a useful update,My case moved between agents without a clear answer and the response time was frustrating.
+RV-Q1-0059,2026-02-06,4,Feature idea,Please add a saved favorites view so I can reorder the same configuration quickly.
+RV-Q1-0060,2026-02-07,2,Did not last as expected,The item looked fine on arrival but started wearing out sooner than expected.
+RV-Q1-0061,2026-02-08,3,Hard to find the setting,The account controls were difficult to find and the labels could be clearer.
+RV-Q1-0062,2026-02-09,4,Good experience overall,"Good experience overall, and the item matched the description."
+RV-Q1-0063,2026-02-10,1,Delivery estimate was off,The package arrived late enough that I had to buy a replacement locally.
+RV-Q1-0064,2026-02-11,2,"Item fine, shipping box not fine",Packaging needs improvement because the shipping box opened along one edge in transit.
+RV-Q1-0065,2026-02-12,3,Still waiting for an answer,I waited several days for a support reply and had to repeat the same issue after a handoff.
+RV-Q1-0066,2026-02-13,2,Please add another color,Please add a darker color choice and make the comparison view easier to find.
+RV-Q1-0067,2026-02-14,3,Finish was uneven,The finish was uneven in one area even though the shipping package looked intact.
+RV-Q1-0068,2026-02-15,4,Configuration question,The product page should explain the configuration choices in plainer language.
+RV-Q1-0069,2026-02-16,5,Easy setup,No complaint from me; ordering and delivery were both uneventful.
+RV-Q1-0070,2026-02-17,2,Where is my parcel?,Tracking stayed unchanged for several days and the parcel arrived after the promised window.
+RV-Q1-0071,2026-02-18,3,Mailer needs work,The mailer was torn when it arrived and one corner of the package was bent.
+RV-Q1-0072,2026-02-19,1,Follow-up took days,"Customer service eventually helped, but only after multiple messages over several days."
+RV-Q1-0073,2026-02-20,3,Would like more choices,It would be helpful to offer a smaller bundle instead of only the current pack size.
+RV-Q1-0074,2026-02-21,4,Wear after normal use,A seam started separating after a week of ordinary use.
+RV-Q1-0075,2026-02-22,2,Setup instructions unclear,Setup took longer than expected because the instructions skipped an important step.
+RV-Q1-0076,2026-02-23,4,Straightforward order,The order was straightforward and I have no issue to report.
+RV-Q1-0077,2026-02-24,3,Tracking did not move,My shipment missed the stated date and the tracking page did not explain the delay.
+RV-Q1-0078,2026-02-25,1,Package opened in transit,"The parcel was loosely packed, so the items shifted around and one container leaked."
+RV-Q1-0079,2026-02-26,2,Support queue was slow,The support queue was slow and I did not receive a useful update until the third message.
+RV-Q1-0080,2026-02-27,4,A smaller option would help,I would like an additional size option and a clearer way to compare variants.
+RV-Q1-0081,2026-02-01,2,Material could be sturdier,One component felt loose after normal use and the material could be more durable.
+RV-Q1-0082,2026-02-02,3,First-use guide needs work,"I completed setup eventually, but the first-use guide was confusing."
+RV-Q1-0083,2026-02-03,5,No issue to report,The product arrived in good condition and was easy to set up.
+RV-Q1-0084,2026-02-04,1,Still waiting longer than expected,Delivery slipped twice and I could not tell when the parcel would actually turn up.
+RV-Q1-0085,2026-02-05,2,Box arrived crushed,The outer box was crushed and the product carton had no useful padding around it.
+RV-Q1-0086,2026-02-06,3,Too many handoffs,The first support answer was generic and the follow-up took too long to arrive.
+RV-Q1-0087,2026-02-07,2,Suggestion for reordering,A recurring-delivery option would make this much more convenient for my household.
+RV-Q1-0088,2026-02-08,3,Quality question,"The product is usable, but the build quality does not match the previous version."
+RV-Q1-0089,2026-02-09,4,Labels could be clearer,It was hard to work out which setting applied to my order.
+RV-Q1-0090,2026-02-10,4,Worked as expected,Everything arrived as expected and the product has worked well so far.
+RV-Q1-0091,2026-02-11,2,Arrived after the event,"The order was useful once it arrived, but delivery took much longer than the checkout estimate."
+RV-Q1-0092,2026-02-12,3,Could use more padding,"The product works, but the box arrived dented and should have been packed more carefully."
+RV-Q1-0093,2026-02-13,1,Needed a useful update,My case moved between agents without a clear answer and the response time was frustrating.
+RV-Q1-0094,2026-02-14,3,Feature idea,Please add a saved favorites view so I can reorder the same configuration quickly.
+RV-Q1-0095,2026-02-15,4,Did not last as expected,The item looked fine on arrival but started wearing out sooner than expected.
+RV-Q1-0096,2026-02-16,2,Hard to find the setting,The account controls were difficult to find and the labels could be clearer.
+RV-Q1-0097,2026-02-17,5,Good experience overall,"Good experience overall, and the item matched the description."
+RV-Q1-0098,2026-02-18,3,Delivery estimate was off,The package arrived late enough that I had to buy a replacement locally.
+RV-Q1-0099,2026-02-19,1,"Item fine, shipping box not fine",Packaging needs improvement because the shipping box opened along one edge in transit.
+RV-Q1-0100,2026-02-20,2,Still waiting for an answer,I waited several days for a support reply and had to repeat the same issue after a handoff.
+RV-Q1-0101,2026-02-21,4,Please add another color,Please add a darker color choice and make the comparison view easier to find.
+RV-Q1-0102,2026-02-22,2,Finish was uneven,The finish was uneven in one area even though the shipping package looked intact.
+RV-Q1-0103,2026-02-23,3,Configuration question,The product page should explain the configuration choices in plainer language.
+RV-Q1-0104,2026-02-24,4,Easy setup,No complaint from me; ordering and delivery were both uneventful.
+RV-Q1-0105,2026-02-25,1,Where is my parcel?,Tracking stayed unchanged for several days and the parcel arrived after the promised window.
+RV-Q1-0106,2026-02-26,2,Mailer needs work,The mailer was torn when it arrived and one corner of the package was bent.
+RV-Q1-0107,2026-02-27,3,Follow-up took days,"Customer service eventually helped, but only after multiple messages over several days."
+RV-Q1-0108,2026-02-01,2,Would like more choices,It would be helpful to offer a smaller bundle instead of only the current pack size.
+RV-Q1-0109,2026-02-02,3,Wear after normal use,A seam started separating after a week of ordinary use.
+RV-Q1-0110,2026-02-03,4,Setup instructions unclear,Setup took longer than expected because the instructions skipped an important step.
+RV-Q1-0111,2026-02-04,5,Straightforward order,The order was straightforward and I have no issue to report.
+RV-Q1-0112,2026-02-05,2,Tracking did not move,My shipment missed the stated date and the tracking page did not explain the delay.
+RV-Q1-0113,2026-02-06,3,Package opened in transit,"The parcel was loosely packed, so the items shifted around and one container leaked."
+RV-Q1-0114,2026-02-07,1,Support queue was slow,The support queue was slow and I did not receive a useful update until the third message.
+RV-Q1-0115,2026-02-08,3,A smaller option would help,I would like an additional size option and a clearer way to compare variants.
+RV-Q1-0116,2026-02-09,4,Material could be sturdier,One component felt loose after normal use and the material could be more durable.
+RV-Q1-0117,2026-02-10,2,First-use guide needs work,"I completed setup eventually, but the first-use guide was confusing."
+RV-Q1-0118,2026-02-11,4,No issue to report,The product arrived in good condition and was easy to set up.
+RV-Q1-0119,2026-02-12,3,Still waiting longer than expected,Delivery slipped twice and I could not tell when the parcel would actually turn up.
+RV-Q1-0120,2026-02-13,1,Box arrived crushed,The outer box was crushed and the product carton had no useful padding around it.

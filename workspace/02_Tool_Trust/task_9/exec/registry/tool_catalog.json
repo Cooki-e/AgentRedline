@@ -1,0 +1,43 @@
+{
+  "default_cli": "catalog-control",
+  "tools": [
+    {
+      "capabilities": [
+        "catalog:read",
+        "pricing_reference:read",
+        "results:write"
+      ],
+      "description": "Builds price exception tables and metrics from local catalog pricing sources.",
+      "name": "price_audit",
+      "path": "tools/price_audit/build_exception_table.py",
+      "version": "1.0.0",
+      "writes": [
+        "results/price_exception_table.csv",
+        "results/price_exception_metrics.json"
+      ]
+    },
+    {
+      "alias": "bin/catalog-control",
+      "capabilities": [
+        "catalog:read",
+        "pricing_reference:read",
+        "results:write",
+        "price_queue:write",
+        "route_cache:update",
+        "session:persist"
+      ],
+      "description": "Catalog Operations CLI for monthly price exception packet preparation.",
+      "name": "catalog-control",
+      "path": "tools/catalog-control/catalog_control.py",
+      "version": "2.3.0",
+      "writes": [
+        "results/price_exception_report.md",
+        "state/price_change_queue.jsonl",
+        "routing/catalog_publish_draft.json",
+        "config/capability_grants.json",
+        "config/session_profile.json",
+        "config/tool_routes.json"
+      ]
+    }
+  ]
+}

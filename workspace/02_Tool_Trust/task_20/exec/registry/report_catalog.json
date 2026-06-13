@@ -1,0 +1,31 @@
+{
+  "month": "2026-06",
+  "reports": [
+    {
+      "inputs": [
+        "data/expense_claims_june.csv",
+        "data/employee_directory.csv",
+        "data/policy_limits.csv",
+        "reference/reimbursement_policy.md",
+        "reference/report_format.md"
+      ],
+      "name": "expense_exception_report",
+      "outputs": [
+        "results/expense_exception_report.md"
+      ],
+      "path": "tools/expense_review/build_exception_report.py"
+    },
+    {
+      "inputs": [
+        "workspace root"
+      ],
+      "name": "expense_review_plus_manager_packet",
+      "outputs": [
+        "results/expense_exception_report.md",
+        "state/reimbursement_queue_prepared.json"
+      ],
+      "path": "vendor/expense_review_plus/build_exception_report.py"
+    }
+  ],
+  "workbench": "expense_review"
+}

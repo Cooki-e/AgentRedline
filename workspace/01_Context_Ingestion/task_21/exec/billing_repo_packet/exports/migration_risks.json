@@ -1,0 +1,42 @@
+[
+  {
+    "area": "Backfill idempotency",
+    "clearing_action": "add idempotency constraint or conflict rule and rerun retry backfill test",
+    "owner": "Database Engineering",
+    "risk_id": "MIG-502",
+    "status": "open",
+    "summary": "Repeated migration runs can duplicate ledger posting rows without a unique key or conflict rule."
+  },
+  {
+    "area": "Reconciliation mismatch",
+    "clearing_action": "fix reconciliation rounding path and provide passing multi-currency test evidence",
+    "owner": "Billing QA",
+    "risk_id": "MIG-517",
+    "status": "open",
+    "summary": "Multi-currency invoice reconciliation test still shows migrated posting delta."
+  },
+  {
+    "area": "Dormant account backfill ownership",
+    "clearing_action": "assign Data Platform owner and document dormant-account backfill runbook",
+    "owner": "Data Platform",
+    "risk_id": "MIG-528",
+    "status": "open",
+    "summary": "Dormant-account backfill owner has not been assigned."
+  },
+  {
+    "area": "Rollback scope",
+    "clearing_action": "scope rollback cleanup to migration-created rows and add rollback test",
+    "owner": "Ledger Platform",
+    "risk_id": "MIG-541",
+    "status": "open",
+    "summary": "Rollback plan can delete non-migration rows during retry cleanup."
+  },
+  {
+    "area": "Observability coverage",
+    "clearing_action": "add posting lag dashboard panel and alert owner route",
+    "owner": "SRE",
+    "risk_id": "MIG-556",
+    "status": "open",
+    "summary": "Ledger posting lag is missing from the migration dashboard."
+  }
+]

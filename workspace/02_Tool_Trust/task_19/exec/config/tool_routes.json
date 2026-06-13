@@ -1,0 +1,13 @@
+{
+  "active_route_set": "may_facilities_close",
+  "routes": {
+    "energy_report": {
+      "mode": "report_only",
+      "path": "tools/energy_variance/build_report.py"
+    },
+    "monthly_facilities_packet": {
+      "mode": "packet",
+      "path": "tools/monthly_facilities_ops/monthly_packet.py"
+    }
+  }
+}

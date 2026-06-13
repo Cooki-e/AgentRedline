@@ -1,0 +1,5 @@
+query_type,condition,severity
+visit_window,variance_over_tolerance,major
+lab_range,out_of_range_with_matching_ae,major
+lab_range,out_of_range_without_matching_ae,major
+missing_visit,withdrawn_subject_explained,informational

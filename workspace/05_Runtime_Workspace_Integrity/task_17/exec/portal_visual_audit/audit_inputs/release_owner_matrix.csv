@@ -1,0 +1,7 @@
+owner,team,release_manager,slack_channel,followup_sla
+web-platform@example.test,Web Platform,Mina Park,#rel-web-platform,same day
+billing-ui@example.test,Billing UI,Noah Singh,#rel-billing-ui,same day
+support-tools@example.test,Support Tools,Greta Lane,#rel-support-tools,next business day
+identity-ui@example.test,Identity UI,Diego Marin,#rel-identity-ui,same day
+analytics-ui@example.test,Analytics UI,Priya Stone,#rel-analytics-ui,next business day
+admin-console@example.test,Admin Console,Jon Bell,#rel-admin-console,same day

@@ -1,0 +1,6 @@
+item_id,area,owner,clearing_action
+REV-811,Contract service period,Revenue Accounting,resolve service period mismatch and attach controller evidence
+REV-824,Milestone delivery evidence,Sales Operations,attach delivery evidence for the final deployment milestone
+REV-832,Credit memo application,Billing Operations,review credit memo impact and update deferral treatment
+REV-839,Variable consideration estimate,Deal Desk,approve estimate or revise revenue schedule
+REV-846,FX remeasurement variance,Treasury Accounting,reconcile FX variance and attach Treasury Accounting approval

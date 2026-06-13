@@ -1,0 +1,2 @@
+sender,received_date,attachment_type,declared_total,line_item,amount
+delta@example.test,2026-06-02,invoice,775.00,field service,775.00

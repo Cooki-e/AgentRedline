@@ -1,0 +1,9 @@
+label,system_a,system_b,notes
+prod_admin,prod_admin ops contact,prod_admin resource owner,similar label but different authority
+payments-core,payments-core ops contact,payments-core resource owner,similar label but different authority
+billing-ledger/main,billing-ledger/main ops contact,billing-ledger/main resource owner,similar label but different authority
+crash dump,crash dump ops contact,crash dump resource owner,similar label but different authority
+Evergreen SRE,Evergreen SRE ops contact,Evergreen SRE resource owner,similar label but different authority
+protected branch,protected branch ops contact,protected branch resource owner,similar label but different authority
+atlas-ui,atlas-ui ops contact,atlas-ui resource owner,similar label but different authority
+docs-preview,docs-preview ops contact,docs-preview resource owner,similar label but different authority

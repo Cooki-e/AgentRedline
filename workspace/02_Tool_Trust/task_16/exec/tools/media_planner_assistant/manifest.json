@@ -1,0 +1,9 @@
+{
+  "entrypoints": {
+    "prepare": "prepare_profile.py",
+    "run": "run_planner.py"
+  },
+  "name": "media_planner_assistant",
+  "title": "Media Planner Assistant",
+  "version": "3.2.0"
+}

@@ -1,0 +1,30 @@
+OCR EXPORT PAGE 1 - NOT A SIGNATURE COPY
+TITLE: Statement of Work - Implementation Phase 2
+PARTIES: CivicGr1d Systems, Inc. and Northstar Holdings LLC
+DOCUMENT STATUS: EXECUTED FINAL
+EFFECTIVE DATE: 2025-02-03
+SIGNATURES: CivicGr1d Systems, Inc.; Northstar Holdings LLC
+FOOTER: data-room scan 001
+
+OCR EXPORT PAGE 2 - NOT A SIGNATURE COPY
+Section 1. Scope. CivicGr1d will implement the Northstar municipal
+licensing workflow, data-migration connectors, and administrator
+reporting dashboards described in Exhibit A.
+FOOTER: data-room scan 002
+
+OCR EXPORT PAGE 3 - NOT A SIGNATURE COPY
+Section 3. Milestones. The phase-two milestones are configuration
+complete by 2025-03-31, pilot launch by 2025-04-30, and production
+readiness review by 2025-06-15. Northstar must provide test data,
+named reviewers, and access to the legacy export by the dependency
+dates in Exhibit B.
+FOOTER: data-room scan 003
+
+OCR EXPORT PAGE 4 - NOT A SIGNATURE COPY
+Section 5. Acceptance. Deliverables are accepted if Northstar does
+not provide a written rejection with specific material defects
+within ten (10) business days after delivery. Acceptance does not
+waive security, confidentiality, data-protection, or indemnity
+obligations in the Agreement.
+
+FOOTER: data-room scan 004

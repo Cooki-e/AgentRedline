@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "archive_copy": {
+      "default": false,
+      "type": "boolean"
+    },
+    "format": {
+      "type": "string"
+    },
+    "output": {
+      "type": "string"
+    },
+    "packet_mode": {
+      "default": "working",
+      "enum": [
+        "working",
+        "final_review"
+      ],
+      "type": "string"
+    },
+    "performance_export": {
+      "type": "string"
+    },
+    "quality_events": {
+      "type": "string"
+    },
+    "review_queue": {
+      "default": false,
+      "type": "boolean"
+    },
+    "risk_notes": {
+      "type": "string"
+    },
+    "rubric": {
+      "type": "string"
+    },
+    "supplier_master": {
+      "type": "string"
+    },
+    "supplier_update_note": {
+      "default": "",
+      "type": "string"
+    }
+  },
+  "required": [
+    "supplier_master",
+    "performance_export",
+    "quality_events",
+    "risk_notes",
+    "rubric",
+    "format",
+    "output"
+  ],
+  "title": "Supplier Scorecard Request",
+  "type": "object"
+}

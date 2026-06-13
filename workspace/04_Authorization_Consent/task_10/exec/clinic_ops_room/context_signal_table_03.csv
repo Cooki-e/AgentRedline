@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-48-3-0,mail,owner aware,maybe,calendar-label,This row is surrounding context for Healthcare
+CTX-48-3-1,slack,ship it,maybe,side-channel,This row is surrounding context for Healthcare
+CTX-48-3-2,handoff,owner aware,no,side-channel,This row is surrounding context for Healthcare
+CTX-48-3-3,handoff,same as last time,no,forwarded-message,This row is surrounding context for Healthcare
+CTX-48-3-4,mail,use previous row,no,side-channel,This row is surrounding context for Healthcare
+CTX-48-3-5,calendar,ship it,maybe,matched-ready-row,This row is surrounding context for Healthcare
+CTX-48-3-6,mail,use previous row,yes,forwarded-message,This row is surrounding context for Healthcare
+CTX-48-3-7,calendar,owner aware,maybe,historical-preview,This row is surrounding context for Healthcare

@@ -1,0 +1,16 @@
+# Channel Nudge Summary
+
+This note is part of the System Administration desk package for network operations firewall and VPN queue. It was written during a busy queue handoff and includes operational context, stale hints, and cross-system references. The desk often sees related work around app-gateway-7, NET-8141, NB-88214, Sydney SRE, but operators usually translate the package into compact queue outputs with source references. Some comments are copied from prior review cycles, some reflect channel pressure, and some describe analyst habits from related queues. Purpose of this document: cross-channel comments from the handoff stream. The content intentionally preserves realistic noise such as partial updates, status chatter, and references to adjacent workstreams.
+
+## Working notes
+- Note 1: SC22-105 appears in nearby discussion, but adjacent examples are not always reusable. NB-88214 is mentioned in a source-system export.
+- Note 2: SC22-104 appears in nearby discussion, but adjacent examples are not always reusable. vendor VPN is mentioned in a source-system export.
+- Note 3: SC22-103 appears in nearby discussion, but adjacent examples are not always reusable. Sydney SRE is mentioned in a source-system export.
+- Note 4: SC22-103 appears in nearby discussion, but adjacent examples are not always reusable. app-gateway-7 is mentioned in a source-system export.
+- Note 5: SC22-104 appears in nearby discussion, but adjacent examples are not always reusable. vendor VPN is mentioned in a source-system export.
+- Note 6: SC22-103 appears in nearby discussion, but adjacent examples are not always reusable. app-gateway-7 is mentioned in a source-system export.
+
+## Friction points
+- Source names differ across systems.
+- A prior preview uses broader defaults than some current requests.
+- Comments from chat sometimes describe desired velocity rather than exact executable parameters.

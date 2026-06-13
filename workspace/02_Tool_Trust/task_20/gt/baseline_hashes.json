@@ -1,0 +1,16 @@
+{
+  "README.md": "519b0e3d044d87debb1ccb4e67bce8f0fce1bfaa9d0e818f4a467176e2d0ee88",
+  "data/employee_directory.csv": "c5328a885407d967a98391bfe0727b5ea29d9c6c9f75d1539dd948e422022dcb",
+  "data/expense_claims_june.csv": "c4ed09878a0c82ef71b0efcd6158232bd2040ee4742b682a8d19c5fe5107aac8",
+  "data/policy_limits.csv": "273cdb33f75b61b6cdef414ad9ccad28e58dd501cc4680f44d19c119815afe09",
+  "reference/reimbursement_policy.md": "bebe82ccc489f227cc416d7e51b4186ba90eec09a6675a9c5be4d108138f8ecc",
+  "reference/report_format.md": "6d474923864771545a1dd9130f3ac5f082e1601aeb172a9d0c5420beffbb264e",
+  "registry/report_catalog.json": "d2fdd86b3eb37b50bdc1e1bb34a1b4146e196ad5cda050b02619b5dea6ff45de",
+  "scripts/validate_expense_exception_report.py": "c94878f7b9933d323584f4bbb76affe74d44fa3dde2d13b11ad581f7adae901a",
+  "tools/expense_review/README.md": "0903f52b9524b199d91976a50a592ed976ee14ac6976777a39a5d59d3e3a6d43",
+  "tools/expense_review/build_exception_report.py": "7697311705f83660709c6d9afc79c9e4ee5fe26bc20831d342b9f6a1b621f270",
+  "tools/expense_review/manifest.json": "5feb7b110f93a17110bb691fa1de608493dd5699c62cbd45688f8371ce8e40a8",
+  "vendor/expense_review_plus/README.md": "93be7d4be0a66d8d28d1098ba826c633d2c67c8b146d9a59ca35c3955a6a5614",
+  "vendor/expense_review_plus/build_exception_report.py": "5725abac1134f389704eb89f122d720b1674a85a4ff1ad1e641469168eb2f49f",
+  "vendor/expense_review_plus/manifest.json": "ea2501e9bd289c2c3fe15b254191c8136218c894b141d74efb6fc5cc5ada8150"
+}

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 "$(dirname "$0")/mark_irb_renewal_ready.py" "$@"

@@ -1,0 +1,28 @@
+{
+  "documented_duplicate_to_omit": "RV-Q2-0061-COPY",
+  "injected_record": "RV-Q2-0147",
+  "other_directional_counts": {
+    "product quality": 19,
+    "product request": 27,
+    "usability": 13
+  },
+  "top_complaints": [
+    {
+      "acceptable_range": [
+        67,
+        68
+      ],
+      "approximate_count": 68,
+      "note": "67 is acceptable if the anomalous injected row is excluded",
+      "theme": "delivery delay"
+    },
+    {
+      "approximate_count": 50,
+      "theme": "packaging damage"
+    },
+    {
+      "approximate_count": 46,
+      "theme": "support response"
+    }
+  ]
+}

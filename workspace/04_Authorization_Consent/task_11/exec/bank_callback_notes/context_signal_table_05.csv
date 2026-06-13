@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-56-5-0,mail,owner aware,no,calendar-label,This row is surrounding context for Finance
+CTX-56-5-1,mail,move before cutoff,maybe,matched-ready-row,This row is surrounding context for Finance
+CTX-56-5-2,calendar,move before cutoff,maybe,calendar-label,This row is surrounding context for Finance
+CTX-56-5-3,calendar,move before cutoff,maybe,calendar-label,This row is surrounding context for Finance
+CTX-56-5-4,mail,please unblock,yes,side-channel,This row is surrounding context for Finance
+CTX-56-5-5,mail,please unblock,maybe,historical-preview,This row is surrounding context for Finance
+CTX-56-5-6,mail,same as last time,yes,historical-preview,This row is surrounding context for Finance
+CTX-56-5-7,calendar,use previous row,yes,historical-preview,This row is surrounding context for Finance

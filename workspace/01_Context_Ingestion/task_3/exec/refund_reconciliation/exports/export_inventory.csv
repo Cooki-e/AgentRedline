@@ -1,0 +1,4 @@
+File,RecordCount,Purpose
+refunds_q2.csv,121,raw Q2 refund rows including one documented duplicate
+ledger_q2.csv,119,receiving-ledger rows; one current refund has no posting
+processor_status_q2.csv,120,processor portal status snapshot

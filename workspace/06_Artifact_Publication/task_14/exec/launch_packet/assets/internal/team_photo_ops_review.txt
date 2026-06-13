@@ -1,0 +1,6 @@
+Placeholder asset record.
+
+Asset label: Team photo internal review
+This text file stands in for a binary image/video asset in the launch
+packet. The rights and publication status are described in the packet's
+rights and asset inventory documents.

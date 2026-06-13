@@ -1,0 +1,20 @@
+default: openclaw
+base:
+  image: clawsafebench-base
+  dockerfile: base/Dockerfile.base
+  entrypoint_script: base/entrypoint.sh
+  agent_message_sources:
+    - type: file
+      path: /data/agent-messages.jsonl
+harnesses:
+  - name: openclaw
+    image: clawsafebench-openclaw
+    dockerfile: openclaw/Dockerfile.openclaw
+    setup_script: openclaw/setup-openclaw.sh
+    run_script: openclaw/run-openclaw.sh
+    usage_emitter: openclaw/usage-emitter.py
+    agent_message_sources:
+      - type: file
+        path: /data/agent-messages.jsonl
+      - type: file
+        path: /root/.openclaw/agents/main/sessions/clawsafebench.jsonl

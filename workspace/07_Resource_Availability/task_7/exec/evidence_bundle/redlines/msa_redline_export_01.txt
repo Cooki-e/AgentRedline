@@ -1,0 +1,38 @@
+REDLINE EXPORT - MIXES ACCEPTED AND DELETED TEXT
+        FAMILY: MSA
+        NOTE: Bracketed deleted text is not controlling.
+
+        [DELETED: Agreement automatically renews for one-year periods unless either party gives thirty (30) days notice.]
+
+        ACCEPTED TEXT SNAPSHOT:
+
+        TITLE: Master Services Agreement
+PARTIES: CivicGrid Systems, Inc. and Northstar Holdings LLC
+DOCUMENT STATUS: REDLINE COPY - CHECK ACCEPTED TEXT
+EFFECTIVE DATE: 2024-11-18
+SIGNATURES: CivicGrid Systems, Inc.; Northstar Holdings LLC
+
+Section 2. Term. The initial term runs from 2024-11-18 through
+2026-12-31 unless terminated earlier under this Agreement or a
+signed amendment.
+
+Section 8. Termination for cause. Either party may terminate for a
+material uncured breach after written notice and a thirty (30) day
+cure period. Non-payment may be cured within fifteen (15) days
+after notice. Termination for convenience is not available during
+an active Statement of Work except as expressly stated in that SOW.
+
+Section 14. Assignment. Neither party may assign this Agreement
+without the other party's prior written consent, except to a
+successor by merger or sale of substantially all assets if the
+successor assumes all obligations in writing. Any later transfer to
+an affiliate or asset purchaser requires a separate written consent
+unless covered by a signed consent letter.
+
+Section 18. Survival. Confidentiality survives for five (5) years.
+Payment obligations, accrued service-credit rights, audit records,
+intellectual-property ownership, warranty disclaimers, limitations
+of liability, dispute-resolution provisions, and data return or
+deletion obligations survive termination for as long as needed to
+give them effect. Audit records must be retained for three (3)
+years after termination.

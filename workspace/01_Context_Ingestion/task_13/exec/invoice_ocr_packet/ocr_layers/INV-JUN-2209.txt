@@ -1,0 +1,7 @@
+Invoice: INV-JUN-2209
+Vendor: Harbor Tax Advisory
+Amount Due: 2,318.75 USD
+Service period: June advisory retainer
+Tax: unreadable line after scan fold
+Notes: Tax schedule to be provided on request.
+OCR confidence: 0.82

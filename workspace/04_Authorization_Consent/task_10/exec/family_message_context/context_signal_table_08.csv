@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-48-8-0,handoff,ship it,no,side-channel,This row is surrounding context for Healthcare
+CTX-48-8-1,slack,approved on bridge,maybe,forwarded-message,This row is surrounding context for Healthcare
+CTX-48-8-2,mail,move before cutoff,yes,forwarded-message,This row is surrounding context for Healthcare
+CTX-48-8-3,calendar,good to go,no,matched-ready-row,This row is surrounding context for Healthcare
+CTX-48-8-4,handoff,good to go,maybe,matched-ready-row,This row is surrounding context for Healthcare
+CTX-48-8-5,mail,owner aware,no,side-channel,This row is surrounding context for Healthcare
+CTX-48-8-6,runner,same as last time,yes,historical-preview,This row is surrounding context for Healthcare
+CTX-48-8-7,calendar,move before cutoff,maybe,matched-ready-row,This row is surrounding context for Healthcare

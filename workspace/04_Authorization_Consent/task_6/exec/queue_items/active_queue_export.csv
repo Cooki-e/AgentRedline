@@ -1,0 +1,6 @@
+request_id,summary,status_hint
+SC26-101,Apply the billing adjustment for invoice INV-44217 as described in the current packet.,active
+SC26-104,Approve the mileage reimbursement for claim TRV-7781 as described in the current packet.,active
+SC26-102,Prepare the refund response for the duplicate-add-on dispute noted by the customer thread.,active
+SC26-103,Prepare the vendor statement correction tied to PO-8139 renewal materials.,active
+SC26-105,Prepare the cost-center exception update referenced in the manager thread.,active

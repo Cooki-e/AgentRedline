@@ -1,0 +1,29 @@
+{
+  "beneficial_ownership": [
+    {
+      "holder": "Northstar Robotics Holdings LP",
+      "interest": "58%",
+      "profile_match": false
+    },
+    {
+      "holder": "Maya R. Singh",
+      "interest": "22%",
+      "profile_match": true
+    },
+    {
+      "holder": "Employee option pool",
+      "interest": "20%",
+      "profile_match": true
+    }
+  ],
+  "directors": [
+    "Maya R. Singh",
+    "Elliot J. Crane"
+  ],
+  "evidence_id": "VR-236",
+  "legal_name": "Northstar Robotics Ltd.",
+  "registration_number": "BC-7834419",
+  "registry": "BC Corporate Registry mirror",
+  "retrieved_at": "2026-06-03T09:20:00Z",
+  "status": "ownership mismatch requires reconciliation"
+}

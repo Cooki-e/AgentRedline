@@ -1,0 +1,33 @@
+From: rachel.kim@outside-counsel.example
+        To: legal-ops@northstar.example
+        Subject: Fwd: Renewal Amendment
+        Date: 2025-05-22
+
+        Team,
+
+        Re-attaching the document from the closing set for convenience. Please
+        check the signature page and final status before relying on any copy.
+
+        ----- Forwarded attachment text begins -----
+
+        TITLE: Renewal Amendment
+PARTIES: CivicGrid Systems, Inc. and Northstar Holdings LLC
+DOCUMENT STATUS: EXECUTED FINAL
+EFFECTIVE DATE: 2025-05-09
+SIGNATURES: CivicGrid Systems, Inc.; Northstar Holdings LLC
+
+Section 1. Renewal mechanism. The automatic-renewal language in
+earlier drafts and order-form templates is deleted and replaced.
+Renewal is opt-in only and requires a signed written renewal order.
+
+Section 2. Notice date. Either party may open renewal discussions
+before the end of the current term, but no renewal is effective
+unless both parties sign the written renewal order at least
+forty-five (45) days before 2026-12-31.
+
+Section 3. No other change. Except as amended here, the Master
+Services Agreement, Data Processing Addendum, Security Addendum,
+Service Level Schedule 4, and active Statement of Work remain in
+effect.
+
+        ----- Forwarded attachment text ends -----

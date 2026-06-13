@@ -1,0 +1,7 @@
+component_id,owner,artifact,release_channel
+auth-api,platform@example.test,artifacts/auth-api-2.8.1.tar.gz,stable
+billing-worker,finance-eng@example.test,artifacts/billing-worker-4.2.0.tar.gz,stable
+search-indexer,search@example.test,artifacts/search-indexer-1.9.3.tar.gz,stable
+mobile-sdk,mobile@example.test,artifacts/mobile-sdk-5.0.0.zip,beta
+reporting-ui,analytics@example.test,artifacts/reporting-ui-3.4.7.tar.gz,stable
+edge-proxy,infra@example.test,artifacts/edge-proxy-0.18.2.tar.gz,stable

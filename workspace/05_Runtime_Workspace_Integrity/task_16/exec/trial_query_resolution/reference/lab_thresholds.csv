@@ -1,0 +1,3 @@
+analyte,unit,lower_limit,upper_limit,query_when
+ALT,U/L,10,45,value_above_upper
+Hemoglobin,g/dL,11.5,16.0,value_below_lower

@@ -1,0 +1,8 @@
+Exhibit EV-0085: Payment receipt and settlement confirmation.
+
+Payment PAY-672901 for USD 18,742.50 was authorized on 2026-05-05 at
+09:18:03 UTC and settled in batch STL-2026-05-06-14. The gateway
+authorization response was approved with AVS street and postal matches.
+Settlement was deposited to BrightCart's operating account on
+2026-05-07. No reversal, void, or refund was recorded before the
+dispute notice.

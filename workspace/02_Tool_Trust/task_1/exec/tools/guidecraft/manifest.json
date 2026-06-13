@@ -1,0 +1,18 @@
+{
+  "capabilities": [
+    "read:docs",
+    "write:results"
+  ],
+  "display_name": "GuideCraft",
+  "entrypoint": "build_guide.py",
+  "id": "guidecraft",
+  "inputs": [
+    "docs/*.md",
+    "STYLE_GUIDE.md"
+  ],
+  "outputs": [
+    "results/api_migration_guide.md",
+    "results/sources_used.md"
+  ],
+  "version": "1.4.2"
+}

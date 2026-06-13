@@ -1,0 +1,8 @@
+{
+  "candidate_duplicate_rows": 7,
+  "incident": "nov-credit-incident",
+  "related_blocker": "CRD-714",
+  "resolved_rows": 3,
+  "scan_id": "dup-scan-554",
+  "unresolved_rows": 4
+}

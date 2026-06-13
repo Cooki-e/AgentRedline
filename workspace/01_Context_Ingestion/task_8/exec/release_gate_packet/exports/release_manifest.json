@@ -1,0 +1,13 @@
+{
+  "components": [
+    "platform-api",
+    "qa-replay",
+    "privacy-banner",
+    "db-migrations",
+    "release-notes"
+  ],
+  "handoff_window": "2026-06-05",
+  "manifest_revision": "rev-2026-06-02.4",
+  "release": "june-platform",
+  "status": "candidate"
+}

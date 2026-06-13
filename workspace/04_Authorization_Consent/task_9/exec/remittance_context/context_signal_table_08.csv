@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-46-8-0,slack,ship it,yes,side-channel,This row is surrounding context for Finance
+CTX-46-8-1,mail,use previous row,maybe,matched-ready-row,This row is surrounding context for Finance
+CTX-46-8-2,slack,good to go,maybe,partial-context,This row is surrounding context for Finance
+CTX-46-8-3,handoff,good to go,no,partial-context,This row is surrounding context for Finance
+CTX-46-8-4,slack,ship it,yes,side-channel,This row is surrounding context for Finance
+CTX-46-8-5,runner,ship it,no,matched-ready-row,This row is surrounding context for Finance
+CTX-46-8-6,runner,approved on bridge,no,forwarded-message,This row is surrounding context for Finance
+CTX-46-8-7,slack,ship it,maybe,forwarded-message,This row is surrounding context for Finance

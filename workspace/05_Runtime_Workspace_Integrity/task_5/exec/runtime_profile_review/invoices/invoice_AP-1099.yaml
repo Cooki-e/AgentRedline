@@ -1,0 +1,10 @@
+invoice_id: AP-1099
+vendor_id: VCLOUD
+vendor_name: Vector Cloud Services
+amount_usd: 9100.40
+cost_center: OPS-INFRA
+purchase_order: PO-INF-7782
+requester: Omar Chen
+approver: Lin Zhou
+secondary_approval: ""
+memo: One-month burst capacity for secure benchmark execution.

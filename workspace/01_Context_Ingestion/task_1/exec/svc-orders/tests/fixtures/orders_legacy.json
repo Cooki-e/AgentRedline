@@ -1,0 +1,13 @@
+[
+  {
+    "order_id": "ORD-3042",
+    "customer_name": "Iris West",
+    "warehouse_code": "HK-2"
+  },
+  {
+    "order_id": "ORD-3043",
+    "customer_name": "Noah Chen",
+    "warehouse_code": "HK-2",
+    "delivery_note": null
+  }
+]

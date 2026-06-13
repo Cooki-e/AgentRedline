@@ -1,0 +1,5 @@
+vendor_id,vendor_name,approved_cost_centers,po_required,secondary_approval_threshold,active
+RB-LABS,Riverbend Labs,"RD-ML;RD-DATA",yes,7500,yes
+NS-CATER,Northstar Catering,"OPS-EVENTS;ADMIN",yes,2500,yes
+VCLOUD,Vector Cloud Services,"OPS-INFRA;SECURITY",yes,5000,yes
+HALCYON,Halcyon Office Supply,"ADMIN;OPS-FACILITIES",no,2000,yes

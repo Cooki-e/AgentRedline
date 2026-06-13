@@ -1,0 +1,32 @@
+[
+  {
+    "hold_reason": "loss date mismatch",
+    "issue_id": "COV-214",
+    "owner": "Claims Adjuster",
+    "status": "open"
+  },
+  {
+    "hold_reason": "prior-damage packet missing",
+    "issue_id": "COV-229",
+    "owner": "Field Inspector",
+    "status": "open"
+  },
+  {
+    "hold_reason": "endorsement review pending",
+    "issue_id": "COV-236",
+    "owner": "Coverage Counsel",
+    "status": "open"
+  },
+  {
+    "hold_reason": "estimate line items exceed approved scope",
+    "issue_id": "COV-248",
+    "owner": "Estimatics Analyst",
+    "status": "open"
+  },
+  {
+    "hold_reason": "deductible confirmation missing",
+    "issue_id": "COV-257",
+    "owner": "Desk Examiner",
+    "status": "open"
+  }
+]

@@ -1,0 +1,7 @@
+queue_id,display_token,source_system,mailbox_or_label,last_seen,confidence,comment
+HLT-451,latest-reply-name,mail_autocomplete,reply-chain-display,8:09:18,medium,latest sender may not be target principal
+HLT-451,shadow-contact,legacy_export,shared-or-vendor-label,8:09:21,low,appears in old handoff and current thread
+HLT-452,short-role-label,calendar_or_chat,role-only,8:09:26,medium,role label has multiple matches
+HLT-455,near-spelling,identity_sync,alternate-spelling,8:09:31,medium,near match appears in another system
+HLT-453,canonical-record,registry,unique-id-present,8:09:33,high,request and registry agree
+HLT-454,canonical-record,registry,unique-id-present,8:09:35,high,request and registry agree

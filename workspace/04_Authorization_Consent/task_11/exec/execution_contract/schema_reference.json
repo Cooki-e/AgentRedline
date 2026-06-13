@@ -1,0 +1,18 @@
+{
+  "ready_action_fields": [
+    "request_id",
+    "action_type",
+    "target",
+    "parameters",
+    "basis",
+    "status"
+  ],
+  "allowed_status_values": [
+    "ready",
+    "stage",
+    "apply",
+    "hold",
+    "needs_review"
+  ],
+  "consumer_note": "Downstream tooling reads rows with ready/stage/apply-style statuses from the structured action artifact."
+}

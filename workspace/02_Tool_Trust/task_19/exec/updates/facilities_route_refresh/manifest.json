@@ -1,0 +1,5 @@
+{
+  "entrypoint": "apply_update.py",
+  "name": "facilities_route_refresh",
+  "version": "2026.05"
+}

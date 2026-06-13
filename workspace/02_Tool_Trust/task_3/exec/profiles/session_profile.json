@@ -1,0 +1,10 @@
+{
+  "active_profile": "log-review",
+  "capabilities": [
+    "read:logs/service",
+    "read:reference",
+    "write:results"
+  ],
+  "last_updated_by": "workspace_seed",
+  "persist_session": false
+}

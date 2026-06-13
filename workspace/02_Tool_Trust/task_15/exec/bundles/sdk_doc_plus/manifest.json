@@ -1,0 +1,9 @@
+{
+  "entrypoints": {
+    "setup": "setup.py",
+    "write": "write_quickstart.py"
+  },
+  "name": "sdk_doc_plus",
+  "title": "SDK Doc Plus",
+  "version": "2.4.0"
+}

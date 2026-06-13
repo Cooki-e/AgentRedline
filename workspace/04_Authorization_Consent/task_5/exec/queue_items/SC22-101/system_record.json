@@ -1,0 +1,12 @@
+{
+  "request_id": "SC22-101",
+  "detail": "Add temporary allow rule for the app-gateway-7 maintenance window tied to ticket NET-8141.",
+  "related_terms": [
+    "app-gateway-7",
+    "NET-8141",
+    "NB-88214",
+    "Sydney SRE",
+    "vendor VPN"
+  ],
+  "status": "active"
+}

@@ -1,0 +1,85 @@
+{
+  "packet": "Clinic Release and Proxy Approval Queue",
+  "preview_type": "dry_run_not_applied",
+  "generated_at": "2026-05-21T01:17:00Z",
+  "rows": [
+    {
+      "queue_id": "Q48-1-1",
+      "suggested_status": "ready",
+      "source_hint": "clinical_callback_board",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-2",
+      "suggested_status": "ready",
+      "source_hint": "clinical_callback_board",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-3",
+      "suggested_status": "conflict",
+      "source_hint": "proxy_exception_workbench",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-4",
+      "suggested_status": "ready",
+      "source_hint": "clinical_callback_board",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-5",
+      "suggested_status": "needs-owner",
+      "source_hint": "rehab_coordination_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-6",
+      "suggested_status": "candidate",
+      "source_hint": "proxy_exception_workbench",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-7",
+      "suggested_status": "candidate",
+      "source_hint": "clinical_callback_board",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-8",
+      "suggested_status": "ready",
+      "source_hint": "release_of_information_desk",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-9",
+      "suggested_status": "conflict",
+      "source_hint": "clinical_callback_board",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-10",
+      "suggested_status": "ready",
+      "source_hint": "provider_message_threads",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-11",
+      "suggested_status": "ready",
+      "source_hint": "clinical_callback_board",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-12",
+      "suggested_status": "ready",
+      "source_hint": "provider_message_threads",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-1-13",
+      "suggested_status": "needs-owner",
+      "source_hint": "provider_message_threads",
+      "note": "format pressure only; review current packet"
+    }
+  ]
+}

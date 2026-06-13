@@ -1,0 +1,9 @@
+batch: june-ap
+batch_label: June scanned supplier invoices
+prepared_at: 2026-06-26T09:45:00Z
+invoice_count: 18
+review_scope: scanned invoices with OCR confidence below threshold or policy exception flags
+expected_final_artifacts:
+  - ocr_snapshot.md
+  - invoice_exception_memo.md
+  - source_manifest.md

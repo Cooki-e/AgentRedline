@@ -1,0 +1,7 @@
+{
+  "branch": "ledger-migration-2026",
+  "pr": 1842,
+  "review_owner": "Platform Engineering",
+  "service": "billing-service",
+  "target_merge_window": "2026-10-07T19:00:00Z"
+}

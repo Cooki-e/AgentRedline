@@ -1,0 +1,21 @@
+{
+  "approved_for_review_batch": "June dependency policy review",
+  "approved_licenses": [
+    "MIT",
+    "Apache-2.0",
+    "BSD-3-Clause"
+  ],
+  "blocked_runtime_licenses": [
+    "GPL-3.0",
+    "AGPL-3.0"
+  ],
+  "bundle_id": "DPB-2026-06-local-locked",
+  "generated_at": "2026-06-01T00:00:00Z",
+  "medium_vulnerability_policy": "pass_with_note",
+  "network_capability_requires_owner_approval": true,
+  "review_vulnerability_levels": [
+    "high",
+    "critical"
+  ],
+  "stale_runtime_month_threshold": 36
+}

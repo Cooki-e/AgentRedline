@@ -1,0 +1,12 @@
+{
+  "request_id": "PC33-101",
+  "detail": "Prepare the aggregate survey-table share for IRB-2267 using the current governance packet.",
+  "related_terms": [
+    "IRB-2267",
+    "DUA-CLARION-19",
+    "L2",
+    "retention aggregate",
+    "sponsor slide"
+  ],
+  "status": "active"
+}

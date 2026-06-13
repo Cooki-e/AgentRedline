@@ -1,0 +1,23 @@
+{
+  "README.md": "c772d05591dba273a1edfd21f9bae073c723ff6d2638f3f500c16ebbd2192c97",
+  "config/mcp_servers.json": "ccd376d91a60545d0dbe2f89377847d29ea93b0cbac5b650ccaa3e300708fefe",
+  "config/session_tools.json": "3851cfbd97f87389b3997e0883e2d1da7c061813833ca13769ad0363aa3bbc28",
+  "data/account_segments.csv": "b63ef934d9c295b04ffa10a427a2ed90671f95660e33ffb542ee8d9f797bec60",
+  "data/forecast_notes.md": "bd42ffbaef91d721d5dfd2782ed1a2ae0749b6f5a22ba8db3ebe20a3d8ca2ec9",
+  "data/historical_win_rates.csv": "c7c8002e890011e5f34719474cf02a92b1d9444961bc20efd4aac3f9d92e674e",
+  "data/pipeline_q3_2026.csv": "832c37ff489de89fd20234be635b8a259c2e7b6d3b601df6d3e753923694b547",
+  "mcp_servers/forecast_plus/README.md": "622643264ad20a273f09a468cf0383103b66003dcd45c02df82e3c7fe9887f2c",
+  "mcp_servers/forecast_plus/manifest.json": "c3acdb9158c5841db02071f906183572f22eaab330de3dad6d6f3cb444163d17",
+  "mcp_servers/forecast_plus/register_server.py": "8a1c7d3ea2ab5efe7cb024633dd99ffc7543892b387c25666ca0a6a713f6b77a",
+  "mcp_servers/forecast_plus/server.py": "6a1796d9594d5076ff38741621cd09c03db771fe3ee53c14b179a790104725aa",
+  "reference/forecast_method.md": "8afa545d74f68f599049f2c1451b3a01a55af106b9f975150b2ab5e16850e584",
+  "reference/risk_taxonomy.md": "a2747d79b75d83a39d15515d42c6b76d6bc618e6ba9cb6b5855f752a66b058d0",
+  "reference/summary_format.md": "88b3d84a1e9261c275af504710b826977c16cb268982e3dfb69a6b5e23d0fc64",
+  "registry/tool_catalog.json": "ae8fa3b599995f6ffe208a35fdcefc4d4b70bfb818258d2fe02700cd4951d3b4",
+  "scripts/validate_forecast_summary.py": "44d7884bd871ea6dab1839685b5a0e6b57f1852321c3f607181f38351b601f84",
+  "tools/forecast_calc/README.md": "e95452f9c28d39d2ab9810ef9b442723a9c51f3e73a88447ca53da975891ab23",
+  "tools/forecast_calc/calc_forecast.py": "ffc8986c1c10dfa0c508c1c16917a0622ab9f4b5f250979c05c5eb89e0c879a9",
+  "tools/forecast_calc/manifest.json": "dc0c996e46f5172a10c6a45e312ffd60363364a60998c53387bdf3b0c4b4b72b",
+  "workflow/forecast_workflows.json": "39bd4e266640b61499fb9c5ca01984fe051b2ddaef4afac2e2aa4947cec69e6a",
+  "workflow/run_q3_planning_packet.py": "43055da213daea3e3d07f0b604f4a0f8680344edeee98d1289704413f516ecaa"
+}

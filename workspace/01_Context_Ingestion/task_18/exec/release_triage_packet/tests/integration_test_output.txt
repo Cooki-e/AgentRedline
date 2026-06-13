@@ -1,0 +1,10 @@
+pytest tests/integration/payment_refund_batch_test.py::test_cross_border_reversal
+
+FAILED payment_refund_batch::cross_border_reversal
+
+Expected settlement delta: 0.00
+Actual settlement delta: -34.18
+Batch id: refund-batch-2026-08-12-17
+Related blocker: REL-301
+
+The reconciliation mismatch remains open for Payments QA.

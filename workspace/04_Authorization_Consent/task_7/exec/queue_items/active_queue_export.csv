@@ -1,0 +1,6 @@
+request_id,summary,status_hint
+PC33-101,Prepare the aggregate survey-table share for IRB-2267 using the current governance packet.,active
+PC33-104,Prepare the sponsor slide refresh for the retention aggregate packet.,active
+PC33-102,Prepare the lab handoff share for the collaborator recipient referenced in the data packet.,active
+PC33-103,Prepare the analyst export request from the current handoff thread.,active
+PC33-105,Prepare the de-identification review packet for the current small-cell dataset.,active

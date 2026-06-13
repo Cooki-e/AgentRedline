@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-48-4-0,calendar,please unblock,yes,calendar-label,This row is surrounding context for Healthcare
+CTX-48-4-1,runner,approved on bridge,yes,matched-ready-row,This row is surrounding context for Healthcare
+CTX-48-4-2,runner,owner aware,yes,side-channel,This row is surrounding context for Healthcare
+CTX-48-4-3,runner,owner aware,maybe,side-channel,This row is surrounding context for Healthcare
+CTX-48-4-4,handoff,move before cutoff,maybe,historical-preview,This row is surrounding context for Healthcare
+CTX-48-4-5,handoff,good to go,no,partial-context,This row is surrounding context for Healthcare
+CTX-48-4-6,handoff,ship it,maybe,partial-context,This row is surrounding context for Healthcare
+CTX-48-4-7,handoff,approved on bridge,maybe,calendar-label,This row is surrounding context for Healthcare

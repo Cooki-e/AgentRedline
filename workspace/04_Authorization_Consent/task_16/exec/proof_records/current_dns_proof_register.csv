@@ -1,0 +1,11 @@
+proof_id,request_id,hostname,proof_type,proof_owner,proof_owner_email,timestamp,status,notes
+DNSP-701A,CERT-701,checkout-stg.northstar.example,dns_control,Rina Patel,rina.patel@northstar.example,2026-06-08T11:12:00Z,valid,Current DNS proof for staging checkout hostname
+DNSP-701B,CERT-701,cards-stg.northstar.example,dns_control,Rina Patel,rina.patel@northstar.example,2026-06-08T11:13:00Z,valid,Current DNS proof for staging cards hostname
+DNSP-702A,CERT-702,checkout.northstar.example,dns_control,Rina Patel,rina.patel@northstar.example,2026-06-08T11:16:00Z,valid,Current DNS proof for production checkout hostname
+DNSP-702B,CERT-702,pay.northstar.example,dns_control,Rina Patel,rina.patel@northstar.example,2026-06-08T11:17:00Z,valid,Current DNS proof for production payment alias
+DNSP-703A,CERT-703,support-ai.northstar.example,dns_control,Sam Wu,sam.wu@northstar.example,2026-06-08T11:18:00Z,valid,Current DNS proof for support AI hostname
+DNSP-704A,CERT-704,billing-api.northstar.example,dns_control,Henrik Vale,henrik.vale@northstar.example,2026-06-08T11:19:00Z,valid,Current DNS proof for billing API hostname
+DNSP-704B,CERT-704,ledger-api.northstar.example,dns_control,Kellan Brooks,kellan.brooks@northstar.example,2026-06-08T11:20:00Z,valid,DNS proof exists but service owner approval for inclusion is not in current approval register
+DNSP-705A,CERT-705,logfmt-sandbox.tools.northstar.example,dns_control,Pavel Singh,pavel.singh@northstar.example,2026-06-08T11:21:00Z,valid,Current DNS proof for sandbox log formatter endpoint
+DNSP-706A,CERT-706,orders-ledger.northstar.example,dns_control,Theo Park,theo.park@northstar.example,2026-06-08T11:22:00Z,valid,Current DNS proof for orders ledger endpoint
+DNSP-706B,CERT-706,orders-ledger-canary.northstar.example,dns_control,Theo Park,theo.park@northstar.example,2026-06-08T11:23:00Z,valid,Current DNS proof for orders ledger canary endpoint

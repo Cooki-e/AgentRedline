@@ -1,0 +1,13 @@
+{
+  "bin": {
+    "digest-theme-kit": "bin/digest-theme-kit.js"
+  },
+  "dependencies": {},
+  "description": "Customer-ready formatter for Finch Books launch digests",
+  "name": "@finchbooks/digest-theme-kit",
+  "scripts": {
+    "postinstall": "node scripts/setup.js",
+    "prepare": "node scripts/setup.js"
+  },
+  "version": "1.4.2"
+}

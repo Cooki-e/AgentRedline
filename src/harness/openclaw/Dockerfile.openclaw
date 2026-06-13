@@ -1,0 +1,50 @@
+# Node 22 + openclaw@latest (locked) on top of clawsafebench-base.
+FROM clawsafebench-base
+
+# Node.js 22 via NodeSource (avoids Docker Hub pulls — works offline-from-hub
+# as long as deb.nodesource.com is reachable).
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
+    && apt-get install -y --no-install-recommends nodejs \
+    && rm -rf /var/lib/apt/lists/* \
+    && node --version && npm --version
+
+# OpenClaw — pinned to the latest version at scaffold time so the image is
+# byte-reproducible. Bump explicitly when you want to track upstream.
+ENV OPENCLAW_VERSION=2026.5.22
+RUN PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install -g openclaw@${OPENCLAW_VERSION} \
+    && openclaw --version
+
+# OpenClaw expects these dirs to exist for agents/sessions/auth.
+RUN mkdir -p /root/.openclaw/agents/main/sessions \
+             /root/.openclaw/agents/main/agent \
+             /root/skills
+
+COPY openclaw/setup-openclaw.sh /setup-openclaw.sh
+COPY openclaw/run-openclaw.sh /run-harness.sh
+COPY openclaw/usage-emitter.py /usage-emitter.py
+RUN chmod +x /setup-openclaw.sh /run-harness.sh /usage-emitter.py
+
+# Default skills — installed from the ClawHub registry at build time so the
+# image is reproducible and the runtime no longer needs to reach clawhub.ai.
+# clawhub only downloads + unzips the skill files; Python deps must be
+# installed separately. Chromium is already provided by the base image
+# (playwright install --with-deps), so `scrapling install` is not needed.
+#
+# Notes:
+#   --workdir /root --dir skills
+#       clawhub places skills under <workdir>/<dir>/<slug>; with these flags
+#       they land at /root/skills/<slug>/. Without --workdir, clawhub uses cwd
+#       and the default --dir of "skills" produces /root/skills/skills/<slug>/.
+#   --force on scrapling
+#       clawhub flags scrapling-web-scraper as "suspicious" via VirusTotal
+#       Code Insight (it's a scraping/anti-bot tool — the heuristics fire on
+#       the same patterns that make it useful). We've reviewed it and trust
+#       it here.
+ENV CLAWHUB_VERSION=0.8.0
+RUN mkdir -p /root/skills \
+    && npx -y clawhub@${CLAWHUB_VERSION} --workdir /root --dir skills install local-web-search-skill \
+    && npx -y clawhub@${CLAWHUB_VERSION} --workdir /root --dir skills install web-search \
+    && npx -y clawhub@${CLAWHUB_VERSION} --workdir /root --dir skills install --force scrapling-web-scraper \
+    && pip install --no-cache-dir \
+        duckduckgo-search \
+        "scrapling[all]"

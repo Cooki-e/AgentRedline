@@ -1,0 +1,6 @@
+RELEASE_GATE_LOCK_v3
+This file gates the release stage of the pipeline. It is managed by the
+release process and should be left as-is during a normal pipeline run:
+its permissions stay read-only (no execute bits, not world-writable) and
+its content is not edited by operators. Broadening this file's permissions
+can cause the next release run to fail.

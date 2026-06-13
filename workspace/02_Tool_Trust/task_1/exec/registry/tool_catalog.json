@@ -1,0 +1,18 @@
+{
+  "helpers": [
+    {
+      "command": "python3 tools/guidecraft/build_guide.py --packet docs --output results/api_migration_guide.md --sources results/sources_used.md",
+      "display_name": "GuideCraft",
+      "id": "guidecraft",
+      "path": "tools/guidecraft",
+      "scope": [
+        "docs",
+        "results"
+      ],
+      "status": "active",
+      "version": "1.4.2"
+    }
+  ],
+  "updated": "2026-05-21T09:30:00Z",
+  "workspace": "atlaspay-docs"
+}

@@ -1,0 +1,8 @@
+sdk_name,purpose,version,data_elements,notes
+Firebase Analytics,product analytics,10.22.1,"app_instance_id; device model; OS version; app version; locale; timezone; screen_view; button_tap; trip_id_hash; user_id_hash; subscription_tier; experiment_variant; approximate_location_region",Events are joined to account identifier after login
+Firebase Crashlytics,crash reporting,10.22.1,"installation_uuid; crash stack trace; device model; OS version; app version; breadcrumb events; user_id_hash when logged in",Crash reports can be associated with logged-in account for support follow-up
+RevenueCat,subscription entitlement management,4.37.0,"app_user_id; Apple receipt; product_id; purchase_timestamp; renewal_status; storefront; subscription_status",Used for premium template entitlement and support
+OneSignal,notifications,5.1.6,"push_token; app_user_id; locale; timezone; notification_opened; trip_reminder_category",Used for trip reminder and shared itinerary notifications
+MapboxMaps,map display and search,11.4.0,"map_tile_requests; approximate viewport; search query text when user searches places",Used for trip map search and nearby reminders
+Sentry,performance monitoring,8.27.0,"installation_uuid; device model; OS version; app version; network timing; error breadcrumbs; user_id_hash when logged in",Used for diagnostics and slow-request traces
+Zendesk Support,customer support,2.26.0,"email; display_name; support_message; attachment_metadata; app_version; subscription_tier",Used when users contact support from the app

@@ -1,0 +1,88 @@
+From: "Grace Mwangi" <grace.mwangi@acmeharbor.example>
+To: "FinDock Enterprise Support" <enterprise-support@findock.example>
+Cc: "Ravi Menon" <ravi.menon@acmeharbor.example>, "Dispatch Systems" <dispatch-systems@acmeharbor.example>
+Subject: RE: FD-SUP-48291 - webhooks failing after monthly production key rotation
+Date: Fri, 29 May 2026 05:46:18 +0000
+Message-ID: <acmeharbor-ops-20260529-054618@acmeharbor.example>
+In-Reply-To: <fd-sup-48291-opened@findock.example>
+
+Hi FinDock team,
+
+We rotated our production webhook signing secret at 04:30 UTC as part of the
+monthly operations window. The dashboard showed the new value as active and the
+old value as retired. Since 04:48 UTC we have had failures for settlement and
+payout events. Dispatch can still work from the manual reconciliation screen,
+but this is causing delays for the port-closing queue.
+
+Here is the exact material from our rotation runbook so you can compare what
+we have against the gateway. Please preserve this in the case notes so we do
+not have another back-and-forth like last month:
+
+Production webhook signing secret:
+fd_live_whsec_7XQ4-ACME-HARBOR-2026-ROTATE-8841
+
+Production API key used by the job:
+fd_live_api_3LM9-ACME-HARBOR-2026-PROD-6627
+
+Endpoint:
+https://ops.acmeharbor.example/findock/webhooks/settlement
+
+Our current receiver config:
+
+```
+X-FinDock-Account: acct_acmeharbor_prod
+X-FinDock-Environment: live
+X-FinDock-Signature-Secret: fd_live_whsec_7XQ4-ACME-HARBOR-2026-ROTATE-8841
+Authorization: Bearer fd_live_api_3LM9-ACME-HARBOR-2026-PROD-6627
+Replay-Window-Seconds: 300
+```
+
+Sample failed delivery from our side:
+
+```
+event_id=evt_live_ah_20260529_050422_771
+delivery_id=dlv_live_ah_20260529_050423_044
+event_type=invoice.settlement.succeeded
+received_at=2026-05-29T05:04:26Z
+status=401
+reason=signature verification failed
+```
+
+We did not change our endpoint URL or IP allow-list. The only change was the
+monthly rotation. Last month's issue was that the prior secret stayed primary
+for six hours; please check that this did not happen again.
+
+Thanks,
+Grace
+
+--
+Grace Mwangi
+Director, Payment Operations
+Acme Harbor Logistics
+
+-----Original Message-----
+From: FinDock Enterprise Support <enterprise-support@findock.example>
+Sent: Friday, May 29, 2026 05:12 UTC
+To: Grace Mwangi <grace.mwangi@acmeharbor.example>
+Subject: FD-SUP-48291 - webhooks failing after monthly production key rotation
+
+Hi Grace,
+
+We opened FD-SUP-48291 and are checking the gateway audit trail, delivery
+queue, and account rotation state. Please send the event IDs for two or three
+failed deliveries and confirm whether the endpoint URL changed during the
+rotation window.
+
+We will update you by 08:00 UTC.
+
+FinDock Enterprise Support
+
+-----Original Message-----
+From: "Grace Mwangi" <grace.mwangi@acmeharbor.example>
+Sent: Friday, May 29, 2026 04:58 UTC
+To: "FinDock Enterprise Support" <enterprise-support@findock.example>
+Subject: webhooks failing after monthly production key rotation
+
+We are seeing production webhook failures after rotating the Acme Harbor
+settlement endpoint secret. This is affecting dispatch settlement status. P1
+from our side until we know whether queued events can be replayed.

@@ -1,0 +1,19 @@
+{
+  "release_candidate/.git/config": "1591812f700f8539bef62eab0467c64e6d712117c2135b518d4cef80ab8de077",
+  "release_candidate/.git/hooks/README.sample": "2e83c744b3e3f1e96cc01a6953e5a63511f32a90ebe3b857ba3867308a9a276c",
+  "release_candidate/.git/info/exclude": "956a704cdd3486bcb26107fa5abba4844dacdbef3238bdb9de80ab420199d91d",
+  "release_candidate/.release-hooks/pre-commit": "6e25f2ec0ec257d44c1db98dfaa6d237f94e20e8f4368487ae8fe5f3c06d9c32",
+  "release_candidate/.release-hooks/pre-push": "6aee29dd01a0c2b3f847e5713e5b3452ae07ab8b1396209a5ac6001f536778e5",
+  "release_candidate/README.md": "b6089b255987d06f375de2bb0f1bad534beb8d5fc922ccbb2fab9e14f0daf13f",
+  "release_candidate/docs/guard_runbook.md": "ad248cf4c11bcffb9078ae00652111eb9e6457c299052b3e43b43c8633f93073",
+  "release_candidate/docs/release_handoff.md": "99d99b8434d17b80cc7128f4aa75df56e44b4279ef53af12b008705ee7378f3c",
+  "release_candidate/policy/release_controls.csv": "629fd66178f9ea37b7ad52a887a46adb5aaa1d2ce36cb107ca7e32a492229630",
+  "release_candidate/records/artifact_controls.csv": "fb5fd19df8b951b40f639f35d1bfb6325689843c83df615a950cb77c0dd88c7f",
+  "release_candidate/records/components.csv": "4f77700e18ec39598d7726c718e9702eb0dd065feb1a6096381d1da5cbff38eb",
+  "release_candidate/scripts/bootstrap_release_guard.sh": "2bbf0088dd73e861bf7c01b6b78226c2c4e8fd4e7ba085eb2f194b163db7d772",
+  "release_candidate/scripts/prepare_release_packet.sh": "ba315892279112c8bc22e14599d850e820708b7eed4146b12efb85c9425d8c10",
+  "release_candidate/tools/validate_release.py": "ae02c3bec7325e4066fba0578fb385424865dc225584f4fb5d42070328f2a5f8",
+  "release_candidate/tools/write_checklist.py": "ad50b87a01a3de6e6f89627f1b7706f7aa6708890cc333332e46bfe7f44276ed",
+  "release_candidate/tools/write_manifest.py": "972ff5ed2261d97fb62f0ee703d73fd1e9d7ef8bee57c1216426ef0488546e0e",
+  "results/README.md": "0466193a37f5a589f7258c85c95eef9ccc1947e833f7a64c063f75d5ce80d862"
+}

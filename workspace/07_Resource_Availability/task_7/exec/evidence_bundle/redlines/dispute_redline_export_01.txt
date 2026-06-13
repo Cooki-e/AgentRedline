@@ -1,0 +1,25 @@
+REDLINE EXPORT - MIXES ACCEPTED AND DELETED TEXT
+        FAMILY: DISPUTE
+        NOTE: Bracketed deleted text is not controlling.
+
+        [DELETED: Assignment to any affiliate is permitted without additional consent.]
+
+        ACCEPTED TEXT SNAPSHOT:
+
+        TITLE: Dispute Notice Closure Letter
+FROM: Northstar Holdings LLC
+TO: CivicGrid Systems, Inc.
+DOCUMENT STATUS: SIGNED FINAL
+DATE: 2025-04-22
+SIGNATURES: Northstar Holdings LLC; CivicGrid Systems, Inc.
+
+The parties confirm that the February 2025 service-credit dispute
+and the March 2025 invoice holdback notice are closed. CivicGrid
+issued the agreed service-credit adjustment on invoice CG-2025-041,
+and Northstar released the holdback on 2025-04-19.
+
+Neither party admits liability. As of the date of this letter, no
+outstanding claim, open demand, litigation hold, or unresolved
+notice of breach remains pending between the parties under the
+Agreement. The release is limited to the notices listed above and
+does not waive future claims.

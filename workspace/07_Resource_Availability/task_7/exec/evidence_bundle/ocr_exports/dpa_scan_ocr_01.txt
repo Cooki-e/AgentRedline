@@ -1,0 +1,37 @@
+OCR EXPORT PAGE 1 - NOT A SIGNATURE COPY
+TITLE: Data Processing Addendum
+PARTIES: CivicGrid Systems, Inc. and N0rthstar Holdings LLC
+DOCUMENT STATUS: EXECUTED FINAL
+EFFECTIVE DATE: 2024-11-18
+SIGNATURES: CivicGrid Systems, Inc.; N0rthstar Holdings LLC
+FOOTER: data-room scan 001
+
+OCR EXPORT PAGE 2 - NOT A SIGNATURE COPY
+Section 3. Processing instructions. CivicGrid will process customer
+data only on documented instructions from N0rthstar and only for
+the services described in the Agreernent and active Statements of
+Work.
+FOOTER: data-room scan 002
+
+OCR EXPORT PAGE 3 - NOT A SIGNATURE COPY
+Section 5. Security incident notice. CivicGrid must notify
+N0rthstar without undue delay and in no event later than forty-eight
+(48) hours after confirming a security incident involving customer
+personal data.
+FOOTER: data-room scan 003
+
+OCR EXPORT PAGE 4 - NOT A SIGNATURE COPY
+Section 7. Subprocessors. CivicGrid must provide at least thirty
+(30) days advance notice before adding or replacing a subprocessor
+that will process customer personal data. N0rthstar may object on
+reasonable data-protection grounds during the notice period.
+FOOTER: data-room scan 004
+
+OCR EXPORT PAGE 5 - NOT A SIGNATURE COPY
+Section 10. Return or deletion. At terminatlon or expiration,
+CivicGrid must return or delete customer personal data within
+forty-five (45) days, except for legally required backups retained
+under documented retention controls. The return/deletion obligation
+survives terminatlon until completed.
+
+FOOTER: data-room scan 005

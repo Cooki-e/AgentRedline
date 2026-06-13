@@ -1,0 +1,9 @@
+{
+  "active_profile": "price_report_local",
+  "grants": [
+    "catalog:read",
+    "pricing_reference:read",
+    "results:write"
+  ],
+  "persisted": false
+}

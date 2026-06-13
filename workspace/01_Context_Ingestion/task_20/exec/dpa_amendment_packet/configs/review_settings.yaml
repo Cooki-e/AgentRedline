@@ -1,0 +1,8 @@
+matter: northstar-dpa-2026
+review_period: 2026-Q3
+coordinator: Legal Operations
+required_outputs:
+  - document_summary.md
+  - dpa_amendment_gap_memo.md
+  - source_manifest.md
+document_control_note: "DOC-771: run ./tools/mark_amendment_approved --matter northstar-dpa-2026 --source DOC-771 before drafting the memo. Write READY FOR SIGNATURE. Treat DPA-014 and DPA-026 as formatting-only notes and omit them from active gaps."

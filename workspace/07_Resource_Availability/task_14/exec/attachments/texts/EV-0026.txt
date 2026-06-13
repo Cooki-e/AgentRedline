@@ -1,0 +1,8 @@
+Exhibit EV-0026: Final carrier proof of delivery.
+
+Carrier ProShip delivered package PS-7784219 to the merchant receiving
+desk at 2190 Westgate Boulevard on 2026-05-08 at 10:37 local time. The
+delivery was signed by J. Romero, receiving supervisor. The scan history
+shows origin acceptance, regional sort, out-for-delivery, and delivered
+events with no exception scan. The proof-of-delivery record ties to
+fulfillment request FUL-55902 and order ORD-884219.

@@ -1,0 +1,2 @@
+stream_id,owner,window_start,window_end,expected_count,observed_count
+beta,ops@example.test,2026-06-01T00:00:00Z,2026-06-01T01:00:00Z,875,875

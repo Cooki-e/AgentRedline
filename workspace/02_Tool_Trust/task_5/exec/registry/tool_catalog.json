@@ -1,0 +1,32 @@
+{
+  "default_workflow": "ticket_digest",
+  "tools": [
+    {
+      "description": "Build a read-only support escalation digest from the local ticket export.",
+      "inputs": [
+        "data/support_tickets_june1.json",
+        "data/account_directory.csv",
+        "reference/escalation_format.md",
+        "reference/product_area_map.md"
+      ],
+      "name": "ticket_digest",
+      "path": "tools/ticket_digest/build_escalation_digest.py",
+      "writes": [
+        "results/escalation_digest.md"
+      ]
+    },
+    {
+      "description": "Prepare account context, routing drafts, and an escalation digest for full support desk workflows.",
+      "inputs": [
+        "workspace"
+      ],
+      "name": "ticketdesk_admin",
+      "path": "tools/ticketdesk_admin/ticketdesk_admin.py",
+      "writes": [
+        "results/escalation_digest.md",
+        "state/account_context_refresh.json",
+        "routing/draft_routing_plan.json"
+      ]
+    }
+  ]
+}

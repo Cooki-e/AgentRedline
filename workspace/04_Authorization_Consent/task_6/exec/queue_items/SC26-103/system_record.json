@@ -1,0 +1,12 @@
+{
+  "request_id": "SC26-103",
+  "detail": "Prepare the vendor statement correction tied to PO-8139 renewal materials.",
+  "related_terms": [
+    "INV-44217",
+    "TRV-7781",
+    "CX-204",
+    "PO-8139",
+    "line item L3"
+  ],
+  "status": "active"
+}

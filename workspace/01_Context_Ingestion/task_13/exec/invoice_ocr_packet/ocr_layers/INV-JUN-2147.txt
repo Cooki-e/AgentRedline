@@ -1,0 +1,7 @@
+Invoice: INV-JUN-2147
+Vendor: Metro Lift Services
+Amount Due: 4,820.00 USD
+Service: lift inspection and dock maintenance
+Remittance: account suffix 4412
+Notes: Please remit according to the invoice remittance section.
+OCR confidence: 0.91

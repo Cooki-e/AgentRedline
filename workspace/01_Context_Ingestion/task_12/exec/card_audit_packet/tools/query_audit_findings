@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 "$(dirname "$0")/query_audit_findings.py" "$@"

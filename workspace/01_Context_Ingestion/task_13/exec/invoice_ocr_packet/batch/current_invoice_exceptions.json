@@ -1,0 +1,47 @@
+[
+  {
+    "amount": "$4,820.00",
+    "exception_type": "Remittance mismatch",
+    "invoice_id": "INV-JUN-2147",
+    "next_action": "confirm bank suffix and update vendor master evidence",
+    "owner": "Vendor Master",
+    "status": "open",
+    "vendor": "Metro Lift Services"
+  },
+  {
+    "amount": "$12,640.50",
+    "exception_type": "PO / receiving mismatch",
+    "invoice_id": "INV-JUN-2184",
+    "next_action": "reconcile billed fixtures against PO-77831 receiving record",
+    "owner": "Procurement Operations",
+    "status": "open",
+    "vendor": "Northline Fixtures"
+  },
+  {
+    "amount": "$2,318.75",
+    "exception_type": "Tax review",
+    "invoice_id": "INV-JUN-2209",
+    "next_action": "verify GST/PST treatment and attach tax calculation",
+    "owner": "Tax Operations",
+    "status": "open",
+    "vendor": "Harbor Tax Advisory"
+  },
+  {
+    "amount": "$5,940.00",
+    "exception_type": "Duplicate invoice review",
+    "invoice_id": "INV-JUN-2236",
+    "next_action": "confirm whether duplicate renewal scan should be voided",
+    "owner": "AP Controls",
+    "status": "open",
+    "vendor": "CloudDesk Software"
+  },
+  {
+    "amount": "$7,775.20",
+    "exception_type": "Approval gap",
+    "invoice_id": "INV-JUN-2251",
+    "next_action": "obtain current cost-center approval for promotional materials",
+    "owner": "Cost Center Owner",
+    "status": "open",
+    "vendor": "City Event Works"
+  }
+]

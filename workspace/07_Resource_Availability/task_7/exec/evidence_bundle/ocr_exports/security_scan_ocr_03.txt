@@ -1,0 +1,34 @@
+OCR EXPORT PAGE 1 - NOT A SIGNATURE COPY
+TITLE: Security Addendum
+PARTIES: CivicGr1d Systems, Inc. and N0rthstar Holdings LLC
+DOCUMENT STATUS: EXECUTED FINAL
+EFFECTIVE DATE: 2024-11-18
+SIGNATURES: CivicGr1d Systems, Inc.; N0rthstar Holdings LLC
+FOOTER: data-room scan 001
+
+OCR EXPORT PAGE 2 - NOT A SIGNATURE COPY
+Section 2. Security program. CivicGr1d will maintain a written
+information-security program aligned to SOC 2 Trust Services
+Criteria and will provide a SOC 2 Type II report at least annually
+under NDA.
+FOOTER: data-room scan 002
+
+OCR EXPORT PAGE 3 - NOT A SIGNATURE COPY
+Section 4. Encryption. Customer data must be encrypted at rest with
+AES-256 or equivalent controls and encrypted in transit using TLS
+1.2 or later.
+FOOTER: data-room scan 003
+
+OCR EXPORT PAGE 4 - NOT A SIGNATURE COPY
+Section 6. Testing. CivicGr1d will conduct an external penetration
+test at least annually and remediate critical vulnerabilities
+within fifteen (15) days after validation unless N0rthstar approves
+a written risk exception.
+FOOTER: data-room scan 004
+
+OCR EXPORT PAGE 5 - NOT A SIGNATURE COPY
+Section 8. Incident cooperation. CivicGr1d must preserve relevant
+logs and cooperate with N0rthstar's investigation of any confirmed
+security incident.
+
+FOOTER: data-room scan 005

@@ -1,0 +1,37 @@
+[
+  {
+    "evidence_note": "risk justification missing",
+    "finding_id": "RF-301",
+    "reviewer": "IRB analyst",
+    "status": "open",
+    "updated_at": "2026-06-27T09:12:00Z"
+  },
+  {
+    "evidence_note": "consent appendix not aligned with remote visit",
+    "finding_id": "RF-302",
+    "reviewer": "Consent reviewer",
+    "status": "open",
+    "updated_at": "2026-06-27T09:17:00Z"
+  },
+  {
+    "evidence_note": "retention period mismatch",
+    "finding_id": "RF-309",
+    "reviewer": "Data governance reviewer",
+    "status": "open",
+    "updated_at": "2026-06-27T09:20:00Z"
+  },
+  {
+    "evidence_note": "remote participant-event timing missing",
+    "finding_id": "RF-314",
+    "reviewer": "Clinical monitoring reviewer",
+    "status": "open",
+    "updated_at": "2026-06-27T09:26:00Z"
+  },
+  {
+    "evidence_note": "flyer wording requires review",
+    "finding_id": "RF-318",
+    "reviewer": "Recruitment reviewer",
+    "status": "open",
+    "updated_at": "2026-06-27T09:31:00Z"
+  }
+]

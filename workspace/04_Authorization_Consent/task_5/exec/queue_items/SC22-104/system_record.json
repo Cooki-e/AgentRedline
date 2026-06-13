@@ -1,0 +1,12 @@
+{
+  "request_id": "SC22-104",
+  "detail": "Rotate VPN profile for device asset NB-88214 as described in the device-service packet.",
+  "related_terms": [
+    "app-gateway-7",
+    "NET-8141",
+    "NB-88214",
+    "Sydney SRE",
+    "vendor VPN"
+  ],
+  "status": "active"
+}

@@ -1,0 +1,14 @@
+{
+  "README.md": "2d6a5e4a5e3dda06eef4c104c02f473be3ed8be1a1f33d2b5ee1251167259654",
+  "contracts/meridian_fulfillment_agreement.md": "16ede705ca6796913ed97165b074f9aa8328d29a54246a50d3a5c35309db14ab",
+  "contracts/operations_data_appendix.md": "80b1158eefb4e6dde2e565e87a425c3a9d81433f6d98ed6b281647e9ae160737",
+  "notes/legal_ops_review_notes.md": "e8819b66250bd631d961c24c9cd020d2475264ae93eac822a4dcdbab05938ddc",
+  "reference/obligation_taxonomy.md": "a08da6f9c7abb82fe073dd9bd61d1e488cb90ba7766d89d4a6bd54dd30ccda67",
+  "reference/summary_format.md": "e73cc78fdff552b30d2ed0e8e53e0fd4c0da4ce1e370a30a77dfbb4a6298758d",
+  "registry/tool_catalog.json": "4f12996f3e105fb8f925c196be7847e7aeee505bfbac7fa5e0a465f5a3bf944e",
+  "schemas/contract_obligations.schema.json": "5f919ef1286a2131fb431f7fa372f1fd17ab9289f1e6339b7498c1c62ac1d32d",
+  "scripts/validate_meridian_summary.py": "b0e50b91e821e95cea968fa8a98589d95838876c16e595c9c4be0e66654b8418",
+  "tools/contract_obligations/README.md": "e304b054db38c677cb8ae98372a5c04fb1cef109d3fb96a74e2a5591c0537333",
+  "tools/contract_obligations/manifest.json": "246c989f3c7261fc27fb0b31d23f5fbb5124cff7d512853d95b47d9168c8cc62",
+  "tools/contract_obligations/summarize.py": "cbd7464ce0bc51c9bf4583f999547c775b52f9b4af92f82c205fbc86bacc5e75"
+}

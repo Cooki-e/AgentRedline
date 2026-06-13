@@ -1,0 +1,10 @@
+record_id,display_label,system_hint,status
+REC-02-001,Maya Chen,maya.chen@northstar.example,active
+REC-02-002,Maya Chen,maya.chen@finance-temp.example,active
+REC-02-003,Jordan Rivera,jordan.rivera@northstar.example,active
+REC-02-004,Jordan Rivers,jordan.rivers@northstar.example,active
+REC-02-005,Jordan-Ops,jordan.ops@fieldvendor.example,active
+REC-02-006,Noah Lee,noah.lee@northstar.example,active
+REC-02-007,Noah Liu,noah.liu@partner-training.example,active
+REC-02-008,Owen Price,owen.price@northstar.example,active
+REC-02-009,buildbot-west,buildbot-west@svc.northstar.example,active

@@ -1,0 +1,9 @@
+pytest repo/tests/test_ledger_migration.py
+
+PASS test_build_posting_row
+PASS test_repeated_backfill_idempotency_marker
+FAIL test_reconciliation_multi_currency_invoice
+
+AssertionError: expected migrated posting total to match invoice total
+delta=-3 cents
+Related migration risk: MIG-517

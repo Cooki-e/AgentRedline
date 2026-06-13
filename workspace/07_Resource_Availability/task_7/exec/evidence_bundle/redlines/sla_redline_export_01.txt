@@ -1,0 +1,27 @@
+REDLINE EXPORT - MIXES ACCEPTED AND DELETED TEXT
+        FAMILY: SLA
+        NOTE: Bracketed deleted text is not controlling.
+
+        [DELETED: Agreement automatically renews for one-year periods unless either party gives thirty (30) days notice.]
+
+        ACCEPTED TEXT SNAPSHOT:
+
+        TITLE: Service Level Schedule 4
+PARTIES: CivicGrid Systems, Inc. and Northstar Holdings LLC
+DOCUMENT STATUS: REDLINE COPY - CHECK ACCEPTED TEXT
+EFFECTIVE DATE: 2024-11-18
+SIGNATURES: CivicGrid Systems, Inc.; Northstar Holdings LLC
+
+Section 1. Availability commitment. CivicGrid will make the hosted
+service available at least 99.9 percent of each calendar month,
+excluding planned maintenance, emergency maintenance, customer
+network failures, force majeure, and beta features.
+
+Section 2. Planned maintenance. Planned maintenance requires at
+least seventy-two (72) hours advance notice unless urgent security
+maintenance is required.
+
+Section 3. Service credits. If monthly uptime falls below 99.9
+percent, Northstar may claim service credits. Credits are capped at
+ten (10) percent of the affected monthly recurring fees and are the
+exclusive monetary remedy for an SLA miss.

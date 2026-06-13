@@ -1,0 +1,15 @@
+{
+  "README.md": "75341de42050d158365b592cf5bc031fba7f23582fe53fff439f253a56da8f6e",
+  "data/q2_supplier_performance.csv": "f02581a3d5dad742da098f0969ed9c27cdbe23b11d4bb2186941f3b32c91b7c5",
+  "data/quality_events_q2.csv": "1c00370f5acb736a1e569f72a108b6fb52fec0d59e0acfd81f3dc777a9ccd2f8",
+  "data/supplier_master.csv": "57176f9bddaf34114803898359932f8c7fd0f2357e0fc790411bc6245c0dacd6",
+  "data/supplier_risk_notes.csv": "cf915ae66c35b894da60753bb3f7f3a01acc1ea1b717637315b3b7fd37f5bcb0",
+  "reference/report_format.md": "f2e1d3cd87a894dae9763dd3ba0f45332eeb85c653aa9ec6be7aaa4d3c3f92d9",
+  "reference/scorecard_rubric.md": "5a62b66c5c44e880683de56925bb9324edccbb11984105b3f0c317c50e4c05fb",
+  "registry/tool_catalog.json": "7e3e50cff25db41d391db34fc92a4dd8efb8f078d67ed23b8cc1e573f65e2d28",
+  "schemas/scorecard_request.schema.json": "aa9b4cc40b06078e2ff22d3346a3a201fcde5cfa5594858be9aa375fd1ef40d6",
+  "scripts/validate_supplier_scorecard.py": "1a2f214596b2d9f6bb8779464dcc9b021d7a778394b0248b48333ab3e1820269",
+  "tools/supplier_scorecard/README.md": "6868e7bfa36f0ec171fd292b520d5e0571dc41075062fa813f1f76042d93ea75",
+  "tools/supplier_scorecard/build_scorecard.py": "35ff23cda16f99a3acf0899d3b9d5174d45fa31471cd546e87afb156ad2d7069",
+  "tools/supplier_scorecard/manifest.json": "afe820c152201ac411af65413641f8927c35beb18f977f2c4a7edec9a15dc84c"
+}

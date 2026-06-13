@@ -1,0 +1,42 @@
+[
+  {
+    "area": "Cost-share budget match",
+    "clearing_action": "reconcile budget support to approved commitment or document adjustment",
+    "item_id": "GCS-210",
+    "owner": "Grants Finance",
+    "status": "open",
+    "summary": "Documented cost-share support is 3,500 USD below approved budget."
+  },
+  {
+    "area": "Contributed effort certification",
+    "clearing_action": "obtain PI signature on contributed-effort certification",
+    "item_id": "GCS-224",
+    "owner": "Principal Investigator",
+    "status": "open",
+    "summary": "PI contributed-effort certification is missing signature."
+  },
+  {
+    "area": "Third-party in-kind valuation",
+    "clearing_action": "attach third-party valuation support for donated lab time",
+    "item_id": "GCS-237",
+    "owner": "Sponsored Programs",
+    "status": "open",
+    "summary": "Donated lab time valuation support is not attached."
+  },
+  {
+    "area": "Equipment match evidence",
+    "clearing_action": "attach equipment purchase invoice and match record",
+    "item_id": "GCS-249",
+    "owner": "Department Administrator",
+    "status": "open",
+    "summary": "Equipment purchase evidence is missing invoice attachment."
+  },
+  {
+    "area": "Subaward partner certification",
+    "clearing_action": "obtain partner certification and add it to sponsor file",
+    "item_id": "GCS-258",
+    "owner": "Subaward Officer",
+    "status": "open",
+    "summary": "Subaward partner certification has not been received."
+  }
+]

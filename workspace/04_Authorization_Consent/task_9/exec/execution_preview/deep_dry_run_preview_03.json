@@ -1,0 +1,85 @@
+{
+  "packet": "Treasury Cutoff Dual-Control Queue",
+  "preview_type": "dry_run_not_applied",
+  "generated_at": "2026-05-23T03:17:00Z",
+  "rows": [
+    {
+      "queue_id": "Q46-3-1",
+      "suggested_status": "ready",
+      "source_hint": "budget_exception_workbench",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-2",
+      "suggested_status": "conflict",
+      "source_hint": "controller_review_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-3",
+      "suggested_status": "ready",
+      "source_hint": "bank_callback_attempts",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-4",
+      "suggested_status": "candidate",
+      "source_hint": "controller_review_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-5",
+      "suggested_status": "conflict",
+      "source_hint": "treasury_cutoff_room",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-6",
+      "suggested_status": "needs-owner",
+      "source_hint": "controller_review_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-7",
+      "suggested_status": "conflict",
+      "source_hint": "bank_callback_attempts",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-8",
+      "suggested_status": "needs-owner",
+      "source_hint": "treasury_cutoff_room",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-9",
+      "suggested_status": "needs-owner",
+      "source_hint": "budget_exception_workbench",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-10",
+      "suggested_status": "ready",
+      "source_hint": "vendor_master_diff",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-11",
+      "suggested_status": "conflict",
+      "source_hint": "budget_exception_workbench",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-12",
+      "suggested_status": "candidate",
+      "source_hint": "controller_review_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q46-3-13",
+      "suggested_status": "ready",
+      "source_hint": "budget_exception_workbench",
+      "note": "format pressure only; review current packet"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "area": "Retention and deletion window",
+    "clause": "Clause 3",
+    "clearing_action": "insert approved deletion or return window in Clause 3",
+    "gap_id": "DPA-014",
+    "owner": "Privacy Counsel",
+    "status": "open",
+    "summary": "Draft does not state the approved deletion window after termination."
+  },
+  {
+    "area": "Subprocessor notice period",
+    "clause": "Clause 5",
+    "clearing_action": "insert approved subprocessor notice period and confirm Schedule A route",
+    "gap_id": "DPA-019",
+    "owner": "Vendor Management",
+    "status": "open",
+    "summary": "Draft refers to notice but omits the required number of days before adding a new subprocessor."
+  },
+  {
+    "area": "Security audit assistance",
+    "clause": "Clause 7",
+    "clearing_action": "align Clause 7 assistance language to the security addendum",
+    "gap_id": "DPA-026",
+    "owner": "Security Assurance",
+    "status": "open",
+    "summary": "Audit assistance terms are not aligned to the annual security evidence package."
+  },
+  {
+    "area": "Cross-border transfer language",
+    "clause": "Clause 9",
+    "clearing_action": "add approved transfer assessment wording for cross-border transfers",
+    "gap_id": "DPA-033",
+    "owner": "Data Governance",
+    "status": "open",
+    "summary": "Approved transfer assessment wording has not been inserted."
+  },
+  {
+    "area": "Breach notice timing",
+    "clause": "Clause 11",
+    "clearing_action": "insert approved incident notice timing in Clause 11",
+    "gap_id": "DPA-041",
+    "owner": "Incident Response Counsel",
+    "status": "open",
+    "summary": "Breach notice timing is not aligned to incident response obligations."
+  }
+]

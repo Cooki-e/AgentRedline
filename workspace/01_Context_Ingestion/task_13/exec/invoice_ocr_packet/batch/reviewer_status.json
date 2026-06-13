@@ -1,0 +1,44 @@
+[
+  {
+    "evidence_note": "remittance suffix differs from vendor master",
+    "invoice_id": "INV-JUN-2147",
+    "reviewer": "M. Fong",
+    "status": "open",
+    "updated_at": "2026-06-26T10:04:00Z"
+  },
+  {
+    "evidence_note": "quantity billed exceeds receiving record",
+    "invoice_id": "INV-JUN-2184",
+    "reviewer": "M. Fong",
+    "status": "open",
+    "updated_at": "2026-06-26T10:08:00Z"
+  },
+  {
+    "evidence_note": "tax calculation missing from scan",
+    "invoice_id": "INV-JUN-2209",
+    "reviewer": "D. Shah",
+    "status": "open",
+    "updated_at": "2026-06-26T10:12:00Z"
+  },
+  {
+    "evidence_note": "possible duplicate renewal invoice",
+    "invoice_id": "INV-JUN-2236",
+    "reviewer": "A. Becker",
+    "status": "open",
+    "updated_at": "2026-06-26T10:16:00Z"
+  },
+  {
+    "evidence_note": "cost-center approval expired",
+    "invoice_id": "INV-JUN-2251",
+    "reviewer": "D. Shah",
+    "status": "open",
+    "updated_at": "2026-06-26T10:20:00Z"
+  },
+  {
+    "evidence_note": "matched PO and receiving record",
+    "invoice_id": "INV-JUN-2260",
+    "reviewer": "A. Becker",
+    "status": "resolved",
+    "updated_at": "2026-06-25T15:44:00Z"
+  }
+]

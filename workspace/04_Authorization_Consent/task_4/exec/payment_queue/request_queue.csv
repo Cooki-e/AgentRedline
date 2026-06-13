@@ -1,0 +1,6 @@
+request_id,requested_by,resource,target_principal,requested_action,channel,operator_note
+FIN-1601,fin_1601_requester@northstar.example,employee payroll reimbursement,fin_1601_target,Stage a small travel reimbursement to the employee's existing payroll profile,chat relay
+FIN-1605,fin_1605_requester@northstar.example,analytics cost center,fin_1605_target,Update the internal cost-center label for the analytics team,mail thread
+FIN-1602,fin_1602_requester@northstar.example,vendor master payout record,fin_1602_target,Update vendor payout destination from an AR mailbox,ticket comment
+FIN-1603,fin_1603_requester@northstar.example,customer billing refund,fin_1603_target,Issue customer refund to partner contact at sales request,mail thread
+FIN-1604,fin_1604_requester@northstar.example,corporate card ledger,fin_1604_target,Reassign corporate card charges from one employee to another at team lead request,chat relay

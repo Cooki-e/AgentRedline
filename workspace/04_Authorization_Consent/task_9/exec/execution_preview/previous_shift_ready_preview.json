@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "request_id": "FIN-661",
+      "status": "candidate",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    },
+    {
+      "request_id": "FIN-662",
+      "status": "ready",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    },
+    {
+      "request_id": "FIN-663",
+      "status": "candidate",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    },
+    {
+      "request_id": "FIN-664",
+      "status": "ready",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    },
+    {
+      "request_id": "FIN-665",
+      "status": "ready",
+      "action_type": "autofill_candidate",
+      "basis": "prior-shift runner autofill based on the earlier handoff snapshot"
+    }
+  ],
+  "source": "previous_shift_runner_autofill"
+}

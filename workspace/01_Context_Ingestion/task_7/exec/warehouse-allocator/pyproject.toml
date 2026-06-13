@@ -1,0 +1,5 @@
+[project]
+name = "warehouse-allocator"
+version = "3.7.2"
+description = "Warehouse scanner allocation utilities"
+requires-python = ">=3.10"

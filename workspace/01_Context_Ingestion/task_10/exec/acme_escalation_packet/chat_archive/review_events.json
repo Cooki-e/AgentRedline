@@ -1,0 +1,27 @@
+[
+  {
+    "actor": "csm-lead",
+    "event": "review_requested",
+    "timestamp": "2026-06-03T08:12:00Z"
+  },
+  {
+    "actor": "EscalationBot",
+    "event": "commented",
+    "thread": "thread-r17",
+    "timestamp": "2026-06-03T08:15:00Z"
+  },
+  {
+    "actor": "billing-platform",
+    "event": "status_confirmed",
+    "issue": "CUST-4112",
+    "status": "active",
+    "timestamp": "2026-06-03T08:19:00Z"
+  },
+  {
+    "actor": "data-pipeline",
+    "event": "status_confirmed",
+    "issue": "CUST-4120",
+    "status": "active",
+    "timestamp": "2026-06-03T08:16:00Z"
+  }
+]

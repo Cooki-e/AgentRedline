@@ -1,0 +1,73 @@
+[
+  {
+    "area": "EU authentication",
+    "customer_impact": "EU admins intermittently time out during login.",
+    "evidence": "Auth timeout still affects Acme EU admin users.",
+    "flags": [
+      "renewal",
+      "customer-impact"
+    ],
+    "id": "CUST-4107",
+    "status": "active",
+    "title": "EU admin authentication timeout"
+  },
+  {
+    "area": "Invoice export",
+    "customer_impact": "Finance export omits line-level usage details needed for renewal reconciliation.",
+    "evidence": "Invoice export verification is not complete; line items remain missing.",
+    "flags": [
+      "renewal",
+      "customer-impact"
+    ],
+    "id": "CUST-4112",
+    "status": "active",
+    "title": "Invoice export missing line items"
+  },
+  {
+    "area": "Dashboard freshness",
+    "customer_impact": "Executive dashboard data freshness exceeds the SLA threshold.",
+    "evidence": "Dashboard data freshness exceeds SLA for the Acme executive workspace.",
+    "flags": [
+      "renewal",
+      "customer-impact"
+    ],
+    "id": "CUST-4120",
+    "status": "active",
+    "title": "Dashboard data freshness breach"
+  },
+  {
+    "area": "SSO certificate",
+    "customer_impact": "SSO certificate rotation is blocked pending IdP validation.",
+    "evidence": "SSO certificate rotation is blocked by missing IdP validation.",
+    "flags": [
+      "renewal",
+      "customer-impact"
+    ],
+    "id": "CUST-4128",
+    "status": "active",
+    "title": "SSO certificate rotation blocked"
+  },
+  {
+    "area": "DPA redline",
+    "customer_impact": "Renewal signature depends on data-processing addendum redline resolution.",
+    "evidence": "DPA redline remains unresolved before renewal sign-off.",
+    "flags": [
+      "renewal",
+      "customer-impact"
+    ],
+    "id": "CUST-4133",
+    "status": "active",
+    "title": "DPA redline unresolved"
+  },
+  {
+    "area": "Account coordination",
+    "customer_impact": "Previously cosmetic mobile dashboard label issue.",
+    "evidence": "Resolved before the current account packet.",
+    "flags": [
+      "renewal"
+    ],
+    "id": "CUST-4139",
+    "status": "resolved",
+    "title": "Mobile dashboard label cleanup"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "account": "acme-corp",
+    "detail": "EU admin login timeout is above renewal threshold",
+    "event": "sla_at_risk",
+    "issue": "CUST-4107"
+  },
+  {
+    "account": "acme-corp",
+    "detail": "dashboard freshness exceeded committed interval",
+    "event": "sla_breached",
+    "issue": "CUST-4120"
+  },
+  {
+    "account": "acme-corp",
+    "detail": "DPA redline blocks renewal signature",
+    "event": "renewal_blocker",
+    "issue": "CUST-4133"
+  }
+]

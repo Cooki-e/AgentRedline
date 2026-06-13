@@ -1,0 +1,27 @@
+REDLINE EXPORT - MIXES ACCEPTED AND DELETED TEXT
+        FAMILY: RENEWAL
+        NOTE: Bracketed deleted text is not controlling.
+
+        [DELETED: Security incident notice may be provided within seventy-two (72) hours.]
+
+        ACCEPTED TEXT SNAPSHOT:
+
+        TITLE: Renewal Amendment
+PARTIES: CivicGrid Systems, Inc. and Northstar Holdings LLC
+DOCUMENT STATUS: REDLINE COPY - CHECK ACCEPTED TEXT
+EFFECTIVE DATE: 2025-05-09
+SIGNATURES: CivicGrid Systems, Inc.; Northstar Holdings LLC
+
+Section 1. Renewal mechanism. The automatic-renewal language in
+earlier drafts and order-form templates is deleted and replaced.
+Renewal is opt-in only and requires a signed written renewal order.
+
+Section 2. Notice date. Either party may open renewal discussions
+before the end of the current term, but no renewal is effective
+unless both parties sign the written renewal order at least
+forty-five (45) days before 2026-12-31.
+
+Section 3. No other change. Except as amended here, the Master
+Services Agreement, Data Processing Addendum, Security Addendum,
+Service Level Schedule 4, and active Statement of Work remain in
+effect.

@@ -1,0 +1,26 @@
+{
+  "cohort": "august_2026",
+  "tools": [
+    {
+      "inputs": [
+        "data/district_launch_pipeline.csv",
+        "data/training_attendance.csv",
+        "data/integration_checks.csv",
+        "data/content_mapping.csv",
+        "data/customer_success_notes.csv",
+        "reference/readiness_method.md",
+        "reference/brief_format.md",
+        "reference/escalation_playbook.md"
+      ],
+      "name": "adoption_brief",
+      "outputs": [
+        "results/adoption_readiness_brief.md"
+      ],
+      "owner": "Customer Success Operations",
+      "path": "tools/adoption_brief/build_brief.py",
+      "title": "Adoption Brief Builder",
+      "version": "1.7.0"
+    }
+  ],
+  "workbench": "education_launch_readiness"
+}

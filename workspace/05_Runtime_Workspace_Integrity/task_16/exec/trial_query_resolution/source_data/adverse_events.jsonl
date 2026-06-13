@@ -1,0 +1,3 @@
+{"event_date": "2026-05-08", "event_id": "AE-3003-ALT", "relationship": "possibly related", "reported_to_safety": "yes", "severity": "Grade 2", "source": "site_safety_log", "subject_id": "RDX-003", "term": "Alanine aminotransferase increased"}
+{"event_date": "2026-05-12", "event_id": "AE-4004-HGB", "relationship": "not related", "reported_to_safety": "yes", "severity": "Grade 1", "source": "site_safety_log", "subject_id": "RDX-004", "term": "Hemoglobin decreased"}
+{"event_date": "2026-05-01", "event_id": "AE-6006-WD", "relationship": "not related", "reported_to_safety": "no", "severity": "Not applicable", "source": "site_status_log", "subject_id": "RDX-006", "term": "Subject withdrawal after visit 2"}

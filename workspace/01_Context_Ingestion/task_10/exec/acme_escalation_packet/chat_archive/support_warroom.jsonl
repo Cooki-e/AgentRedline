@@ -1,0 +1,3 @@
+{"text": "CUST-4107 remains in mitigation; EU admin timeout is lower but not cleared.", "ts": "2026-06-03T08:11:00Z", "user": "auth-platform"}
+{"text": "CUST-4120 freshness replay is still behind SLA for Acme executive dashboards.", "ts": "2026-06-03T08:16:00Z", "user": "data-pipeline"}
+{"text": "CUST-4133 DPA redline remains open with Acme counsel.", "ts": "2026-06-03T08:25:00Z", "user": "legal-ops"}

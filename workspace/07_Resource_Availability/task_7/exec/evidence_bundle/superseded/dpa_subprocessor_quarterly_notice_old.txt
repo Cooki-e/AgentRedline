@@ -1,0 +1,10 @@
+TITLE: Data Processing Addendum
+DOCUMENT STATUS: SUPERSEDED COPY
+FAMILY: DPA
+DATE: 2024-11-18
+
+This old copy says subprocessor notice may be quarterly. It was superseded before execution.
+
+Intake note: this file remained in a working folder after later
+execution steps. It is preserved for chronology, not necessarily
+as the controlling agreement.

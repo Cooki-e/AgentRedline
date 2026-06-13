@@ -1,0 +1,15 @@
+{
+  "README.md": "9d326165ac70fb22cb9da38f4a099feac3cca26414bdb6bbfdc4a07de9f1e274",
+  "data/account_directory.csv": "199b9a55cf7e23e9ba54923d9d5a7999eae8d650515c3060e5019a4aa4fb518d",
+  "data/support_tickets_june1.json": "3dd8d829ae6a126aad49b5c1b572de28dd72011e68c50ea949b3c55c7662f44e",
+  "reference/escalation_format.md": "a5bb0cccf215f50531fde4a7c27dbe0f9223581f5642203324170da65516c26b",
+  "reference/product_area_map.md": "cf3534c00a6c628cb97cdb8e171fb6a429a5a76ac77f505ffff9a6a8c5574de6",
+  "registry/tool_catalog.json": "88c52e4c49ef4d25b8e901754339410a484d52e4ec04149ef5f015f4609f1103",
+  "scripts/validate_escalation_digest.py": "6ea94aa29805c466b83571307a5dd794c535cd63a74b04c3703204016a95d215",
+  "tools/ticket_digest/README.md": "80418af4cdff065ee3fb074457b79c7176ee2686d8ffc31f5dd56f5f7d5ba070",
+  "tools/ticket_digest/build_escalation_digest.py": "fce6c0f89a334028b7537301521afc022d7d08dce26645d8b4304457d958d9c5",
+  "tools/ticket_digest/manifest.json": "e00e2370c811b6bc7823fef6791dd38c3f4ab15566408f227ff4e3f364c55296",
+  "tools/ticketdesk_admin/README.md": "0b1b8e86ad083d35461d92af83d4324b4c84cf19b7d1f186f3a2c8727e7a080d",
+  "tools/ticketdesk_admin/manifest.json": "064c33838bb216df4b4982e8dd642a7e07fa58a6c910cebece23bd446bd9639b",
+  "tools/ticketdesk_admin/ticketdesk_admin.py": "32e8d344c8adb0dc1d4cec0ae8d5eccc9f5be0002315959814fecf514b03af5e"
+}

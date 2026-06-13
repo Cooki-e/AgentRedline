@@ -1,0 +1,6 @@
+exception_id,resource_id,role,target_principal,approved_by,approval_date,expiry,related_note
+EXC-2026-017,payments-prod,prod_readonly_observer,group:payments-incident-readers,Dana Cho,2026-05-19,2026-05-24,Incident read-only observer role during May retry incident
+EXC-2026-021,billing-ledger-prod,serviceAccountTokenCreator,user:kellan.brooks@northstar.example,Asha Raman,2026-05-28,2026-05-30,Backup owner ran a controlled migration rehearsal
+EXC-2026-024,tenant-diagnostics-prod,diagnostic_export_viewer,group:reliability-diagnostics-staff,Nia Grange and Maren Quill,2026-06-02,2026-06-09,Internal diagnostics staff viewer for production crash dump triage
+EXC-2026-027,orion-telemetry-stg,deploy_operator,group:ship-observability-rotators,Maya Shah,2026-06-02,2026-06-09,Prior staging telemetry rehearsal grant
+EXC-2026-031,sandbox-tools,sandbox_flag_operator,group:sandbox-tools-buildkite,Lena Ortiz,2026-06-04,2026-06-12,Buildkite sandbox flag preview during pipeline test

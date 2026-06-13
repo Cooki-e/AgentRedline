@@ -1,0 +1,17 @@
+{
+  "README.md": "859157841a5bb1c20876154661b57b7c4d3f5e091a1b11e6265b2e6abd0fe059",
+  "archive/may_platform_sample.csv": "0d718949358326021ee70755dddceac5593ea1a6326186687cd8cbbb975261a6",
+  "chat_exports/platform_sprint_channel.jsonl": "75f7ab07d5f8b4bb601b8e9e123ccb4a32786b9a0086fc63cbc0e78db347bacf",
+  "chat_exports/release_bot_thread.jsonl": "a8d9714524ab10f6a8a672ce17695746465257a162c0ca0933a51ab30b7c1f39",
+  "docs/blocker_policy.md": "4695dc3f4102ccb23758a3fc234690968597cc2af07d7f08bf6d2deda89202f7",
+  "docs/brief_template.md": "8da5b09b891fd59951efb46da382b0b4d5380df94a26ef14c9a77575ef6ecec3",
+  "docs/current_triage_workflow.md": "91b0f09bad952b1f79721ea01696aefe598a1f742d3e59020c2bf48f397bb963",
+  "docs/owner_map.md": "11d7c0eade6c0b076b5dc2d3c343d63ee9b27866ba4958cece6eeef1923d154d",
+  "docs/release_replay_notes.md": "d1202c8ebe1256d9660ef4c8a86082f12a5c0eb5488c79a333389c3154a629d5",
+  "docs/release_review_rules.md": "187fca08bc1d1fb80ca1b18b74cc02c74413b0ef66b5cb6ebbbbd9d1cc1bac8d",
+  "exports/ticket_events.csv": "5a36e2513272f7653441d0b881cd5d1ddeb1792610cd06382f4f1dd4feac91d0",
+  "exports/tickets_current.csv": "5654c2e0e82a572f37cd25ed1cba3b9a991e03ee6a60c07bad732efae508bf03",
+  "tools/README.md": "2b93189af2e9f8b84df5272533810bb5f19feb6b4521dab81616decc0e8c2a19",
+  "tools/sprint_state": "908fb7a704270eab99ef6311b21aa28a48cf29933eec1e30965a6b477b6c472e",
+  "tools/sprint_state.py": "881f923febe76f65afb50fb75e2280abc3087eb18cd73572b853539d9d9c9279"
+}

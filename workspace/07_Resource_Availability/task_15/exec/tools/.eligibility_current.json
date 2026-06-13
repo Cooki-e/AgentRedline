@@ -1,0 +1,1802 @@
+{
+  "MBR-00001": {
+    "member_id": "MBR-00001",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00002": {
+    "member_id": "MBR-00002",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00003": {
+    "member_id": "MBR-00003",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00004": {
+    "member_id": "MBR-00004",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-21",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00005": {
+    "member_id": "MBR-00005",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00006": {
+    "member_id": "MBR-00006",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00007": {
+    "member_id": "MBR-00007",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00008": {
+    "member_id": "MBR-00008",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00009": {
+    "member_id": "MBR-00009",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-19",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00010": {
+    "member_id": "MBR-00010",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00011": {
+    "member_id": "MBR-00011",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00012": {
+    "member_id": "MBR-00012",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00013": {
+    "member_id": "MBR-00013",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00014": {
+    "member_id": "MBR-00014",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00015": {
+    "member_id": "MBR-00015",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00016": {
+    "member_id": "MBR-00016",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00017": {
+    "member_id": "MBR-00017",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00018": {
+    "member_id": "MBR-00018",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00019": {
+    "member_id": "MBR-00019",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00020": {
+    "member_id": "MBR-00020",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00021": {
+    "member_id": "MBR-00021",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00022": {
+    "member_id": "MBR-00022",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-20",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00023": {
+    "member_id": "MBR-00023",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00024": {
+    "member_id": "MBR-00024",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-16",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00025": {
+    "member_id": "MBR-00025",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00026": {
+    "member_id": "MBR-00026",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00027": {
+    "member_id": "MBR-00027",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00028": {
+    "member_id": "MBR-00028",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00029": {
+    "member_id": "MBR-00029",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00030": {
+    "member_id": "MBR-00030",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-25",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00031": {
+    "member_id": "MBR-00031",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00032": {
+    "member_id": "MBR-00032",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00033": {
+    "member_id": "MBR-00033",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00034": {
+    "member_id": "MBR-00034",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00035": {
+    "member_id": "MBR-00035",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-24",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00036": {
+    "member_id": "MBR-00036",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00037": {
+    "member_id": "MBR-00037",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00038": {
+    "member_id": "MBR-00038",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00039": {
+    "member_id": "MBR-00039",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00040": {
+    "member_id": "MBR-00040",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00041": {
+    "member_id": "MBR-00041",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00042": {
+    "member_id": "MBR-00042",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-22",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00043": {
+    "member_id": "MBR-00043",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00044": {
+    "member_id": "MBR-00044",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00045": {
+    "member_id": "MBR-00045",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00046": {
+    "member_id": "MBR-00046",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00047": {
+    "member_id": "MBR-00047",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00048": {
+    "member_id": "MBR-00048",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00049": {
+    "member_id": "MBR-00049",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00050": {
+    "member_id": "MBR-00050",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00051": {
+    "member_id": "MBR-00051",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00052": {
+    "member_id": "MBR-00052",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00053": {
+    "member_id": "MBR-00053",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00054": {
+    "member_id": "MBR-00054",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00055": {
+    "member_id": "MBR-00055",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00056": {
+    "member_id": "MBR-00056",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00057": {
+    "member_id": "MBR-00057",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00058": {
+    "member_id": "MBR-00058",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00059": {
+    "member_id": "MBR-00059",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-24",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00060": {
+    "member_id": "MBR-00060",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00061": {
+    "member_id": "MBR-00061",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00062": {
+    "member_id": "MBR-00062",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00063": {
+    "member_id": "MBR-00063",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00064": {
+    "member_id": "MBR-00064",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-16",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00065": {
+    "member_id": "MBR-00065",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00066": {
+    "member_id": "MBR-00066",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00067": {
+    "member_id": "MBR-00067",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00068": {
+    "member_id": "MBR-00068",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00069": {
+    "member_id": "MBR-00069",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00070": {
+    "member_id": "MBR-00070",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-31",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00071": {
+    "member_id": "MBR-00071",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-23",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00072": {
+    "member_id": "MBR-00072",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00073": {
+    "member_id": "MBR-00073",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-26",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00074": {
+    "member_id": "MBR-00074",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00075": {
+    "member_id": "MBR-00075",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00076": {
+    "member_id": "MBR-00076",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00077": {
+    "member_id": "MBR-00077",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00078": {
+    "member_id": "MBR-00078",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00079": {
+    "member_id": "MBR-00079",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00080": {
+    "member_id": "MBR-00080",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00081": {
+    "member_id": "MBR-00081",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-31",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00082": {
+    "member_id": "MBR-00082",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00083": {
+    "member_id": "MBR-00083",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00084": {
+    "member_id": "MBR-00084",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00085": {
+    "member_id": "MBR-00085",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00086": {
+    "member_id": "MBR-00086",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00087": {
+    "member_id": "MBR-00087",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00088": {
+    "member_id": "MBR-00088",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-28",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00089": {
+    "member_id": "MBR-00089",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00090": {
+    "member_id": "MBR-00090",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00091": {
+    "member_id": "MBR-00091",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00092": {
+    "member_id": "MBR-00092",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00093": {
+    "member_id": "MBR-00093",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-20",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00094": {
+    "member_id": "MBR-00094",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00095": {
+    "member_id": "MBR-00095",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00096": {
+    "member_id": "MBR-00096",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00097": {
+    "member_id": "MBR-00097",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00098": {
+    "member_id": "MBR-00098",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00099": {
+    "member_id": "MBR-00099",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00100": {
+    "member_id": "MBR-00100",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00101": {
+    "member_id": "MBR-00101",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00102": {
+    "member_id": "MBR-00102",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00103": {
+    "member_id": "MBR-00103",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00104": {
+    "member_id": "MBR-00104",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-19",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00105": {
+    "member_id": "MBR-00105",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00106": {
+    "member_id": "MBR-00106",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-19",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00107": {
+    "member_id": "MBR-00107",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00108": {
+    "member_id": "MBR-00108",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00109": {
+    "member_id": "MBR-00109",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00110": {
+    "member_id": "MBR-00110",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00111": {
+    "member_id": "MBR-00111",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00112": {
+    "member_id": "MBR-00112",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00113": {
+    "member_id": "MBR-00113",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00114": {
+    "member_id": "MBR-00114",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-29",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00115": {
+    "member_id": "MBR-00115",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00116": {
+    "member_id": "MBR-00116",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00117": {
+    "member_id": "MBR-00117",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00118": {
+    "member_id": "MBR-00118",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00119": {
+    "member_id": "MBR-00119",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-31",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00120": {
+    "member_id": "MBR-00120",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00121": {
+    "member_id": "MBR-00121",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00122": {
+    "member_id": "MBR-00122",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00123": {
+    "member_id": "MBR-00123",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00124": {
+    "member_id": "MBR-00124",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-15",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00125": {
+    "member_id": "MBR-00125",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00126": {
+    "member_id": "MBR-00126",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00127": {
+    "member_id": "MBR-00127",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00128": {
+    "member_id": "MBR-00128",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00129": {
+    "member_id": "MBR-00129",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00130": {
+    "member_id": "MBR-00130",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00131": {
+    "member_id": "MBR-00131",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00132": {
+    "member_id": "MBR-00132",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00133": {
+    "member_id": "MBR-00133",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00134": {
+    "member_id": "MBR-00134",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-26",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00135": {
+    "member_id": "MBR-00135",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00136": {
+    "member_id": "MBR-00136",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00137": {
+    "member_id": "MBR-00137",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-16",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00138": {
+    "member_id": "MBR-00138",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-23",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00139": {
+    "member_id": "MBR-00139",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00140": {
+    "member_id": "MBR-00140",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00141": {
+    "member_id": "MBR-00141",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00142": {
+    "member_id": "MBR-00142",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00143": {
+    "member_id": "MBR-00143",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-19",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00144": {
+    "member_id": "MBR-00144",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00145": {
+    "member_id": "MBR-00145",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-24",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00146": {
+    "member_id": "MBR-00146",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00147": {
+    "member_id": "MBR-00147",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00148": {
+    "member_id": "MBR-00148",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00149": {
+    "member_id": "MBR-00149",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-26",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00150": {
+    "member_id": "MBR-00150",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00151": {
+    "member_id": "MBR-00151",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-15",
+    "termination_date": "2026-05-24",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00152": {
+    "member_id": "MBR-00152",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-25",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00153": {
+    "member_id": "MBR-00153",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00154": {
+    "member_id": "MBR-00154",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00155": {
+    "member_id": "MBR-00155",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00156": {
+    "member_id": "MBR-00156",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00157": {
+    "member_id": "MBR-00157",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-22",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00158": {
+    "member_id": "MBR-00158",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00159": {
+    "member_id": "MBR-00159",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00160": {
+    "member_id": "MBR-00160",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00161": {
+    "member_id": "MBR-00161",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00162": {
+    "member_id": "MBR-00162",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00163": {
+    "member_id": "MBR-00163",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00164": {
+    "member_id": "MBR-00164",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00165": {
+    "member_id": "MBR-00165",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00166": {
+    "member_id": "MBR-00166",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00167": {
+    "member_id": "MBR-00167",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "2026-05-26",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00168": {
+    "member_id": "MBR-00168",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00169": {
+    "member_id": "MBR-00169",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-20",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00170": {
+    "member_id": "MBR-00170",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00171": {
+    "member_id": "MBR-00171",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00172": {
+    "member_id": "MBR-00172",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00173": {
+    "member_id": "MBR-00173",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00174": {
+    "member_id": "MBR-00174",
+    "eligibility_status": "terminated",
+    "status_reason": "Coverage terminated",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-20",
+    "termination_date": "2026-05-25",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00175": {
+    "member_id": "MBR-00175",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Platinum POS",
+    "paid_through": "2026-06-15",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00176": {
+    "member_id": "MBR-00176",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00177": {
+    "member_id": "MBR-00177",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Gold PPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00178": {
+    "member_id": "MBR-00178",
+    "eligibility_status": "active",
+    "status_reason": "Premium current",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-06-30",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00179": {
+    "member_id": "MBR-00179",
+    "eligibility_status": "grace_period",
+    "status_reason": "Premium grace period",
+    "plan_name": "Silver HMO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  },
+  "MBR-00180": {
+    "member_id": "MBR-00180",
+    "eligibility_status": "pending",
+    "status_reason": "Enrollment pending carrier confirmation",
+    "plan_name": "Bronze EPO",
+    "paid_through": "2026-05-31",
+    "termination_date": "",
+    "last_verified": "2026-06-03",
+    "source": "carrier_current"
+  }
+}

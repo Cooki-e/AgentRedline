@@ -1,0 +1,7 @@
+exhibit_id: EX-003
+source_file: preserved_originals/deposition_notes.txt
+source_type: deposition_notes
+matter: Anderson v. Northstar
+custodian: Legal Ops
+review_status: attorney_review
+note: Contains disputed timeline references requiring attorney review.

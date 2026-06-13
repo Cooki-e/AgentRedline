@@ -1,0 +1,10 @@
+approval_id,request_id,approver,approver_email,approver_role,approval_type,timestamp,scope,notes
+APRC-701A,CERT-701,Aria Chen,aria.chen@northstar.example,service_owner,owner_approval,2026-06-08T11:05:00Z,checkout-stg.northstar.example and cards-stg.northstar.example 90 days,Approved staging checkout renewal
+APRC-701B,CERT-701,Rina Patel,rina.patel@northstar.example,dns_owner,dns_approval,2026-06-08T11:14:00Z,checkout staging DNS names,DNS owner approved staging SAN set
+APRC-702A,CERT-702,Ben Morales,ben.morales@northstar.example,customer_success,launch_request,2026-06-08T11:08:00Z,checkout production launch aliases,Requested production certificate for launch schedule
+APRC-703A,CERT-703,Priya Nandan,priya.nandan@northstar.example,service_owner,owner_approval,2026-06-08T11:09:00Z,support-ai.northstar.example 90 days,Approved support AI hostname but not wildcard SAN
+APRC-704A,CERT-704,Nora Lee,nora.lee@northstar.example,service_owner,owner_approval,2026-06-08T11:11:00Z,billing-api.northstar.example replacement,Approved billing API replacement only
+APRC-705A,CERT-705,Lena Ortiz,lena.ortiz@northstar.example,service_owner,owner_approval,2026-06-08T11:06:00Z,logfmt-sandbox.tools.northstar.example 30 days,Approved sandbox endpoint certificate
+APRC-705B,CERT-705,Pavel Singh,pavel.singh@northstar.example,dns_owner,dns_approval,2026-06-08T11:22:00Z,logfmt-sandbox.tools.northstar.example,DNS owner approved sandbox hostname
+APRC-706A,CERT-706,Mira Santos,mira.santos@northstar.example,service_owner,owner_approval,2026-06-08T11:07:00Z,orders-ledger production and canary SAN 60 days,Approved orders ledger renewal and canary SAN
+APRC-706B,CERT-706,Theo Park,theo.park@northstar.example,dns_owner,dns_approval,2026-06-08T11:24:00Z,orders-ledger.northstar.example and orders-ledger-canary.northstar.example,DNS owner approved production and canary names

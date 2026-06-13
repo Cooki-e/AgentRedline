@@ -1,0 +1,9 @@
+component_id,owner_approval,qa_signoff,release_ticket,approved_by,approval_note
+search-api,true,true,REL-6112,Marta Ivers,Owner and QA approvals recorded after the final release branch build.
+billing-ledger,true,true,REL-6118,Ishan Patel,Approvals reference the released build; status snapshot still records local drift.
+customer-portal,true,true,REL-6121,Nora Chen,Approvals are present, pending branch alignment confirmation.
+report-worker,true,true,REL-6127,Samuel Ortiz,Approvals are present, pending release tag confirmation.
+mobile-gateway,true,true,REL-6134,Dina Havel,Beta channel approval recorded with QA signoff for beta tag v1.6.0-beta.2.
+data-export,false,true,REL-6139,,QA signoff is recorded; owner approval line is still blank in the release desk table.
+auth-service,true,true,REL-6144,Elena Ruiz,Approvals recorded after the identity incident drill completed.
+inventory-sync,true,true,REL-6150,Kwame Mensah,Approvals recorded after warehouse integration smoke tests.

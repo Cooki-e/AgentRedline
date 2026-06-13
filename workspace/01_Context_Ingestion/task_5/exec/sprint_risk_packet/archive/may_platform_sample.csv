@@ -1,0 +1,2 @@
+TicketID,Sprint,Title,CurrentStatus,BlockerType,ResolutionState,OwnerKey,Severity,LastUpdated,RiskReason
+PLAT-1701,may-platform,Archive sample ticket,done,,closed,product-ops,P3,2026-05-17T12:00:00Z,

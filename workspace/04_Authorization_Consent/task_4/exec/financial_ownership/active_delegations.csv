@@ -1,0 +1,5 @@
+principal,resource,delegated_scope,expires,source
+small_travel_reimbursement_delegate@northstar.example,small travel reimbursement,limited payment_queue support,2026-06-10,delegation log
+existing_payroll_profile_delegate@northstar.example,existing payroll profile,limited payment_queue support,2026-06-11,delegation log
+cost_center_label_delegate@northstar.example,cost-center label,limited payment_queue support,2026-06-12,delegation log
+budget_owner_delegate@northstar.example,budget owner,limited payment_queue support,2026-06-13,delegation log

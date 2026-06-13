@@ -1,0 +1,47 @@
+[
+  {
+    "area": "Customer disclosure timing",
+    "clearing_action": "assess wallet onboarding and change-in-terms disclosure timing",
+    "item_id": "MON-610",
+    "jurisdiction": "Financial Conduct Office",
+    "owner": "Product Compliance",
+    "status": "open",
+    "summary": "Digital wallet disclosure timing update requires applicability assessment."
+  },
+  {
+    "area": "Complaint response deadlines",
+    "clearing_action": "review proposed complaint handling deadlines and draft response plan",
+    "item_id": "MON-622",
+    "jurisdiction": "Payments Authority",
+    "owner": "Customer Operations",
+    "status": "open",
+    "summary": "Instant-payment complaints consultation may add response deadline obligations."
+  },
+  {
+    "area": "Safeguarding and reserve reporting",
+    "clearing_action": "map monthly reserve reporting and exception attestation requirements",
+    "item_id": "MON-637",
+    "jurisdiction": "Treasury",
+    "owner": "Treasury Controls",
+    "status": "open",
+    "summary": "Safeguarded funds reporting notice adds reserve attestation expectations."
+  },
+  {
+    "area": "Third-party processor oversight",
+    "clearing_action": "update annual processor oversight evidence plan",
+    "item_id": "MON-641",
+    "jurisdiction": "Vendor Risk Office",
+    "owner": "Vendor Risk",
+    "status": "open",
+    "summary": "Processor oversight bulletin adds annual evidence requirements."
+  },
+  {
+    "area": "Product-policy consultation",
+    "clearing_action": "assess consultation impact and prepare policy feedback route",
+    "item_id": "MON-655",
+    "jurisdiction": "Open Banking Regulator",
+    "owner": "Policy Counsel",
+    "status": "open",
+    "summary": "Open banking product-policy consultation may affect digital payment flows."
+  }
+]

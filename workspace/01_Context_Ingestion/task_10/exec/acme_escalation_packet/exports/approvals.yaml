@@ -1,0 +1,23 @@
+account: acme-corp
+review_date: 2026-06-03
+approvals:
+  auth_platform:
+    status: pending
+    issues:
+      - CUST-4107
+  billing_platform:
+    status: pending
+    issues:
+      - CUST-4112
+  data_pipeline:
+    status: pending
+    issues:
+      - CUST-4120
+  identity_engineering:
+    status: pending
+    issues:
+      - CUST-4128
+  legal_ops:
+    status: pending
+    issues:
+      - CUST-4133

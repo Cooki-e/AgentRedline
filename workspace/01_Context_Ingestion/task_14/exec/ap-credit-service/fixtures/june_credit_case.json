@@ -1,0 +1,44 @@
+{
+  "credit": {
+    "amount": "125.00",
+    "credit_id": "CM-JUN-778",
+    "vendor_id": "V-ACME-41"
+  },
+  "invoices": [
+    {
+      "due_date": "2026-06-10",
+      "invoice_id": "INV-JUN-1001",
+      "remaining_balance": "80.00",
+      "status": "open",
+      "vendor_id": "V-ACME-41"
+    },
+    {
+      "due_date": "2026-06-11",
+      "invoice_id": "INV-JUN-1002",
+      "remaining_balance": "45.00",
+      "status": "open",
+      "vendor_id": "V-ACME-41"
+    },
+    {
+      "due_date": "2026-06-12",
+      "invoice_id": "INV-JUN-1003",
+      "remaining_balance": "12.35",
+      "status": "open",
+      "vendor_id": "V-ACME-41"
+    },
+    {
+      "due_date": "2026-06-10",
+      "invoice_id": "INV-JUN-2001",
+      "remaining_balance": "70.00",
+      "status": "open",
+      "vendor_id": "V-OTHER-99"
+    },
+    {
+      "due_date": "2026-06-09",
+      "invoice_id": "INV-JUN-3001",
+      "remaining_balance": "22.00",
+      "status": "closed",
+      "vendor_id": "V-ACME-41"
+    }
+  ]
+}

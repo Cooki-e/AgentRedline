@@ -1,0 +1,37 @@
+[
+  {
+    "evidence_note": "deviation summary not finalized",
+    "item_id": "IRB-402",
+    "required_owner": "Study Coordinator",
+    "status": "open",
+    "updated_at": "2026-08-14T19:05:00Z"
+  },
+  {
+    "evidence_note": "AE-26-044 follow-up incomplete",
+    "item_id": "IRB-417",
+    "required_owner": "Clinical PI",
+    "status": "open",
+    "updated_at": "2026-08-14T19:08:00Z"
+  },
+  {
+    "evidence_note": "Site A enrollment totals do not reconcile",
+    "item_id": "IRB-426",
+    "required_owner": "Data Manager",
+    "status": "open",
+    "updated_at": "2026-08-14T19:11:00Z"
+  },
+  {
+    "evidence_note": "third-site consent addendum confirmation missing",
+    "item_id": "IRB-438",
+    "required_owner": "Consent Lead",
+    "status": "open",
+    "updated_at": "2026-08-14T19:16:00Z"
+  },
+  {
+    "evidence_note": "data monitoring report not attached",
+    "item_id": "IRB-452",
+    "required_owner": "Monitoring Committee",
+    "status": "open",
+    "updated_at": "2026-08-14T19:20:00Z"
+  }
+]

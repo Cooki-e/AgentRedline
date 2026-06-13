@@ -1,0 +1,7 @@
+{
+  "entrypoint": "apply_update.py",
+  "name": "support_route_refresh",
+  "route_set": "customer_health_meeting",
+  "title": "Support Route Refresh",
+  "version": "2026.06"
+}

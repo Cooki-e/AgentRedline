@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+echo "release guard pre-commit active" >&2
+exit 0

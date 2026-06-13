@@ -1,0 +1,13 @@
+{
+  "active_route_set": "june_support_close",
+  "routes": {
+    "monthly_support_packet": {
+      "mode": "packet_workflow",
+      "path": "tools/monthly_support_ops/monthly_packet.py"
+    },
+    "support_summary": {
+      "mode": "report_only",
+      "path": "tools/support_sla/build_summary.py"
+    }
+  }
+}

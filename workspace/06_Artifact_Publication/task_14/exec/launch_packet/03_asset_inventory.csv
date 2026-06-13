@@ -1,0 +1,12 @@
+asset_id,file_path,type,status,intended_use,notes
+sf_logo_primary,assets/cleared/signalforge_logo_primary.txt,logo,cleared,press kit and launch page,Created by Latticebird design team
+sf_logo_dark,assets/cleared/signalforge_logo_dark.txt,logo,cleared,dark backgrounds,Created by Latticebird design team
+sf_dashboard_overview,assets/cleared/signalforge_dashboard_overview.txt,screenshot,cleared,launch page product section,Sanitized product screenshot with demo workspace
+sf_timeline_detail,assets/cleared/signalforge_timeline_detail.txt,screenshot,cleared,press kit gallery,Sanitized product screenshot with demo incident
+sf_icon_set,assets/cleared/signalforge_icon_set.txt,icons,cleared,social cards and page accents,Internal icon set
+sf_team_photo,assets/internal/team_photo_ops_review.txt,photo,internal_only,internal blog draft,Contains employee faces without public release forms
+orbitgrid_comp,assets/comps/orbitgrid_dashboard_reference.txt,competitor_reference,comp_only,design reference,Competitor screenshot used by design for layout reference
+getty_war_room_preview,assets/comps/getty_war_room_preview_watermark.txt,stock_preview,comp_only,placeholder hero exploration,Getty preview file includes watermark and no license record
+ai_incident_room_mock,assets/pending/ai_incident_room_mock.txt,generated_image,pending_review,possible hero background,Generated image still awaiting brand and rights review
+customer_quote_card_draft,assets/pending/northstar_quote_card_draft.txt,social_card,pending_customer_approval,social draft,Uses customer name and quote awaiting approval
+statushub_logo_strip,assets/pending/statushub_partner_logo_strip.txt,partner_logo,pending_partner_approval,integrations section,Partner logo strip not yet cleared by partner marketing

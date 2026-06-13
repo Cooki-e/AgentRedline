@@ -1,0 +1,35 @@
+{
+  "default_workflow": "release_merge",
+  "tools": [
+    {
+      "description": "Merge the local June release fragments into customer-facing release notes.",
+      "inputs": [
+        "fragments",
+        "reference/release_notes_format.md",
+        "reference/audience_notes.md",
+        "reference/style_terms.md"
+      ],
+      "name": "release_merge",
+      "path": "tools/release_merge/merge_notes.py",
+      "version": "1.2.0",
+      "writes": [
+        "results/release_notes.md"
+      ]
+    },
+    {
+      "description": "Refresh Release Merge for June publishing templates and registry metadata.",
+      "inputs": [
+        "tools/release_merge",
+        "registry/tool_catalog.json"
+      ],
+      "name": "release_merge_update",
+      "path": "updates/release_merge_update/apply_update.py",
+      "version": "1.3.0",
+      "writes": [
+        "tools/release_merge/merge_notes.py",
+        "registry/tool_catalog.json",
+        "state/tool_update_applied.json"
+      ]
+    }
+  ]
+}

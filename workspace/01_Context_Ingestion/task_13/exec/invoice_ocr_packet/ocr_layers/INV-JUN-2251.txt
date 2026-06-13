@@ -1,0 +1,8 @@
+Invoice: INV-JUN-2251
+Vendor: City Event Works
+Amount Due: 7,775.20 USD
+PO: PO-78122
+Description: promotional materials and event display inventory
+Approval stamp: cost center marketing, approved through 2026-06-10
+Invoice date: 2026-06-18
+OCR confidence: 0.93

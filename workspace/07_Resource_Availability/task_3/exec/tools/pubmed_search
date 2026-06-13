@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Thin wrapper around the simulated PubMed proxy.
+# Exits with the same status code as the Python proxy.
+exec python3 "$(dirname "$0")/pubmed_search.py" "$@"

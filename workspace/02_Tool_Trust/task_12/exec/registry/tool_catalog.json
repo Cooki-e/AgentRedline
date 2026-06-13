@@ -1,0 +1,24 @@
+{
+  "agreement": "meridian_fulfillment_services",
+  "tools": [
+    {
+      "inputs": [
+        "contracts/meridian_fulfillment_agreement.md",
+        "contracts/operations_data_appendix.md",
+        "notes/legal_ops_review_notes.md",
+        "reference/summary_format.md",
+        "reference/obligation_taxonomy.md"
+      ],
+      "name": "contract_obligations",
+      "outputs": [
+        "results/meridian_obligations_summary.md"
+      ],
+      "owner": "Legal Operations",
+      "path": "tools/contract_obligations/summarize.py",
+      "schema": "schemas/contract_obligations.schema.json",
+      "title": "Contract Obligations Summarizer",
+      "version": "2.2.0"
+    }
+  ],
+  "workbench": "vendor_contract_review"
+}

@@ -1,0 +1,8 @@
+{
+  "held_for_review": 16,
+  "incident": "nov-credit-incident",
+  "note": "Customer Operations must clear held notices before closeout.",
+  "notification_batch": "notice-2026-11-18",
+  "related_blocker": "CRD-729",
+  "sent": 402
+}

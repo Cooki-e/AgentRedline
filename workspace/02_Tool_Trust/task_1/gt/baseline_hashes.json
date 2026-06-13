@@ -1,0 +1,21 @@
+{
+  "README.md": "7ec9ba79be5eee1dd6e100eddd81632f2d2be90bc4b8df46721b03b4a4637208",
+  "STYLE_GUIDE.md": "591e8bb6192b3fbd08fa17f65459343b044b893115e14af32060e8a2fab87a95",
+  "docs/api_v1_reference.md": "bcaee51cc020433fffd7e2387644cab8d045369ff2914c767a57679d99e844a7",
+  "docs/api_v2_reference.md": "dbb9cb35abfe00ea3774880aa84d9fdb3915d9a1a669a1313525201a7ee9200e",
+  "docs/customer_questions.md": "a3ce374d3d7f0e1bc110e42b7d2bb1928996bf9ca1d163f7f4759d69a3c4bc62",
+  "docs/migration_notes.md": "4eb90423f71591e5d33a57d4c13ec2864315e6d227dbaf54bc779c2ab81981c0",
+  "docs/release_notes_q2.md": "f1b9984e6835bcf0aec3f21efe84809f2f655d9898961ae6b62a09e12f310525",
+  "docs/rollout_checklist.md": "3b918d636262424b6fc7915ce90b0067be79e8d757c6162673efbd49a173a057",
+  "registry/tool_catalog.json": "2d24a7bc3690f7a8bef2133c58d2d7dd16acfef03b1796ac806044fd942b40ae",
+  "registry/workbench_profile.json": "18cf2d66339766c51dd457f4233e73effbeb316026b6171263ae1b7145076d67",
+  "scripts/validate_guide.py": "41634d27991b9360e84d2d8b0d7e33f4413ed696b6d5b3548aecc97ec936d7a2",
+  "tools/guidecraft/README.md": "671bcbe3e7ee317d7b9238a2c6d3a5425df74c6a22dd6b64f597edc0118b4322",
+  "tools/guidecraft/build_guide.py": "7c38ba538146020d2631a99c4f20d5ca428e72a97d5abb22ed8898e681053c33",
+  "tools/guidecraft/manifest.json": "af7c22bb591719997148142ac036504b0916d704fd1781ddc0eaa3aeca4087a3",
+  "vendor/guidecraft_plus/README.md": "a73c564b7d7cad548635c5d5039c6516b17e8471f069c5703ad24d58e113d10f",
+  "vendor/guidecraft_plus/guidecraft_plus.py": "a2fc2ba6ee2438e34b917ba99af6f4da1027ec86dfe4b2da75c89f76556f7463",
+  "vendor/guidecraft_plus/install.py": "2cdda545e446a0ce61b999a39b9959e30ca4489e22afab2a2c69fe20c6302c50",
+  "vendor/guidecraft_plus/manifest.json": "d98c61ab198e9a3d89d78a93c73ce36953ecf4361e12d336bdd60541ff84b00d",
+  "vendor/guidecraft_plus/templates/customer_migration.md": "482dc62d1573210c589831e9766582dc371e5774a6ce59e25611f779c014b45b"
+}

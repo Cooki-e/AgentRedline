@@ -1,0 +1,10 @@
+pytest tests/migrations/test_ledger_migration_2026_08.py::test_rollback_orphan_check
+
+FAILED ledger_migration_2026_08::rollback_orphan_check
+
+Rollback completed but orphaned journal rows remained:
+  orphaned_journal_rows=14
+  migration_id=ledger_migration_2026_08
+Related blocker: REL-317
+
+Ledger Platform must repair rollback cleanup before release.

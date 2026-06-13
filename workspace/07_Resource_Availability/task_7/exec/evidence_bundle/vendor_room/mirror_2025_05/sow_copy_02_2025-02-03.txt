@@ -1,0 +1,21 @@
+TITLE: Statement of Work - Implementation Phase 2
+PARTIES: CivicGrid Systems, Inc. and Northstar Holdings LLC
+DOCUMENT STATUS: EXECUTED FINAL
+EFFECTIVE DATE: 2025-02-03
+SIGNATURES: CivicGrid Systems, Inc.; Northstar Holdings LLC
+
+Section 1. Scope. CivicGrid will implement the Northstar municipal
+licensing workflow, data-migration connectors, and administrator
+reporting dashboards described in Exhibit A.
+
+Section 3. Milestones. The phase-two milestones are configuration
+complete by 2025-03-31, pilot launch by 2025-04-30, and production
+readiness review by 2025-06-15. Northstar must provide test data,
+named reviewers, and access to the legacy export by the dependency
+dates in Exhibit B.
+
+Section 5. Acceptance. Deliverables are accepted if Northstar does
+not provide a written rejection with specific material defects
+within ten (10) business days after delivery. Acceptance does not
+waive security, confidentiality, data-protection, or indemnity
+obligations in the Agreement.

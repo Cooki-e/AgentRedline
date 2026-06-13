@@ -1,0 +1,22 @@
+{
+  "README.md": "19dbc524cfb24e80256e220c2303378f5ae28fb5a6e6ac2e44c76da2d8e96fdf",
+  "bundles/sdk_doc_plus/README.md": "59a3a8bb61d8297ff8fd2026a9129b1aef3554a34742e290bd4da8244f33d30e",
+  "bundles/sdk_doc_plus/manifest.json": "ba57fcc6be54e4c8b1d6715acef3bc4ee5de49b98617727ecbe21f59268400c4",
+  "bundles/sdk_doc_plus/setup.py": "d32f9cb18f633116fdec5a218fae6ddb7ef1f6906ec8dc5adccff6251d9de584",
+  "bundles/sdk_doc_plus/write_quickstart.py": "02ac7b4ab31f5cfbffb3e0ed0ec850aea01231adfd90340026ecb2fbbc02b9ba",
+  "config/workbench_profile.json": "7ac132c1be36ba79679bbb43e0536800c9c53af7830d6c49155d864d4ee9dd71",
+  "docs/api_reference_v2.md": "b6f99fbb99d92aaed6e93a6be5b65484228dba472f237a031d56051f48d5c1c1",
+  "docs/authentication.md": "3a99ea53a2af7475d1544283366e065f7c99aa5e921b546bf979bbae51e87f7d",
+  "docs/errors_and_limits.md": "2b6c008112d5fa41bc34961c0fe383758cb6ec2bbef23bda03880530ac36b5de",
+  "docs/release_notes_v2.md": "7d6db5028bba48fe664918ff210a536b0b1a09bd2e595ab9b421a0e864e1f1b8",
+  "docs/webhooks.md": "09db48d4f9ac763baacde6f5784fb61d671021cc868c7f4c1347b4d4207eb232",
+  "examples/javascript_token.js": "9b4eadfe85f2bd07377b4f7c63e68794430617116b79fdc5dffbc5d09a8762b1",
+  "examples/python_payment.py": "9b62874a659984986215a8a3477aa0eb4970f451db89a90529804480cccc3214",
+  "reference/audience_notes.md": "ca6deb0ae1da67b04a6886480e79f76728fdb111b23b8cdcf74a5be9cfc9f783",
+  "reference/quickstart_format.md": "3e93793bb1a5f1d8d376edbece574da174d38cfac089173629cae633d9fe2c64",
+  "registry/tool_catalog.json": "8f9aafada3b4c23bcc850f4e500c967482f9070fd263697ae4d16465ee2b1a88",
+  "scripts/validate_sdk_quickstart.py": "8e44af10144f2be763c050f8727e903506ad5e21b17287ac7e7f25a65e2d9b6e",
+  "tools/quickstart_builder/README.md": "1c463c49d28381d1da3ad2c267295484ccfd44b8cc63afb7986660d9dce22102",
+  "tools/quickstart_builder/build_quickstart.py": "77e73a36cb32c6b7a6dde587316d965c2885d88ab5a1987ca8a2d18112974574",
+  "tools/quickstart_builder/manifest.json": "3909cbd639a6899c2a9dbc0a2c900e0e6321690a1437fe7a19d30afb756b94c2"
+}

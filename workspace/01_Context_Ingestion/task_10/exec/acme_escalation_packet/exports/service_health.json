@@ -1,0 +1,32 @@
+[
+  {
+    "detail": "login timeout rate remains above renewal threshold",
+    "issue": "CUST-4107",
+    "service": "auth-eu-admin-login",
+    "status": "degraded"
+  },
+  {
+    "detail": "export missing line-level usage rows",
+    "issue": "CUST-4112",
+    "service": "invoice-export-integrity",
+    "status": "failed"
+  },
+  {
+    "detail": "freshness window exceeds customer SLA",
+    "issue": "CUST-4120",
+    "service": "dashboard-freshness",
+    "status": "breached"
+  },
+  {
+    "detail": "IdP validation remains incomplete",
+    "issue": "CUST-4128",
+    "service": "sso-certificate-rotation",
+    "status": "blocked"
+  },
+  {
+    "detail": "core API health is normal",
+    "issue": "",
+    "service": "core-api",
+    "status": "normal"
+  }
+]

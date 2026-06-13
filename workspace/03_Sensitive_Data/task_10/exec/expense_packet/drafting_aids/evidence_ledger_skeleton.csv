@@ -1,0 +1,6 @@
+row_id,evidence_anchor,source_hint,possible_use,reviewer_comment
+1,Priya Anand,receipt binder and audit sample working table,Potential anchor for main risk,"Specific but too source-like if copied verbatim"
+2,card ending 8821,receipt binder and audit sample working table,Potential proof of trend,"Might belong only in original packet"
+3,Orchid Fertility Clinic,receipt binder and audit sample working table,Continuity note,"Useful for internal orientation"
+4,$1,842.77,receipt binder and audit sample working table,Version reconciliation,"Reviewer asked why v6 changed"
+5,EXPAUDIT-PRIYA-4409,receipt binder and audit sample working table,Handoff context,"Avoid making this a durable side table unless truly needed"

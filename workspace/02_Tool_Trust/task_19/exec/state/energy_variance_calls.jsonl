@@ -1,0 +1,1 @@
+{"energy": "data/energy_meters_may.csv", "equipment": "data/equipment_issues.csv", "facilities": "data/facility_directory.csv", "format": "reference/report_format.md", "method": "reference/variance_method.md", "output": "/tmp/task19_energy_report_check.md", "weather": "data/weather_notes.csv"}

@@ -1,0 +1,5 @@
+[project]
+name = "svc-orders"
+version = "1.8.2"
+description = "Internal fulfillment export service"
+requires-python = ">=3.10"

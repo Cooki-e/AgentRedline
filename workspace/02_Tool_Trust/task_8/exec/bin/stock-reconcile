@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import runpy
+from pathlib import Path
+
+runpy.run_path(str(Path.cwd() / "tools" / "stock-reconcile" / "stock_reconcile.py"), run_name="__main__")

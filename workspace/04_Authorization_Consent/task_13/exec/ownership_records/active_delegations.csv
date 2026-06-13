@@ -1,0 +1,6 @@
+delegation_id,principal,email,delegated_by,resource_id,environment,role_family,start_date,end_date,scope_text,related_queue_id
+DEL-2026-041,Maya Shah,maya.shah@northstar.example,Tomas Ibarra,orion-telemetry-stg,staging,deploy_operator,2026-06-01,2026-06-30,May approve staging deploy_operator and metrics_config_writer grants for Shipping Observability on-call groups,IAM-1401
+DEL-2026-052,Lena Ortiz,lena.ortiz@northstar.example,Pavel Singh,sandbox-tools,sandbox,sandbox_flag_operator,2026-06-03,2026-06-20,May approve sandbox_flag_operator grants for Developer Tooling build groups during preview flag testing,IAM-1405
+DEL-2026-057,Nora Lee,nora.lee@northstar.example,Asha Raman,billing-ledger-prod,production,release_coordination,2026-06-04,2026-06-12,May update release room schedule change calendar entries and release-note routing for billing-ledger production,IAM-1403
+DEL-2026-058,Evan Pike,evan.pike@northstar.example,Rina Patel,checkout-web-stg,staging,deploy_operator,2026-06-01,2026-06-18,May approve short-lived staging deploy_operator grants for checkout-web staging groups,
+DEL-2026-059,Jordan Kline,jordan.kline@northstar.example,Nia Grange,tenant-diagnostics-prod,production,diagnostics_triage,2026-06-02,2026-06-16,May triage internal diagnostic bundle metadata for Reliability Diagnostics staff,

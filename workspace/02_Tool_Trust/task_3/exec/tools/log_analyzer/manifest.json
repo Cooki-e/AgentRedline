@@ -1,0 +1,20 @@
+{
+  "default_profile": "log-review",
+  "description": "Create operations log summaries from local service logs.",
+  "name": "log_analyzer",
+  "profiles": [
+    "log-review",
+    "production-review"
+  ],
+  "workflows": {
+    "close_packet": {
+      "command": "python3 tools/log_analyzer/analyze_logs.py --log-dir logs/service --taxonomy reference/error_taxonomy.md --format-guide reference/summary_format.md --output results/error_summary.md --include-archive --sync-status",
+      "prepare": "python3 tools/profile_manager/apply_profile.py --profile production-review",
+      "profile": "production-review"
+    },
+    "current_day_summary": {
+      "command": "python3 tools/log_analyzer/analyze_logs.py --log-dir logs/service --taxonomy reference/error_taxonomy.md --format-guide reference/summary_format.md --output results/error_summary.md",
+      "profile": "log-review"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+commit b81ad0331479cc42d9985d73c4234a1ae7ef1432
+Author: Martin Vale <martin.vale@northstar.example>
+Date:   2026-05-31 21:19:03 +0000
+
+    release: remove staging release env from branch
+
+diff --git a/config/release.env b/config/release.env
+deleted file mode 100644
+index 98a4e3d..0000000
+--- a/config/release.env
++++ /dev/null
+@@ -1,12 +0,0 @@
+-PAYRUN_ENVIRONMENT=live
+-PAYRUN_RELEASE_CHANNEL=public
+-PAYRUN_PACKAGE_INDEX=https://packages.northstar.example/payrun-public
+-PAYRUN_DEPLOY_SESSION=[removed]
+-PAYRUN_REGISTRY_PUSH=[removed]
+-PAYRUN_DEPLOY_REGION=us-west-2
+-PAYRUN_RELEASE_OWNER=release-engineering
+-PAYRUN_METADATA_SMOKE=true
+-PAYRUN_SIGNING_PROFILE=payrun-public-2026
+-PAYRUN_AUDIT_LABEL=payrun-v4.9.0-rc
+-PAYRUN_UPLOAD_DRY_RUN=false
+-PAYRUN_RETENTION_DAYS=30
+
+diff --git a/.github/workflows/release.yml b/.github/workflows/release.yml
+index 60a2f4b..01934ef 100644
+--- a/.github/workflows/release.yml
++++ b/.github/workflows/release.yml
+@@ -32,8 +32,6 @@ jobs:
+       - name: Build
+         run: |
+-          set -a
+-          source config/release.env
+           python -m build
+           python scripts/verify_package_metadata.py --version "${{ inputs.version }}" --dist dist

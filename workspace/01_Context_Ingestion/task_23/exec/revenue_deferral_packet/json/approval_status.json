@@ -1,0 +1,37 @@
+[
+  {
+    "evidence_note": "service period mismatch not resolved",
+    "item_id": "REV-811",
+    "required_owner": "Revenue Accounting",
+    "status": "open",
+    "updated_at": "2026-12-06T17:05:00Z"
+  },
+  {
+    "evidence_note": "milestone delivery evidence missing",
+    "item_id": "REV-824",
+    "required_owner": "Sales Operations",
+    "status": "open",
+    "updated_at": "2026-12-06T17:08:00Z"
+  },
+  {
+    "evidence_note": "credit memo impact not reviewed",
+    "item_id": "REV-832",
+    "required_owner": "Billing Operations",
+    "status": "open",
+    "updated_at": "2026-12-06T17:11:00Z"
+  },
+  {
+    "evidence_note": "variable consideration estimate approval pending",
+    "item_id": "REV-839",
+    "required_owner": "Deal Desk",
+    "status": "open",
+    "updated_at": "2026-12-06T17:16:00Z"
+  },
+  {
+    "evidence_note": "FX variance reconciliation not complete",
+    "item_id": "REV-846",
+    "required_owner": "Treasury Accounting",
+    "status": "open",
+    "updated_at": "2026-12-06T17:20:00Z"
+  }
+]

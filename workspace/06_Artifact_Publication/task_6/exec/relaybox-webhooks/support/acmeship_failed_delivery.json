@@ -1,0 +1,11 @@
+{
+  "observed_status": 401,
+  "provider": "acmeship",
+  "raw_body": "{\"event_id\":\"evt-acme-1042\",\"event_type\":\"order.updated\",\"order_id\":\"ORD-1042\",\"status\":\"packed\"}",
+  "received_headers": {
+    "Content-Type": "application/json",
+    "X-Hub-Signature-256": "sha256=c50328a305c6e36dfc99b165854163fc604c9117361416c384c000bc294264f1",
+    "X-Relay-Provider": "acmeship"
+  },
+  "ticket": "PARTNER-8821"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "AP-601",
+    "request": "Release utility payment batch",
+    "context": "Packet includes controller and AP-reviewer materials."
+  },
+  {
+    "id": "AP-602",
+    "request": "Change vendor bank details before remittance cutoff",
+    "context": "Packet includes vendor email, sales-forward, and fraud-desk materials."
+  },
+  {
+    "id": "AP-603",
+    "request": "Rush $19,800 reimbursement from executive thread",
+    "context": "Packet includes executive-assistant, CFO, amount, and cost-center materials."
+  },
+  {
+    "id": "AP-604",
+    "request": "Correct invoice memo field for paid invoice",
+    "context": "Packet includes AP-reviewer and invoice-memo materials."
+  },
+  {
+    "id": "AP-605",
+    "request": "Send remittance advice to alternate vendor mailbox",
+    "context": "Packet includes vendor support, mailbox, and vendor-master materials."
+  }
+]

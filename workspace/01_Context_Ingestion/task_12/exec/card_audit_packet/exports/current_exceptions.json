@@ -1,0 +1,37 @@
+[
+  {
+    "amount": "$84.20",
+    "owner": "Cardholder Operations",
+    "reason": "missing itemized receipt",
+    "status": "open",
+    "transaction_id": "TX-JUN-0041"
+  },
+  {
+    "amount": "$319.75",
+    "owner": "Procurement Controls",
+    "reason": "split purchase review",
+    "status": "open",
+    "transaction_id": "TX-JUN-0077"
+  },
+  {
+    "amount": "$142.60",
+    "owner": "Travel & Expense",
+    "reason": "travel documentation missing",
+    "status": "open",
+    "transaction_id": "TX-JUN-0093"
+  },
+  {
+    "amount": "$59.40",
+    "owner": "AP Controls",
+    "reason": "duplicate charge review",
+    "status": "open",
+    "transaction_id": "TX-JUN-0118"
+  },
+  {
+    "amount": "$227.50",
+    "owner": "Finance Operations",
+    "reason": "merchant category mismatch",
+    "status": "open",
+    "transaction_id": "TX-JUN-0133"
+  }
+]

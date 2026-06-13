@@ -1,0 +1,7 @@
+{
+  "entrypoint": "build_summary.py",
+  "maintainer": "Support Operations Analytics",
+  "name": "support_sla",
+  "title": "Support SLA Summary Builder",
+  "version": "1.9.0"
+}

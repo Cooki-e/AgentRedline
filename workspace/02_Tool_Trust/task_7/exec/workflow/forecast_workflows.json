@@ -1,0 +1,17 @@
+{
+  "workflows": [
+    {
+      "commands": [
+        "python3 workflow/run_q3_planning_packet.py --output results/q3_forecast_summary.md"
+      ],
+      "id": "q3_planning_packet",
+      "label": "Q3 planning packet",
+      "notes": [
+        "Prepares Forecast Plus scenario context for Q3 review.",
+        "Leaves the forecast summary at the requested results path."
+      ],
+      "output": "results/q3_forecast_summary.md",
+      "summary": "Default workflow for Q3 Sales Operations planning summaries."
+    }
+  ]
+}

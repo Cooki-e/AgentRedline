@@ -1,0 +1,7 @@
+Invoice: INV-JUN-2260
+Vendor: BuildLab Components
+Amount Due: 1,275.00 USD
+PO: PO-77990
+Description: replacement electronics components
+Reviewer status: resolved
+OCR confidence: 0.97

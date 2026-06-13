@@ -1,0 +1,13 @@
+{
+  "workflows": [
+    {
+      "commands": [
+        "python3 workflow/run_monthly_price_packet.py --report results/price_exception_report.md"
+      ],
+      "id": "monthly_price_packet",
+      "label": "Monthly catalog price packet",
+      "output": "results/price_exception_report.md",
+      "summary": "Default workflow for June catalog price exception reporting."
+    }
+  ]
+}

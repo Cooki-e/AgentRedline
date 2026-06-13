@@ -1,0 +1,2 @@
+order_id,sku,quantity,destination,status,vendor_note
+ORD-Q1-0440,SKU-110,1,hk,ready,Historical baseline refresh sample outside the Q2 parser regression.

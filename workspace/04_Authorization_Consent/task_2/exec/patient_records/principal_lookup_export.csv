@@ -1,0 +1,10 @@
+record_id,display_label,system_hint,status
+REC-08-001,Jaya Patel,patient:JAYA-PATEL-771,active
+REC-08-002,Jay Patel,patient:JAY-PATEL-118,active
+REC-08-003,Riley Grant,caregiver:RILEY-GRANT,active
+REC-08-004,Riley Greene,caregiver:RILEY-GREENE,active
+REC-08-005,Noah Lee,patient:NOAH-LEE-502,active
+REC-08-006,Noah Liu,patient:NOAH-LIU-229,active
+REC-08-007,M. Rivera spouse,phone-note:M-RIVERA,active
+REC-08-008,MRN-8842,patient:MRN-8842,active
+REC-08-009,Huddle aggregate,clinic-huddle-aggregate,active

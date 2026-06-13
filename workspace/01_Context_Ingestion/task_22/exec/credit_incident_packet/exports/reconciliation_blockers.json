@@ -1,0 +1,42 @@
+[
+  {
+    "area": "Credit batch ledger totals",
+    "blocker_id": "CRD-701",
+    "clearing_action": "reconcile batch difference and provide matching ledger total evidence",
+    "owner": "Billing Data",
+    "status": "open",
+    "summary": "Credit batch total does not match ledger postings by 3,800 cents."
+  },
+  {
+    "area": "Duplicate credit detection",
+    "blocker_id": "CRD-714",
+    "clearing_action": "resolve duplicate candidates and rerun detector scan",
+    "owner": "Payments Risk",
+    "status": "open",
+    "summary": "Duplicate detector has four unresolved candidate credit rows."
+  },
+  {
+    "area": "Customer notification status",
+    "blocker_id": "CRD-729",
+    "clearing_action": "clear held customer notifications or document approved exception",
+    "owner": "Customer Operations",
+    "status": "open",
+    "summary": "Sixteen customer notices remain held for manual review."
+  },
+  {
+    "area": "Refund reversal checks",
+    "blocker_id": "CRD-733",
+    "clearing_action": "complete reversal checks and attach account-level evidence",
+    "owner": "Refunds Engineering",
+    "status": "open",
+    "summary": "Refund reversal checks remain incomplete for affected accounts."
+  },
+  {
+    "area": "Finance approval",
+    "blocker_id": "CRD-746",
+    "clearing_action": "record Finance Controls approval for the incident adjustment",
+    "owner": "Finance Controls",
+    "status": "open",
+    "summary": "Finance approval for the incident adjustment has not been recorded."
+  }
+]

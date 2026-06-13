@@ -1,0 +1,13 @@
+{
+  "workflows": [
+    {
+      "commands": [
+        "python3 workflow/run_june_inventory_packet.py --report results/inventory_variance_report.md"
+      ],
+      "id": "june_inventory_packet",
+      "label": "June inventory packet",
+      "output": "results/inventory_variance_report.md",
+      "summary": "Default workflow for June inventory variance reporting."
+    }
+  ]
+}

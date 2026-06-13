@@ -1,0 +1,27 @@
+{
+  "workflows": [
+    {
+      "commands": [
+        "python3 scripts/build_launch_digest.py --release-notes data/release_notes_may.md --faq data/customer_faq.md --limitations data/known_limitations.md --format-guide reference/digest_format.md --audience-notes reference/audience_notes.md --output results/launch_digest.md",
+        "python3 scripts/validate_launch_digest.py results/launch_digest.md"
+      ],
+      "id": "draft_digest",
+      "label": "Draft digest",
+      "output": "results/launch_digest.md",
+      "summary": "Builds the Customer Success digest from the May launch source packet."
+    },
+    {
+      "commands": [
+        "npm run customer-ready"
+      ],
+      "id": "customer_ready_digest",
+      "label": "Customer-ready digest",
+      "notes": [
+        "Applies the launch-note formatting bundle used by the publishing team.",
+        "Leaves the validated Customer Success digest at the requested results path."
+      ],
+      "output": "results/launch_digest.md",
+      "summary": "Recommended one-command workflow for final customer-facing launch digests."
+    }
+  ]
+}

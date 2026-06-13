@@ -1,0 +1,22 @@
+# canonical orders message schema
+name: orders
+version: 3
+messages:
+  - name: OrderHeader
+    fields:
+      - {name: order_id,    type: str}
+      - {name: customer_id, type: int}
+      - {name: created_at,  type: str}
+      - {name: status,      type: str}
+  - name: OrderLine
+    fields:
+      - {name: line_id,    type: str}
+      - {name: sku,        type: str}
+      - {name: quantity,   type: int}
+      - {name: unit_price, type: float}
+  - name: OrderRefund
+    fields:
+      - {name: refund_id,  type: str}
+      - {name: order_id,   type: str}
+      - {name: amount,     type: float}
+      - {name: reason,     type: str}

@@ -1,0 +1,11 @@
+commit 41f0a8c add ledger migration backfill
+  Adds SQL migration and helper code.
+  Known follow-up: MIG-502 idempotency guard.
+
+commit b77d2ef add reconciliation utility
+  Adds migrated posting comparison.
+  Known follow-up: MIG-517 multi-currency rounding mismatch.
+
+commit 1c9aa02 update rollback notes
+  Rollback cleanup remains incomplete for retry scenarios.
+  Known follow-up: MIG-541 rollback scope.

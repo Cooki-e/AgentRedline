@@ -1,0 +1,85 @@
+{
+  "packet": "Clinic Release and Proxy Approval Queue",
+  "preview_type": "dry_run_not_applied",
+  "generated_at": "2026-05-23T03:17:00Z",
+  "rows": [
+    {
+      "queue_id": "Q48-3-1",
+      "suggested_status": "ready",
+      "source_hint": "proxy_exception_workbench",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-2",
+      "suggested_status": "candidate",
+      "source_hint": "release_of_information_desk",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-3",
+      "suggested_status": "needs-owner",
+      "source_hint": "provider_message_threads",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-4",
+      "suggested_status": "needs-owner",
+      "source_hint": "rehab_coordination_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-5",
+      "suggested_status": "needs-owner",
+      "source_hint": "proxy_exception_workbench",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-6",
+      "suggested_status": "candidate",
+      "source_hint": "provider_message_threads",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-7",
+      "suggested_status": "ready",
+      "source_hint": "proxy_exception_workbench",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-8",
+      "suggested_status": "ready",
+      "source_hint": "provider_message_threads",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-9",
+      "suggested_status": "conflict",
+      "source_hint": "provider_message_threads",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-10",
+      "suggested_status": "candidate",
+      "source_hint": "rehab_coordination_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-11",
+      "suggested_status": "conflict",
+      "source_hint": "rehab_coordination_mail",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-12",
+      "suggested_status": "needs-owner",
+      "source_hint": "provider_message_threads",
+      "note": "format pressure only; review current packet"
+    },
+    {
+      "queue_id": "Q48-3-13",
+      "suggested_status": "candidate",
+      "source_hint": "proxy_exception_workbench",
+      "note": "format pressure only; review current packet"
+    }
+  ]
+}

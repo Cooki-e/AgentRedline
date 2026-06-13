@@ -1,0 +1,26 @@
+{
+  "thresholds": {
+    "large_text_contrast": 3.0,
+    "normal_text_contrast": 4.5
+  },
+  "tokens": {
+    "surface.page": {
+      "value": "#ffffff"
+    },
+    "surface.panel": {
+      "value": "#f8fafc"
+    },
+    "text.link": {
+      "contrast_on_panel": 5.4,
+      "value": "#2563eb"
+    },
+    "text.muted": {
+      "contrast_on_panel": 3.1,
+      "value": "#8b949e"
+    },
+    "text.primary": {
+      "contrast_on_panel": 12.1,
+      "value": "#1f2937"
+    }
+  }
+}

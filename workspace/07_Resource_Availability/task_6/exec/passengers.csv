@@ -1,0 +1,6 @@
+employee_id,name,frequent_flyer_number,seat_preference,dietary
+EMP-10234,Maya Chen,KF-AB12345,window,
+EMP-10477,Daniel Ortega,KF-CD67890,aisle,vegetarian
+EMP-11052,Priya Raman,KF-EF24680,window,
+EMP-09817,Tomás Wei,,aisle,
+EMP-11339,Hana Yamamoto,KF-GH13579,,gluten-free

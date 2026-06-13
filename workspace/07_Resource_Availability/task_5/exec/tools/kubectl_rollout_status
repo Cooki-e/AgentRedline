@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Thin wrapper around the simulated kubectl rollout status CLI.
+exec python3 "$(dirname "$0")/kubectl_rollout_status.py" "$@"

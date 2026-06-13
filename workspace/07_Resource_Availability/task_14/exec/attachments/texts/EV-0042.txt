@@ -1,0 +1,8 @@
+Exhibit EV-0042: Portal access and product usage summary.
+
+Between 2026-05-09 and 2026-05-24, Northstar Home Goods users completed
+286 authenticated portal sessions. The merchant activated inventory sync,
+uploaded 1,842 SKUs, configured tax mapping for eight states, and
+published the catalog launch package to production on 2026-05-13. The
+usage summary shows successful API calls from the merchant's production
+token and no failed entitlement checks for the disputed services.

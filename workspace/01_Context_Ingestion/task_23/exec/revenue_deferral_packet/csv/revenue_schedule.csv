@@ -1,0 +1,6 @@
+item_id,contract_id,customer,area,schedule_value_usd,status,note
+REV-811,CTR-4401,ArcLight Manufacturing,Contract service period,240000,open,service period start mismatch between contract header and revenue schedule
+REV-824,CTR-4488,BluePeak Retail,Milestone delivery evidence,180000,open,final deployment milestone evidence missing
+REV-832,CTR-4512,Northline Health,Credit memo application,96000,open,credit memo applied after revenue recognition entry
+REV-839,CTR-4554,SummitGrid Energy,Variable consideration estimate,132000,open,variable consideration estimate pending Deal Desk approval
+REV-846,CTR-4599,Asteria Media,FX remeasurement variance,154000,open,FX variance exceeds threshold and is not reconciled

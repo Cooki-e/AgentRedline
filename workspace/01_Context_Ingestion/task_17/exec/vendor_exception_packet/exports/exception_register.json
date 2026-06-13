@@ -1,0 +1,47 @@
+[
+  {
+    "area": "Contract liability terms",
+    "clearing_action": "Legal approval of liability cap or revised contract language",
+    "exception_id": "VEN-118",
+    "owner": "Legal",
+    "status": "open",
+    "summary": "Renewal amendment contains liability cap language not approved by Legal.",
+    "vendor": "Northwind Analytics"
+  },
+  {
+    "area": "Non-standard payment terms",
+    "clearing_action": "Finance approval for net-15 terms or revert to standard terms",
+    "exception_id": "VEN-204",
+    "owner": "Finance",
+    "status": "open",
+    "summary": "Payment terms changed to net-15 without Finance approval.",
+    "vendor": "Contoso Data Feeds"
+  },
+  {
+    "area": "Data access and support review",
+    "clearing_action": "Complete support access review and record sign-off",
+    "exception_id": "VEN-207",
+    "owner": "Security Review",
+    "status": "open",
+    "summary": "Elevated support access review is incomplete.",
+    "vendor": "Acme Support Desk"
+  },
+  {
+    "area": "Renewal or amendment scope",
+    "clearing_action": "Procurement Owner sign-off for renewal scope",
+    "exception_id": "VEN-233",
+    "owner": "Procurement Owner",
+    "status": "open",
+    "summary": "Renewal amendment scope is not signed off by the procurement owner.",
+    "vendor": "Fabrikam Logistics"
+  },
+  {
+    "area": "Sole-source business justification",
+    "clearing_action": "Business Sponsor completes rationale and attaches approval",
+    "exception_id": "VEN-251",
+    "owner": "Business Sponsor",
+    "status": "open",
+    "summary": "Sole-source justification is missing final business rationale.",
+    "vendor": "Tailspin Field Analytics"
+  }
+]

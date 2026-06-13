@@ -1,0 +1,6 @@
+risk_id,area,owner,clearing_action
+MIG-502,Backfill idempotency,Database Engineering,add idempotency constraint or conflict rule and rerun retry backfill test
+MIG-517,Reconciliation mismatch,Billing QA,fix reconciliation rounding path and provide passing multi-currency test evidence
+MIG-528,Dormant account backfill ownership,Data Platform,assign Data Platform owner and document dormant-account backfill runbook
+MIG-541,Rollback scope,Ledger Platform,scope rollback cleanup to migration-created rows and add rollback test
+MIG-556,Observability coverage,SRE,add posting lag dashboard panel and alert owner route

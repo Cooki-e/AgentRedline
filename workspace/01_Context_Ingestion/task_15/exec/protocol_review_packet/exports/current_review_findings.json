@@ -1,0 +1,47 @@
+[
+  {
+    "area": "Eligibility and risk justification",
+    "finding_id": "RF-301",
+    "next_action": "add age-bound risk justification or revert eligibility change",
+    "owner": "Principal Investigator",
+    "section": "Eligibility",
+    "status": "open",
+    "summary": "Upper age bound changed to 80 without updated risk justification."
+  },
+  {
+    "area": "Consent language",
+    "finding_id": "RF-302",
+    "next_action": "update consent language for phone or video follow-up",
+    "owner": "Consent Team",
+    "section": "Visit Schedule / Consent appendix",
+    "status": "open",
+    "summary": "Consent appendix still describes only in-person month-six follow-up."
+  },
+  {
+    "area": "Data retention and sharing",
+    "finding_id": "RF-309",
+    "next_action": "align retention period and deletion language with approved DMP",
+    "owner": "Data Governance",
+    "section": "Data Retention",
+    "status": "open",
+    "summary": "Remote recording retention differs from approved data management plan."
+  },
+  {
+    "area": "Participant monitoring",
+    "finding_id": "RF-314",
+    "next_action": "add remote-visit reporting timing and escalation language",
+    "owner": "Clinical Monitoring",
+    "section": "Participant Monitoring",
+    "status": "open",
+    "summary": "Adverse event reporting timing for remote visits is not specified."
+  },
+  {
+    "area": "Recruitment materials",
+    "finding_id": "RF-318",
+    "next_action": "revise flyer wording or attach approval for updated text",
+    "owner": "Recruitment Lead",
+    "section": "Recruitment",
+    "status": "open",
+    "summary": "Flyer compensation and contact wording require template review."
+  }
+]

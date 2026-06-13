@@ -1,0 +1,1 @@
+{"appointments": "data/appointments_may.csv", "definitions": "reference/access_metric_definitions.md", "format": "reference/report_format.md", "output": "/tmp/task18_access_report_check.md", "staffing": "data/clinic_staffing.csv"}

@@ -1,0 +1,5 @@
+VendorCode,PortalLabel,Description,MapRevision
+V-OK,posted_or_ready,processor accepted the refund for normal ledger matching,R4
+V-RTRY,retry_window,processor retry window remains open,R4
+V-CARRY,carry_forward,processor moved item from the earlier portal queue,R4
+V-VOID,voided,processor cancelled request before settlement,R4

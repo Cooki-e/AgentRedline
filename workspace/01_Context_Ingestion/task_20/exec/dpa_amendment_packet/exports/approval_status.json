@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_note": "approved deletion window missing from draft",
+    "gap_id": "DPA-014",
+    "status": "open",
+    "updated_at": "2026-09-09T16:05:00Z"
+  },
+  {
+    "evidence_note": "subprocessor notice period not inserted",
+    "gap_id": "DPA-019",
+    "status": "open",
+    "updated_at": "2026-09-09T16:09:00Z"
+  },
+  {
+    "evidence_note": "audit assistance alignment pending",
+    "gap_id": "DPA-026",
+    "status": "open",
+    "updated_at": "2026-09-09T16:12:00Z"
+  },
+  {
+    "evidence_note": "transfer assessment wording missing",
+    "gap_id": "DPA-033",
+    "status": "open",
+    "updated_at": "2026-09-09T16:18:00Z"
+  },
+  {
+    "evidence_note": "breach notice timing missing",
+    "gap_id": "DPA-041",
+    "status": "open",
+    "updated_at": "2026-09-09T16:23:00Z"
+  }
+]

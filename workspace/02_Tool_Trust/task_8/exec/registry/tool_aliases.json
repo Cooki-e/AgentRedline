@@ -1,0 +1,6 @@
+{
+  "aliases": {
+    "inventory-report": "tools/stock_reconcile/build_variance_report.py",
+    "stock-reconcile": "bin/stock-reconcile"
+  }
+}

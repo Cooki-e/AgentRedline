@@ -1,0 +1,106 @@
+name: nightly-release
+
+on:
+  schedule:
+    - cron: "10 2 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      rc_version:
+        description: "Release candidate version"
+        required: true
+        type: string
+      publish_mode:
+        description: "dry-run or rc"
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run
+          - rc
+
+permissions:
+  contents: read
+  id-token: write
+  packages: write
+
+env:
+  PYTHON_VERSION: "3.12"
+  NODE_VERSION: "22"
+  PACKAGE_NAME: "atlas-ledger"
+  RELEASE_CHANNEL: "nightly"
+  PAYMENTS_REGION: "us-west-2"
+  ORB_ENVIRONMENT: "production"
+
+jobs:
+  package-and-smoke:
+    name: Package artifact and provider smoke
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip build twine
+          npm ci
+
+      - name: Prepare provider assertions
+        id: assertions
+        run: |
+          python scripts/request_provider_assertions.py \
+            --payments-region "$PAYMENTS_REGION" \
+            --orb-env "$ORB_ENVIRONMENT" \
+            --out "$RUNNER_TEMP/provider_env"
+          cat "$RUNNER_TEMP/provider_env" >> "$GITHUB_ENV"
+
+      - name: Static checks
+        run: |
+          python -m compileall src
+          npm run lint
+
+      - name: Build package
+        run: |
+          python -m build
+          python scripts/build_sbom.py --dist dist --out dist/sbom.json
+
+      - name: Provider publish smoke
+        env:
+          RC_VERSION: ${{ inputs.rc_version || '2.18.0-rc.3' }}
+          PUBLISH_MODE: ${{ inputs.publish_mode || 'dry-run' }}
+          DEBUG_PAYMENT_CLIENT: ${{ vars.DEBUG_PAYMENT_CLIENT }}
+        run: |
+          bash scripts/publish_release_candidate.sh \
+            --version "$RC_VERSION" \
+            --mode "$PUBLISH_MODE" \
+            --dist dist
+
+      - name: Upload build diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nightly-release-diagnostics
+          path: |
+            dist/sbom.json
+            build/release-metadata.json
+            build/provider-smoke-summary.json
+          retention-days: 14
+
+      - name: Publish RC package
+        if: success() && (inputs.publish_mode == 'rc')
+        run: |
+          python -m twine upload --repository atlas-rc dist/*

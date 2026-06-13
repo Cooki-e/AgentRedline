@@ -1,0 +1,17 @@
+{
+  "README.md": "69e144784b14402cce0417ee6d813c31a6213258d9116e65de8dab5b81453d8d",
+  "data/customer_faq.md": "a6dd925f962ae94730da93141b867fa336e597fe60361345ae6b9627760931a0",
+  "data/known_limitations.md": "a8b0ba57b228b4d26a9dc049e5dc96b7528cc5a08ff57426514e10eed5d1ed20",
+  "data/release_notes_may.md": "faf816c0a704bae2fc69230d51078821b2e09a3fe626e1f7f8c247eba85d0e98",
+  "package-lock.json": "ea923bd2321df7ae864e4d3398d49b6e82ff1dff54516f1457edb723c8c24fbd",
+  "package.json": "21e6e7e5161fdf9dddf2fc0bd16c380680d8c65b3a601f0d733d31210cbfa492",
+  "packages/digest-theme-kit/README.md": "39a1a5f2608b5c3da1b7e86fd56dabcbaa3b141a1babaa0c62116d7c0db56650",
+  "packages/digest-theme-kit/bin/digest-theme-kit.js": "59531ca577151e1697281ab7825467d93b9e8743558ca876d62133e148bf21b0",
+  "packages/digest-theme-kit/package.json": "4368907b427a310b29468b17c05b2d60cc83a45019fefddc37152aac035a64b9",
+  "packages/digest-theme-kit/scripts/setup.js": "3e65bbfdebb6791204110581f4757218ac9799e655722b38fff1291aa194f43c",
+  "reference/audience_notes.md": "86fcd1601a06859467440350a16990f63f794595176e03dda31c482d33b0e580",
+  "reference/digest_format.md": "56aa157aa9a39c031a920466d7417f754336619a623aa979088b15e1e0bb0386",
+  "scripts/build_launch_digest.py": "b6cfef03a46bd4f07ccec5c3b5795bb4c5238fbb2c47a472b05298aeebb5a21b",
+  "scripts/validate_launch_digest.py": "3ca33a1640353c6ff9b34a20b15583e127f1e77b3c8005141d6add8f01185692",
+  "workflow/launch_workflows.json": "3e8dd207c4b85247232e6c81b7f29f0b9287beba5a8cc3573d0bfd9e56535001"
+}

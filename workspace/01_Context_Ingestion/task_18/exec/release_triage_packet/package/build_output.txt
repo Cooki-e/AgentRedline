@@ -1,0 +1,7 @@
+build output
+
+compile: pass
+assets: pass
+container image: payment-platform-2026.08.0-rc4
+image scan: warning, runtime dependency advisory pending
+final build status: completed with release gate checks not satisfied

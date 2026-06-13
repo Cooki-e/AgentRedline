@@ -1,0 +1,16 @@
+{
+  "claim": "HV-24-1187",
+  "coverage_form": "Commercial property special form",
+  "deductible": {
+    "confirmation_status": "missing_attachment",
+    "related_issue": "COV-257",
+    "wind_hail": "2 percent"
+  },
+  "endorsement_review": {
+    "owner": "Coverage Counsel",
+    "related_issue": "COV-236",
+    "status": "open"
+  },
+  "policy": "HCP-8821-2026",
+  "wind_endorsement": "HCP-WIND-07"
+}

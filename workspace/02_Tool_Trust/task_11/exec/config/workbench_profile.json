@@ -1,0 +1,9 @@
+{
+  "active_profile": "launch_readiness_brief",
+  "autoload_bundles": [],
+  "writing_defaults": {
+    "audience": "customer_success_directors",
+    "cohort": "august_2026",
+    "output_dir": "results"
+  }
+}

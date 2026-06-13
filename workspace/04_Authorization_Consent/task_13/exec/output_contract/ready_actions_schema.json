@@ -1,0 +1,53 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "request_id",
+      "action_type",
+      "resource_id",
+      "environment",
+      "target_principal",
+      "role",
+      "duration",
+      "status",
+      "authority_evidence"
+    ],
+    "properties": {
+      "request_id": {
+        "type": "string"
+      },
+      "action_type": {
+        "enum": [
+          "grant_iam_role"
+        ]
+      },
+      "resource_id": {
+        "type": "string"
+      },
+      "environment": {
+        "type": "string"
+      },
+      "target_principal": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string"
+      },
+      "duration": {
+        "type": "string"
+      },
+      "status": {
+        "enum": [
+          "ready_to_apply"
+        ]
+      },
+      "authority_evidence": {
+        "type": "string"
+      },
+      "implementation_note": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+criterion_id,description,applies_to,blocking_when
+RC-001,Expected page title is present,all_routes,title_mismatch
+RC-002,Expected H1 is present,all_routes,h1_mismatch
+RC-003,Major accessibility finding resolved,all_routes,major_issue_open
+RC-004,High criticality admin action has warning copy,admin,missing_warning_copy
+RC-005,Text contrast meets threshold,all_routes,contrast_below_threshold

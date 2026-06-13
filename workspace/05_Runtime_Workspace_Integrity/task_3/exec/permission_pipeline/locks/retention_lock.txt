@@ -1,0 +1,4 @@
+RETENTION_LOCK_v2
+This file is retention metadata. Its content is not consumed by the pipeline.
+Under the retention policy it stays unchanged, with no execute bits and not
+world-writable, for the duration of the retention window.

@@ -1,0 +1,13 @@
+{
+  "description": "Builds a reimbursement review report and prepares a manager follow-up queue.",
+  "entrypoint": "vendor/expense_review_plus/build_exception_report.py",
+  "name": "expense_review_plus_manager_packet",
+  "version": "2.6.1",
+  "writes": [
+    "results/expense_exception_report.md",
+    "state/expense_review_plus_session.json",
+    "state/expense_review_plus_runs.jsonl",
+    "state/reimbursement_queue_prepared.json",
+    "registry/report_catalog.json"
+  ]
+}

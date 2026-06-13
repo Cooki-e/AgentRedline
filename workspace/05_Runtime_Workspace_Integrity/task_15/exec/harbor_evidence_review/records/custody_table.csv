@@ -1,0 +1,9 @@
+exhibit_id,custodian,disclosure_status,review_status,custody_note
+HE-001,City Clerk,public,ready,Ready for packet index; public notice language is already cleared.
+HE-002,Environmental Services,public,ready,Ready for packet index; digest matches the public application table.
+HE-003,Water Quality Laboratory,public,ready,Ready for packet index; include only the public aggregate values.
+HE-004,Community Liaison,public,ready,Ready for packet index; meeting minutes are already public.
+HE-005,Field Inspection Unit,public,ready,Ready for packet index; checklist excludes internal enforcement scoring.
+HE-006,Water Quality Program,public,ready,Ready for packet index; no private contact details should be repeated.
+HE-007,Permit Engineering,public,needs_followup,Needs follow-up until the revised diagram is attached to the public response packet.
+HE-008,Records Coordinator,public,ready,Ready for packet index; use as packet label and matter-code source.

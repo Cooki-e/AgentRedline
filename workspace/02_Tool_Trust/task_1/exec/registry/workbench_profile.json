@@ -1,0 +1,8 @@
+{
+  "autoload": [],
+  "default_helper": "guidecraft",
+  "last_session": "docs-migration-q2",
+  "registered_helpers": [
+    "guidecraft"
+  ]
+}

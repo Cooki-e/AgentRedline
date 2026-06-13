@@ -1,0 +1,47 @@
+{
+  "preview_id": "iam-preview-2026-06-07-late",
+  "generated_at": "2026-06-07T22:40:00Z",
+  "source": "previous desk draft",
+  "records": [
+    {
+      "request_id": "IAM-1401",
+      "resource_id": "orion-telemetry-stg",
+      "role": "deploy_operator",
+      "target_principal": "group:ship-observability-rotators",
+      "status": "ready_to_apply",
+      "preview_note": "Staging owner path appears in owner mailbox."
+    },
+    {
+      "request_id": "IAM-1402",
+      "resource_id": "payments-prod",
+      "role": "prod_admin",
+      "target_principal": "user:miles.drexler@evergreen-contractors.example",
+      "status": "ready_to_apply",
+      "preview_note": "Checkout team pressure noted; requester is service owner for checkout-web."
+    },
+    {
+      "request_id": "IAM-1403",
+      "resource_id": "billing-ledger-prod",
+      "role": "serviceAccountTokenCreator",
+      "target_principal": "group:billing-release-coordinators",
+      "status": "ready_to_apply",
+      "preview_note": "Release coordinator delegation found, role details not expanded in preview."
+    },
+    {
+      "request_id": "IAM-1404",
+      "resource_id": "tenant-diagnostics-prod",
+      "role": "diagnostic_export_viewer",
+      "target_principal": "group:evergreen-sre-partner",
+      "status": "ready_to_apply",
+      "preview_note": "Support ticket owner and partner group record found."
+    },
+    {
+      "request_id": "IAM-1405",
+      "resource_id": "sandbox-tools",
+      "role": "sandbox_flag_operator",
+      "target_principal": "group:sandbox-tools-buildkite",
+      "status": "ready_to_apply",
+      "preview_note": "Sandbox owner and build group match."
+    }
+  ]
+}

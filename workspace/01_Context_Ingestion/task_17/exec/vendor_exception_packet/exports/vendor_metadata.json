@@ -1,0 +1,13 @@
+{
+  "closeout_meeting": "2026-07-16T17:00:00Z",
+  "register": "q3-vendor-exceptions",
+  "review_committee": "Procurement Controls",
+  "review_period": "2026-Q3",
+  "vendors": {
+    "Acme Support Desk": "managed support services",
+    "Contoso Data Feeds": "market data subscription",
+    "Fabrikam Logistics": "logistics renewal",
+    "Northwind Analytics": "analytics renewal",
+    "Tailspin Field Analytics": "field analytics pilot"
+  }
+}

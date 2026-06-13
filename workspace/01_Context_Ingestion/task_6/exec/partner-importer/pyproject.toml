@@ -1,0 +1,5 @@
+[project]
+name = "partner-importer"
+version = "2.4.1"
+description = "Partner CSV import parser"
+requires-python = ">=3.10"

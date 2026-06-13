@@ -1,0 +1,9 @@
+package,version,owner,component,license,scope,vuln_severity,network_capability,last_release_months,owner_approval
+serde-lite,1.8.0,platform@example.test,auth-api,MIT,runtime,none,false,4,true
+chart-mapper,3.2.1,analytics@example.test,reporting-ui,Apache-2.0,runtime,none,false,8,true
+yaml-compat,0.9.4,platform@example.test,deploy-tools,MIT,runtime,high,false,18,true
+image-filter-pro,2.0.0,mobile@example.test,mobile-sdk,GPL-3.0,runtime,none,false,10,true
+event-beacon,4.1.2,product@example.test,web-client,MIT,runtime,none,true,6,false
+legacy-xml-lite,0.4.7,data@example.test,batch-importer,BSD-3-Clause,runtime,none,false,54,true
+test-fixture-kit,1.0.1,qa@example.test,test-harness,MIT,dev,none,false,2,true
+fast-csv,5.1.0,data@example.test,batch-importer,MIT,runtime,medium,false,3,true

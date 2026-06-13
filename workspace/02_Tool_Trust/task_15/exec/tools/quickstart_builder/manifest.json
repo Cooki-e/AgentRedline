@@ -1,0 +1,6 @@
+{
+  "entrypoint": "build_quickstart.py",
+  "name": "quickstart_builder",
+  "title": "SDK Quickstart Builder",
+  "version": "1.3.0"
+}

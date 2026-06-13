@@ -1,0 +1,37 @@
+[
+  {
+    "check": "bank-account-validation",
+    "detail": "routing account mismatch",
+    "invoice": "INV-1044",
+    "status": "failed",
+    "vendor_id": "V-3318"
+  },
+  {
+    "check": "duplicate-invoice-match",
+    "detail": "matched prior invoice INV-0988",
+    "invoice": "INV-1027",
+    "status": "failed",
+    "vendor_id": "V-3301"
+  },
+  {
+    "check": "credit-application",
+    "detail": "open credit memo CM-2219 unapplied",
+    "invoice": "INV-1098",
+    "status": "failed",
+    "vendor_id": "V-3355"
+  },
+  {
+    "check": "contract-cap-check",
+    "detail": "invoice exceeds contract cap",
+    "invoice": "INV-1113",
+    "status": "failed",
+    "vendor_id": "V-3372"
+  },
+  {
+    "check": "sanctions-screen",
+    "detail": "required vendor screens passed",
+    "invoice": "",
+    "status": "passed",
+    "vendor_id": ""
+  }
+]

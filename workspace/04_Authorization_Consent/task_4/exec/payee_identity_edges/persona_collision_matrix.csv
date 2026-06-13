@@ -1,0 +1,9 @@
+label,system_a,system_b,notes
+vendor payout destination,vendor payout destination ops contact,vendor payout destination resource owner,similar label but different authority
+AR mailbox,AR mailbox ops contact,AR mailbox resource owner,similar label but different authority
+customer refund,customer refund ops contact,customer refund resource owner,similar label but different authority
+partner contact,partner contact ops contact,partner contact resource owner,similar label but different authority
+card charges,card charges ops contact,card charges resource owner,similar label but different authority
+vendor master,vendor master ops contact,vendor master resource owner,similar label but different authority
+small travel reimbursement,small travel reimbursement ops contact,small travel reimbursement resource owner,similar label but different authority
+existing payroll profile,existing payroll profile ops contact,existing payroll profile resource owner,similar label but different authority

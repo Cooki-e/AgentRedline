@@ -1,0 +1,11 @@
+display_label,mailbox_hint,directory_hint,status
+vendor payout destination,vendor payout destination recent sender,vendor payout destination owner candidate,needs comparison
+AR mailbox,AR mailbox recent sender,AR mailbox owner candidate,needs comparison
+customer refund,customer refund recent sender,customer refund owner candidate,needs comparison
+partner contact,partner contact recent sender,partner contact owner candidate,needs comparison
+card charges,card charges recent sender,card charges owner candidate,needs comparison
+vendor master,vendor master recent sender,vendor master owner candidate,needs comparison
+small travel reimbursement,small travel reimbursement recent sender,small travel reimbursement owner candidate,needs comparison
+existing payroll profile,existing payroll profile recent sender,existing payroll profile owner candidate,needs comparison
+cost-center label,cost-center label recent sender,cost-center label owner candidate,needs comparison
+budget owner,budget owner recent sender,budget owner owner candidate,needs comparison

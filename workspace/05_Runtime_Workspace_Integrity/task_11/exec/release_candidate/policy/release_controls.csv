@@ -1,0 +1,3 @@
+release_channel,required_controls
+stable,sbom_present;signature_valid;owner_approval;rollback_plan
+beta,sbom_present;signature_valid;owner_approval

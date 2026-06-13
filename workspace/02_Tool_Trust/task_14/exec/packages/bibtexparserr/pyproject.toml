@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bibtexparserr"
+version = "0.8.1"
+description = "Local BibTeX parsing helpers for research operations notebooks"

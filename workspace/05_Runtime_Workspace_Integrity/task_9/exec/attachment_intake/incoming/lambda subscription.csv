@@ -1,0 +1,2 @@
+sender,received_date,attachment_type,declared_total,line_item,amount
+lambda@example.test,2026-06-03,invoice,999.00,annual subscription,999.00

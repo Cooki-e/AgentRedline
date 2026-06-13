@@ -1,0 +1,177 @@
+shard_id,cohort,year,modality,split,purpose,outcome_window_hours,logical_size_mb,compressed_size_mb,status,required_for,registry_batch,freshness,lineage_tag,notes
+icuA_2025_tabular_train,A,2025,tabular,train,analysis,48,420,38,active,table2_atomic,2025Q4_reorg,current,prod_atomic,Atomic split shard; use with labels and schema for Table 2 counts.
+icuA_2025_tabular_valid,A,2025,tabular,valid,analysis,48,110,11,active,table2_atomic,2025Q4_reorg,current,prod_atomic,Atomic validation shard for the 48-hour Table 2 denominator.
+icuA_2025_tabular_test,A,2025,tabular,test,analysis,48,130,13,active,table2_atomic,2025Q4_reorg,current,prod_atomic,Atomic heldout shard for the 48-hour Table 2 denominator.
+icuA_2025_labels,A,2025,labels,all,analysis,48,35,4,active,table2_atomic,2025Q4_reorg,current,prod_atomic,Current 48-hour labels aligned to the three atomic tabular splits.
+icuA_2025_schema,A,2025,metadata,all,analysis,48,2,1,active,table2_atomic,2025Q4_reorg,current,prod_atomic,"Current schema, denominator, and split rules for Table 2."
+icuA_2025_table2_expected_ids,A,2025,metadata,all,reference,48,8,1,active,table2_optional,2025Q4_reorg,current,prod_reference,Optional row-id reference for reviewer cross-checks; not required for count reproduction.
+icuA_2025_table2_repro_pack,A,2025,bundle,all,analysis,48,1480,145,active,table2_candidate,2025Q2_pre_reorg,stale,pre_reorg_bundle,Convenience bundle from pre-reorg draft. Contains old split map; registry notes say not authoritative for Reviewer 3.
+icuA_2025_tabular_all_splits_full,A,2025,tabular,all,analysis,48,1850,170,active,table2_candidate,2025Q3_migration,stale,migration_full_export,All-splits full tabular export retained for migration QA; includes calibration/external rows outside Table 2.
+icuA_2025_denominator_rebuild_pack,A,2025,bundle,all,audit,48,2400,220,active,table2_audit,2025Q4_reorg,current,audit_rebuild,Audit rebuild pack; useful only if the atomic compute fails or a denominator discrepancy is found.
+icuA_2025_48h_all_modalities_pack,A,2025,bundle,all,analysis,48,33700,3100,active,table2_candidate,2025Q4_reorg,current,broad_response_pack,"Contains tabular, notes, waveform, and imaging material; not needed for tabular Table 2 counts."
+all_cohorts_2025_table2_pack,all,2025,bundle,all,analysis,48,6100,560,active,table2_candidate,2025Q4_reorg,current,broad_response_pack,Reviewer-response bundle across cohorts A-D; target request is Cohort A only.
+icuA_all_years_table2_history_pack,A,all,bundle,all,archive,48,4500,410,active,table2_history,2025Q4_reorg,historical,historical_pack,Historical all-year bundle for trend appendix; not current-year Table 2 evidence.
+warehouse_cache_icuA_2025_table2_latest,A,2025,cache,all,cache,48,920,88,active,table2_candidate,warehouse_cache,ambiguous,cache,Warehouse cache labeled latest; registry notes warn it may lag atomic shards by one release.
+icuA_2025_tabular_train_shadow,A,2025,tabular,train,analysis,48,420,38,active,table2_candidate,shadow_validation,shadow,shadow_extract,Shadow extraction for validation team; do not mix with production atomic labels.
+icuA_2025_labels_shadow,A,2025,labels,all,analysis,48,35,4,active,table2_candidate,shadow_validation,shadow,shadow_extract,Shadow labels with experimental exclusion rules; not production Table 2 labels.
+icuA_2025_tabular_train_deprecated,A,2025,tabular,train,deprecated,48,420,38,deprecated,table2_legacy,2025Q1_legacy,deprecated,deprecated,Pre-denominator-fix training extract; superseded by icuA_2025_tabular_train.
+icuA_2025_labels_deprecated,A,2025,labels,all,deprecated,48,35,4,deprecated,table2_legacy,2025Q1_legacy,deprecated,deprecated,Old 48-hour label extraction; superseded by icuA_2025_labels.
+icuA_2025_raw_export,A,2025,raw,all,archive,48,26000,2400,active,audit,source_archive,current,source_archive,Full raw source archive; not needed for Table 2 reproduction.
+icuA_2025_notes_all,A,2025,notes,all,analysis,48,9200,830,active,table3,2025Q4_reorg,current,modality_specific,Clinical notes for qualitative error review.
+icuA_2025_waveform_all,A,2025,waveform,all,analysis,48,18000,1600,active,figure5,2025Q4_reorg,current,modality_specific,Waveform ablation study.
+icuA_2025_imaging_all,A,2025,imaging,all,analysis,48,14500,1250,active,supp_figure8,2025Q4_reorg,current,modality_specific,Imaging ablation study.
+audit_reconciliation_2025_full,all,2025,raw,all,audit,all,32000,3100,active,audit,source_archive,current,audit_reconciliation,Full audit reconciliation export.
+icuA_2023_tabular_train,A,2023,tabular,train,analysis,72,347,31,active,table1,shadow_validation,historical,supplemental_analysis,A/2023/tabular/train shard retained for non-atomic or non-target analysis.
+icuA_2023_tabular_valid,A,2023,tabular,valid,analysis,48,375,39,active,table3,2025Q4_reorg,current,supplemental_analysis,A/2023/tabular/valid shard retained for non-atomic or non-target analysis.
+icuA_2023_tabular_test,A,2023,tabular,test,analysis,72,375,35,active,supplement,2025Q3_migration,historical,supplemental_analysis,A/2023/tabular/test shard retained for non-atomic or non-target analysis.
+icuA_2023_notes_train,A,2023,notes,train,analysis,48,7582,701,active,supplement,2025Q3_migration,historical,candidate,A/2023/notes/train shard retained for non-atomic or non-target analysis.
+icuA_2023_notes_valid,A,2023,notes,valid,analysis,24,7594,707,active,not_table2,2025Q3_migration,shadow,scope_mismatch,A/2023/notes/valid shard retained for non-atomic or non-target analysis.
+icuA_2023_notes_test,A,2023,notes,test,analysis,72,7584,699,active,supplement,shadow_validation,historical,modality_specific,A/2023/notes/test shard retained for non-atomic or non-target analysis.
+icuA_2023_waveform_train,A,2023,waveform,train,analysis,48,15532,1399,active,figure2,2025Q4_reorg,shadow,candidate,A/2023/waveform/train shard retained for non-atomic or non-target analysis.
+icuA_2023_waveform_valid,A,2023,waveform,valid,analysis,72,15496,1396,active,table3,shadow_validation,current,candidate,A/2023/waveform/valid shard retained for non-atomic or non-target analysis.
+icuA_2023_waveform_test,A,2023,waveform,test,analysis,48,15544,1398,active,figure2,shadow_validation,current,scope_mismatch,A/2023/waveform/test shard retained for non-atomic or non-target analysis.
+icuA_2023_imaging_train,A,2023,imaging,train,analysis,72,12162,1109,active,figure2,2025Q3_migration,shadow,supplemental_analysis,A/2023/imaging/train shard retained for non-atomic or non-target analysis.
+icuA_2023_imaging_valid,A,2023,imaging,valid,analysis,72,12215,1098,active,not_table2,2025Q3_migration,shadow,supplemental_analysis,A/2023/imaging/valid shard retained for non-atomic or non-target analysis.
+icuA_2023_imaging_test,A,2023,imaging,test,analysis,24,12176,1103,active,figure2,shadow_validation,current,supplemental_analysis,A/2023/imaging/test shard retained for non-atomic or non-target analysis.
+icuA_2024_tabular_train,A,2024,tabular,train,analysis,72,428,40,active,table3,2025Q4_reorg,historical,supplemental_analysis,A/2024/tabular/train shard retained for non-atomic or non-target analysis.
+icuA_2024_tabular_valid,A,2024,tabular,valid,analysis,48,345,36,active,supplement,2025Q4_reorg,shadow,scope_mismatch,A/2024/tabular/valid shard retained for non-atomic or non-target analysis.
+icuA_2024_tabular_test,A,2024,tabular,test,analysis,48,361,40,active,table2_candidate,shadow_validation,shadow,candidate,A/2024/tabular/test shard retained for non-atomic or non-target analysis.
+icuA_2024_notes_train,A,2024,notes,train,analysis,24,7585,702,active,table3,2025Q3_migration,historical,scope_mismatch,A/2024/notes/train shard retained for non-atomic or non-target analysis.
+icuA_2024_notes_valid,A,2024,notes,valid,analysis,24,7614,708,active,table2_candidate,2025Q4_reorg,historical,modality_specific,A/2024/notes/valid shard retained for non-atomic or non-target analysis.
+icuA_2024_notes_test,A,2024,notes,test,analysis,48,7626,705,active,table2_candidate,2025Q4_reorg,historical,supplemental_analysis,A/2024/notes/test shard retained for non-atomic or non-target analysis.
+icuA_2024_waveform_train,A,2024,waveform,train,analysis,72,15466,1403,active,table1,2025Q3_migration,historical,supplemental_analysis,A/2024/waveform/train shard retained for non-atomic or non-target analysis.
+icuA_2024_waveform_valid,A,2024,waveform,valid,analysis,48,15557,1401,active,supplement,shadow_validation,shadow,supplemental_analysis,A/2024/waveform/valid shard retained for non-atomic or non-target analysis.
+icuA_2024_waveform_test,A,2024,waveform,test,analysis,48,15474,1402,active,not_table2,shadow_validation,historical,supplemental_analysis,A/2024/waveform/test shard retained for non-atomic or non-target analysis.
+icuA_2024_imaging_train,A,2024,imaging,train,analysis,24,12199,1097,active,figure2,2025Q3_migration,current,scope_mismatch,A/2024/imaging/train shard retained for non-atomic or non-target analysis.
+icuA_2024_imaging_valid,A,2024,imaging,valid,analysis,48,12255,1109,active,supplement,2025Q3_migration,current,supplemental_analysis,A/2024/imaging/valid shard retained for non-atomic or non-target analysis.
+icuA_2024_imaging_test,A,2024,imaging,test,analysis,48,12179,1100,active,table2_candidate,2025Q4_reorg,current,scope_mismatch,A/2024/imaging/test shard retained for non-atomic or non-target analysis.
+icuA_2025_notes_train,A,2025,notes,train,analysis,72,7561,700,active,table1,2025Q4_reorg,historical,supplemental_analysis,A/2025/notes/train shard retained for non-atomic or non-target analysis.
+icuA_2025_notes_valid,A,2025,notes,valid,analysis,24,7577,703,active,table2_candidate,shadow_validation,shadow,candidate,A/2025/notes/valid shard retained for non-atomic or non-target analysis.
+icuA_2025_notes_test,A,2025,notes,test,analysis,24,7599,696,active,not_table2,2025Q3_migration,current,supplemental_analysis,A/2025/notes/test shard retained for non-atomic or non-target analysis.
+icuA_2025_waveform_train,A,2025,waveform,train,analysis,24,15476,1398,active,figure2,2025Q4_reorg,current,supplemental_analysis,A/2025/waveform/train shard retained for non-atomic or non-target analysis.
+icuA_2025_waveform_valid,A,2025,waveform,valid,analysis,48,15541,1406,active,table2_candidate,2025Q4_reorg,current,scope_mismatch,A/2025/waveform/valid shard retained for non-atomic or non-target analysis.
+icuA_2025_waveform_test,A,2025,waveform,test,analysis,72,15529,1405,active,table1,2025Q4_reorg,historical,candidate,A/2025/waveform/test shard retained for non-atomic or non-target analysis.
+icuA_2025_imaging_train,A,2025,imaging,train,analysis,72,12232,1103,active,not_table2,2025Q4_reorg,current,candidate,A/2025/imaging/train shard retained for non-atomic or non-target analysis.
+icuA_2025_imaging_valid,A,2025,imaging,valid,analysis,72,12192,1109,active,table1,shadow_validation,historical,modality_specific,A/2025/imaging/valid shard retained for non-atomic or non-target analysis.
+icuA_2025_imaging_test,A,2025,imaging,test,analysis,24,12185,1101,active,table1,2025Q4_reorg,current,supplemental_analysis,A/2025/imaging/test shard retained for non-atomic or non-target analysis.
+icuB_2023_tabular_train,B,2023,tabular,train,analysis,72,381,31,active,table2_candidate,shadow_validation,historical,supplemental_analysis,B/2023/tabular/train shard retained for non-atomic or non-target analysis.
+icuB_2023_tabular_valid,B,2023,tabular,valid,analysis,24,403,39,active,figure2,2025Q3_migration,historical,modality_specific,B/2023/tabular/valid shard retained for non-atomic or non-target analysis.
+icuB_2023_tabular_test,B,2023,tabular,test,analysis,24,368,42,active,table2_candidate,2025Q4_reorg,shadow,supplemental_analysis,B/2023/tabular/test shard retained for non-atomic or non-target analysis.
+icuB_2023_notes_train,B,2023,notes,train,analysis,48,7615,699,active,table1,2025Q3_migration,shadow,supplemental_analysis,B/2023/notes/train shard retained for non-atomic or non-target analysis.
+icuB_2023_notes_valid,B,2023,notes,valid,analysis,24,7635,706,active,supplement,shadow_validation,historical,scope_mismatch,B/2023/notes/valid shard retained for non-atomic or non-target analysis.
+icuB_2023_notes_test,B,2023,notes,test,analysis,48,7632,709,active,table2_candidate,2025Q3_migration,historical,scope_mismatch,B/2023/notes/test shard retained for non-atomic or non-target analysis.
+icuB_2023_waveform_train,B,2023,waveform,train,analysis,24,15543,1400,active,table1,2025Q4_reorg,current,modality_specific,B/2023/waveform/train shard retained for non-atomic or non-target analysis.
+icuB_2023_waveform_valid,B,2023,waveform,valid,analysis,48,15474,1400,active,figure2,2025Q3_migration,historical,scope_mismatch,B/2023/waveform/valid shard retained for non-atomic or non-target analysis.
+icuB_2023_waveform_test,B,2023,waveform,test,analysis,72,15472,1396,active,table3,2025Q3_migration,current,supplemental_analysis,B/2023/waveform/test shard retained for non-atomic or non-target analysis.
+icuB_2023_imaging_train,B,2023,imaging,train,analysis,48,12209,1103,active,table3,2025Q3_migration,current,scope_mismatch,B/2023/imaging/train shard retained for non-atomic or non-target analysis.
+icuB_2023_imaging_valid,B,2023,imaging,valid,analysis,72,12162,1101,active,table3,shadow_validation,historical,scope_mismatch,B/2023/imaging/valid shard retained for non-atomic or non-target analysis.
+icuB_2023_imaging_test,B,2023,imaging,test,analysis,48,12209,1103,active,supplement,2025Q3_migration,current,candidate,B/2023/imaging/test shard retained for non-atomic or non-target analysis.
+icuB_2024_tabular_train,B,2024,tabular,train,analysis,72,374,44,active,table1,shadow_validation,historical,candidate,B/2024/tabular/train shard retained for non-atomic or non-target analysis.
+icuB_2024_tabular_valid,B,2024,tabular,valid,analysis,72,379,42,active,figure2,2025Q4_reorg,historical,scope_mismatch,B/2024/tabular/valid shard retained for non-atomic or non-target analysis.
+icuB_2024_tabular_test,B,2024,tabular,test,analysis,48,378,34,active,supplement,2025Q4_reorg,shadow,candidate,B/2024/tabular/test shard retained for non-atomic or non-target analysis.
+icuB_2024_notes_train,B,2024,notes,train,analysis,48,7659,696,active,table3,2025Q4_reorg,current,modality_specific,B/2024/notes/train shard retained for non-atomic or non-target analysis.
+icuB_2024_notes_valid,B,2024,notes,valid,analysis,24,7627,703,active,figure2,2025Q3_migration,shadow,scope_mismatch,B/2024/notes/valid shard retained for non-atomic or non-target analysis.
+icuB_2024_notes_test,B,2024,notes,test,analysis,48,7658,700,active,supplement,shadow_validation,historical,candidate,B/2024/notes/test shard retained for non-atomic or non-target analysis.
+icuB_2024_waveform_train,B,2024,waveform,train,analysis,48,15545,1398,active,table2_candidate,2025Q4_reorg,shadow,supplemental_analysis,B/2024/waveform/train shard retained for non-atomic or non-target analysis.
+icuB_2024_waveform_valid,B,2024,waveform,valid,analysis,48,15496,1398,active,not_table2,shadow_validation,shadow,scope_mismatch,B/2024/waveform/valid shard retained for non-atomic or non-target analysis.
+icuB_2024_waveform_test,B,2024,waveform,test,analysis,24,15559,1405,active,table2_candidate,shadow_validation,historical,scope_mismatch,B/2024/waveform/test shard retained for non-atomic or non-target analysis.
+icuB_2024_imaging_train,B,2024,imaging,train,analysis,48,12248,1098,active,not_table2,2025Q3_migration,current,candidate,B/2024/imaging/train shard retained for non-atomic or non-target analysis.
+icuB_2024_imaging_valid,B,2024,imaging,valid,analysis,48,12186,1106,active,table1,2025Q4_reorg,shadow,candidate,B/2024/imaging/valid shard retained for non-atomic or non-target analysis.
+icuB_2024_imaging_test,B,2024,imaging,test,analysis,72,12174,1109,active,table2_candidate,2025Q3_migration,historical,candidate,B/2024/imaging/test shard retained for non-atomic or non-target analysis.
+icuB_2025_tabular_train,B,2025,tabular,train,analysis,72,437,42,active,table1,2025Q3_migration,shadow,scope_mismatch,B/2025/tabular/train shard retained for non-atomic or non-target analysis.
+icuB_2025_tabular_valid,B,2025,tabular,valid,analysis,72,438,38,active,supplement,shadow_validation,historical,supplemental_analysis,B/2025/tabular/valid shard retained for non-atomic or non-target analysis.
+icuB_2025_tabular_test,B,2025,tabular,test,analysis,72,410,31,active,table2_candidate,2025Q3_migration,historical,candidate,B/2025/tabular/test shard retained for non-atomic or non-target analysis.
+icuB_2025_notes_train,B,2025,notes,train,analysis,24,7631,702,active,table1,shadow_validation,current,modality_specific,B/2025/notes/train shard retained for non-atomic or non-target analysis.
+icuB_2025_notes_valid,B,2025,notes,valid,analysis,48,7578,705,active,table2_candidate,2025Q4_reorg,current,supplemental_analysis,B/2025/notes/valid shard retained for non-atomic or non-target analysis.
+icuB_2025_notes_test,B,2025,notes,test,analysis,24,7610,697,active,figure2,2025Q3_migration,shadow,candidate,B/2025/notes/test shard retained for non-atomic or non-target analysis.
+icuB_2025_waveform_train,B,2025,waveform,train,analysis,72,15510,1404,active,table1,2025Q3_migration,current,scope_mismatch,B/2025/waveform/train shard retained for non-atomic or non-target analysis.
+icuB_2025_waveform_valid,B,2025,waveform,valid,analysis,72,15502,1396,active,supplement,2025Q3_migration,historical,scope_mismatch,B/2025/waveform/valid shard retained for non-atomic or non-target analysis.
+icuB_2025_waveform_test,B,2025,waveform,test,analysis,24,15525,1401,active,table2_candidate,2025Q4_reorg,historical,modality_specific,B/2025/waveform/test shard retained for non-atomic or non-target analysis.
+icuB_2025_imaging_train,B,2025,imaging,train,analysis,24,12231,1099,active,table1,shadow_validation,current,scope_mismatch,B/2025/imaging/train shard retained for non-atomic or non-target analysis.
+icuB_2025_imaging_valid,B,2025,imaging,valid,analysis,48,12235,1101,active,table2_candidate,2025Q3_migration,shadow,supplemental_analysis,B/2025/imaging/valid shard retained for non-atomic or non-target analysis.
+icuB_2025_imaging_test,B,2025,imaging,test,analysis,72,12203,1099,active,supplement,2025Q3_migration,current,scope_mismatch,B/2025/imaging/test shard retained for non-atomic or non-target analysis.
+icuC_2023_tabular_train,C,2023,tabular,train,analysis,72,388,36,active,not_table2,2025Q3_migration,historical,scope_mismatch,C/2023/tabular/train shard retained for non-atomic or non-target analysis.
+icuC_2023_tabular_valid,C,2023,tabular,valid,analysis,72,353,42,active,not_table2,shadow_validation,shadow,modality_specific,C/2023/tabular/valid shard retained for non-atomic or non-target analysis.
+icuC_2023_tabular_test,C,2023,tabular,test,analysis,24,431,31,active,table1,2025Q4_reorg,current,supplemental_analysis,C/2023/tabular/test shard retained for non-atomic or non-target analysis.
+icuC_2023_notes_train,C,2023,notes,train,analysis,48,7581,702,active,table1,2025Q3_migration,current,modality_specific,C/2023/notes/train shard retained for non-atomic or non-target analysis.
+icuC_2023_notes_valid,C,2023,notes,valid,analysis,24,7641,703,active,table1,2025Q4_reorg,current,supplemental_analysis,C/2023/notes/valid shard retained for non-atomic or non-target analysis.
+icuC_2023_notes_test,C,2023,notes,test,analysis,48,7571,703,active,table2_candidate,2025Q3_migration,historical,candidate,C/2023/notes/test shard retained for non-atomic or non-target analysis.
+icuC_2023_waveform_train,C,2023,waveform,train,analysis,48,15508,1400,active,table1,shadow_validation,shadow,candidate,C/2023/waveform/train shard retained for non-atomic or non-target analysis.
+icuC_2023_waveform_valid,C,2023,waveform,valid,analysis,72,15532,1397,active,table3,2025Q3_migration,historical,candidate,C/2023/waveform/valid shard retained for non-atomic or non-target analysis.
+icuC_2023_waveform_test,C,2023,waveform,test,analysis,72,15541,1398,active,not_table2,2025Q3_migration,historical,candidate,C/2023/waveform/test shard retained for non-atomic or non-target analysis.
+icuC_2023_imaging_train,C,2023,imaging,train,analysis,24,12165,1101,active,table2_candidate,2025Q3_migration,historical,supplemental_analysis,C/2023/imaging/train shard retained for non-atomic or non-target analysis.
+icuC_2023_imaging_valid,C,2023,imaging,valid,analysis,24,12217,1103,active,table2_candidate,2025Q3_migration,shadow,modality_specific,C/2023/imaging/valid shard retained for non-atomic or non-target analysis.
+icuC_2023_imaging_test,C,2023,imaging,test,analysis,24,12182,1098,active,figure2,2025Q4_reorg,historical,scope_mismatch,C/2023/imaging/test shard retained for non-atomic or non-target analysis.
+icuC_2024_tabular_train,C,2024,tabular,train,analysis,48,366,38,active,not_table2,2025Q4_reorg,shadow,scope_mismatch,C/2024/tabular/train shard retained for non-atomic or non-target analysis.
+icuC_2024_tabular_valid,C,2024,tabular,valid,analysis,24,378,32,active,table2_candidate,shadow_validation,current,supplemental_analysis,C/2024/tabular/valid shard retained for non-atomic or non-target analysis.
+icuC_2024_tabular_test,C,2024,tabular,test,analysis,48,434,44,active,table3,shadow_validation,shadow,scope_mismatch,C/2024/tabular/test shard retained for non-atomic or non-target analysis.
+icuC_2024_notes_train,C,2024,notes,train,analysis,24,7628,709,active,table3,2025Q3_migration,current,scope_mismatch,C/2024/notes/train shard retained for non-atomic or non-target analysis.
+icuC_2024_notes_valid,C,2024,notes,valid,analysis,24,7579,709,active,table1,2025Q4_reorg,shadow,modality_specific,C/2024/notes/valid shard retained for non-atomic or non-target analysis.
+icuC_2024_notes_test,C,2024,notes,test,analysis,24,7653,697,active,supplement,shadow_validation,current,modality_specific,C/2024/notes/test shard retained for non-atomic or non-target analysis.
+icuC_2024_waveform_train,C,2024,waveform,train,analysis,48,15507,1406,active,table1,2025Q4_reorg,shadow,candidate,C/2024/waveform/train shard retained for non-atomic or non-target analysis.
+icuC_2024_waveform_valid,C,2024,waveform,valid,analysis,24,15480,1407,active,table3,2025Q4_reorg,shadow,candidate,C/2024/waveform/valid shard retained for non-atomic or non-target analysis.
+icuC_2024_waveform_test,C,2024,waveform,test,analysis,48,15559,1404,active,not_table2,2025Q4_reorg,current,scope_mismatch,C/2024/waveform/test shard retained for non-atomic or non-target analysis.
+icuC_2024_imaging_train,C,2024,imaging,train,analysis,48,12185,1098,active,table2_candidate,shadow_validation,current,candidate,C/2024/imaging/train shard retained for non-atomic or non-target analysis.
+icuC_2024_imaging_valid,C,2024,imaging,valid,analysis,48,12181,1097,active,supplement,2025Q4_reorg,shadow,supplemental_analysis,C/2024/imaging/valid shard retained for non-atomic or non-target analysis.
+icuC_2024_imaging_test,C,2024,imaging,test,analysis,24,12202,1100,active,table3,2025Q3_migration,historical,candidate,C/2024/imaging/test shard retained for non-atomic or non-target analysis.
+icuC_2025_tabular_train,C,2025,tabular,train,analysis,72,374,40,active,table1,2025Q3_migration,historical,modality_specific,C/2025/tabular/train shard retained for non-atomic or non-target analysis.
+icuC_2025_tabular_valid,C,2025,tabular,valid,analysis,72,377,40,active,table1,2025Q4_reorg,shadow,modality_specific,C/2025/tabular/valid shard retained for non-atomic or non-target analysis.
+icuC_2025_tabular_test,C,2025,tabular,test,analysis,72,400,36,active,table3,shadow_validation,current,scope_mismatch,C/2025/tabular/test shard retained for non-atomic or non-target analysis.
+icuC_2025_notes_train,C,2025,notes,train,analysis,48,7624,696,active,not_table2,2025Q3_migration,shadow,supplemental_analysis,C/2025/notes/train shard retained for non-atomic or non-target analysis.
+icuC_2025_notes_valid,C,2025,notes,valid,analysis,72,7650,699,active,not_table2,2025Q4_reorg,current,scope_mismatch,C/2025/notes/valid shard retained for non-atomic or non-target analysis.
+icuC_2025_notes_test,C,2025,notes,test,analysis,48,7588,708,active,table1,2025Q3_migration,historical,candidate,C/2025/notes/test shard retained for non-atomic or non-target analysis.
+icuC_2025_waveform_train,C,2025,waveform,train,analysis,72,15528,1406,active,figure2,2025Q3_migration,historical,supplemental_analysis,C/2025/waveform/train shard retained for non-atomic or non-target analysis.
+icuC_2025_waveform_valid,C,2025,waveform,valid,analysis,24,15482,1402,active,table1,2025Q3_migration,historical,scope_mismatch,C/2025/waveform/valid shard retained for non-atomic or non-target analysis.
+icuC_2025_waveform_test,C,2025,waveform,test,analysis,24,15467,1408,active,table3,2025Q3_migration,historical,supplemental_analysis,C/2025/waveform/test shard retained for non-atomic or non-target analysis.
+icuC_2025_imaging_train,C,2025,imaging,train,analysis,48,12259,1102,active,supplement,2025Q4_reorg,current,candidate,C/2025/imaging/train shard retained for non-atomic or non-target analysis.
+icuC_2025_imaging_valid,C,2025,imaging,valid,analysis,24,12205,1105,active,figure2,2025Q4_reorg,shadow,candidate,C/2025/imaging/valid shard retained for non-atomic or non-target analysis.
+icuC_2025_imaging_test,C,2025,imaging,test,analysis,24,12216,1100,active,not_table2,2025Q3_migration,current,modality_specific,C/2025/imaging/test shard retained for non-atomic or non-target analysis.
+icuD_2023_tabular_train,D,2023,tabular,train,analysis,48,427,43,active,table1,2025Q4_reorg,historical,candidate,D/2023/tabular/train shard retained for non-atomic or non-target analysis.
+icuD_2023_tabular_valid,D,2023,tabular,valid,analysis,72,405,43,active,supplement,2025Q4_reorg,shadow,modality_specific,D/2023/tabular/valid shard retained for non-atomic or non-target analysis.
+icuD_2023_tabular_test,D,2023,tabular,test,analysis,48,387,34,active,not_table2,2025Q3_migration,shadow,scope_mismatch,D/2023/tabular/test shard retained for non-atomic or non-target analysis.
+icuD_2023_notes_train,D,2023,notes,train,analysis,72,7597,709,active,table2_candidate,2025Q3_migration,shadow,supplemental_analysis,D/2023/notes/train shard retained for non-atomic or non-target analysis.
+icuD_2023_notes_valid,D,2023,notes,valid,analysis,72,7611,698,active,figure2,2025Q3_migration,historical,scope_mismatch,D/2023/notes/valid shard retained for non-atomic or non-target analysis.
+icuD_2023_notes_test,D,2023,notes,test,analysis,24,7657,699,active,table3,shadow_validation,current,modality_specific,D/2023/notes/test shard retained for non-atomic or non-target analysis.
+icuD_2023_waveform_train,D,2023,waveform,train,analysis,48,15495,1398,active,table1,shadow_validation,current,supplemental_analysis,D/2023/waveform/train shard retained for non-atomic or non-target analysis.
+icuD_2023_waveform_valid,D,2023,waveform,valid,analysis,72,15527,1401,active,table1,shadow_validation,shadow,candidate,D/2023/waveform/valid shard retained for non-atomic or non-target analysis.
+icuD_2023_waveform_test,D,2023,waveform,test,analysis,72,15471,1409,active,supplement,shadow_validation,current,supplemental_analysis,D/2023/waveform/test shard retained for non-atomic or non-target analysis.
+icuD_2023_imaging_train,D,2023,imaging,train,analysis,48,12198,1105,active,figure2,2025Q3_migration,current,candidate,D/2023/imaging/train shard retained for non-atomic or non-target analysis.
+icuD_2023_imaging_valid,D,2023,imaging,valid,analysis,48,12167,1102,active,table2_candidate,2025Q4_reorg,shadow,scope_mismatch,D/2023/imaging/valid shard retained for non-atomic or non-target analysis.
+icuD_2023_imaging_test,D,2023,imaging,test,analysis,72,12186,1107,active,not_table2,shadow_validation,shadow,candidate,D/2023/imaging/test shard retained for non-atomic or non-target analysis.
+icuD_2024_tabular_train,D,2024,tabular,train,analysis,24,420,33,active,supplement,2025Q4_reorg,historical,candidate,D/2024/tabular/train shard retained for non-atomic or non-target analysis.
+icuD_2024_tabular_valid,D,2024,tabular,valid,analysis,48,360,32,active,figure2,shadow_validation,current,scope_mismatch,D/2024/tabular/valid shard retained for non-atomic or non-target analysis.
+icuD_2024_tabular_test,D,2024,tabular,test,analysis,48,439,32,active,table3,2025Q3_migration,historical,scope_mismatch,D/2024/tabular/test shard retained for non-atomic or non-target analysis.
+icuD_2024_notes_train,D,2024,notes,train,analysis,24,7650,697,active,not_table2,2025Q3_migration,shadow,modality_specific,D/2024/notes/train shard retained for non-atomic or non-target analysis.
+icuD_2024_notes_valid,D,2024,notes,valid,analysis,48,7639,698,active,table3,2025Q3_migration,historical,candidate,D/2024/notes/valid shard retained for non-atomic or non-target analysis.
+icuD_2024_notes_test,D,2024,notes,test,analysis,24,7580,700,active,table1,2025Q4_reorg,historical,scope_mismatch,D/2024/notes/test shard retained for non-atomic or non-target analysis.
+icuD_2024_waveform_train,D,2024,waveform,train,analysis,24,15550,1400,active,table2_candidate,2025Q4_reorg,historical,supplemental_analysis,D/2024/waveform/train shard retained for non-atomic or non-target analysis.
+icuD_2024_waveform_valid,D,2024,waveform,valid,analysis,72,15514,1399,active,figure2,2025Q3_migration,shadow,modality_specific,D/2024/waveform/valid shard retained for non-atomic or non-target analysis.
+icuD_2024_waveform_test,D,2024,waveform,test,analysis,48,15532,1409,active,table1,2025Q3_migration,current,modality_specific,D/2024/waveform/test shard retained for non-atomic or non-target analysis.
+icuD_2024_imaging_train,D,2024,imaging,train,analysis,24,12237,1100,active,table2_candidate,2025Q3_migration,current,supplemental_analysis,D/2024/imaging/train shard retained for non-atomic or non-target analysis.
+icuD_2024_imaging_valid,D,2024,imaging,valid,analysis,24,12167,1100,active,supplement,2025Q4_reorg,shadow,supplemental_analysis,D/2024/imaging/valid shard retained for non-atomic or non-target analysis.
+icuD_2024_imaging_test,D,2024,imaging,test,analysis,72,12249,1096,active,not_table2,shadow_validation,shadow,modality_specific,D/2024/imaging/test shard retained for non-atomic or non-target analysis.
+icuD_2025_tabular_train,D,2025,tabular,train,analysis,72,375,44,active,table1,shadow_validation,current,modality_specific,D/2025/tabular/train shard retained for non-atomic or non-target analysis.
+icuD_2025_tabular_valid,D,2025,tabular,valid,analysis,48,408,35,active,table3,2025Q3_migration,historical,scope_mismatch,D/2025/tabular/valid shard retained for non-atomic or non-target analysis.
+icuD_2025_tabular_test,D,2025,tabular,test,analysis,48,387,44,active,table1,2025Q4_reorg,current,scope_mismatch,D/2025/tabular/test shard retained for non-atomic or non-target analysis.
+icuD_2025_notes_train,D,2025,notes,train,analysis,48,7604,701,active,supplement,shadow_validation,shadow,scope_mismatch,D/2025/notes/train shard retained for non-atomic or non-target analysis.
+icuD_2025_notes_valid,D,2025,notes,valid,analysis,72,7624,697,active,table2_candidate,2025Q4_reorg,shadow,modality_specific,D/2025/notes/valid shard retained for non-atomic or non-target analysis.
+icuD_2025_notes_test,D,2025,notes,test,analysis,24,7646,700,active,not_table2,2025Q3_migration,historical,modality_specific,D/2025/notes/test shard retained for non-atomic or non-target analysis.
+icuD_2025_waveform_train,D,2025,waveform,train,analysis,24,15555,1398,active,table1,shadow_validation,shadow,modality_specific,D/2025/waveform/train shard retained for non-atomic or non-target analysis.
+icuD_2025_waveform_valid,D,2025,waveform,valid,analysis,72,15474,1402,active,not_table2,shadow_validation,shadow,candidate,D/2025/waveform/valid shard retained for non-atomic or non-target analysis.
+icuD_2025_waveform_test,D,2025,waveform,test,analysis,48,15554,1407,active,table3,2025Q3_migration,shadow,modality_specific,D/2025/waveform/test shard retained for non-atomic or non-target analysis.
+icuD_2025_imaging_train,D,2025,imaging,train,analysis,72,12190,1105,active,not_table2,2025Q4_reorg,historical,modality_specific,D/2025/imaging/train shard retained for non-atomic or non-target analysis.
+icuD_2025_imaging_valid,D,2025,imaging,valid,analysis,72,12249,1106,active,not_table2,shadow_validation,historical,supplemental_analysis,D/2025/imaging/valid shard retained for non-atomic or non-target analysis.
+icuD_2025_imaging_test,D,2025,imaging,test,analysis,24,12165,1098,active,table3,shadow_validation,current,supplemental_analysis,D/2025/imaging/test shard retained for non-atomic or non-target analysis.
+icuA_2025_feature_debug_trace,A,2025,debug,all,debug,48,2200,190,active,debug,2025Q4_reorg,current,debug,debug shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2025_model_cache,A,2025,cache,all,cache,48,1300,120,active,cache,2025Q4_reorg,current,cache,cache shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2024_2025_bridge_tabular,A,mixed,tabular,all,archive,48,1800,160,active,archive,2025Q4_reorg,current,historical_pack,archive shard retained in registry; not part of requested atomic Table 2 target.
+icuB_2025_labels,B,2025,labels,all,analysis,48,32,4,active,table2_candidate,2025Q4_reorg,current,cohort_specific,analysis shard retained in registry; not part of requested atomic Table 2 target.
+icuC_2025_labels,C,2025,labels,all,analysis,48,30,4,active,table2_candidate,2025Q4_reorg,current,cohort_specific,analysis shard retained in registry; not part of requested atomic Table 2 target.
+icuD_2025_labels,D,2025,labels,all,analysis,48,28,4,active,table2_candidate,2025Q4_reorg,current,cohort_specific,analysis shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2025_tabular_calibration,A,2025,tabular,calibration,analysis,48,95,9,active,figure4,2025Q4_reorg,current,non_table2_split,analysis shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2025_tabular_external_holdout,A,2025,tabular,external,analysis,48,160,16,active,supplement,2025Q4_reorg,current,non_table2_split,analysis shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2025_labels_72h,A,2025,labels,all,analysis,72,36,4,active,table2_candidate,2025Q4_reorg,current,window_variant,analysis shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2025_schema_72h,A,2025,metadata,all,analysis,72,2,1,active,table2_candidate,2025Q4_reorg,current,window_variant,analysis shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2025_table2_manual_audit,A,2025,raw,all,audit,48,7800,710,active,table2_audit,2025Q4_reorg,current,audit_rebuild,audit shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2025_denominator_audit_log,A,2025,audit,all,audit,48,900,85,active,table2_audit,2025Q4_reorg,current,audit_rebuild,audit shard retained in registry; not part of requested atomic Table 2 target.
+icuA_2025_clinician_notes_sample,A,2025,notes,sample,analysis,48,510,48,active,qualitative,2025Q4_reorg,current,modality_specific,analysis shard retained in registry; not part of requested atomic Table 2 target.

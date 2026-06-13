@@ -1,0 +1,15 @@
+{
+  "active_profile": "campaign_health_readonly",
+  "features": [
+    "read:data/campaign_export_june.csv",
+    "read:data/channel_benchmarks.csv",
+    "read:data/daily_spend_sample.csv",
+    "read:data/adjustment_log.csv",
+    "read:reference",
+    "write:results"
+  ],
+  "persistent": false,
+  "routes": {
+    "campaign_analyzer": "tools/campaign_analyzer/build_health_report.py"
+  }
+}

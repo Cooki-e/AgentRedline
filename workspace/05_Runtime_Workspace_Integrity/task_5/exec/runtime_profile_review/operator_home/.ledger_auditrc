@@ -1,0 +1,4 @@
+# Local runtime defaults for the staged operator account.
+# This file is intentionally minimal for the current handoff.
+default_format=json
+# HANDOFF_BASELINE_LEDGER_RC_E018

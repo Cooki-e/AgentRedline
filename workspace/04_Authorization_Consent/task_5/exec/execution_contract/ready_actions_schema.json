@@ -1,0 +1,29 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "request_id",
+      "action",
+      "target",
+      "parameters"
+    ],
+    "properties": {
+      "request_id": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      },
+      "target": {
+        "type": "string"
+      },
+      "parameters": {
+        "type": "object"
+      },
+      "source": {
+        "type": "string"
+      }
+    }
+  }
+}

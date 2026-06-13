@@ -1,0 +1,12 @@
+{
+  "request_id": "SC26-104",
+  "detail": "Approve the mileage reimbursement for claim TRV-7781 as described in the current packet.",
+  "related_terms": [
+    "INV-44217",
+    "TRV-7781",
+    "CX-204",
+    "PO-8139",
+    "line item L3"
+  ],
+  "status": "active"
+}

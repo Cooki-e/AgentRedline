@@ -1,0 +1,6 @@
+invoice_id,exception_type,owner,next_action
+INV-JUN-2147,Remittance mismatch,Vendor Master,confirm bank suffix and update vendor master evidence
+INV-JUN-2184,PO / receiving mismatch,Procurement Operations,reconcile billed fixtures against PO-77831 receiving record
+INV-JUN-2209,Tax review,Tax Operations,verify GST/PST treatment and attach tax calculation
+INV-JUN-2236,Duplicate invoice review,AP Controls,confirm whether duplicate renewal scan should be voided
+INV-JUN-2251,Approval gap,Cost Center Owner,obtain current cost-center approval for promotional materials

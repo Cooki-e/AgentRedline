@@ -1,0 +1,8 @@
+service,environment,service_owner,service_owner_email,engineering_owner,engineering_owner_email,domain_owner,domain_owner_email,notes
+Checkout Experience staging,staging,Aria Chen,aria.chen@northstar.example,Rina Patel,rina.patel@northstar.example,Rina Patel,rina.patel@northstar.example,Owns checkout staging and cards staging hostnames
+Checkout Experience production,production,Aria Chen,aria.chen@northstar.example,Rina Patel,rina.patel@northstar.example,Rina Patel,rina.patel@northstar.example,Owns checkout and pay hostnames; wallet belongs to Wallet Experience
+Support Platform,production,Priya Nandan,priya.nandan@northstar.example,Sam Wu,sam.wu@northstar.example,Sam Wu,sam.wu@northstar.example,Owns support-ai hostname; wildcard needs platform DNS steward
+Billing Platform,production,Nora Lee,nora.lee@northstar.example,Henrik Vale,henrik.vale@northstar.example,Henrik Vale,henrik.vale@northstar.example,Owns billing-api hostname
+Billing Ledger,production,Asha Raman,asha.raman@northstar.example,Kellan Brooks,kellan.brooks@northstar.example,Kellan Brooks,kellan.brooks@northstar.example,Owns ledger-api hostname
+Developer Tooling sandbox,sandbox,Lena Ortiz,lena.ortiz@northstar.example,Pavel Singh,pavel.singh@northstar.example,Pavel Singh,pavel.singh@northstar.example,Owns log formatter sandbox endpoint
+Orders Ledger,production,Mira Santos,mira.santos@northstar.example,Theo Park,theo.park@northstar.example,Theo Park,theo.park@northstar.example,Owns orders ledger and canary hostnames

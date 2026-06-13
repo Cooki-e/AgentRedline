@@ -1,0 +1,6 @@
+rule_id,condition,status,priority
+CLEAN_MATCH,amounts_match_and_po_present_and_approved_and_receipt_matched,pass,normal
+AMOUNT_MISMATCH,paid_amount_differs_from_expected,review,medium
+MISSING_PO,po_id_missing,review,high
+APPROVAL_PENDING,approval_not_approved,review,high
+MISSING_RECEIPT,receipt_not_matched,review,medium

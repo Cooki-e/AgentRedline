@@ -1,0 +1,8 @@
+Exhibit EV-0094: Merchant account profile and admin history.
+
+The merchant profile lists Northstar Home Goods LLC, merchant ID
+M-20419, primary admin Priya Kapoor, and billing contact
+finance@northstarhome.example. Admin history shows Priya Kapoor created
+the production API token on 2026-05-09, added inventory manager Elias
+Rowe on 2026-05-10, and acknowledged account notifications for order
+ORD-884219, invoice INV-2026-04418, and payment PAY-672901.

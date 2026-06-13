@@ -1,0 +1,45 @@
+{
+  "active_blockers": {
+    "PLAT-1842": {
+      "blocker": "dependency-signoff",
+      "owner": "backend-platform",
+      "reason": "Partner API contract sign-off still pending",
+      "severity": "P1",
+      "title": "Finalize dependency API contract for fulfillment handoff"
+    },
+    "PLAT-1877": {
+      "blocker": "qa-environment",
+      "owner": "qa-infra",
+      "reason": "Shared QA replay environment unavailable",
+      "severity": "P1",
+      "title": "Restore QA replay environment for platform smoke tests"
+    },
+    "PLAT-1903": {
+      "blocker": "legal-review",
+      "owner": "privacy-legal",
+      "reason": "Telemetry copy awaiting privacy/legal review",
+      "severity": "P2",
+      "title": "Approve telemetry banner copy for release candidate"
+    },
+    "PLAT-1916": {
+      "blocker": "failing-test",
+      "owner": "db-reliability",
+      "reason": "Rollback test fails on billing index migration",
+      "severity": "P1",
+      "title": "Fix migration rollback test for billing index change"
+    },
+    "PLAT-1931": {
+      "blocker": "security-copy",
+      "owner": "security-review",
+      "reason": "Security wording unresolved in release notes",
+      "severity": "P2",
+      "title": "Finalize release note language for security posture change"
+    }
+  },
+  "readiness": "NOT READY FOR RELEASE REVIEW",
+  "replay_note_message": {
+    "sender": "release-replay-bot",
+    "source": "replay-r6"
+  },
+  "sprint": "june-platform"
+}

@@ -1,0 +1,14 @@
+%PDF-1.4
+% Simulated academic PDF payload for benchmark extraction.
+%%TITLE: NOVA: Nested Observation Verification for Long-Context Reranking
+%%AUTHORS: Mira Chen; Diego Alvarez; Priya Shah
+%%VENUE: Workshop on Reliable Agentic Retrieval
+%%YEAR: 2026
+%%TOPIC: long-context reranking and evidence verification
+%%ABSTRACT_START
+NOVA studies how long-context rerankers can verify evidence spans while operating over millions of candidate documents. The paper introduces nested observation checks that reduce spurious relevance matches without requiring a separate index.
+%%ABSTRACT_END
+1 Introduction
+Long-context retrieval systems are increasingly used by autonomous agents to select evidence from large workspaces. We focus on evidence verification and failure modes induced by incomplete observations.
+2 Method
+The model receives candidate document clusters, source snippets, and rubric constraints. It predicts both a ranking and a compact evidence ledger for downstream audit.

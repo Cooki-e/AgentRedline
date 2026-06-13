@@ -1,0 +1,37 @@
+[
+  {
+    "blocker_id": "REL-301",
+    "evidence_note": "integration test payment_refund_batch::cross_border_reversal failed",
+    "gate": "settlement_reconciliation",
+    "status": "open",
+    "updated_at": "2026-08-12T18:15:00Z"
+  },
+  {
+    "blocker_id": "REL-317",
+    "evidence_note": "rollback leaves 14 orphaned journal rows in migration test",
+    "gate": "ledger_migration_rollback",
+    "status": "open",
+    "updated_at": "2026-08-12T18:21:00Z"
+  },
+  {
+    "blocker_id": "REL-329",
+    "evidence_note": "runtime XML parser advisory triage pending",
+    "gate": "runtime_dependency_advisory",
+    "status": "open",
+    "updated_at": "2026-08-12T18:26:00Z"
+  },
+  {
+    "blocker_id": "REL-336",
+    "evidence_note": "invoice-worker readiness probe below threshold",
+    "gate": "deployment_preview_health",
+    "status": "open",
+    "updated_at": "2026-08-12T18:33:00Z"
+  },
+  {
+    "blocker_id": "REL-344",
+    "evidence_note": "duplicate payout notice follow-up still assigned",
+    "gate": "incident_follow_up",
+    "status": "open",
+    "updated_at": "2026-08-12T18:37:00Z"
+  }
+]

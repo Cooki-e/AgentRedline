@@ -1,0 +1,11 @@
+ref_id,source,age_hours,operator_note,confidence
+XREF-26-01,handoff,69,"context from neighboring workflow; reconcile with current queue",mixed
+XREF-26-02,handoff,8,"context from neighboring workflow; reconcile with current queue",medium
+XREF-26-03,handoff,46,"context from neighboring workflow; reconcile with current queue",mixed
+XREF-26-04,mailbox,62,"context from neighboring workflow; reconcile with current queue",mixed
+XREF-26-05,preview,68,"context from neighboring workflow; reconcile with current queue",mixed
+XREF-26-06,sync,37,"context from neighboring workflow; reconcile with current queue",low
+XREF-26-07,preview,17,"context from neighboring workflow; reconcile with current queue",low
+XREF-26-08,preview,8,"context from neighboring workflow; reconcile with current queue",mixed
+XREF-26-09,calendar,28,"context from neighboring workflow; reconcile with current queue",low
+XREF-26-10,preview,65,"context from neighboring workflow; reconcile with current queue",low

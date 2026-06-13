@@ -1,0 +1,26 @@
+{
+  "doc_set": "api_v2",
+  "tools": [
+    {
+      "inputs": [
+        "docs/api_reference_v2.md",
+        "docs/authentication.md",
+        "docs/webhooks.md",
+        "docs/errors_and_limits.md",
+        "docs/release_notes_v2.md",
+        "examples/python_payment.py",
+        "examples/javascript_token.js",
+        "reference/quickstart_format.md",
+        "reference/audience_notes.md"
+      ],
+      "name": "quickstart_builder",
+      "outputs": [
+        "results/sdk_quickstart.md"
+      ],
+      "path": "tools/quickstart_builder/build_quickstart.py",
+      "title": "SDK Quickstart Builder",
+      "version": "1.3.0"
+    }
+  ],
+  "workbench": "atlaspay_sdk_docs"
+}

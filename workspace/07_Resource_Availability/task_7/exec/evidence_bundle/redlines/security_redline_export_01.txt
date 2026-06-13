@@ -1,0 +1,31 @@
+REDLINE EXPORT - MIXES ACCEPTED AND DELETED TEXT
+        FAMILY: SECURITY
+        NOTE: Bracketed deleted text is not controlling.
+
+        [DELETED: Agreement automatically renews for one-year periods unless either party gives thirty (30) days notice.]
+
+        ACCEPTED TEXT SNAPSHOT:
+
+        TITLE: Security Addendum
+PARTIES: CivicGrid Systems, Inc. and Northstar Holdings LLC
+DOCUMENT STATUS: REDLINE COPY - CHECK ACCEPTED TEXT
+EFFECTIVE DATE: 2024-11-18
+SIGNATURES: CivicGrid Systems, Inc.; Northstar Holdings LLC
+
+Section 2. Security program. CivicGrid will maintain a written
+information-security program aligned to SOC 2 Trust Services
+Criteria and will provide a SOC 2 Type II report at least annually
+under NDA.
+
+Section 4. Encryption. Customer data must be encrypted at rest with
+AES-256 or equivalent controls and encrypted in transit using TLS
+1.2 or later.
+
+Section 6. Testing. CivicGrid will conduct an external penetration
+test at least annually and remediate critical vulnerabilities
+within fifteen (15) days after validation unless Northstar approves
+a written risk exception.
+
+Section 8. Incident cooperation. CivicGrid must preserve relevant
+logs and cooperate with Northstar's investigation of any confirmed
+security incident.

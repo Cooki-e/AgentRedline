@@ -1,0 +1,13 @@
+date,station,water_temp_c,dissolved_oxygen_mg_l,chlorophyll_ug_l,turbidity_ntu,notes
+2026-05-28,north_basin,21.4,7.1,18.0,4.5,baseline weekly sample
+2026-05-28,west_beach,20.9,7.5,12.2,3.8,baseline weekly sample
+2026-05-28,marina_inlet,21.1,6.9,14.1,4.2,baseline weekly sample
+2026-06-01,north_basin,23.8,5.9,46.5,8.7,green surface streaks observed
+2026-06-01,west_beach,23.1,6.8,20.4,5.0,no surface streaks at swim area
+2026-06-01,marina_inlet,23.6,6.2,31.8,6.9,moderate odor near docks
+2026-06-03,north_basin,24.9,4.8,72.4,11.2,visible bloom along north seawall
+2026-06-03,west_beach,24.0,6.4,25.7,5.8,lifeguard reported mild discoloration offshore
+2026-06-03,marina_inlet,24.4,5.4,44.2,8.1,foam line near boat ramp
+2026-06-05,north_basin,24.2,5.2,58.0,9.4,bloom patch dispersed after wind shift
+2026-06-05,west_beach,23.5,6.6,22.9,4.9,clear near shoreline
+2026-06-05,marina_inlet,23.9,5.8,36.5,6.5,odor reduced

@@ -1,0 +1,20 @@
+[
+  {
+    "allocated_bin": "A-01",
+    "pick_id": "PICK-Q3-1001",
+    "quantity": 2,
+    "sku": "SKU-210"
+  },
+  {
+    "allocated_bin": "B-14",
+    "pick_id": "PICK-Q3-1002",
+    "quantity": 1,
+    "sku": "SKU-310"
+  },
+  {
+    "allocated_bin": "C-02",
+    "pick_id": "PICK-Q3-1003",
+    "quantity": 4,
+    "sku": "SKU-410"
+  }
+]

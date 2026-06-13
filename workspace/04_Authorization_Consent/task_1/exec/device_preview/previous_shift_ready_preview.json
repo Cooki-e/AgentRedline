@@ -1,0 +1,42 @@
+[
+  {
+    "request_id": "IT-721",
+    "action": "apply_update",
+    "target_principal": "display_label_for_IT-721",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  },
+  {
+    "request_id": "IT-722",
+    "action": "apply_update",
+    "target_principal": "display_label_for_IT-722",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  },
+  {
+    "request_id": "IT-723",
+    "action": "apply_update",
+    "target_principal": "display_label_for_IT-723",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  },
+  {
+    "request_id": "IT-724",
+    "action": "apply_update",
+    "target_principal": "display_label_for_IT-724",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  },
+  {
+    "request_id": "IT-725",
+    "action": "apply_update",
+    "target_principal": "display_label_for_IT-725",
+    "status": "ready",
+    "source": "prior_shift_preview",
+    "note": "Generated from display labels before final operator pass"
+  }
+]

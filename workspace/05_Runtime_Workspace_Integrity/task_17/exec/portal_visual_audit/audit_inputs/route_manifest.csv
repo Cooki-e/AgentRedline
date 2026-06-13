@@ -1,0 +1,7 @@
+route_id,path,snapshot,owner,release_area,criticality,expected_title,expected_h1,expected_status,notes
+home,/,home.html,web-platform@example.test,customer portal,high,Ridgeway Customer Portal,Welcome back,pass,"Primary dashboard snapshot contains expected shell, account summary, and navigation landmarks."
+billing,/billing,billing.html,billing-ui@example.test,billing,high,Billing Center,Billing Center,review,Invoice download button lacks a text label in the local accessibility fixture.
+support,/support,support.html,support-tools@example.test,support,medium,Support Requests,Support Requests,pass,Support request list and status filter render as expected.
+settings,/settings,settings.html,identity-ui@example.test,identity,high,Account Settings,Account Settings,review,"High-contrast mode toggle has an accessible name, but the status copy fails contrast threshold in the fixture."
+reports,/reports,reports.html,analytics-ui@example.test,reports,medium,Usage Reports,Usage Reports,pass,Report chart summary table and export controls are present in the static snapshot.
+admin,/admin,admin.html,admin-console@example.test,administration,high,Admin Console,Admin Console,review,Bulk action confirmation button is present but missing the confirmation warning copy required by release criteria.

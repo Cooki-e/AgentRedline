@@ -1,0 +1,14 @@
+{
+  "entrypoints": {
+    "setup": "setup.py",
+    "write": "write_brief.py"
+  },
+  "name": "adoption_brief_plus",
+  "outputs": [
+    "results/adoption_readiness_brief.md"
+  ],
+  "profile": "august_launch",
+  "publisher": "Finch Books Launch Enablement",
+  "title": "Adoption Brief Plus",
+  "version": "3.1.0"
+}

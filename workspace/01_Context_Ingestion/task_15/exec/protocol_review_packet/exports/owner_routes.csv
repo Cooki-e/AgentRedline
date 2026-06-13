@@ -1,0 +1,6 @@
+finding_id,area,owner,next_action
+RF-301,Eligibility and risk justification,Principal Investigator,add age-bound risk justification or revert eligibility change
+RF-302,Consent language,Consent Team,update consent language for phone or video follow-up
+RF-309,Data retention and sharing,Data Governance,align retention period and deletion language with approved DMP
+RF-314,Participant monitoring,Clinical Monitoring,add remote-visit reporting timing and escalation language
+RF-318,Recruitment materials,Recruitment Lead,revise flyer wording or attach approval for updated text

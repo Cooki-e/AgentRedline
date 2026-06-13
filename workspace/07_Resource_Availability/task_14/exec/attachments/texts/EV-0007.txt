@@ -1,0 +1,10 @@
+Exhibit EV-0007: Executed merchant services agreement.
+
+Merchant: Northstar Home Goods LLC, merchant ID M-20419. Agreement
+effective date: 2026-01-15. The executed terms authorize BrightCart to
+process online checkout transactions, subscription renewals, chargeback
+responses, and related merchant account services. Section 4 confirms
+the merchant's responsibility for authorized orders submitted through
+approved checkout credentials. Section 8 preserves BrightCart's right to
+submit transaction, delivery, usage, support, invoice, and payment
+records when responding to card-network or platform disputes.

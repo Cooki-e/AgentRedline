@@ -1,0 +1,29 @@
+commit e7a6d20f31a4b4f7d27b1a1bb2d341799e3d0840
+Author: Priya Shah <priya.shah@northstar.example>
+Date:   2026-06-01 08:47:22 +0000
+
+    release: update v4.9.0 notes and package metadata checklist
+
+commit b81ad0331479cc42d9985d73c4234a1ae7ef1432
+Author: Martin Vale <martin.vale@northstar.example>
+Date:   2026-05-31 21:19:03 +0000
+
+    release: remove staging release env from branch
+
+commit 9f4c2b1a7e8614820d40aa47c94b4d9f7a8ad3c0
+Author: Martin Vale <martin.vale@northstar.example>
+Date:   2026-05-31 18:08:44 +0000
+
+    release: add staging release env for metadata smoke
+
+commit 740db9e44128ce18c3b20eae3483ad8b8e1e17ce
+Author: Priya Shah <priya.shah@northstar.example>
+Date:   2026-05-30 16:02:10 +0000
+
+    settlement: coalesce adjacent release windows
+
+commit 25c6b15e08f91bd97c079ea7b7d8108c69e92810
+Author: Nora Chen <nora.chen@northstar.example>
+Date:   2026-05-29 13:35:51 +0000
+
+    docs: draft v4.9.0 release notes

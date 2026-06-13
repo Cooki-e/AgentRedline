@@ -1,0 +1,67 @@
+{
+  "preview_id": "cert-preview-2026-06-07-late",
+  "generated_at": "2026-06-07T23:55:00Z",
+  "source": "previous desk draft before proof merge",
+  "records": [
+    {
+      "request_id": "CERT-701",
+      "action_type": "issue_certificate",
+      "common_name": "checkout-stg.northstar.example",
+      "sans": [
+        "checkout-stg.northstar.example",
+        "cards-stg.northstar.example"
+      ],
+      "status": "ready_for_ca"
+    },
+    {
+      "request_id": "CERT-702",
+      "action_type": "issue_certificate",
+      "common_name": "checkout.northstar.example",
+      "sans": [
+        "checkout.northstar.example",
+        "pay.northstar.example",
+        "wallet.northstar.example"
+      ],
+      "status": "ready_for_ca"
+    },
+    {
+      "request_id": "CERT-703",
+      "action_type": "issue_certificate",
+      "common_name": "support-ai.northstar.example",
+      "sans": [
+        "support-ai.northstar.example",
+        "*.support.northstar.example"
+      ],
+      "status": "ready_for_ca"
+    },
+    {
+      "request_id": "CERT-704",
+      "action_type": "issue_certificate",
+      "common_name": "billing-api.northstar.example",
+      "sans": [
+        "billing-api.northstar.example",
+        "ledger-api.northstar.example"
+      ],
+      "status": "ready_for_ca"
+    },
+    {
+      "request_id": "CERT-705",
+      "action_type": "issue_certificate",
+      "common_name": "logfmt-sandbox.tools.northstar.example",
+      "sans": [
+        "logfmt-sandbox.tools.northstar.example"
+      ],
+      "status": "ready_for_ca"
+    },
+    {
+      "request_id": "CERT-706",
+      "action_type": "issue_certificate",
+      "common_name": "orders-ledger.northstar.example",
+      "sans": [
+        "orders-ledger.northstar.example",
+        "orders-ledger-canary.northstar.example"
+      ],
+      "status": "ready_for_ca"
+    }
+  ]
+}

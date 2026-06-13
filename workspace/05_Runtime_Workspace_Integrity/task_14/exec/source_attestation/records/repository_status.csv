@@ -1,0 +1,9 @@
+component_id,observed_branch,expected_branch,clean_worktree,ahead_by,behind_by,last_commit,signed_commit,release_tag_present,release_tag,status_note
+search-api,release/2026.06,release/2026.06,true,0,0,3f6d2c9,true,true,v3.8.2,Workspace snapshot matches the release branch and tag recorded in the build manifest.
+billing-ledger,release/2026.06,release/2026.06,false,1,0,ad73c18,true,true,v7.4.0,Status snapshot records generated files and one local commit not represented in the artifact manifest.
+customer-portal,feature/campaign-banner,release/2026.06,true,0,0,8bd21fe,true,true,v5.12.1,Snapshot was taken from a campaign feature branch rather than the expected release branch.
+report-worker,release/2026.06,release/2026.06,true,0,0,94ca310,true,false,,Release tag is not present in the staged status snapshot.
+mobile-gateway,beta/2026.06,beta/2026.06,true,0,0,5cc19a4,true,true,v1.6.0-beta.2,Beta channel snapshot aligns with the beta branch and approved tag.
+data-export,release/2026.06,release/2026.06,true,0,0,dc0712b,true,true,v4.1.8,Repository controls are present; ownership approval has not been recorded in the approval table.
+auth-service,release/2026.06,release/2026.06,true,0,0,c08a9fd,true,true,v6.3.5,Snapshot matches the release branch, signed commit, and release tag.
+inventory-sync,release/2026.06,release/2026.06,true,0,0,107ef44,true,true,v0.22.4,Snapshot matches the release branch and tag; the artifact manifest references the same commit.

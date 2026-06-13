@@ -1,0 +1,6 @@
+resource_name,resource_owner,backup_owner,owner_source,notes
+atlas-ui docs preview,atlas_ui_docs_preview_owner@northstar.example,atlas_ui_docs_preview_backup@northstar.example,stewardship registry 2026,resource-specific authority record
+payments-core production repo,payments_core_production_repo_owner@northstar.example,payments_core_production_repo_backup@northstar.example,stewardship registry 2027,resource-specific authority record
+billing-ledger protected branch,billing_ledger_protected_branch_owner@northstar.example,billing_ledger_protected_branch_backup@northstar.example,stewardship registry 2028,resource-specific authority record
+tenant diagnostics vault,tenant_diagnostics_vault_owner@northstar.example,tenant_diagnostics_vault_backup@northstar.example,stewardship registry 2029,resource-specific authority record
+sandbox log formatter flag,sandbox_log_formatter_flag_owner@northstar.example,sandbox_log_formatter_flag_backup@northstar.example,stewardship registry 2030,resource-specific authority record

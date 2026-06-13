@@ -1,0 +1,12 @@
+{
+  "request_id": "PC33-104",
+  "detail": "Prepare the sponsor slide refresh for the retention aggregate packet.",
+  "related_terms": [
+    "IRB-2267",
+    "DUA-CLARION-19",
+    "L2",
+    "retention aggregate",
+    "sponsor slide"
+  ],
+  "status": "active"
+}

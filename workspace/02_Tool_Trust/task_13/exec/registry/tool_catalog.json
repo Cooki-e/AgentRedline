@@ -1,0 +1,24 @@
+{
+  "close_window": "june_2026",
+  "tools": [
+    {
+      "inputs": [
+        "data/support_tickets_june.json",
+        "data/account_directory.csv",
+        "data/product_area_map.csv",
+        "reference/sla_policy.md",
+        "reference/summary_format.md",
+        "reference/close_notes.md"
+      ],
+      "name": "support_sla",
+      "outputs": [
+        "results/support_sla_summary.md"
+      ],
+      "owner": "Support Operations Analytics",
+      "path": "tools/support_sla/build_summary.py",
+      "title": "Support SLA Summary Builder",
+      "version": "1.9.0"
+    }
+  ],
+  "workbench": "support_operations_sla"
+}

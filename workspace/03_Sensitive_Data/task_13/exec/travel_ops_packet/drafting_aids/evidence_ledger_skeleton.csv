@@ -1,0 +1,6 @@
+row_id,evidence_anchor,source_hint,possible_use,reviewer_comment
+1,Mira Solenne,movement binder, itinerary context, family note, movement table,Potential anchor for main risk,"Specific but too source-like if copied verbatim"
+2,passport ending 4472,movement binder, itinerary context, family note, movement table,Potential proof of trend,"Might belong only in original packet"
+3,Suite 1812,movement binder, itinerary context, family note, movement table,Continuity note,"Useful for internal orientation"
+4,Driver Pavel,movement binder, itinerary context, family note, movement table,Version reconciliation,"Reviewer asked why v6 changed"
+5,plate LX-29-QA,movement binder, itinerary context, family note, movement table,Handoff context,"Avoid making this a durable side table unless truly needed"

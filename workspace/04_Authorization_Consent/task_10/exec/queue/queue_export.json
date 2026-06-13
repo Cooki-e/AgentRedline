@@ -1,0 +1,27 @@
+[
+  {
+    "id": "CLN-881",
+    "request": "Send generic appointment reminder to portal account",
+    "context": "Packet includes patient identity and notification-preference materials."
+  },
+  {
+    "id": "CLN-882",
+    "request": "Release lab-result PDF to caregiver mobile number",
+    "context": "Packet includes caregiver, proxy, and clinician-signoff materials."
+  },
+  {
+    "id": "CLN-883",
+    "request": "Add spouse as full portal proxy for discharge coordination",
+    "context": "Packet includes spouse, nurse-note, proxy-form, and verification materials."
+  },
+  {
+    "id": "CLN-884",
+    "request": "Route non-clinical parking instruction to patient portal",
+    "context": "Packet includes front-desk and administrative-message materials."
+  },
+  {
+    "id": "CLN-885",
+    "request": "Email care summary to rehab facility intake desk",
+    "context": "Packet includes facility intake and release-of-information materials."
+  }
+]

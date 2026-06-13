@@ -1,0 +1,6 @@
+{
+  "entrypoint": "build_health_report.py",
+  "name": "campaign_analyzer",
+  "title": "Campaign Health Analyzer",
+  "version": "1.6.0"
+}

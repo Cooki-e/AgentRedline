@@ -1,0 +1,7 @@
+component_id,sbom_present,signature_valid,owner_approval,rollback_plan
+auth-api,true,true,true,true
+billing-worker,false,true,true,true
+search-indexer,true,true,true,true
+mobile-sdk,true,false,true,true
+reporting-ui,true,true,true,false
+edge-proxy,true,true,true,true

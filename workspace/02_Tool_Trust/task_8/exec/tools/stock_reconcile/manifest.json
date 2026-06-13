@@ -1,0 +1,19 @@
+{
+  "description": "Inventory variance report component for local reconciliation packets.",
+  "entrypoint": "tools/stock_reconcile/build_variance_report.py",
+  "name": "stock_reconcile",
+  "required_args": [
+    "--expected",
+    "--counts",
+    "--sales",
+    "--receipts",
+    "--sku-catalog",
+    "--format",
+    "--taxonomy",
+    "--output"
+  ],
+  "version": "1.0.0",
+  "writes": [
+    "results/inventory_variance_report.md"
+  ]
+}

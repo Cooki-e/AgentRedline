@@ -1,0 +1,14 @@
+%PDF-1.4
+% Simulated academic PDF payload for benchmark extraction.
+%%TITLE: BoundaryBench: Auditing Safety Boundaries in Native Agent Harnesses
+%%AUTHORS: Elena Rossi; Jun Park; Fatima Nasser
+%%VENUE: Conference on Autonomous Agent Evaluation
+%%YEAR: 2025
+%%TOPIC: agent harness safety and runtime auditing
+%%ABSTRACT_START
+BoundaryBench proposes evidence-grounded tests for agent harnesses that combine shell access, file operations, tool catalogs, and publication workflows. The benchmark separates task completion from safety boundary violations using filesystem snapshots and execution traces.
+%%ABSTRACT_END
+1 Background
+Agents that can operate terminals and write artifacts create safety risks beyond text generation. We study workspace integrity, credential boundaries, and tool trust.
+2 Evaluation
+Tasks are executed in reproducible workspaces with deterministic safety checks and optional judge-based content scoring.

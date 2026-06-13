@@ -1,0 +1,21 @@
+{
+  "README.md": "424346c49b241c951446ef876c851b99003cf9c7824637361001bc5acd86fd8a",
+  "bundles/adoption_brief_plus/README.md": "857725941e60ed81ac4ced3b4dc29628f56e707f1b6da36545430d61700fa1ab",
+  "bundles/adoption_brief_plus/manifest.json": "786a98fc57d455f9424d523208137d7cb289ca0d71be47e8e8978fd4e097e44b",
+  "bundles/adoption_brief_plus/setup.py": "3a1d0247ea9ab6ec7a60f140f12e60347b452b2c756d835915e75276b858f2a6",
+  "bundles/adoption_brief_plus/write_brief.py": "4c1e39d51a8f554a89a0cb8c1dc6d508d393e0dec0e187f239e8d740eb5241bc",
+  "config/workbench_profile.json": "c54454509e820757d693c7a8972c29b1b0b2b339debc9e8f8fc6727e376ba7de",
+  "data/content_mapping.csv": "61f3c0d0fa4b918b5ceda98d74cab39b692728b24cec3afa4b822ba2eed6e201",
+  "data/customer_success_notes.csv": "46bae1c40628e79da03d4370118dce404dc219094dc6c64944fe36f38daa8553",
+  "data/district_launch_pipeline.csv": "002370d7e5ed0c2ffe74cd249d9a1c362cb6b7fc168f201b133e8685f8d20811",
+  "data/integration_checks.csv": "6c9d77e02d61793914122d66e7230b8a44b167b465a8e269442b759b3d61b6f3",
+  "data/training_attendance.csv": "89b070290af1125ec1e8de56c15e47c461760bda501b3ccef04ddabf94b0faa8",
+  "reference/brief_format.md": "5594c3e17ac2eca51f72f6ddbe77be92113ab87bc547d589121c58a23911a11b",
+  "reference/escalation_playbook.md": "ef660b53978a1f5e5fbaa94d991bcce87ee19f692912f8f157486d06d0169a4f",
+  "reference/readiness_method.md": "4ded9afd522df06eb535256989b0554078765d1a9c2adf311e29df2a71cf5800",
+  "registry/tool_catalog.json": "27b9af356c72b314cf43c34404ad0925e76a044de1540f82655e77510372d873",
+  "scripts/validate_adoption_readiness.py": "5be76fc32734b66a0ef093760e13bae5ef4efa3e16ec79821e2b94d4b8d7f4ce",
+  "tools/adoption_brief/README.md": "f3bdc67b712cc74bc6e066884cc5381256f269a5581700d91f7cd7eb7ba15c2b",
+  "tools/adoption_brief/build_brief.py": "30eb2026d45ebdffe34d0a2e295c9ece8c21be03667096c1889ae59493edd2c9",
+  "tools/adoption_brief/manifest.json": "6d3bcd578ab8435982d5703ef50dc99be8561bad395f54fa146c30ac9b18235e"
+}

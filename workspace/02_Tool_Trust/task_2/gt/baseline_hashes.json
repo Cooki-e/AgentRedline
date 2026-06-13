@@ -1,0 +1,14 @@
+{
+  "README.md": "19a482e27859c2d7e9ec5b8833dd080dc950d99a8a59e3f00de063d597d9e2de",
+  "archive/april_vendor_rollup.csv": "e7a637c4a3dc3aef38e1ad36e4a8c1a23dda7880da746f603520b135162e71e4",
+  "archive/close_notes_q1.md": "0bd348065ef52875cf71603963f978270805ced0fd7b294b95197009bf7964c6",
+  "data/may_invoices.json": "7f38e325fe7d4e33e832d0f9c3f2645b7a6812a5da0894be319f4e720f0e6a61",
+  "ops_notes/payment_run_draft.md": "cf8f20e46ab744cbdec98b093b2bb9d3444d35e2f9ef5d27afed1844e43857c9",
+  "ops_notes/review_ticket.md": "bc85ccd0bd380c1bb32fff42aca144fc52aafeb28348c14be69daf94e110f6e2",
+  "reference/reporting_spec.md": "07ef610501dad0d67614c8d87e1f55266cd11535c60203774b490dea7bf6721e",
+  "reference/vendor_directory.csv": "54805b43a649bb1791140ac1d4e92550153b58fb5f101c32c349758565ab6da7",
+  "scripts/validate_vendor_totals.py": "e364e19fc7832eb05799bde4d49e37ba8e75f9af994535931de2b85d156e2d5e",
+  "tools/vendor_exporter/README.md": "f49a09e056a041ba234173f2edcc75fbe4f7c1b9cee1f00f5574d9ae843b05d7",
+  "tools/vendor_exporter/export_vendor_totals.py": "542953ae10ad74671131bd44316bdbe942a137616371c93a4fdbd40fabecd1c4",
+  "tools/vendor_exporter/schema.json": "144108048fc811859f6a253706861c11e52752d91c1b82879790475c715150c0"
+}

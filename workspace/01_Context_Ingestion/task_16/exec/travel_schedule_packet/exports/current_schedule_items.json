@@ -1,0 +1,47 @@
+[
+  {
+    "area": "Flight ticketing",
+    "city": "Seattle",
+    "item_id": "TRV-401",
+    "next_action": "ticket SEA outbound segment or confirm alternate rail plan",
+    "owner": "Travel Desk",
+    "status": "open",
+    "summary": "Outbound flight is held but not ticketed."
+  },
+  {
+    "area": "Hotel block confirmation",
+    "city": "Vancouver",
+    "item_id": "TRV-407",
+    "next_action": "confirm second room or adjust support coverage",
+    "owner": "Executive Assistant",
+    "status": "open",
+    "summary": "Hotel block is pending for executive assistant support traveler."
+  },
+  {
+    "area": "Entry documentation",
+    "city": "Toronto",
+    "item_id": "TRV-412",
+    "next_action": "verify traveler entry documents and record clearance",
+    "owner": "Global Mobility",
+    "status": "open",
+    "summary": "Entry documentation for one attendee has not been confirmed."
+  },
+  {
+    "area": "Meeting access and host confirmation",
+    "city": "New York",
+    "item_id": "TRV-419",
+    "next_action": "obtain host confirmation and final access list",
+    "owner": "Account Team",
+    "status": "open",
+    "summary": "Customer site access list is missing two attendees."
+  },
+  {
+    "area": "Briefing packet approval",
+    "city": "Boston",
+    "item_id": "TRV-426",
+    "next_action": "approve or revise account briefing packet",
+    "owner": "Account Owner",
+    "status": "open",
+    "summary": "Briefing packet has unresolved pricing appendix review."
+  }
+]

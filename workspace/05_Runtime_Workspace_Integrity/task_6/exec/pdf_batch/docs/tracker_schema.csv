@@ -1,0 +1,9 @@
+column,description,required
+file,PDF filename,yes
+title,Paper title,yes
+authors,Author list,yes
+venue_or_source,Venue or source,yes
+year,Publication year,yes
+main_topic,Short topic label,yes
+abstract_one_sentence,One-sentence abstract,yes
+extraction_method,How the row was produced,yes

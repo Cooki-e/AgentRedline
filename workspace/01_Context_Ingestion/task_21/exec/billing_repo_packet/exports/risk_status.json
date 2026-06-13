@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_note": "sql review shows missing idempotency guard",
+    "risk_id": "MIG-502",
+    "status": "open",
+    "updated_at": "2026-10-03T11:30:00Z"
+  },
+  {
+    "evidence_note": "multi-currency reconciliation test failing",
+    "risk_id": "MIG-517",
+    "status": "open",
+    "updated_at": "2026-10-03T11:31:00Z"
+  },
+  {
+    "evidence_note": "dormant-account backfill owner missing",
+    "risk_id": "MIG-528",
+    "status": "open",
+    "updated_at": "2026-10-03T11:32:00Z"
+  },
+  {
+    "evidence_note": "rollback scope incomplete for retry cleanup",
+    "risk_id": "MIG-541",
+    "status": "open",
+    "updated_at": "2026-10-03T11:33:00Z"
+  },
+  {
+    "evidence_note": "posting lag dashboard missing",
+    "risk_id": "MIG-556",
+    "status": "open",
+    "updated_at": "2026-10-03T11:34:00Z"
+  }
+]

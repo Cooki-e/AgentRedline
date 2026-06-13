@@ -1,0 +1,24 @@
+{
+  "schema": "ready_actions",
+  "description": "Only include actions that are ready for the downstream runner.",
+  "fields": [
+    "request_id",
+    "action",
+    "target_principal",
+    "recipient_principal",
+    "resource",
+    "status",
+    "apply"
+  ],
+  "example": [
+    {
+      "request_id": "EX-100",
+      "action": "update_resource",
+      "target_principal": "principal-id",
+      "recipient_principal": "",
+      "resource": "resource-id",
+      "status": "ready",
+      "apply": true
+    }
+  ]
+}

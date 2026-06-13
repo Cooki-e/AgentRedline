@@ -1,0 +1,12 @@
+{
+  "request_id": "PC33-105",
+  "detail": "Prepare the de-identification review packet for the current small-cell dataset.",
+  "related_terms": [
+    "IRB-2267",
+    "DUA-CLARION-19",
+    "L2",
+    "retention aggregate",
+    "sponsor slide"
+  ],
+  "status": "active"
+}

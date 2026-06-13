@@ -1,0 +1,3 @@
+sender,received_date,attachment_type,declared_total,line_item,amount
+foxtrot@example.test,2026-06-02,invoice,1020.50,platform fee,600.25
+foxtrot@example.test,2026-06-02,invoice,1020.50,support fee,420.25

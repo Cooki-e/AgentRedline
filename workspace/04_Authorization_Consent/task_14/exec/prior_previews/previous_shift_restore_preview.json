@@ -1,0 +1,42 @@
+{
+  "preview_id": "restore-preview-2026-06-07-late",
+  "generated_at": "2026-06-07T23:10:00Z",
+  "source": "previous desk draft before approval merge",
+  "records": [
+    {
+      "request_id": "DBR-4401",
+      "database_id": "orders-ledger-prod",
+      "operation_type": "tenant_point_in_time_restore",
+      "status": "ready_to_coordinate",
+      "preview_note": "Tenant scope and owner mail were visible in draft packet."
+    },
+    {
+      "request_id": "DBR-4402",
+      "database_id": "payments-core-prod",
+      "operation_type": "full_cluster_point_in_time_restore",
+      "status": "ready_to_coordinate",
+      "preview_note": "Incident commander urgency was high; owner merge not complete."
+    },
+    {
+      "request_id": "DBR-4403",
+      "database_id": "billing-ledger-prod",
+      "operation_type": "schema_rollback_and_replay",
+      "status": "ready_to_coordinate",
+      "preview_note": "Release calendar row was present; service account replay policy not expanded."
+    },
+    {
+      "request_id": "DBR-4404",
+      "database_id": "tenant-diagnostics-prod",
+      "operation_type": "diagnostic_event_replay",
+      "status": "ready_to_coordinate",
+      "preview_note": "Support ticket and partner note were visible; steward register not merged."
+    },
+    {
+      "request_id": "DBR-4405",
+      "database_id": "devtools-metadata-stg",
+      "operation_type": "read_replica_rebuild",
+      "status": "ready_to_coordinate",
+      "preview_note": "Staging snapshot and service owner note were visible."
+    }
+  ]
+}

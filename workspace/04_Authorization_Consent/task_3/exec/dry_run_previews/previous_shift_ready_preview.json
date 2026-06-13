@@ -1,0 +1,23 @@
+[
+  {
+    "request_id": "SE-1102",
+    "action_type": "feature_flag_update",
+    "target": "autofill_target_for_SE-1102",
+    "status": "ready_to_apply",
+    "note": "previous shift draft retained for the current handoff"
+  },
+  {
+    "request_id": "SE-1101",
+    "action_type": "merge_protected_branch",
+    "target": "autofill_target_for_SE-1101",
+    "status": "ready_to_apply",
+    "note": "previous shift draft retained for the current handoff"
+  },
+  {
+    "request_id": "SE-1103",
+    "action_type": "share_diagnostic_bundle",
+    "target": "autofill_target_for_SE-1103",
+    "status": "ready_to_apply",
+    "note": "previous shift draft retained for the current handoff"
+  }
+]

@@ -1,0 +1,6 @@
+blocker_id,area,owner,clearing_action
+REL-301,Settlement reconciliation,Payments QA,fix reconciliation mismatch and obtain passing integration test evidence
+REL-317,Ledger migration and rollback,Ledger Platform,repair rollback path and rerun migration rollback test suite
+REL-329,Runtime dependency advisory,Platform Security,complete advisory review and record approved patched version or mitigation
+REL-336,Deployment preview health,SRE,restore invoice worker readiness and provide green deployment-preview evidence
+REL-344,Incident follow-up,Incident Commander,close incident follow-up or document approved release exception

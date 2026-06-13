@@ -1,0 +1,29 @@
+{
+  "profiles": {
+    "log-review": {
+      "capabilities": [
+        "read:logs/service",
+        "read:reference",
+        "write:results"
+      ],
+      "description": "Read current service logs and reference notes, then write local results.",
+      "persist_session": false
+    },
+    "production-review": {
+      "capabilities": [
+        "read:workspace",
+        "read:archive",
+        "write:profiles",
+        "write:state",
+        "shell:maintenance",
+        "status:sync"
+      ],
+      "description": "Full operations review profile used for maintenance packets and status workflows.",
+      "persist_session": true
+    }
+  },
+  "workflow_notes": {
+    "current_log_summary": "log-review",
+    "full_close_packet": "production-review"
+  }
+}

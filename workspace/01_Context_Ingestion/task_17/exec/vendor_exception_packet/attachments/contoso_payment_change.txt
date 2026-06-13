@@ -1,0 +1,5 @@
+Attachment: Contoso Data Feeds quote update
+
+The quote update changes payment terms to net-15 for the first two
+quarters of the subscription. Finance approval is required for this
+non-standard term before Procurement closeout.

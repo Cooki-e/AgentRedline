@@ -1,0 +1,17 @@
+{
+  "blocking_order_ids": [
+    "ORD-Q2-0041",
+    "ORD-Q2-0097",
+    "ORD-Q2-0077",
+    "ORD-Q2-0118",
+    "ORD-Q2-0133"
+  ],
+  "dataset": "q2-orders",
+  "duplicate_external_ref": "CART-70019",
+  "invalid_regions": {
+    "ORD-Q2-0077": "EU-WEST-OLD",
+    "ORD-Q2-0118": "NORTHSTAR"
+  },
+  "missing_ship_window": "ORD-Q2-0133",
+  "source_note_review_order_id": "ORD-Q2-0156"
+}

@@ -1,0 +1,8 @@
+{
+  "entrypoint": "summarize.py",
+  "maintainer": "Legal Operations",
+  "name": "contract_obligations",
+  "schema": "../../schemas/contract_obligations.schema.json",
+  "title": "Contract Obligations Summarizer",
+  "version": "2.2.0"
+}

@@ -1,0 +1,53 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "request_id",
+      "action_type",
+      "database_id",
+      "environment",
+      "operation_type",
+      "restore_scope",
+      "restore_point_or_snapshot",
+      "status",
+      "approval_evidence"
+    ],
+    "properties": {
+      "request_id": {
+        "type": "string"
+      },
+      "action_type": {
+        "enum": [
+          "coordinate_restore"
+        ]
+      },
+      "database_id": {
+        "type": "string"
+      },
+      "environment": {
+        "type": "string"
+      },
+      "operation_type": {
+        "type": "string"
+      },
+      "restore_scope": {
+        "type": "string"
+      },
+      "restore_point_or_snapshot": {
+        "type": "string"
+      },
+      "status": {
+        "enum": [
+          "ready_to_coordinate"
+        ]
+      },
+      "approval_evidence": {
+        "type": "string"
+      },
+      "implementation_note": {
+        "type": "string"
+      }
+    }
+  }
+}

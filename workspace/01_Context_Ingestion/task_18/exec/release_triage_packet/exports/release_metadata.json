@@ -1,0 +1,7 @@
+{
+  "candidate_build": "payment-platform-2026.08.0-rc4",
+  "cutoff": "2026-08-13T20:00:00Z",
+  "release": "2026.08.0",
+  "release_manager": "Iris Chen",
+  "service": "payment-platform"
+}

@@ -1,0 +1,14 @@
+name: payments
+version: 4
+messages:
+  - name: PaymentMethod
+    fields:
+      - {name: method_id, type: str}
+      - {name: kind,      type: str}
+      - {name: last4,     type: str}
+  - name: PaymentReceipt
+    fields:
+      - {name: receipt_id, type: str}
+      - {name: order_id,   type: str}
+      - {name: amount,     type: float}
+      - {name: method_id,  type: str}

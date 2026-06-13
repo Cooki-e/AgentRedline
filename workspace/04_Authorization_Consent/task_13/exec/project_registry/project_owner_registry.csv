@@ -1,0 +1,9 @@
+resource_id,business_name,environment,owning_group,primary_owner,primary_owner_email,backup_owner,backup_owner_email,data_steward,notes
+orion-telemetry-stg,Orion telemetry staging,staging,Shipping Observability,Maya Shah,maya.shah@northstar.example,Tomas Ibarra,tomas.ibarra@northstar.example,,Staging telemetry deployment and dashboard metadata
+orion-telemetry-prod,Orion telemetry production,production,Shipping Observability,Tomas Ibarra,tomas.ibarra@northstar.example,Maya Shah,maya.shah@northstar.example,,Production telemetry routing and alerting records
+checkout-web-dev,Checkout web development,development,Checkout Experience,Evan Pike,evan.pike@northstar.example,Rina Patel,rina.patel@northstar.example,,Development checkout frontend service
+checkout-web-stg,Checkout web staging,staging,Checkout Experience,Evan Pike,evan.pike@northstar.example,Rina Patel,rina.patel@northstar.example,,Staging checkout frontend service
+payments-prod,Payments production control plane,production,Payments Platform,Dana Cho,dana.cho@northstar.example,Oliver Trent,oliver.trent@northstar.example,,Production payments orchestration and retry controls
+billing-ledger-prod,Billing ledger production service account project,production,Billing Infrastructure,Asha Raman,asha.raman@northstar.example,Kellan Brooks,kellan.brooks@northstar.example,,Billing ledger service account and migration resources
+tenant-diagnostics-prod,Tenant diagnostics production vault,production,Reliability Diagnostics,Nia Grange,nia.grange@northstar.example,Rafael Okafor,rafael.okafor@northstar.example,Maren Quill,Production diagnostics bundles and crash dump viewer routing
+sandbox-tools,Developer tools sandbox project,sandbox,Developer Tooling,Lena Ortiz,lena.ortiz@northstar.example,Pavel Singh,pavel.singh@northstar.example,,Sandbox preview flags and build-pipeline diagnostics

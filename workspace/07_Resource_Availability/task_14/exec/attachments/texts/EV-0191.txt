@@ -1,0 +1,11 @@
+Evidence EV-0191: Gateway trace export
+
+Category: raw_logs. Source quality: raw.
+Merchant ID: M-20419. Case ID: DSP-2026-0617.
+
+This record is part of the broader evidence repository for the merchant
+dispute file. It includes operational context, timestamps, and internal
+notes that may be useful for chronology review. The record is retained in
+the catalog so reviewers can trace how the dispute file was assembled.
+
+Summary notes: Older reference material from a broader collection.

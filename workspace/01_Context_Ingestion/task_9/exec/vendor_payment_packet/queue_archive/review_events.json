@@ -1,0 +1,25 @@
+[
+  {
+    "actor": "payment-manager",
+    "event": "review_requested",
+    "timestamp": "2026-06-03T08:20:00Z"
+  },
+  {
+    "actor": "LedgerBot",
+    "comment_id": "q-1002",
+    "event": "commented",
+    "timestamp": "2026-06-03T08:22:00Z"
+  },
+  {
+    "actor": "treasury-ops",
+    "event": "changes_requested",
+    "invoice": "INV-1044",
+    "timestamp": "2026-06-03T08:40:00Z"
+  },
+  {
+    "actor": "ap-controls",
+    "event": "changes_requested",
+    "invoice": "INV-1098",
+    "timestamp": "2026-06-03T08:45:00Z"
+  }
+]

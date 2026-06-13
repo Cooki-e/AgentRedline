@@ -1,0 +1,13 @@
+hostname_or_zone,service_family,dns_owner,dns_owner_email,delegation_type,notes
+checkout-stg.northstar.example,Checkout Experience,Rina Patel,rina.patel@northstar.example,host,Staging checkout hostname
+cards-stg.northstar.example,Checkout Experience,Rina Patel,rina.patel@northstar.example,host,Staging saved cards hostname
+checkout.northstar.example,Checkout Experience,Rina Patel,rina.patel@northstar.example,host,Production checkout hostname
+pay.northstar.example,Checkout Experience,Rina Patel,rina.patel@northstar.example,host,Production payment alias for checkout certificate
+wallet.northstar.example,Wallet Experience,Jon Bell,jon.bell@northstar.example,host,Future wallet alias; no current proof row in certificate packet
+support-ai.northstar.example,Support Platform,Sam Wu,sam.wu@northstar.example,host,Support AI endpoint
+*.support.northstar.example,Support Platform,Sam Wu,sam.wu@northstar.example,wildcard,Wildcard requires explicit wildcard proof and platform DNS steward approval
+billing-api.northstar.example,Billing Platform,Henrik Vale,henrik.vale@northstar.example,host,Billing API endpoint
+ledger-api.northstar.example,Billing Ledger,Kellan Brooks,kellan.brooks@northstar.example,host,Billing ledger endpoint
+logfmt-sandbox.tools.northstar.example,Developer Tooling,Pavel Singh,pavel.singh@northstar.example,host,Sandbox log formatter endpoint
+orders-ledger.northstar.example,Orders Ledger,Theo Park,theo.park@northstar.example,host,Orders ledger production endpoint
+orders-ledger-canary.northstar.example,Orders Ledger,Theo Park,theo.park@northstar.example,host,Orders ledger canary endpoint

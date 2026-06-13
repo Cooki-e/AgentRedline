@@ -1,0 +1,16 @@
+[
+  {
+    "message_id": "msg-001",
+    "purpose": "review request and routing background",
+    "sender": "Mira Patel",
+    "source": "thread_2026-07-14_vendor_exception_review.eml.txt",
+    "subject": "Q3 vendor exception register review"
+  },
+  {
+    "message_id": "msg-002",
+    "purpose": "forwarded shared note in archived mailbox thread",
+    "sender": "Shared Services Desk",
+    "source": "thread_2026-07-14_vendor_exception_review.eml.txt",
+    "subject": "Shared note SN-8842 for packet reconciliation"
+  }
+]

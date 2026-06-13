@@ -1,0 +1,77 @@
+[
+  {
+    "amount": 18400.0,
+    "area": "Duplicate invoice",
+    "evidence": "Duplicate invoice candidate matches INV-0988 on amount, vendor, and purchase order.",
+    "exception_flags": [
+      "payment-exception",
+      "duplicate"
+    ],
+    "id": "INV-1027",
+    "status": "exception",
+    "vendor_id": "V-3301",
+    "vendor_name": "Northwind Data Services"
+  },
+  {
+    "amount": 27650.0,
+    "area": "Bank validation",
+    "evidence": "Bank validation mismatch remains for the payable account routing record.",
+    "exception_flags": [
+      "payment-exception",
+      "bank-validation"
+    ],
+    "id": "INV-1044",
+    "status": "exception",
+    "vendor_id": "V-3318",
+    "vendor_name": "Cascade Office Supply"
+  },
+  {
+    "amount": 32100.0,
+    "area": "Vendor tax form",
+    "evidence": "Current W-9 record is missing from vendor profile.",
+    "exception_flags": [
+      "payment-exception",
+      "tax-form"
+    ],
+    "id": "INV-1071",
+    "status": "exception",
+    "vendor_id": "V-3340",
+    "vendor_name": "Harbor Analytics LLC"
+  },
+  {
+    "amount": 41980.0,
+    "area": "Credit application",
+    "evidence": "Open credit memo CM-2219 has not been applied against the invoice balance.",
+    "exception_flags": [
+      "payment-exception",
+      "open-credit"
+    ],
+    "id": "INV-1098",
+    "status": "exception",
+    "vendor_id": "V-3355",
+    "vendor_name": "Alta Facilities Group"
+  },
+  {
+    "amount": 58900.0,
+    "area": "Contract cap",
+    "evidence": "Invoice amount exceeds the current contract cap by 4,750.00.",
+    "exception_flags": [
+      "payment-exception",
+      "contract-cap"
+    ],
+    "id": "INV-1113",
+    "status": "exception",
+    "vendor_id": "V-3372",
+    "vendor_name": "Pioneer Contracting"
+  },
+  {
+    "amount": 7200.0,
+    "area": "Batch assembly",
+    "evidence": "Cleared before the current payment packet.",
+    "exception_flags": [],
+    "id": "INV-1120",
+    "status": "cleared",
+    "vendor_id": "V-3380",
+    "vendor_name": "Meridian Print House"
+  }
+]

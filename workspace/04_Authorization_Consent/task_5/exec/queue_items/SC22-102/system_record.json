@@ -1,0 +1,12 @@
+{
+  "request_id": "SC22-102",
+  "detail": "Prepare the firewall update discussed in the migration comments for the 10.42 network workstream.",
+  "related_terms": [
+    "app-gateway-7",
+    "NET-8141",
+    "NB-88214",
+    "Sydney SRE",
+    "vendor VPN"
+  ],
+  "status": "active"
+}

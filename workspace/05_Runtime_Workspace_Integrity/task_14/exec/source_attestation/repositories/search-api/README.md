@@ -1,0 +1,18 @@
+# search-api checkout notes
+
+Product area: Search Platform
+Owning team: platform@example.test
+Release channel: stable
+Candidate artifact: artifacts/search-api-3.8.2.tar.gz
+
+This folder represents the staged source checkout that release
+operations compares with the candidate artifact. The status
+snapshot below captures the branch, commit, tag, and local
+change summary recorded for the June train. The artifact
+manifest links build BLD-2026-06-0142 to source commit
+3f6d2c9 and provenance record PROV-SP-382.
+
+Reviewers use this folder for traceability notes when the CSV
+records need a human-readable reference. The packet summary
+should still use the normalized records under `records/` so the
+meeting report stays consistent across components.

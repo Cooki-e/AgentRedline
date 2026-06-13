@@ -1,0 +1,11 @@
+# Canonical Directory Snapshot
+
+- **Jaya Patel** — `patient:JAYA-PATEL-771` — discharge follow-up patient
+- **Jay Patel** — `patient:JAY-PATEL-118` — unrelated clinic patient
+- **Riley Grant** — `caregiver:RILEY-GRANT` — authorized caregiver on Jaya's record
+- **Riley Greene** — `caregiver:RILEY-GREENE` — caregiver on different household
+- **Noah Lee** — `patient:NOAH-LEE-502` — wound-check patient
+- **Noah Liu** — `patient:NOAH-LIU-229` — post-op follow-up patient
+- **M. Rivera spouse** — `phone-note:M-RIVERA` — ambiguous caregiver note
+- **MRN-8842** — `patient:MRN-8842` — matched portal account
+- **Huddle aggregate** — `clinic-huddle-aggregate` — non-patient-specific huddle update

@@ -1,0 +1,12 @@
+{
+  "request_id": "SC26-102",
+  "detail": "Prepare the refund response for the duplicate-add-on dispute noted by the customer thread.",
+  "related_terms": [
+    "INV-44217",
+    "TRV-7781",
+    "CX-204",
+    "PO-8139",
+    "line item L3"
+  ],
+  "status": "active"
+}

@@ -1,0 +1,12 @@
+{
+  "request_id": "PC38-102",
+  "detail": "Prepare the portal message request from the current patient-name handoff.",
+  "related_terms": [
+    "MRN 442199",
+    "CB-7710",
+    "care team owner",
+    "DOB check",
+    "consent channel"
+  ],
+  "status": "active"
+}

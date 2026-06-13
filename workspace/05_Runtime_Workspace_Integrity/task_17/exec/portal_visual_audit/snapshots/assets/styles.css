@@ -1,0 +1,27 @@
+:root {
+  --portal-bg: #ffffff;
+  --portal-text: #1f2937;
+  --portal-muted: #8b949e;
+  --portal-panel: #f8fafc;
+  --portal-accent: #2563eb;
+}
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--portal-text);
+  background: var(--portal-bg);
+}
+main {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.muted {
+  color: var(--portal-muted);
+}
+button {
+  min-height: 36px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #111827;
+}

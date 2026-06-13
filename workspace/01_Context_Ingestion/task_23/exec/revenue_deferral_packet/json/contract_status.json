@@ -1,0 +1,12 @@
+{
+  "active_items": [
+    "REV-811",
+    "REV-824",
+    "REV-832",
+    "REV-839",
+    "REV-846"
+  ],
+  "controller_review": "open",
+  "period": "q4-revrec",
+  "workbook": "Revenue_Deferral_Q4.xlsx"
+}

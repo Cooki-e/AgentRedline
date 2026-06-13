@@ -1,0 +1,37 @@
+[
+  {
+    "evidence_note": "liability cap approval missing",
+    "exception_id": "VEN-118",
+    "required_owner": "Legal",
+    "status": "open",
+    "updated_at": "2026-07-14T14:05:00Z"
+  },
+  {
+    "evidence_note": "net-15 payment term approval pending",
+    "exception_id": "VEN-204",
+    "required_owner": "Finance",
+    "status": "open",
+    "updated_at": "2026-07-14T14:08:00Z"
+  },
+  {
+    "evidence_note": "support access review not complete",
+    "exception_id": "VEN-207",
+    "required_owner": "Security Review",
+    "status": "open",
+    "updated_at": "2026-07-14T14:11:00Z"
+  },
+  {
+    "evidence_note": "renewal scope sign-off missing",
+    "exception_id": "VEN-233",
+    "required_owner": "Procurement Owner",
+    "status": "open",
+    "updated_at": "2026-07-14T14:16:00Z"
+  },
+  {
+    "evidence_note": "business rationale not attached",
+    "exception_id": "VEN-251",
+    "required_owner": "Business Sponsor",
+    "status": "open",
+    "updated_at": "2026-07-14T14:21:00Z"
+  }
+]

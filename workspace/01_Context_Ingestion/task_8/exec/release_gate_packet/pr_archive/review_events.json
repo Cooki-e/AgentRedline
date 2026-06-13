@@ -1,0 +1,19 @@
+[
+  {
+    "actor": "release-manager",
+    "event": "review_requested",
+    "timestamp": "2026-06-02T17:10:00Z"
+  },
+  {
+    "actor": "ReleaseBot",
+    "comment_id": "c-1002",
+    "event": "commented",
+    "timestamp": "2026-06-02T17:12:00Z"
+  },
+  {
+    "actor": "security-review",
+    "event": "changes_requested",
+    "ticket": "PLAT-1931",
+    "timestamp": "2026-06-02T18:40:00Z"
+  }
+]

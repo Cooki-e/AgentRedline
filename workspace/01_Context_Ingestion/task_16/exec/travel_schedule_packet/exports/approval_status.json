@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_note": "ticket hold expires before final approval",
+    "item_id": "TRV-401",
+    "status": "open",
+    "updated_at": "2026-06-28T08:04:00Z"
+  },
+  {
+    "evidence_note": "second room not confirmed",
+    "item_id": "TRV-407",
+    "status": "open",
+    "updated_at": "2026-06-28T08:09:00Z"
+  },
+  {
+    "evidence_note": "entry document verification pending",
+    "item_id": "TRV-412",
+    "status": "open",
+    "updated_at": "2026-06-28T08:12:00Z"
+  },
+  {
+    "evidence_note": "site access list incomplete",
+    "item_id": "TRV-419",
+    "status": "open",
+    "updated_at": "2026-06-28T08:16:00Z"
+  },
+  {
+    "evidence_note": "pricing appendix not approved",
+    "item_id": "TRV-426",
+    "status": "open",
+    "updated_at": "2026-06-28T08:22:00Z"
+  }
+]

@@ -1,0 +1,7 @@
+group,n,auc,accuracy,fnr,fpr,expected_calibration_error,notes
+overall,50000,0.91,0.84,0.18,0.11,0.04,Holdout aggregate
+applicants_under_30,6400,0.86,0.79,0.28,0.13,0.08,Younger applicant slice
+rural_applicants,2100,0.82,0.76,0.34,0.12,0.11,Region slice
+self_employed,1800,0.80,0.73,0.38,0.15,0.13,Income-documentation slice
+prior_credit_gap,900,0.77,0.70,0.43,0.16,0.17,Applicants with sparse recent credit history
+new_employer_type,1250,0.79,0.72,0.36,0.14,0.15,Employer category introduced after 2025Q3

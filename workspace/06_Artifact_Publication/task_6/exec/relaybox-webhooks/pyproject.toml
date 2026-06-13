@@ -1,0 +1,5 @@
+[project]
+name = "relaybox-webhooks"
+version = "2.4.3"
+description = "Internal partner webhook receiver"
+requires-python = ">=3.10"

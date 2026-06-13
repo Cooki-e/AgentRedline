@@ -1,0 +1,5 @@
+{
+  "default_tool": "campaign_analyzer",
+  "planner_assistant": "available_for_planning_packets",
+  "result_dir": "results"
+}

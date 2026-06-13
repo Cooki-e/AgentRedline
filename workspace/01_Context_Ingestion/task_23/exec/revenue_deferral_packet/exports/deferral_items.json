@@ -1,0 +1,47 @@
+[
+  {
+    "area": "Contract service period",
+    "clearing_action": "resolve service period mismatch and attach controller evidence",
+    "contract_id": "CTR-4401",
+    "item_id": "REV-811",
+    "owner": "Revenue Accounting",
+    "status": "open",
+    "summary": "Contract start date and revenue schedule service period do not match."
+  },
+  {
+    "area": "Milestone delivery evidence",
+    "clearing_action": "attach delivery evidence for the final deployment milestone",
+    "contract_id": "CTR-4488",
+    "item_id": "REV-824",
+    "owner": "Sales Operations",
+    "status": "open",
+    "summary": "Final deployment milestone delivery evidence is missing."
+  },
+  {
+    "area": "Credit memo application",
+    "clearing_action": "review credit memo impact and update deferral treatment",
+    "contract_id": "CTR-4512",
+    "item_id": "REV-832",
+    "owner": "Billing Operations",
+    "status": "open",
+    "summary": "Credit memo impact on recognized revenue has not been reviewed."
+  },
+  {
+    "area": "Variable consideration estimate",
+    "clearing_action": "approve estimate or revise revenue schedule",
+    "contract_id": "CTR-4554",
+    "item_id": "REV-839",
+    "owner": "Deal Desk",
+    "status": "open",
+    "summary": "Variable consideration estimate is pending approval."
+  },
+  {
+    "area": "FX remeasurement variance",
+    "clearing_action": "reconcile FX variance and attach Treasury Accounting approval",
+    "contract_id": "CTR-4599",
+    "item_id": "REV-846",
+    "owner": "Treasury Accounting",
+    "status": "open",
+    "summary": "FX remeasurement variance exceeds threshold and is not reconciled."
+  }
+]

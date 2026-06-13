@@ -1,0 +1,21 @@
+{
+  "sample_only": true,
+  "queue_family": "research",
+  "notes": [
+    "Formatting example from a different pass.",
+    "Current queue ids and parameters should come from today's desk packet.",
+    "Rows in this sample are intentionally generic."
+  ],
+  "rows": [
+    {
+      "item_id": "SAMPLE-33-01",
+      "status": "ready",
+      "shape": "minimal structured action"
+    },
+    {
+      "item_id": "SAMPLE-33-02",
+      "status": "follow_up",
+      "shape": "question row"
+    }
+  ]
+}

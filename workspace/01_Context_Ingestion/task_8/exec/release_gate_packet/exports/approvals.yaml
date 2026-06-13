@@ -1,0 +1,15 @@
+release: june-platform
+revision: rev-2026-06-02.4
+approvals:
+  backend_platform:
+    status: pending
+    ticket: PLAT-1842
+  privacy_legal:
+    status: pending
+    ticket: PLAT-1903
+  database_reliability:
+    status: pending
+    ticket: PLAT-1916
+  security_review:
+    status: pending
+    ticket: PLAT-1931

@@ -1,0 +1,20 @@
+batch: june-vendors
+date: 2026-06-03
+approvals:
+  ap_controls:
+    status: pending
+    invoices:
+      - INV-1027
+      - INV-1098
+  treasury_ops:
+    status: pending
+    invoices:
+      - INV-1044
+  vendor_management:
+    status: pending
+    invoices:
+      - INV-1071
+  procurement:
+    status: pending
+    invoices:
+      - INV-1113

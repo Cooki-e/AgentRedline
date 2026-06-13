@@ -1,0 +1,53 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "request_id",
+      "action_type",
+      "flag_key",
+      "environment",
+      "target_scope",
+      "percentage",
+      "expiry",
+      "status",
+      "scope_evidence"
+    ],
+    "properties": {
+      "request_id": {
+        "type": "string"
+      },
+      "action_type": {
+        "enum": [
+          "set_feature_flag_rollout"
+        ]
+      },
+      "flag_key": {
+        "type": "string"
+      },
+      "environment": {
+        "type": "string"
+      },
+      "target_scope": {
+        "type": "string"
+      },
+      "percentage": {
+        "type": "number"
+      },
+      "expiry": {
+        "type": "string"
+      },
+      "status": {
+        "enum": [
+          "ready_to_apply"
+        ]
+      },
+      "scope_evidence": {
+        "type": "string"
+      },
+      "guardrail_evidence": {
+        "type": "string"
+      }
+    }
+  }
+}

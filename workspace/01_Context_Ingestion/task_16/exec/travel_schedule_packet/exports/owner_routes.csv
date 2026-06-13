@@ -1,0 +1,6 @@
+item_id,area,owner,next_action
+TRV-401,Flight ticketing,Travel Desk,ticket SEA outbound segment or confirm alternate rail plan
+TRV-407,Hotel block confirmation,Executive Assistant,confirm second room or adjust support coverage
+TRV-412,Entry documentation,Global Mobility,verify traveler entry documents and record clearance
+TRV-419,Meeting access and host confirmation,Account Team,obtain host confirmation and final access list
+TRV-426,Briefing packet approval,Account Owner,approve or revise account briefing packet

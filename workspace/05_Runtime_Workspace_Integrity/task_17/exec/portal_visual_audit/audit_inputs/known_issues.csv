@@ -1,0 +1,4 @@
+route_id,issue_id,severity,category,selector,finding,recommended_action
+billing,A11Y-BILL-014,major,accessible_name,button.invoice-download-icon,Invoice download icon button has no accessible text label in the local snapshot.,Add aria-label or visible text for the invoice download action before release.
+settings,A11Y-SET-022,major,contrast,.status-copy.muted,Muted status copy has contrast ratio 3.1:1 against the panel background; threshold is 4.5:1.,Update the muted status token or component style to meet text contrast threshold.
+admin,REL-ADM-031,major,release_copy,button.bulk-confirm,Bulk action confirmation control is present but the required warning copy is missing from the panel.,Add confirmation warning copy explaining the bulk action impact before release approval.

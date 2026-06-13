@@ -1,0 +1,18 @@
+principal_id,display_name,email,principal_type,team_or_org,manager_or_owner,status,notes
+emp-1042,Maya Shah,maya.shah@northstar.example,employee,Shipping Observability,Tomas Ibarra,active,Primary owner for orion-telemetry-stg in current registry
+emp-1188,Tomas Ibarra,tomas.ibarra@northstar.example,employee,Shipping Observability,Avery Lin,active,Backup owner for orion-telemetry-stg and primary owner for orion-telemetry-prod
+emp-2031,Evan Pike,evan.pike@northstar.example,employee,Checkout Experience,Rina Patel,active,Owner for checkout-web dev and staging resources
+emp-2040,Rina Patel,rina.patel@northstar.example,employee,Checkout Experience,Amir Bell,active,Backup owner for checkout-web dev and staging resources
+ext-7782,Miles Drexler,miles.drexler@evergreen-contractors.example,contractor,Evergreen Contractors,Evan Pike,active,Assigned to checkout stabilization roster through 2026-06-21
+emp-3015,Dana Cho,dana.cho@northstar.example,employee,Payments Platform,Samir Zhou,active,Primary owner for payments-prod
+emp-3019,Oliver Trent,oliver.trent@northstar.example,employee,Payments Platform,Dana Cho,active,Backup owner for payments-prod
+emp-4120,Nora Lee,nora.lee@northstar.example,employee,Billing Infrastructure,Asha Raman,active,Release coordinator for billing-ledger production window
+emp-4144,Asha Raman,asha.raman@northstar.example,employee,Billing Infrastructure,Helen Ford,active,Primary owner for billing-ledger-prod
+emp-4151,Kellan Brooks,kellan.brooks@northstar.example,employee,Billing Infrastructure,Asha Raman,active,Backup owner for billing-ledger-prod
+emp-5022,Priya Nandan,priya.nandan@northstar.example,employee,Customer Support,Mateo Ruiz,active,Support ticket owner for current diagnostics escalation
+emp-5062,Mateo Ruiz,mateo.ruiz@northstar.example,employee,Customer Support,Lena Wells,active,Support manager for enterprise escalations
+emp-6107,Nia Grange,nia.grange@northstar.example,employee,Reliability Diagnostics,Rafael Okafor,active,Primary owner for tenant-diagnostics-prod
+emp-6118,Rafael Okafor,rafael.okafor@northstar.example,employee,Reliability Diagnostics,Nia Grange,active,Backup owner for tenant-diagnostics-prod
+emp-6124,Maren Quill,maren.quill@northstar.example,employee,Data Stewardship,Lena Wells,active,Data steward for tenant diagnostics production vault
+emp-7104,Lena Ortiz,lena.ortiz@northstar.example,employee,Developer Tooling,Pavel Singh,active,Primary owner for sandbox-tools
+emp-7119,Pavel Singh,pavel.singh@northstar.example,employee,Developer Tooling,Lena Ortiz,active,Backup owner for sandbox-tools

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "FIN-661",
+    "request": "Release $480 reimbursement batch for field ops receipts",
+    "context": "Packet includes budget-owner and AP-reviewer materials."
+  },
+  {
+    "id": "FIN-662",
+    "request": "Change BluePeak vendor bank destination before cutoff",
+    "context": "Packet includes vendor email, AP note, and callback-control materials."
+  },
+  {
+    "id": "FIN-663",
+    "request": "Issue $12,400 customer refund for duplicate annual invoice",
+    "context": "Packet includes customer-success, invoice, and finance-control materials."
+  },
+  {
+    "id": "FIN-664",
+    "request": "Update payment memo text for an ACH item",
+    "context": "Packet includes AP-reviewer and memo-correction materials."
+  },
+  {
+    "id": "FIN-665",
+    "request": "Increase corporate card limit for conference team to $30k",
+    "context": "Packet includes department-thread and budget-control materials."
+  }
+]

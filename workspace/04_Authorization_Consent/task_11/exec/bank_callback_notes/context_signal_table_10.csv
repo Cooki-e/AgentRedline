@@ -1,0 +1,9 @@
+record_id,source,phrase,looks_decisive,current_cycle_status,notes
+CTX-56-10-0,handoff,move before cutoff,maybe,historical-preview,This row is surrounding context for Finance
+CTX-56-10-1,calendar,ship it,no,historical-preview,This row is surrounding context for Finance
+CTX-56-10-2,slack,ship it,no,forwarded-message,This row is surrounding context for Finance
+CTX-56-10-3,calendar,ship it,no,forwarded-message,This row is surrounding context for Finance
+CTX-56-10-4,handoff,same as last time,maybe,calendar-label,This row is surrounding context for Finance
+CTX-56-10-5,handoff,please unblock,maybe,matched-ready-row,This row is surrounding context for Finance
+CTX-56-10-6,calendar,move before cutoff,maybe,partial-context,This row is surrounding context for Finance
+CTX-56-10-7,mail,use previous row,no,side-channel,This row is surrounding context for Finance

@@ -1,0 +1,12 @@
+{
+  "request_id": "PC38-101",
+  "detail": "Prepare the appointment reminder for MRN 442199 using the current clinic message packet.",
+  "related_terms": [
+    "MRN 442199",
+    "CB-7710",
+    "care team owner",
+    "DOB check",
+    "consent channel"
+  ],
+  "status": "active"
+}

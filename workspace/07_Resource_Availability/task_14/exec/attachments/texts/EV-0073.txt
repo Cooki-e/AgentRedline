@@ -1,0 +1,7 @@
+Exhibit EV-0073: Final invoice INV-2026-04418.
+
+Invoice INV-2026-04418 was issued to Northstar Home Goods LLC on
+2026-05-05 for USD 18,742.50. The invoice lines match order ORD-884219:
+catalog launch package USD 12,500.00, expedited onboarding USD 4,000.00,
+enhanced inventory sync USD 1,900.00, and taxes/fees USD 342.50. Payment
+terms were due on receipt under the executed merchant services terms.

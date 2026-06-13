@@ -1,0 +1,6 @@
+item_id,area,approved_usd,documented_usd,status,note
+GCS-210,Cost-share budget match,240000,236500,open,budget support is short by 3500 USD
+GCS-224,Contributed effort certification,52000,52000,open,PI effort certification missing signature
+GCS-237,Third-party in-kind valuation,31000,31000,open,valuation support missing for donated lab time
+GCS-249,Equipment match evidence,42000,42000,open,equipment purchase evidence missing invoice attachment
+GCS-258,Subaward partner certification,17500,17500,open,subaward partner certification not received

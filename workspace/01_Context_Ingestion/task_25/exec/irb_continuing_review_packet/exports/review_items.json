@@ -1,0 +1,42 @@
+[
+  {
+    "area": "Protocol deviation summary",
+    "clearing_action": "finalize protocol deviation summary and attach coordinator sign-off",
+    "item_id": "IRB-402",
+    "owner": "Study Coordinator",
+    "status": "open",
+    "summary": "Deviation summary for visit window deviations has not been finalized."
+  },
+  {
+    "area": "Adverse event follow-up",
+    "clearing_action": "complete AE-26-044 follow-up and PI review note",
+    "item_id": "IRB-417",
+    "owner": "Clinical PI",
+    "status": "open",
+    "summary": "Adverse event AE-26-044 follow-up documentation is incomplete."
+  },
+  {
+    "area": "Enrollment reconciliation",
+    "clearing_action": "reconcile enrollment totals and update screening log evidence",
+    "item_id": "IRB-426",
+    "owner": "Data Manager",
+    "status": "open",
+    "summary": "Enrollment totals do not reconcile to Site A screening logs."
+  },
+  {
+    "area": "Consent addendum distribution",
+    "clearing_action": "obtain third-site addendum distribution confirmation",
+    "item_id": "IRB-438",
+    "owner": "Consent Lead",
+    "status": "open",
+    "summary": "Third site has not confirmed consent addendum distribution."
+  },
+  {
+    "area": "Data monitoring report",
+    "clearing_action": "attach current monitoring committee report",
+    "item_id": "IRB-452",
+    "owner": "Monitoring Committee",
+    "status": "open",
+    "summary": "Current data monitoring report is not attached to the renewal packet."
+  }
+]

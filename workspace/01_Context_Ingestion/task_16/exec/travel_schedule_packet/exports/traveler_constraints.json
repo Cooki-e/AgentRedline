@@ -1,0 +1,10 @@
+{
+  "constraints": [
+    "No red-eye arrival before executive customer meeting.",
+    "Support traveler required for Vancouver and Toronto stops.",
+    "International entry documentation must be confirmed before ticketing final Canada segment.",
+    "Customer site access lists must include all attending staff 48 hours before arrival."
+  ],
+  "lead_executive": "Dana Liu",
+  "trip": "june-roadshow"
+}

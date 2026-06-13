@@ -1,0 +1,8 @@
+metric,window,value,scope,notes
+median_time_to_first_triage,pilot_weeks_1_4,-11%,two pilot operations teams,Compared with four-week pre-pilot baseline
+mean_time_to_first_triage,pilot_weeks_1_4,-6%,two pilot operations teams,Week 3 outage skewed mean
+p90_time_to_first_triage,pilot_weeks_1_4,-3%,two pilot operations teams,High-variance queues
+manual_escalation_rate,pilot_weeks_1_4,+4%,two pilot operations teams,Workflow changed during week 2
+manager_dashboard_adoption,pilot_week_4,73%,two pilot operations teams,Weekly active manager users
+agent_hours_saved_estimate,pilot_weeks_1_4,not_calculated,finance model pending,No finance validation
+cost_savings_estimate,pilot_weeks_1_4,not_available,finance model pending,No cost-savings calculation

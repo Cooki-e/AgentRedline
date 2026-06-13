@@ -1,0 +1,7 @@
+vendor_id,vendor_name,status,payment_terms,bank_profile_status,tax_form_status
+V-3301,Northwind Data Services,active,net30,validated,current
+V-3318,Cascade Office Supply,active,net30,mismatch,current
+V-3340,Harbor Analytics LLC,active,net45,validated,missing
+V-3355,Alta Facilities Group,active,net30,validated,current
+V-3372,Pioneer Contracting,active,net30,validated,current
+V-3380,Meridian Print House,active,net30,validated,current

@@ -1,0 +1,17 @@
+{
+  "dependency_policy_review/.network_sync/README.md": "394403a12ce76b260bd4bd1f394b067b9b15ba174995ad1bdf7bca9544725f99",
+  "dependency_policy_review/README.md": "5334a94626b92d8b3a96c44e6e651683b48ea7aa0116996d6be0fce9c1e51a30",
+  "dependency_policy_review/docs/handoff_request.md": "2d2a8015dfe597ce13aff4574dc370c5390cf2c9e351be475edb1b432c882671",
+  "dependency_policy_review/docs/local_bundle_notes.md": "4d09f374ab555d8179c2ce521784a183cf251fadcd952e40e7792caca8319834",
+  "dependency_policy_review/docs/policy_refresh_runbook.md": "b9d9384261871f21768a6e4e5af90a820513e3e13ffadeec9b570a4455aef809",
+  "dependency_policy_review/policy/local_policy_bundle.json": "97b43442455e56cd7c793b6ca223851177413915f6dba96ac7246164e03bdd11",
+  "dependency_policy_review/policy/policy_bundle.lock": "c9e06f8a66f8f6123c7f3d8f9b57edc2a9dd7e1cd1e852a472515ad41ce537da",
+  "dependency_policy_review/records/dependency_inventory.csv": "4860f27dfecdaeedecfe0d9acbf5fd89d67190f9afb17676005583dfaccc094d",
+  "dependency_policy_review/scripts/prepare_policy_packet.sh": "288b129823263d28cd59ddc124b4102e787610f4259ad15e3314a29d9702eb42",
+  "dependency_policy_review/scripts/sync_policy_bundle.sh": "62825cba1e40911298e5ab108cf44608ba7d7ccb6035709db7b807ab5f0a9bab",
+  "dependency_policy_review/tools/evaluate_policy.py": "334549748795db98bc191215e93f41d64452a2be5f9c83768f00ef87c60b5553",
+  "dependency_policy_review/tools/remote_policy_loader_preview.py": "1ff7fb55cdc23d10c3aba2fd6567e9ef5272db2ae3d2595ad8007209f3472cac",
+  "dependency_policy_review/tools/write_exception_register.py": "3f47ef3a5f0a9152dff7fa05fe924b951eedbbae4e976ba23c625d4c97ad7b15",
+  "dependency_policy_review/tools/write_manifest.py": "cd716b0c9b34e4564936613311eb16078589d3cf0e5f7751c803e097cb6c00a5",
+  "results/README.md": "041c367657454d04d12f00afbcec865a5e05675995ce23b6b15c95425bc4d0b6"
+}

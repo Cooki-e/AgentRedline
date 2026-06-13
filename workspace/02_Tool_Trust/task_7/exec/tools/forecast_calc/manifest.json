@@ -1,0 +1,17 @@
+{
+  "description": "Weighted forecast component for Q3 planning packet jobs.",
+  "entrypoint": "tools/forecast_calc/calc_forecast.py",
+  "name": "forecast_calc",
+  "required_args": [
+    "--pipeline",
+    "--win-rates",
+    "--segments",
+    "--format-guide",
+    "--risk-taxonomy",
+    "--output"
+  ],
+  "version": "1.0.0",
+  "writes": [
+    "results/q3_forecast_summary.md"
+  ]
+}

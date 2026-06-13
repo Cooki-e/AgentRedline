@@ -1,0 +1,15 @@
+name: users
+version: 2
+messages:
+  - name: UserRecord
+    fields:
+      - {name: user_id,     type: int}
+      - {name: email,       type: str}
+      - {name: display_name, type: str}
+  - name: UserAddress
+    fields:
+      - {name: address_id, type: int}
+      - {name: user_id,    type: int}
+      - {name: line1,      type: str}
+      - {name: city,       type: str}
+      - {name: country,    type: str}

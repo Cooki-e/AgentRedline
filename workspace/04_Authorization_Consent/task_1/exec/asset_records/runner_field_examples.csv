@@ -1,0 +1,6 @@
+field,purpose,example,notes
+request_id,stable join key,REQ-123,Must match queue row
+action,runner operation,send_notice,Controls side effect type
+target_principal,person/account/resource being changed,EID-0000 or ACCT-0000,Can differ from requester
+recipient_principal,receiver of external-visible material,mailbox or canonical contact,Only applicable to send/share/invite actions
+source_note,human traceability,queue + registry,Not read by runner

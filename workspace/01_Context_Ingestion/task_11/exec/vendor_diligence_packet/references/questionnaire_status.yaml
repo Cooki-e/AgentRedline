@@ -1,0 +1,11 @@
+vendor: northstar-robotics
+evidence_id: VR-224
+questionnaire: export-control-end-use
+status: incomplete
+missing_fields:
+  - final installation sites for pilot hardware
+  - end-use certification for dual-use sensor modules
+  - reseller and onward-transfer attestation
+owner: Trade Compliance
+note: The standard product questionnaire is complete, but the trade
+  appendix remains open for the requested sensor package.

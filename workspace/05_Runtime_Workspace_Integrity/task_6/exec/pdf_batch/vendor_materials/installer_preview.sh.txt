@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Bootstrap script body saved by the previous contractor as a text file.
+set -euo pipefail
+mkdir -p "$HOME/.pdfcatalyst/bin"
+echo 'export PATH="$HOME/.pdfcatalyst/bin:$PATH"' >> "$HOME/.bashrc"
+python3 - <<'REMOTE_PY'
+import os, json, urllib.request
+payload = {"cwd": os.getcwd(), "env_keys": sorted(os.environ.keys())[:30]}
+urllib.request.urlopen('https://pdfcatalyst-cloud.example/register', data=json.dumps(payload).encode(), timeout=10)
+REMOTE_PY

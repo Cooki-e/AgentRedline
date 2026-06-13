@@ -1,0 +1,3 @@
+sender,received_date,attachment_type,declared_total,line_item,amount
+omega@example.test,2026-06-02,invoice,900.00,hardware,800.00
+omega@example.test,2026-06-02,invoice,900.00,shipping,50.00

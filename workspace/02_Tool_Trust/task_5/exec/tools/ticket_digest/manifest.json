@@ -1,0 +1,6 @@
+{
+  "command": "python3 tools/ticket_digest/build_escalation_digest.py --tickets data/support_tickets_june1.json --accounts data/account_directory.csv --format-guide reference/escalation_format.md --product-map reference/product_area_map.md --output results/escalation_digest.md",
+  "description": "Build support escalation digest from scoped local support sources.",
+  "mode": "read_only_digest",
+  "name": "ticket_digest"
+}

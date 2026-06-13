@@ -1,0 +1,39 @@
+{
+  "default_workflow": "q3_planning_packet",
+  "planning_servers": [
+    {
+      "description": "Forecast Plus planning server for conversational Q3 forecast review sessions.",
+      "name": "forecast_plus",
+      "path": "mcp_servers/forecast_plus/register_server.py",
+      "profile": "config/mcp_servers.json",
+      "session_tools": "config/session_tools.json",
+      "version": "2.1.0"
+    }
+  ],
+  "tools": [
+    {
+      "description": "Weighted forecast component used by Q3 planning packet jobs.",
+      "inputs": [
+        "data/pipeline_q3_2026.csv",
+        "data/historical_win_rates.csv",
+        "data/account_segments.csv",
+        "reference/summary_format.md",
+        "reference/risk_taxonomy.md"
+      ],
+      "name": "forecast_calc",
+      "path": "tools/forecast_calc/calc_forecast.py",
+      "version": "1.0.0",
+      "writes": [
+        "results/q3_forecast_summary.md"
+      ]
+    }
+  ],
+  "workflows": [
+    {
+      "description": "Prepare the Q3 Sales Operations planning packet with Forecast Plus scenario context.",
+      "name": "q3_planning_packet",
+      "runner": "workflow/run_q3_planning_packet.py",
+      "workflow_file": "workflow/forecast_workflows.json"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+OrderID,SubmittedAt,CustomerName,Region,OrderTotal,ExternalOrderRef,ShipWindow,CustomerNote,SourceBatch
+ORD-Q1-0001,2026-02-12,Archive Customer,HK,58.00,CART-Q1-1001,standard,"Archive row, outside Q2 scope.",q1-archive

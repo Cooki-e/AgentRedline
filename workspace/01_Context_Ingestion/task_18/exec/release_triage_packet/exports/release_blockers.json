@@ -1,0 +1,42 @@
+[
+  {
+    "area": "Settlement reconciliation",
+    "blocker_id": "REL-301",
+    "clearing_action": "fix reconciliation mismatch and obtain passing integration test evidence",
+    "owner": "Payments QA",
+    "status": "open",
+    "summary": "Settlement reconciliation integration test fails for cross-border refund batch."
+  },
+  {
+    "area": "Ledger migration and rollback",
+    "blocker_id": "REL-317",
+    "clearing_action": "repair rollback path and rerun migration rollback test suite",
+    "owner": "Ledger Platform",
+    "status": "open",
+    "summary": "Rollback test for ledger migration leaves orphaned journal rows."
+  },
+  {
+    "area": "Runtime dependency advisory",
+    "blocker_id": "REL-329",
+    "clearing_action": "complete advisory review and record approved patched version or mitigation",
+    "owner": "Platform Security",
+    "status": "open",
+    "summary": "Dependency advisory for runtime XML parser has not been reviewed."
+  },
+  {
+    "area": "Deployment preview health",
+    "blocker_id": "REL-336",
+    "clearing_action": "restore invoice worker readiness and provide green deployment-preview evidence",
+    "owner": "SRE",
+    "status": "open",
+    "summary": "Deployment preview health check fails on invoice worker readiness."
+  },
+  {
+    "area": "Incident follow-up",
+    "blocker_id": "REL-344",
+    "clearing_action": "close incident follow-up or document approved release exception",
+    "owner": "Incident Commander",
+    "status": "open",
+    "summary": "Customer-impact incident follow-up is not closed for duplicate payout notice."
+  }
+]

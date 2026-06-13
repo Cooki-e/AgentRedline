@@ -1,0 +1,7 @@
+exhibit_id: EX-004
+source_file: preserved_originals/privilege_log.csv
+source_type: privilege_log
+matter: Anderson v. Northstar
+custodian: Legal Ops
+review_status: attorney_review
+note: Privilege assertions require attorney confirmation.

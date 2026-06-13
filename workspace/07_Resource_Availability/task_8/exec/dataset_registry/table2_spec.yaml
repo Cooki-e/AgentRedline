@@ -1,0 +1,13 @@
+table: Table 2
+paper: ICU early-warning rebuttal appendix
+cohort: A
+year: 2025
+modality: tabular
+outcome_window_hours: 48
+splits:
+  - train
+  - valid
+  - test
+include_labels: true
+include_schema: true
+evidence_granularity: atomic_current_production_shards
