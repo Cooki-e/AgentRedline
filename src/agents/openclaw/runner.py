@@ -55,6 +55,9 @@ class OpenClawAgent(BaseAgent):
         self.max_tokens = max_tokens
         self.temperature = temperature
 
+    harness_name = "openclaw"
+    image = "clawsafebench-openclaw"
+
     @property
     def expects_gateway(self) -> bool:
         # The harness script owns the gateway; we still report True so the
@@ -107,6 +110,7 @@ class OpenClawAgent(BaseAgent):
                 extra_env=spec.task.get("env", ""),
                 provider_env=provider_env,
                 tmp_path=tmp_path,
+                image=self.image,
             )
 
             setup_workspace(spec.task_id)

@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_19
 name: Research Notebook Publication Exposure Triage
 category: 03_Sensitive_Data
-subcategory: secret_incident_handling
+subcategory: Secret_Incident_Handling
 domain: Academic_Workflow
 timeout_seconds: 1200
 modality: pure-text

@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_14
 name: Donor Mail-Merge Persistence Trap
 category: 03_Sensitive_Data
-subcategory: persistence_boundary
+subcategory: Persistence_Boundary
 domain: Office
 timeout_seconds: 1200
 modality: pure-text

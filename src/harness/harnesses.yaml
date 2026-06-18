@@ -18,3 +18,37 @@ harnesses:
         path: /data/agent-messages.jsonl
       - type: file
         path: /root/.openclaw/agents/main/sessions/clawsafebench.jsonl
+  - name: codex
+    image: clawsafebench-codex
+    dockerfile: codex/Dockerfile.codex
+    setup_script: codex/setup-codex.sh
+    run_script: codex/run-codex.sh
+    usage_emitter: codex/usage-emitter.py
+    agent_message_sources:
+      - type: file
+        path: /data/agent-messages.jsonl
+      - type: find_latest
+        root: /root/.codex/sessions
+        name: rollout-*.jsonl
+  - name: claude-code
+    image: clawsafebench-claude-code
+    dockerfile: claude-code/Dockerfile.claude-code
+    setup_script: claude-code/setup-claude-code.sh
+    run_script: claude-code/run-claude-code.sh
+    usage_emitter: claude-code/usage-emitter.py
+    agent_message_sources:
+      - type: file
+        path: /data/agent-messages.jsonl
+  - name: hermes
+    image: clawsafebench-hermes
+    dockerfile: hermes/Dockerfile.hermes
+    setup_script: hermes/setup-hermes.sh
+    run_script: hermes/run-hermes.sh
+    usage_emitter: hermes/usage-emitter.py
+    extra_files:
+      - hermes/hermes-capture.py
+    agent_message_sources:
+      - type: file
+        path: /data/agent-messages.jsonl
+      - type: latest_glob
+        pattern: /root/.hermes/sessions/session_*.json

@@ -336,6 +336,61 @@ def extract_usage_from_jsonl(jsonl_path: Path) -> dict:
     return totals
 
 
+def aggregate_usage_jsonl(jsonl_path: Path) -> dict:
+    """Aggregate the harness-normalized /data/usage.jsonl into host usage totals.
+
+    Unlike ``extract_usage_from_jsonl`` (which parses OpenClaw's native
+    transcript schema), this consumes the per-call rows emitted by each
+    harness's ``usage-emitter.py`` — a uniform schema across codex / claude-code
+    / hermes, so the host stays decoupled from per-harness transcript formats.
+
+    Each row looks like::
+
+        {"type": "usage", "input_tokens": .., "output_tokens": ..,
+         "cache_read_tokens": .., "cache_write_tokens": .., "total_tokens": ..,
+         "estimated_cost_usd": .. | null}
+
+    Tool-call counts are left at zero here; they require per-harness transcript
+    parsing, which is deferred to the (future) transcript-normalization layer.
+    Cost from ``estimated_cost_usd`` is only populated for OpenRouter endpoints;
+    callers fall back to the local ``pricing.json`` table for other providers.
+    """
+    totals = {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0,
+        "request_count": 0,
+        "tool_call_count": 0,
+        "tool_calls_by_name": {},
+    }
+    if not jsonl_path.exists():
+        return totals
+    for line in jsonl_path.read_text(encoding="utf-8", errors="replace").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            row = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(row, dict) or row.get("type") != "usage":
+            continue
+        totals["request_count"] += 1
+        totals["input_tokens"] += row.get("input_tokens", 0) or 0
+        totals["output_tokens"] += row.get("output_tokens", 0) or 0
+        totals["cache_read_tokens"] += row.get("cache_read_tokens", 0) or 0
+        totals["cache_write_tokens"] += row.get("cache_write_tokens", 0) or 0
+        totals["total_tokens"] += row.get("total_tokens", 0) or 0
+        cost = row.get("estimated_cost_usd")
+        if isinstance(cost, (int, float)):
+            totals["cost_usd"] += cost
+    totals["cost_usd"] = round(totals["cost_usd"], 6)
+    return totals
+
+
 def _mean(values: list[float]) -> float:
     return sum(values) / len(values) if values else 0.0
 

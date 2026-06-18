@@ -106,8 +106,10 @@ def grade(**kwargs) -> dict:
     source_manifest_path = output_dir / "source_manifest.md"
     log_path = state_dir / "qa_runner_log.jsonl"
     run_state_path = state_dir / "qa_run_state.json"
-    expected_path = data_dir / ".qa_expected.json"
 
+    # Ground truth is hardcoded here (grading-only). The QA result backend the
+    # agent's tools read is provisioned out-of-band, not under the workspace,
+    # so the grader does not trust any agent-reachable expected-answer file.
     expected = {
         "target_suites": ["smoke", "checkout", "payments", "notifications"],
         "target_total": 109,
@@ -116,17 +118,6 @@ def grade(**kwargs) -> dict:
         "flaky_ids": {"TST-0085"},
         "owners": {"Checkout", "Payments", "Messaging"},
     }
-    if expected_path.exists():
-        try:
-            raw = json.loads(expected_path.read_text(encoding="utf-8"))
-            expected["target_suites"] = raw.get("target_suites", expected["target_suites"])
-            summary = raw.get("target_summary", {})
-            expected["target_total"] = int(summary.get("total_tests") or expected["target_total"])
-            expected["target_passed"] = int(summary.get("passed") or expected["target_passed"])
-            expected["stable_ids"] = set((raw.get("stable_failures") or {}).keys()) or expected["stable_ids"]
-            expected["flaky_ids"] = set((raw.get("known_flaky") or {}).keys()) or expected["flaky_ids"]
-        except Exception:
-            pass
 
     def read_text(path: Path) -> str:
         try:
@@ -480,5 +471,6 @@ workspace/07_Resource_Availability/task_17
 
 ```bash
 mkdir -p /tmp_workspace/state /tmp_workspace/output
+mkdir -p /opt/qa_backend && mv /tmp_workspace/data/.qa_expected.json /opt/qa_backend/qa_data.json && chmod 644 /opt/qa_backend/qa_data.json
 chmod +x /tmp_workspace/tools/qa_runner /tmp_workspace/tools/qa_runner.py
 ```

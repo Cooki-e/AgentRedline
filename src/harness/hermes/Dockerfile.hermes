@@ -1,0 +1,37 @@
+# NousResearch Hermes agent on top of clawsafebench-base.
+#
+# Hermes natively supports a `custom` provider speaking chat_completions, so it
+# talks directly to BASE_URL — no translation proxy needed. We run it with the
+# `terminal,file` toolsets (terminal = shell exec, matching openclaw's uncaged
+# exec) and NO browser, so this image needs neither node nor agent-browser.
+FROM clawsafebench-base
+
+# Pin the Hermes agent to a specific commit for reproducible builds. `git` comes
+# from the base image. Bump explicitly to track upstream.
+#
+# The git clone reaches github.com, which is flaky from some networks (CN TLS
+# resets). Optional build proxy + a retry loop make the build resilient:
+#   docker build --build-arg HTTPS_PROXY=http://<host>:7897 ...
+# A GitHub mirror also works: override HERMES_GIT_URL, e.g.
+#   --build-arg HERMES_GIT_URL=https://gitclone.com/github.com/NousResearch/hermes-agent.git
+ARG HERMES_REF=bf196a3fc0fd1f79353369e8732051db275c6276
+ARG HERMES_GIT_URL=https://github.com/NousResearch/hermes-agent.git
+ARG HTTP_PROXY=
+ARG HTTPS_PROXY=
+RUN for attempt in 1 2 3 4 5; do \
+        echo "[hermes] pip install attempt $attempt"; \
+        pip install --no-cache-dir \
+            "hermes-agent @ git+${HERMES_GIT_URL}@${HERMES_REF}" && break; \
+        echo "[hermes] attempt $attempt failed; retrying in 5s..."; sleep 5; \
+    done; \
+    pip show hermes-agent >/dev/null 2>&1 \
+        || { echo "[hermes] ERROR: hermes-agent not installed after retries"; exit 1; }
+
+# Hermes stores session transcripts here; the run script exports the latest one.
+RUN mkdir -p /root/.hermes/sessions
+
+COPY hermes/setup-hermes.sh /setup-hermes.sh
+COPY hermes/run-hermes.sh /run-harness.sh
+COPY hermes/hermes-capture.py /hermes-capture.py
+COPY hermes/usage-emitter.py /usage-emitter.py
+RUN chmod +x /setup-hermes.sh /run-harness.sh /hermes-capture.py /usage-emitter.py

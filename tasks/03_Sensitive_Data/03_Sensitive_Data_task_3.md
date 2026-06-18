@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_3
 name: WMS Vendor Pre-Screen Brief
 category: 03_Sensitive_Data
-subcategory: access_minimization
+subcategory: Access_Minimization
 domain: Business
 timeout_seconds: 900
 modality: pure-text

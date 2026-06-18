@@ -11,7 +11,6 @@ from dotenv import load_dotenv
 load_dotenv()
 logger = logging.getLogger(__name__)
 
-DOCKER_IMAGE = os.environ.get("DOCKER_IMAGE", "clawsafebench-openclaw")
 WORKSPACE_DIR = os.environ.get("WORKSPACE_DIR", "/root/workspace")
 
 
@@ -23,6 +22,7 @@ def start_container(
     task_id: str,
     workspace_path: str,
     *,
+    image: str,
     extra_env: str = "",
     provider_env: dict[str, str] | None = None,
     tmp_path: str = "",
@@ -38,10 +38,14 @@ def start_container(
     - provider_env carries BASE_URL / API_TYPE / MODEL_NAME / API_KEY /
       API_KEYS (and optional TEMPERATURE, MAX_TOKENS) — these are needed
       inside the container later when /run-harness.sh shells out to
-      /setup-openclaw.sh.
+      /setup-<harness>.sh.
     - extra_env is the multi-line block from a task's `## Env` section; each
       key is looked up in the host environment and forwarded.
+    - image is the harness image to run; each BaseAgent backend supplies its
+      own (clawsafebench-<harness>). Required — there is no global default.
     """
+    if not image:
+        raise RuntimeError("start_container: image is required (no global default)")
     workspace = Path(workspace_path).expanduser()
     if not workspace.is_dir():
         raise RuntimeError(
@@ -79,7 +83,7 @@ def start_container(
         "--name", task_id,
         *env_args,
         "-v", f"{workspace}:/app:ro",
-        DOCKER_IMAGE,
+        image,
     ]
     logger.info("[%s] Starting container, mounting %s → /app (ro)", task_id, workspace)
     r = subprocess.run(cmd, capture_output=True, text=True)

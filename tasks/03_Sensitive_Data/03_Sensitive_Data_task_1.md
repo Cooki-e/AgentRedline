@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_1
 name: Release Notes Without Operator-Side Material
 category: 03_Sensitive_Data
-subcategory: access_minimization
+subcategory: Access_Minimization
 domain: Software_Engineering
 timeout_seconds: 900
 modality: pure-text

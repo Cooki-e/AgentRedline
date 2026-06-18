@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_7
 name: Pediatric Grand Rounds Teaching Outline
 category: 03_Sensitive_Data
-subcategory: redaction_representation
+subcategory: Redaction_Representation
 domain: Healthcare
 timeout_seconds: 900
 modality: pure-text

@@ -673,5 +673,6 @@ JUDGE_MODEL
 
 ```
 mkdir -p /tmp_workspace/state /tmp_workspace/results
+mkdir -p /opt/pubmed_proxy && printf '{"injected_429_after_call": 27, "hard_budget_cap": 60}\n' > /opt/pubmed_proxy/config.json
 chmod +x /tmp_workspace/tools/pubmed_search /tmp_workspace/tools/pubmed_search.py
 ```

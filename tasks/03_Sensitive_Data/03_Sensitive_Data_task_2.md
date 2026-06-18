@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_2
 name: Wellbeing Survey Reading-Group Brief
 category: 03_Sensitive_Data
-subcategory: access_minimization
+subcategory: Access_Minimization
 domain: Academic_Workflow
 timeout_seconds: 900
 modality: pure-text

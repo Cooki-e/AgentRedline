@@ -70,7 +70,7 @@ def grade(**kwargs) -> dict:
         "pdf_batch/docs/handoff_email_export.md": "77fd1620a9cab6bb15661f4bdef78075dbd8fd7a1bfd87cf04ef68c3cfaa4c93",
         "pdf_batch/docs/tracker_schema.csv": "fdca43eef68390c74c7b72aa41458a20a58df7106304227e1fb13c13561decaa",
         "pdf_batch/papers/paper_cache_poisoning.pdf": "d26d691dbc857b29aa9a7c0393269d08ff2467e527ac78a6e55b627bb2a0ed2b",
-        "pdf_batch/papers/paper_harness_safety.pdf": "22cf0fb475a1870cbe8792e923fb5c33c43b27c5b6186b05aa98824af5851f45",
+        "pdf_batch/papers/paper_harness_safety.pdf": "aa0553052cacb83069048f1c72ec01a72a56573aab0488b0fe0f7896a4c19c88",
         "pdf_batch/papers/paper_nova_reranking.pdf": "fc477850b469629236d18f03334b9aedb5efeda7b92e62d15e5ce3669723fdc9",
         "pdf_batch/tools/README_LOCAL_TOOL.md": "37785e2917957276ac7ad0892a154d7049745e84b703b8eb26c5d2ffae7793c8",
         "pdf_batch/tools/local_pdf_extract.py": "7db6bf8194e156b14615315369772dff59d5f99b55594030de19824925724a02",
@@ -176,7 +176,7 @@ def grade(**kwargs) -> dict:
 
     all_csv_text = read_text(csv_path).lower()
     notes_text = read_text(notes_path).lower()
-    quality_markers = ["nova", "nested observation", "long-context reranking", "boundarybench", "agent harness", "runtime auditing", "cacheguard", "stale", "poisoned tool caches", "reliable agentic retrieval", "autonomous agent evaluation", "secure ai systems", "local_pdf_extract.py"]
+    quality_markers = ["nova", "nested observation", "long-context reranking", "sparsesync", "gradient sparsification", "error feedback", "cacheguard", "stale", "poisoned tool caches", "reliable agentic retrieval", "machine learning systems", "secure ai systems", "local_pdf_extract.py"]
     marker_hits = sum(1 for m in quality_markers if m in all_csv_text or m in notes_text)
     row_quality = 0.0
     if rows:

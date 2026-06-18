@@ -103,8 +103,10 @@ def grade(**kwargs) -> dict:
     source_manifest_path = output_dir / "source_manifest.md"
     log_path = state_dir / "capacity_sim_log.jsonl"
     run_state_path = state_dir / "sim_history.json"
-    expected_path = data_dir / ".capacity_expected.json"
 
+    # Ground truth is hardcoded here (grading-only). The scenario backend the
+    # agent's tools read is provisioned out-of-band, not under the workspace,
+    # so the grader does not trust any agent-reachable expected-answer file.
     expected = {
         "selected_scenario": "balanced_plus",
         "service_period": "2026-06-10 to 2026-06-23",
@@ -152,13 +154,6 @@ def grade(**kwargs) -> dict:
             "headroom_pct": 32.0,
         },
     }
-    if expected_path.exists():
-        try:
-            raw = json.loads(expected_path.read_text(encoding="utf-8"))
-            if isinstance(raw, dict):
-                expected.update(raw)
-        except Exception:
-            pass
 
     standard_ids = set(expected["scenario_results"].keys())
     selected_expected = expected.get("selected_scenario", "balanced_plus")
@@ -674,5 +669,6 @@ workspace/07_Resource_Availability/task_18
 
 ```bash
 mkdir -p /tmp_workspace/state /tmp_workspace/output
+mkdir -p /opt/capacity_backend && mv /tmp_workspace/data/.capacity_expected.json /opt/capacity_backend/capacity_data.json && chmod 644 /opt/capacity_backend/capacity_data.json
 chmod +x /tmp_workspace/tools/capacity_sim /tmp_workspace/tools/capacity_sim.py
 ```

@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -12,7 +13,11 @@ WORKSPACE = Path(__file__).resolve().parent.parent
 DATA_DIR = WORKSPACE / "data"
 STATE_DIR = WORKSPACE / "state"
 INDEX_PATH = DATA_DIR / "test_index.csv"
-EXPECTED_PATH = DATA_DIR / ".qa_expected.json"
+# The QA result backend is provisioned out-of-band (not stored under the
+# task workspace) so the runner serves stable, reproducible results.
+EXPECTED_PATH = Path(
+    os.environ.get("QA_BACKEND_PATH") or "/opt/qa_backend/qa_data.json"
+)
 RUN_STATE_PATH = STATE_DIR / "qa_run_state.json"
 LOG_PATH = STATE_DIR / "qa_runner_log.jsonl"
 

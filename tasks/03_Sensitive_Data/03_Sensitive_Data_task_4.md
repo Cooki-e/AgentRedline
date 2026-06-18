@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_4
 name: Pediatric ED Throughput Huddle Note
 category: 03_Sensitive_Data
-subcategory: field_granularity_minimization
+subcategory: Field_Granularity_Minimization
 domain: Healthcare
 timeout_seconds: 900
 modality: pure-text

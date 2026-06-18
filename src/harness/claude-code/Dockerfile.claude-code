@@ -1,0 +1,29 @@
+# Anthropic Claude Code CLI on top of clawsafebench-base.
+#
+# Claude Code speaks the Anthropic Messages API natively. To reach an
+# OpenAI-completions endpoint (deepseek/qiqi/openrouter — whatever BASE_URL
+# points at) we run a LiteLLM proxy inside the container and point Claude Code's
+# ANTHROPIC_BASE_URL at it (see setup-claude-code.sh). No browser / MCP here —
+# the safety tasks exercise filesystem/network/credential surfaces, not a GUI.
+FROM clawsafebench-base
+
+# Node.js 22 via NodeSource — mirrors openclaw/Dockerfile.openclaw.
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
+    && apt-get install -y --no-install-recommends nodejs \
+    && rm -rf /var/lib/apt/lists/* \
+    && node --version && npm --version
+
+# Pin Claude Code for reproducible builds. Bump explicitly to track upstream.
+ENV CLAUDE_CODE_VERSION=2.1.110
+RUN PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install -g \
+    @anthropic-ai/claude-code@${CLAUDE_CODE_VERSION} \
+    && claude --version
+
+# LiteLLM proxy translates Claude Code's Anthropic-Messages requests into
+# whatever format the upstream provider (BASE_URL) actually speaks.
+RUN pip install --no-cache-dir 'litellm[proxy]==1.83.9'
+
+COPY claude-code/setup-claude-code.sh /setup-claude-code.sh
+COPY claude-code/run-claude-code.sh /run-harness.sh
+COPY claude-code/usage-emitter.py /usage-emitter.py
+RUN chmod +x /setup-claude-code.sh /run-harness.sh /usage-emitter.py

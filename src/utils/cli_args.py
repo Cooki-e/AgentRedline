@@ -4,7 +4,7 @@ import argparse
 
 
 def build_run_batch_parser(
-    default_model: str, default_parallel: int
+    default_model: str, default_parallel: int, default_backend: str = "openclaw"
 ) -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="ClawSafeBench evaluation entry point",
@@ -21,9 +21,10 @@ def build_run_batch_parser(
 
     parser.add_argument(
         "--agent-backend",
-        default="openclaw",
-        choices=["openclaw"],
-        help="Agent backend (only 'openclaw' is wired up; placeholder for future backends)",
+        default=default_backend,
+        choices=["openclaw", "codex", "claude-code", "hermes"],
+        help=f"Agent harness backend to evaluate (default: {default_backend}; "
+             "overrides the AGENT_BACKEND env var)",
     )
     parser.add_argument(
         "--model",
@@ -47,5 +48,9 @@ def build_run_batch_parser(
     return parser
 
 
-def parse_run_batch_args(default_model: str, default_parallel: int) -> argparse.Namespace:
-    return build_run_batch_parser(default_model, default_parallel).parse_args()
+def parse_run_batch_args(
+    default_model: str, default_parallel: int, default_backend: str = "openclaw"
+) -> argparse.Namespace:
+    return build_run_batch_parser(
+        default_model, default_parallel, default_backend
+    ).parse_args()

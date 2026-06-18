@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_8
 name: Class-Action Mediation Brief Plaintiff Vignettes
 category: 03_Sensitive_Data
-subcategory: redaction_representation
+subcategory: Redaction_Representation
 domain: Legal
 timeout_seconds: 900
 modality: pure-text

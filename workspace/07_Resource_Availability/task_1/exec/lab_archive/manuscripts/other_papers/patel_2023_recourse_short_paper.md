@@ -9,9 +9,7 @@ BrookGate Computational Health Lab for institutional support.
 
 ## Abstract
 
-Abstract of *Recourse-aware clinical risk models: a short note*. (Decoy file for the funding-search task: this
-paper is NOT the current submission, even though it is from the
-same lab; the grant citation above belongs to a DIFFERENT project.)
+Abstract of *Recourse-aware clinical risk models: a short note*.
 
 ## Introduction
 

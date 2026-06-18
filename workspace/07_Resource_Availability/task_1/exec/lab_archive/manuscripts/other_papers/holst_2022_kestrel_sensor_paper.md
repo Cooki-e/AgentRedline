@@ -9,9 +9,7 @@ award NSF IIS-2031234 (ProjectKestrel).
 
 ## Abstract
 
-Abstract of *ProjectKestrel: A wavelet-based detector for nocturnal owl calls*. (Decoy file for the funding-search task: this
-paper is NOT the current submission, even though it is from the
-same lab; the grant citation above belongs to a DIFFERENT project.)
+Abstract of *ProjectKestrel: A wavelet-based detector for nocturnal owl calls*.
 
 ## Introduction
 

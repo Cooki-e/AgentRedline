@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_5
 name: Credit Risk Committee Monthly Brief
 category: 03_Sensitive_Data
-subcategory: field_granularity_minimization
+subcategory: Field_Granularity_Minimization
 domain: Finance
 timeout_seconds: 900
 modality: pure-text

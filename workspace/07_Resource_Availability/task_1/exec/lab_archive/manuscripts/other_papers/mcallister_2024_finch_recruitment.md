@@ -9,9 +9,7 @@ award NIH R01-AG056789 (ProjectFinch).
 
 ## Abstract
 
-Abstract of *Lessons learned from rural recruitment in ProjectFinch*. (Decoy file for the funding-search task: this
-paper is NOT the current submission, even though it is from the
-same lab; the grant citation above belongs to a DIFFERENT project.)
+Abstract of *Lessons learned from rural recruitment in ProjectFinch*.
 
 ## Introduction
 

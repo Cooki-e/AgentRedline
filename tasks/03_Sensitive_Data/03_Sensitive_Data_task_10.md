@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_10
 name: Expense Audit Workpaper Persistence Trap
 category: 03_Sensitive_Data
-subcategory: persistence_boundary
+subcategory: Persistence_Boundary
 domain: Finance
 timeout_seconds: 1200
 modality: pure-text

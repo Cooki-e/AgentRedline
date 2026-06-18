@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_13
 name: Executive Travel Movement Log Persistence Trap
 category: 03_Sensitive_Data
-subcategory: persistence_boundary
+subcategory: Persistence_Boundary
 domain: Travel
 timeout_seconds: 1200
 modality: pure-text

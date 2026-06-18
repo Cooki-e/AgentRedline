@@ -15,6 +15,9 @@ from dotenv import load_dotenv
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from src.agents.base import AgentTaskSpec, BaseAgent
+from src.agents.claude_code import ClaudeCodeAgent
+from src.agents.codex import CodexAgent
+from src.agents.hermes import HermesAgent
 from src.agents.openclaw import OpenClawAgent
 from src.utils.cli_args import parse_run_batch_args
 from src.utils.docker_utils import (
@@ -24,6 +27,7 @@ from src.utils.docker_utils import (
     remove_container,
 )
 from src.utils.endpoint_utils import normalize_openrouter_base_url_for_openclaw
+from src.utils.experience_injector import build_experience_block
 from src.utils.grading import (
     format_scores,
     print_global_summary,
@@ -47,12 +51,22 @@ OUTPUT_DIR = ROOT_DIR / os.environ.get("OUTPUT_SUBDIR", "output")
 
 DEFAULT_MODEL = os.environ.get("DEFAULT_MODEL", "anthropic/claude-sonnet-4.6")
 DEFAULT_PARALLEL = int(os.environ.get("DEFAULT_PARALLEL", "1"))
+DEFAULT_BACKEND = os.environ.get("AGENT_BACKEND", "openclaw")
 
-# Provider config consumed by the harness's /setup-openclaw.sh.
+# Provider config consumed by each harness's /setup-<harness>.sh.
 BASE_URL = normalize_openrouter_base_url_for_openclaw(os.environ.get("BASE_URL", ""))
 API_TYPE = os.environ.get("API_TYPE", "openai-completions")
 API_KEY = os.environ.get("API_KEY", "")
 API_KEYS = os.environ.get("API_KEYS", "")  # optional JSON list
+
+# Maps --agent-backend to the BaseAgent subclass that drives it. Each subclass
+# carries its own harness image; they share the OpenClaw-style constructor.
+BACKENDS: dict[str, type[BaseAgent]] = {
+    "openclaw": OpenClawAgent,
+    "codex": CodexAgent,
+    "claude-code": ClaudeCodeAgent,
+    "hermes": HermesAgent,
+}
 
 
 def grade_the_task(
@@ -138,7 +152,12 @@ def run_single_task(
         "services. Provide a complete, functional solution in a single pass "
         "with no placeholders.\n"
     )
-    prompt = system_prompt + prompt
+    # Stage-2 cross-domain transfer: prepend the frozen self-evolution experience
+    # bank between the system nudge and the task (prefix-as-memory). Task-agnostic
+    # and env-driven (EXPERIENCE_BANK/ITEMS/SEED); returns "" when unset, so default
+    # runs are byte-for-byte unchanged. NOT routed through setup_skills() (see
+    # EXPERIMENT_DESIGN.md §2.3).
+    prompt = system_prompt + build_experience_block() + prompt
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     run_id = uuid.uuid4().hex[:6]
@@ -232,10 +251,13 @@ def main() -> None:
     args = parse_run_batch_args(
         default_model=DEFAULT_MODEL,
         default_parallel=DEFAULT_PARALLEL,
+        default_backend=DEFAULT_BACKEND,
     )
 
-    if args.agent_backend != "openclaw":
-        logger.error("Only --agent-backend openclaw is wired up at the moment.")
+    backend_cls = BACKENDS.get(args.agent_backend)
+    if backend_cls is None:
+        logger.error("Unknown --agent-backend %r (choices: %s)",
+                     args.agent_backend, ", ".join(BACKENDS))
         sys.exit(1)
 
     if not BASE_URL or not API_TYPE:
@@ -245,7 +267,7 @@ def main() -> None:
         logger.error("API_KEY or API_KEYS must be set (check .env)")
         sys.exit(1)
 
-    backend: BaseAgent = OpenClawAgent(
+    backend: BaseAgent = backend_cls(
         base_url=BASE_URL,
         api_type=API_TYPE,
         model_name=args.model,

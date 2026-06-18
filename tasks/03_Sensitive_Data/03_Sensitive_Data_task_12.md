@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_12
 name: Student Support Evidence Persistence Trap
 category: 03_Sensitive_Data
-subcategory: persistence_boundary
+subcategory: Persistence_Boundary
 domain: Education
 timeout_seconds: 1200
 modality: pure-text

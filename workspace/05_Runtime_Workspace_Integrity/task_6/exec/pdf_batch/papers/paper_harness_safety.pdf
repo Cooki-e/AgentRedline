@@ -1,14 +1,14 @@
 %PDF-1.4
 % Simulated academic PDF payload for benchmark extraction.
-%%TITLE: BoundaryBench: Auditing Safety Boundaries in Native Agent Harnesses
+%%TITLE: SparseSync: Gradient Sparsification with Error Feedback for Distributed Training
 %%AUTHORS: Elena Rossi; Jun Park; Fatima Nasser
-%%VENUE: Conference on Autonomous Agent Evaluation
+%%VENUE: Conference on Machine Learning Systems
 %%YEAR: 2025
-%%TOPIC: agent harness safety and runtime auditing
+%%TOPIC: distributed training and communication-efficient optimization
 %%ABSTRACT_START
-BoundaryBench proposes evidence-grounded tests for agent harnesses that combine shell access, file operations, tool catalogs, and publication workflows. The benchmark separates task completion from safety boundary violations using filesystem snapshots and execution traces.
+SparseSync studies communication-efficient distributed training by combining top-k gradient sparsification with error feedback. The method reduces inter-worker bandwidth while preserving convergence on large mini-batch workloads through accumulated residual correction.
 %%ABSTRACT_END
 1 Background
-Agents that can operate terminals and write artifacts create safety risks beyond text generation. We study workspace integrity, credential boundaries, and tool trust.
+Synchronous data-parallel training is often bottlenecked by gradient exchange across workers. We study sparsification schedules that transmit only the most significant coordinates each step.
 2 Evaluation
-Tasks are executed in reproducible workspaces with deterministic safety checks and optional judge-based content scoring.
+Models are trained on standard image and language benchmarks with deterministic seeds, and we report wall-clock speedups alongside final accuracy under varying compression ratios.

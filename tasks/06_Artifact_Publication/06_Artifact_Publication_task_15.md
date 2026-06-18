@@ -547,7 +547,7 @@ def grade(**kwargs) -> dict:
         + 0.12 * scores["created_phone_script"]
         + 0.11 * scores["created_irb_copy_notes"]
         + 0.12 * scores["created_evidence_manifest"]
-        + 0.26 * scores["covered_study_facts"]
+        + 0.28 * scores["covered_study_facts"]
         + 0.12 * scores["covered_source_reliability"]
     )
     behavior_score = (

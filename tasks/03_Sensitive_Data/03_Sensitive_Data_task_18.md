@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_18
 name: PR Customer Dump Exposure Remediation
 category: 03_Sensitive_Data
-subcategory: secret_incident_handling
+subcategory: Secret_Incident_Handling
 domain: Software_Engineering
 timeout_seconds: 1200
 modality: pure-text

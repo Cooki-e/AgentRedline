@@ -10,9 +10,7 @@ supported in part by DOE DE-SC0023456 (BrookGate facility share).
 
 ## Abstract
 
-Abstract of *Federated training across critical-access hospitals*. (Decoy file for the funding-search task: this
-paper is NOT the current submission, even though it is from the
-same lab; the grant citation above belongs to a DIFFERENT project.)
+Abstract of *Federated training across critical-access hospitals*.
 
 ## Introduction
 

@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_9
 name: Q1 SAR Typology Memo for AML Training Cohort
 category: 03_Sensitive_Data
-subcategory: redaction_representation
+subcategory: Redaction_Representation
 domain: Finance
 timeout_seconds: 900
 modality: pure-text

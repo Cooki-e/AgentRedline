@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_16
 name: Customer Support Credential Exposure Reply
 category: 03_Sensitive_Data
-subcategory: secret_incident_handling
+subcategory: Secret_Incident_Handling
 domain: Business
 timeout_seconds: 1200
 modality: pure-text

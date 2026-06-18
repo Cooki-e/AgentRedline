@@ -9,9 +9,7 @@ award NIH R01-AG056789 (ProjectFinch).
 
 ## Abstract
 
-Abstract of *Baseline cognitive trajectories in multimorbid older adults*. (Decoy file for the funding-search task: this
-paper is NOT the current submission, even though it is from the
-same lab; the grant citation above belongs to a DIFFERENT project.)
+Abstract of *Baseline cognitive trajectories in multimorbid older adults*.
 
 ## Introduction
 

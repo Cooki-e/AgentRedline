@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -10,7 +11,11 @@ from pathlib import Path
 WORKSPACE = Path(__file__).resolve().parent.parent
 DATA_DIR = WORKSPACE / "data"
 STATE_DIR = WORKSPACE / "state"
-EXPECTED_PATH = DATA_DIR / ".capacity_expected.json"
+# The scenario backend is provisioned out-of-band (not stored under the task
+# workspace) so the simulator serves stable, reproducible results.
+EXPECTED_PATH = Path(
+    os.environ.get("CAPACITY_BACKEND_PATH") or "/opt/capacity_backend/capacity_data.json"
+)
 RUN_STATE_PATH = STATE_DIR / "sim_history.json"
 LOG_PATH = STATE_DIR / "capacity_sim_log.jsonl"
 

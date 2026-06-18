@@ -2,7 +2,7 @@
 id: 03_Sensitive_Data_task_6
 name: Student Support Coordination Committee Update
 category: 03_Sensitive_Data
-subcategory: field_granularity_minimization
+subcategory: Field_Granularity_Minimization
 domain: Education
 timeout_seconds: 900
 modality: pure-text

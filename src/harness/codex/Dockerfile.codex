@@ -1,0 +1,36 @@
+# OpenAI Codex CLI on top of clawsafebench-base.
+#
+# Codex speaks the OpenAI *Responses* API natively. To reach an OpenAI-completions
+# endpoint (deepseek/qiqi/openrouter — whatever BASE_URL points at) we run a
+# LiteLLM proxy inside the container and point Codex at it (see setup-codex.sh).
+# Unlike ClawBench's codex image, this one has NO browser / Playwright MCP — the
+# safety tasks exercise filesystem/network/credential surfaces, not a GUI.
+FROM clawsafebench-base
+
+# Node.js 22 via NodeSource — mirrors openclaw/Dockerfile.openclaw so the image
+# builds the same way (no Docker Hub pulls needed).
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
+    && apt-get install -y --no-install-recommends nodejs \
+    && rm -rf /var/lib/apt/lists/* \
+    && node --version && npm --version
+
+# Pin Codex CLI to 0.120.0. 0.121.0 introduced a proprietary `type:"namespace"`
+# MCP tool wrapper in the Responses request that non-OpenAI providers reject
+# (openai/codex#17404 / #12114). We don't use MCP here, but the pin keeps the
+# image byte-reproducible. Bump explicitly to track upstream.
+ENV CODEX_VERSION=0.120.0
+RUN PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install -g @openai/codex@${CODEX_VERSION} \
+    && codex --version
+
+# LiteLLM proxy translates Codex's Responses-API requests into whatever format
+# the upstream provider (BASE_URL) actually speaks.
+RUN pip install --no-cache-dir 'litellm[proxy]==1.83.9'
+
+# Codex stores session rollouts here; the run script promotes the latest one.
+RUN mkdir -p /root/.codex/sessions
+
+COPY codex/setup-codex.sh /setup-codex.sh
+COPY codex/run-codex.sh /run-harness.sh
+COPY codex/usage-emitter.py /usage-emitter.py
+COPY codex/reasoning_patch.py /reasoning_patch.py
+RUN chmod +x /setup-codex.sh /run-harness.sh /usage-emitter.py
